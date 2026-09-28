@@ -313,14 +313,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     const positions = {};
-    const xStep = 300;
-    const yStep = 76;
+    const xStep = 170;
+    const yStep = 320;
     Object.entries(groups).forEach(([lvl, ids]) => {
         ids.sort((a, b) => nodesById[a].name.localeCompare(nodesById[b].name));
-        const x = xStep * parseInt(lvl, 10);
-        const yStart = -((ids.length - 1) * yStep) / 2;
+        const y = yStep * parseInt(lvl, 10);
+        const xStart = -((ids.length - 1) * xStep) / 2;
         ids.forEach((id, index) => {
-            positions[id] = { x, y: yStart + index * yStep };
+            positions[id] = { x: xStart + index * xStep, y };
         });
     });
 
@@ -428,8 +428,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         nodes: {
             shape: 'box',
             margin: 7,
+            shapeProperties: {
+                borderRadius: 8
+            },
             widthConstraint: {
-                maximum: 170
+                maximum: 150
             },
             scaling: {
                 min: 16,
@@ -445,7 +448,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         },
         edges: {
-            smooth: false
+            smooth: {
+                enabled: true,
+                type: 'continuous',
+                roundness: 0.32
+            }
         }
     };
 
@@ -514,20 +521,23 @@ document.addEventListener('DOMContentLoaded', async () => {
             .sort((a, b) => formatTechLabel(a).localeCompare(formatTechLabel(b)));
     }
 
-    function assignPackedColumn(positionsMap, ids, baseX, direction) {
+    function assignPackedRow(positionsMap, ids, baseY, direction) {
         const orderedIds = sortedTechIds(ids);
-        if (!orderedIds.length) return;
-        const rowCount = Math.min(7, Math.ceil(Math.sqrt(orderedIds.length) * 1.2));
+        if (!orderedIds.length) return 0;
+        const perRow = Math.min(7, Math.ceil(Math.sqrt(orderedIds.length) * 1.2));
         const xStep = 158;
         const yStep = 48;
+        const rowCount = Math.ceil(orderedIds.length / perRow);
         orderedIds.forEach((id, index) => {
-            const col = Math.floor(index / rowCount);
-            const row = index % rowCount;
+            const row = Math.floor(index / perRow);
+            const col = index % perRow;
+            const inRow = Math.min(perRow, orderedIds.length - row * perRow);
             positionsMap.set(id, {
-                x: baseX + (direction * col * xStep),
-                y: (row - (Math.min(rowCount, orderedIds.length) - 1) / 2) * yStep
+                x: (col - (inRow - 1) / 2) * xStep,
+                y: baseY + direction * row * yStep
             });
         });
+        return rowCount;
     }
 
     function createCompactPositions(matchIds, allowedIds = null) {
@@ -548,18 +558,21 @@ document.addEventListener('DOMContentLoaded', async () => {
         });
 
         const orderedCenterIds = sortedTechIds(centerIds);
-        const centerRows = Math.min(7, Math.max(1, Math.ceil(Math.sqrt(orderedCenterIds.length))));
+        const centerPerRow = Math.min(7, Math.max(1, Math.ceil(Math.sqrt(orderedCenterIds.length))));
+        const centerRowCount = Math.max(1, Math.ceil(orderedCenterIds.length / centerPerRow));
         orderedCenterIds.forEach((id, index) => {
-            const col = Math.floor(index / centerRows);
-            const row = index % centerRows;
+            const row = Math.floor(index / centerPerRow);
+            const col = index % centerPerRow;
+            const inRow = Math.min(centerPerRow, orderedCenterIds.length - row * centerPerRow);
             positionsMap.set(id, {
-                x: col * 158,
-                y: (row - (Math.min(centerRows, orderedCenterIds.length) - 1) / 2) * 52
+                x: (col - (inRow - 1) / 2) * 158,
+                y: (row - (centerRowCount - 1) / 2) * 52
             });
         });
 
-        assignPackedColumn(positionsMap, [...prereqIds], -200, -1);
-        assignPackedColumn(positionsMap, [...unlockIds], 200 + Math.max(0, Math.ceil(orderedCenterIds.length / centerRows) - 1) * 158, 1);
+        const centerHalfHeight = ((centerRowCount - 1) / 2) * 52 + 26;
+        assignPackedRow(positionsMap, [...prereqIds], -(centerHalfHeight + 120), -1);
+        assignPackedRow(positionsMap, [...unlockIds], centerHalfHeight + 120, 1);
 
         return positionsMap;
     }
@@ -833,7 +846,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 borderWidth: isSelected ? 4 : (isMatch ? 3 : (n.origBorderWidth || 1)),
                 margin: compactPositions ? 4 : 7,
                 widthConstraint: {
-                    maximum: compactPositions ? 130 : 170
+                    maximum: compactPositions ? 130 : 150
                 },
                 font: {
                     size: isSelected || isMatch ? (compactPositions ? 12 : 15) : (compactPositions ? 9 : 11),

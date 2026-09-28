@@ -53,7 +53,7 @@
         node_colors: '节点颜色',
         controls_heading: '操作方式',
         keyboard_help_html: '聚焦图谱后用方向键平移，或按 <kbd>+</kbd>/<kbd>−</kbd> 缩放。在搜索框中按 <kbd>Enter</kbd> 选择第一个匹配项。',
-        edge_help: '蓝色实线表示必需依赖；其他颜色表示赋能、历史传承、规模化或推测性关系。',
+        edge_help: '时间自上而下流动：远古在上、未来在下。蓝色实线表示必需依赖；其他颜色表示赋能、历史传承、规模化或推测性关系。',
         canvas_aria: '交互式技术依赖图谱',
         sidebar_aria: '技术检查器与编辑器',
         inspector_eyebrow: '检查器',

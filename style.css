@@ -4518,7 +4518,7 @@ body.documentary-demo {
 
 #tech-tree-container {
     width: 100%;
-    height: clamp(520px, 68vh, 820px);
+    height: clamp(560px, 74vh, 920px);
     border: 0;
     border-radius: 0;
     background:
