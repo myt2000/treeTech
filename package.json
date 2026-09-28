@@ -22,6 +22,9 @@
     "quality:source-fit:strict": "node scripts/audit-random-source-fit.js --check --strict",
     "quality:queue": "node scripts/source-quality-queue.js",
     "quality:field:crispr": "node scripts/generate-field-quality-snapshot.js",
+    "i18n:import": "node scripts/import-zh-translation.js",
+    "i18n:check": "node scripts/validate-i18n.js",
+    "i18n:check:strict": "node scripts/validate-i18n.js --strict",
     "trust:audit": "node scripts/audit-trust-levels.js",
     "audit:crispr": "node scripts/audit-crispr-edge-quality.js",
     "edge-packet": "node scripts/edge-review-packet.js",
@@ -34,7 +37,7 @@
     "source-urls": "node scripts/audit-source-urls.js",
     "temporal": "node scripts/audit-temporal-consistency.js",
     "quality": "node scripts/audit-data-quality.js && npm run edge-receipts && npm run graph-invariants && npm run invariant-coverage && npm run trust:audit && node scripts/source-checked-placeholder-report.js --check && node scripts/audit-random-source-fit.js --check && node scripts/generate-quality-snapshot.js --check && node scripts/generate-field-quality-snapshot.js --check && npm run metrics:check && npm run check:public",
-    "test:code": "node --check server.js && node --check app.js && node --check demo.js && node --check sorted.js",
+    "test:code": "node --check server.js && node --check app.js && node --check demo.js && node --check sorted.js && node --check i18n.js && node --check i18n-zh.js",
     "test:server": "node --test test/*.test.js",
     "test": "npm run test:code && npm run test:server && node scripts/test-quality-audits.js && node scripts/validate-data.js && npm run temporal",
     "start": "node server.js"

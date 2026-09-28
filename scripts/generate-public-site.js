@@ -55,6 +55,72 @@ function readQualitySnapshot() {
   return readJson(QUALITY_SNAPSHOT_FILE);
 }
 
+// The Chinese dictionary (i18n-zh.js) is the single source of truth for labels and
+// page strings; it is evaluated in a bare window sandbox so the Node generator and
+// the browser runtime stay in sync. Technology translations live in data/i18n/zh.json.
+function loadZhContext() {
+  const labels = {};
+  const strings = {};
+  try {
+    const fakeWindow = {};
+    new Function('window', fs.readFileSync(path.join(ROOT_DIR, 'i18n-zh.js'), 'utf8'))(fakeWindow);
+    Object.assign(labels, fakeWindow.ZH_LABELS || {});
+    Object.assign(strings, fakeWindow.ZH_STRINGS || {});
+  } catch (error) {
+    console.error('Failed to load i18n-zh.js for static pages:', error);
+  }
+  const dataFile = path.join(DATA_DIR, 'i18n', 'zh.json');
+  let data = {};
+  if (fs.existsSync(dataFile)) {
+    try {
+      data = JSON.parse(fs.readFileSync(dataFile, 'utf8')) || {};
+    } catch (error) {
+      console.error('Failed to load data/i18n/zh.json for static pages:', error);
+    }
+  }
+  return { data, labels, strings };
+}
+
+let ZH = { data: {}, labels: {}, strings: {} };
+
+function zhString(key) {
+  return ZH.strings[key] || '';
+}
+
+function zhLabel(value) {
+  return ZH.labels[value] || '';
+}
+
+function zhEntry(id) {
+  return ZH.data[id] || null;
+}
+
+// Renders "English中文" as two spans; static CSS shows exactly one at a time.
+function bi(en, zh = '') {
+  const safeEn = escapeHtml(en);
+  if (!zh) return safeEn;
+  return `<span class="i18n-en">${safeEn}</span><span class="i18n-zh">${escapeHtml(zh)}</span>`;
+}
+
+function biValue(value) {
+  return bi(String(value ?? ''), zhLabel(String(value ?? '')));
+}
+
+function bilingualHeadExtras() {
+  return `
+    <style>
+      html[data-lang="zh"] .i18n-en { display: none; }
+      html[data-lang="en"] .i18n-zh { display: none; }
+      .lang-toggle { margin-left: 0.75rem; padding: 0.15rem 0.6rem; cursor: pointer; }
+    </style>`;
+}
+
+function bilingualToggleScript() {
+  // Inline scripts are blocked by the server CSP (script-src 'self'), so the
+  // toggle lives in the external i18n-static.js served from the site root.
+  return `<script src="../i18n-static.js"></script>`;
+}
+
 function escapeHtml(value = '') {
   return String(value)
     .replaceAll('&', '&amp;')
@@ -95,20 +161,22 @@ function relativeOutputPath(filePath, outputDir) {
 
 function sourceList(sources = []) {
   if (!Array.isArray(sources) || !sources.length) {
-    return '<p>No sources recorded.</p>';
+    return `<p>${bi('No sources recorded.', zhString('page_no_sources'))}</p>`;
   }
 
   const items = sources.map(source => {
     const href = source.url
       ? `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.title || source.url)}</a>`
-      : escapeHtml(source.title || 'Source');
+      : escapeHtml(source.title || zhString('page_source') || 'Source');
     const support = Array.isArray(source.supports)
-      ? ` • Supports: ${source.supports.join(', ')}`
+      ? `${bi(' • Supports:', zhString('page_supports'))} ${escapeHtml(source.supports.join(', '))}`
       : '';
     const locator = source.source_locator
-      ? `<br/><small>Locator: ${escapeHtml(source.source_locator)}</small>`
+      ? `<br/><small>${bi('Locator:', zhString('page_locator'))} ${escapeHtml(source.source_locator)}</small>`
       : '';
-    return `<li>${href} (${escapeHtml(source.publisher || 'Unknown publisher')}, ${escapeHtml(source.year || 'n/a')}, ${escapeHtml(source.source_type || 'unknown')})${support}${locator}</li>`;
+    const publisher = source.publisher || zhString('page_unknown_publisher') || 'Unknown publisher';
+    const sourceType = biValue(source.source_type || 'unknown');
+    return `<li>${href} (${escapeHtml(publisher)}, ${escapeHtml(source.year || 'n/a')}, ${sourceType})${support}${locator}</li>`;
   });
 
   return `<ul>${items.join('')}</ul>`;
@@ -129,18 +197,18 @@ function canonicalGraphUrl() {
 function renderSourceCheckedMetadata(item) {
   return [
     `<li><strong>ID:</strong> ${escapeHtml(item.id)}</li>`,
-    `<li><strong>Era:</strong> ${escapeHtml(item.era)}</li>`,
-    `<li><strong>First known date:</strong> ${escapeHtml(item.firstKnownDate)} (${formatDatePrecision(item.datePrecision)})</li>`,
-    `<li><strong>Region:</strong> ${escapeHtml(item.region)}</li>`,
-    `<li><strong>Review status:</strong> ${escapeHtml(item.reviewStatus || 'unknown')}</li>`,
-    `<li><strong>Maturity:</strong> ${escapeHtml(item.maturity || 'N/A')}</li>`
+    `<li><strong>${bi('Era', zhString('label_era'))}:</strong> ${biValue(item.era)}</li>`,
+    `<li><strong>${bi('First known date', zhString('meta_first_known'))}:</strong> ${escapeHtml(item.firstKnownDate)} (${biValue(item.datePrecision || 'unknown')})</li>`,
+    `<li><strong>${bi('Region', zhString('meta_region'))}:</strong> ${escapeHtml(item.region)}</li>`,
+    `<li><strong>${bi('Review status', zhString('meta_review'))}:</strong> ${biValue(item.reviewStatus || 'unknown')}</li>`,
+    `<li><strong>${bi('Maturity', zhString('meta_maturity'))}:</strong> ${biValue(item.maturity || 'N/A')}</li>`
   ].join('');
 }
 
 function renderDependencies(item, techById) {
   const dependencies = getDependencyEdges(item);
   if (!dependencies.length) {
-    return '<p>None.</p>';
+    return `<p>${bi('None.', zhString('page_none'))}</p>`;
   }
 
   const rows = dependencies
@@ -148,7 +216,7 @@ function renderDependencies(item, techById) {
       const prereq = techById.get(edge.prerequisite);
       const prereqName = prereq ? prereq.name : edge.prerequisite;
       const href = canonicalTechnologyUrl(edge.prerequisite);
-      return `<li><a href="${href}">${escapeHtml(prereqName)} (${escapeHtml(edge.prerequisite)})</a></li>`;
+      return `<li><a href="${href}">${bi(prereqName, prereq ? zhEntry(prereq.id)?.name : '')} (${escapeHtml(edge.prerequisite)})</a></li>`;
     })
     .sort((a, b) => a.localeCompare(b));
 
@@ -168,10 +236,10 @@ function renderDependenciesTable(item, techById) {
         : 'n/a';
       return `
             <tr>
-              <td><a href="${prereqHref}">${escapeHtml(prereqName)}</a> (${escapeHtml(edge.prerequisite)})</td>
-              <td>${escapeHtml(edge.type || 'enabling')}</td>
+              <td><a href="${prereqHref}">${bi(prereqName, prereq ? zhEntry(prereq.id)?.name : '')}</a> (${escapeHtml(edge.prerequisite)})</td>
+              <td>${biValue(edge.type || 'enabling')}</td>
               <td>${escapeHtml(confidence)}</td>
-              <td>${escapeHtml(edge.evidence_level || 'n/a')}</td>
+              <td>${biValue(edge.evidence_level || 'n/a')}</td>
               <td>${escapeHtml(edge.note || '')}</td>
               <td>${sourceSummary}</td>
             </tr>`;
@@ -179,7 +247,7 @@ function renderDependenciesTable(item, techById) {
     .join('\n');
 
   if (!rows) {
-    return '<tr><td colspan="6">No prerequisite edges recorded.</td></tr>';
+    return `<tr><td colspan="6">${bi('No prerequisite edges recorded.', zhString('page_no_edges'))}</td></tr>`;
   }
 
   return rows;
@@ -187,14 +255,14 @@ function renderDependenciesTable(item, techById) {
 
 function renderDependents(dependents, techById) {
   if (!dependents.length) {
-    return '<li>None.</li>';
+    return `<li>${bi('None.', zhString('page_none'))}</li>`;
   }
 
   return dependents
     .map(dependentId => {
       const depItem = techById.get(dependentId);
       const depName = depItem ? depItem.name : dependentId;
-      return `<li><a href="${canonicalTechnologyUrl(dependentId)}">${escapeHtml(depName)} (${escapeHtml(dependentId)})</a></li>`;
+      return `<li><a href="${canonicalTechnologyUrl(dependentId)}">${bi(depName, depItem ? zhEntry(depItem.id)?.name : '')} (${escapeHtml(dependentId)})</a></li>`;
     })
     .sort((a, b) => a.localeCompare(b))
     .join('');
@@ -203,7 +271,7 @@ function renderDependents(dependents, techById) {
 function edgeEvidenceSummary(item) {
   const edges = getDependencyEdges(item);
   if (!edges.length) {
-    return '<p>No prerequisite edge evidence is yet recorded.</p>';
+    return `<p>${bi('No prerequisite edge evidence is yet recorded.', zhString('page_no_edge_evidence'))}</p>`;
   }
 
   let sourceRefs = 0;
@@ -227,28 +295,29 @@ function edgeEvidenceSummary(item) {
 
   const evidenceRows = Array.from(evidenceByType)
     .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(([type, count]) => `<li>${escapeHtml(type)}: ${count}</li>`)
+    .map(([type, count]) => `<li>${biValue(type)}: ${count}</li>`)
     .join('');
 
   return `
-    <p><strong>Edge/source evidence summary:</strong></p>
+    <p><strong>${bi('Edge/source evidence summary:', zhString('page_edge_summary'))}</strong></p>
     <ul>
-      <li>Prerequisite edges: ${edges.length}</li>
-      <li>Average edge confidence: ${averageConfidence}</li>
-      <li>Prerequisite sources: ${sourceRefs}</li>
+      <li>${bi('Prerequisite edges:', zhString('page_prereq_edges'))} ${edges.length}</li>
+      <li>${bi('Average edge confidence:', zhString('page_avg_confidence'))} ${averageConfidence}</li>
+      <li>${bi('Prerequisite sources:', zhString('page_prereq_sources'))} ${sourceRefs}</li>
       ${evidenceRows}
     </ul>`;
 }
 
 function renderTechHtml(item, techById, dependents) {
   const canonicalUrl = canonicalTechnologyUrl(item.id);
+  const zh = zhEntry(item.id) || {};
   const description = item.description || `${item.name} is a technology node in TechTree.`;
   const metaDescription = escapeHtml(description).slice(0, 300);
-  const fieldLinks = (item.fields || []).map(field => `<li><a href="${canonicalFieldUrl(field)}">${escapeHtml(field)}</a></li>`).join('');
+  const fieldLinks = (item.fields || []).map(field => `<li><a href="${canonicalFieldUrl(field)}">${bi(field, zhLabel(field))}</a></li>`).join('');
   const laneRows = (item.fields || [])
     .map(field => (item.fieldLanes && item.fieldLanes[field]
-      ? `<li><strong>${escapeHtml(field)}:</strong> ${escapeHtml(item.fieldLanes[field])}</li>`
-      : `<li><strong>${escapeHtml(field)}:</strong> General</li>`))
+      ? `<li><strong>${bi(field, zhLabel(field))}:</strong> ${biValue(item.fieldLanes[field])}</li>`
+      : `<li><strong>${bi(field, zhLabel(field))}:</strong> ${biValue('General')}</li>`))
     .join('');
 
   const jsonLd = {
@@ -265,7 +334,7 @@ function renderTechHtml(item, techById, dependents) {
   };
 
   return `<!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -279,7 +348,7 @@ function renderTechHtml(item, techById, dependents) {
     <meta property="twitter:title" content="${escapeHtml(item.name)} - TechTree" />
     <meta property="twitter:description" content="${metaDescription}" />
     <link rel="canonical" href="${canonicalUrl}" />
-    <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+    <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>${bilingualHeadExtras()}
     <style>
       body { font-family: Arial, sans-serif; margin: 1.5rem; line-height: 1.5; color: #1f2937; }
       h1, h2 { margin: 1rem 0 0.5rem; }
@@ -292,43 +361,44 @@ function renderTechHtml(item, techById, dependents) {
   </head>
   <body>
     <main>
-      <h1>${escapeHtml(item.name)}</h1>
-      <p>${escapeHtml(description)}</p>
+      <h1>${bi(item.name, zh.name)}</h1>
+      <p>${bi(description, zh.description)}</p>
       <nav>
-        <a href="${canonicalGraphUrl()}?target=${encodeURIComponent(item.id)}">Graph</a>
-        <a href="${PUBLIC_LINKS.sorted}?target=${encodeURIComponent(item.id)}">Sorted View</a>
-        <a href="${PUBLIC_LINKS.demo}?target=${encodeURIComponent(item.id)}">Demo</a>
+        <a href="${canonicalGraphUrl()}?target=${encodeURIComponent(item.id)}">${bi('Graph', zhString('nav_graph'))}</a>
+        <a href="${PUBLIC_LINKS.sorted}?target=${encodeURIComponent(item.id)}">${bi('Sorted View', zhString('nav_graph_view'))}</a>
+        <a href="${PUBLIC_LINKS.demo}?target=${encodeURIComponent(item.id)}">${bi('Demo', zhString('nav_demo'))}</a>
+        <button type="button" id="lang-toggle" class="lang-toggle"></button>
       </nav>
 
-      <h2>Core metadata</h2>
+      <h2>${bi('Core metadata', zhString('page_core_metadata'))}</h2>
       <ul>${renderSourceCheckedMetadata(item)}</ul>
 
-      <h2>Prerequisites</h2>
+      <h2>${bi('Prerequisites', zhString('prereq_heading'))}</h2>
       ${renderDependencies(item, techById)}
 
-      <h2>Dependents</h2>
+      <h2>${bi('Dependents', zhString('page_dependents'))}</h2>
       <ul>${renderDependents(dependents, techById)}</ul>
 
-      <h2>Fields</h2>
-      <ul>${fieldLinks || '<li>None.</li>'}</ul>
+      <h2>${bi('Fields', zhString('label_field'))}</h2>
+      <ul>${fieldLinks || `<li>${bi('None.', zhString('page_none'))}</li>`}</ul>
 
-      ${laneRows ? `<h2>Field lanes</h2><ul>${laneRows}</ul>` : ''}
+      ${laneRows ? `<h2>${bi('Field lanes', zhString('sorted_lanes'))}</h2><ul>${laneRows}</ul>` : ''}
 
-      <h2>Node sources</h2>
+      <h2>${bi('Node sources', zhString('page_node_sources'))}</h2>
       ${sourceList(item.sources)}
 
-      <h2>Prerequisite edge evidence</h2>
+      <h2>${bi('Prerequisite edge evidence', zhString('page_edge_evidence'))}</h2>
       ${edgeEvidenceSummary(item)}
 
       <table>
         <thead>
           <tr>
-            <th>Prerequisite</th>
-            <th>Type</th>
-            <th>Confidence</th>
-            <th>Evidence level</th>
-            <th>Note</th>
-            <th>Sources</th>
+            <th>${bi('Prerequisite', zhString('th_prerequisite'))}</th>
+            <th>${bi('Type', zhString('th_type'))}</th>
+            <th>${bi('Confidence', zhString('th_confidence'))}</th>
+            <th>${bi('Evidence level', zhString('th_evidence_level'))}</th>
+            <th>${bi('Note', zhString('th_note'))}</th>
+            <th>${bi('Sources', zhString('th_sources'))}</th>
           </tr>
         </thead>
         <tbody>
@@ -336,15 +406,18 @@ function renderTechHtml(item, techById, dependents) {
         </tbody>
       </table>
 
-      <p><small>This page is generated from canonical era JSON and is indexable by URL.</small></p>
+      <p><small>${bi('This page is generated from canonical era JSON and is indexable by URL.', zhString('page_generated_note'))}</small></p>
     </main>
+    ${bilingualToggleScript()}
   </body>
 </html>`;
 }
 
 function buildFieldPage(fieldName, technologies, eraOrder) {
   const canonicalUrl = canonicalFieldUrl(fieldName);
+  const fieldLabel = zhLabel(fieldName);
   const description = `Technologies curated under the ${fieldName} field in TechTree.`;
+  const zhDescription = (zhString('page_field_description') || 'TechTree 中 {field} 领域下策划的技术合集。').replace('{field}', fieldLabel || fieldName);
   const safeEraOrder = getEraOrder(eraOrder);
   const eraIndex = new Map(safeEraOrder.map((era, i) => [era, i]));
 
@@ -376,9 +449,9 @@ function buildFieldPage(fieldName, technologies, eraOrder) {
   for (const [era, items] of byEra.entries()) {
     if (!items.length) continue;
     const list = items
-      .map(item => `<li><a href="${canonicalTechnologyUrl(item.id)}">${escapeHtml(item.name)} (${escapeHtml(item.id)})</a> — ${escapeHtml(item.firstKnownDate)} / ${escapeHtml(item.datePrecision || 'exact')}</li>`) 
+      .map(item => `<li><a href="${canonicalTechnologyUrl(item.id)}">${bi(item.name, zhEntry(item.id)?.name)} (${escapeHtml(item.id)})</a> — ${escapeHtml(item.firstKnownDate)} / ${biValue(item.datePrecision || 'exact')}</li>`)
       .join('');
-    sectionBlocks.push(`<h2>${escapeHtml(era)}</h2><ul>${list}</ul>`);
+    sectionBlocks.push(`<h2>${biValue(era)}</h2><ul>${list}</ul>`);
   }
 
   const jsonLd = {
@@ -391,7 +464,7 @@ function buildFieldPage(fieldName, technologies, eraOrder) {
   };
 
   return `<!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -405,7 +478,7 @@ function buildFieldPage(fieldName, technologies, eraOrder) {
     <meta property="twitter:title" content="${escapeHtml(fieldName)} | TechTree" />
     <meta property="twitter:description" content="${escapeHtml(description)}" />
     <link rel="canonical" href="${canonicalUrl}" />
-    <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>
+    <script type="application/ld+json">${JSON.stringify(jsonLd)}</script>${bilingualHeadExtras()}
     <style>
       body { font-family: Arial, sans-serif; margin: 1.5rem; line-height: 1.5; color: #1f2937; }
       h1, h2 { margin: 1rem 0 0.5rem; }
@@ -415,15 +488,17 @@ function buildFieldPage(fieldName, technologies, eraOrder) {
   </head>
   <body>
     <main>
-      <h1>${escapeHtml(fieldName)} field</h1>
-      <p>${escapeHtml(description)}</p>
+      <h1>${bi(`${fieldName} field`, zhString('page_field_h1').replace('{field}', fieldLabel || fieldName))}</h1>
+      <p>${bi(description, zhDescription)}</p>
       <nav>
-        <a href="${canonicalGraphUrl()}">Graph</a>
-        <a href="${PUBLIC_LINKS.sorted}">Sorted View</a>
-        <a href="${PUBLIC_LINKS.demo}">Demo</a>
+        <a href="${canonicalGraphUrl()}">${bi('Graph', zhString('nav_graph'))}</a>
+        <a href="${PUBLIC_LINKS.sorted}">${bi('Sorted View', zhString('nav_graph_view'))}</a>
+        <a href="${PUBLIC_LINKS.demo}">${bi('Demo', zhString('nav_demo'))}</a>
+        <button type="button" id="lang-toggle" class="lang-toggle"></button>
       </nav>
-      ${sectionBlocks.join('\n') || '<p>No technologies in this field yet.</p>'}
+      ${sectionBlocks.join('\n') || `<p>${bi('No technologies in this field yet.', zhString('page_no_techs_yet'))}</p>`}
     </main>
+    ${bilingualToggleScript()}
   </body>
 </html>`;
 }
@@ -513,6 +588,7 @@ function buildLLms(snapshot, fieldPages, techById) {
 }
 
 function buildOutputs({ outputDir = ROOT_DIR } = {}) {
+  ZH = loadZhContext();
   const technologies = readDataFiles();
   const taxonomy = readTaxonomy();
   const snapshot = readQualitySnapshot();

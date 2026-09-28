@@ -20,6 +20,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     let visibleLimit = pageSize;
     let selectedTechId = null;
     let activeGraph = null;
+    let viewData = [];
+    let viewById = new Map();
     let renderFrameId = null;
     let searchTimer = null;
 
@@ -553,17 +555,22 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function formatStatus(value) {
-        return String(value || '').replaceAll('_', ' ');
+        const raw = String(value || '');
+        const labeled = I18N.label(raw);
+        return labeled === raw ? raw.replaceAll('_', ' ') : labeled;
     }
 
     function formatDate(value) {
         if (typeof value !== 'number') return String(value);
-        if (value < 0) return `${Math.abs(value).toLocaleString()} BCE`;
+        if (value < 0) {
+            const count = Math.abs(value).toLocaleString();
+            return I18N.lang === 'zh' ? `公元前 ${count}` : `${count} BCE`;
+        }
         return String(value);
     }
 
     function formatConfidence(value) {
-        return typeof value === 'number' ? `${Math.round(value * 100)}%` : 'unknown';
+        return typeof value === 'number' ? `${Math.round(value * 100)}%` : I18N.t('unknown', 'unknown');
     }
 
     function getHashTechId() {
@@ -620,9 +627,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!id || !activeGraph?.byId.has(id)) return;
         selectedTechId = id;
         if (options.updateHash !== false) setHashTechId(id);
-        renderDetail(activeGraph.byId.get(id));
+        renderDetail(viewById.get(id) || activeGraph.byId.get(id));
         updateSelectedMarkers();
-        if (selectionStatusEl) selectionStatusEl.textContent = `Selected ${formatTechLabel(id)}.`;
+        if (selectionStatusEl) selectionStatusEl.textContent = I18N.t('selected_tech', 'Selected {name}.').replace('{name}', formatTechLabel(id));
         if (options.revealDetail && detailPanel && window.matchMedia('(max-width: 900px)').matches) {
             detailPanel.scrollIntoView({
                 behavior: reducedMotionQuery.matches ? 'auto' : 'smooth',
@@ -769,24 +776,25 @@ document.addEventListener('DOMContentLoaded', async () => {
         return a.name.localeCompare(b.name);
     }
 
-    function normalizeText(item, graph) {
+    function normalizeText(item, graph, nameMap = null) {
+        const nameOf = id => (nameMap?.get(id) || graph.byId.get(id))?.name || id;
         const prereqNames = (item.prerequisites || [])
-            .map(id => graph.byId.get(id)?.name || id)
+            .map(nameOf)
             .join(' ');
         const dependentNames = (graph.dependents.get(item.id) || [])
-            .map(id => graph.byId.get(id)?.name || id)
+            .map(nameOf)
             .join(' ');
         return `${item.name} ${item.id} ${item.era} ${item.description} ${prereqNames} ${dependentNames}`.toLowerCase();
     }
 
     function formatTechLabel(id) {
-        return activeGraph?.byId.get(id)?.name || id;
+        return viewById.get(id)?.name || activeGraph?.byId.get(id)?.name || id;
     }
 
     function techLabel(ids, graph) {
-        if (!ids.length) return 'None';
+        if (!ids.length) return I18N.t('none', 'None');
         return ids
-            .map(id => graph.byId.get(id)?.name || id)
+            .map(id => formatTechLabel(id))
             .sort((a, b) => a.localeCompare(b))
             .join(', ');
     }
@@ -821,7 +829,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (item.maturity) {
             const maturity = document.createElement('span');
             maturity.className = `maturity-badge maturity-${item.maturity}`;
-            maturity.textContent = item.maturity;
+            maturity.textContent = I18N.label(item.maturity);
             nameCell.appendChild(maturity);
         }
 
@@ -829,7 +837,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const eraBadge = document.createElement('span');
         eraBadge.className = 'era-badge';
         eraBadge.style.setProperty('--era-color', eraColors[item.era] || '#777');
-        eraBadge.textContent = item.era || 'Unknown';
+        eraBadge.textContent = item.era ? I18N.label(item.era) : I18N.t('unknown', 'Unknown');
         eraCell.appendChild(eraBadge);
 
         const levelCell = document.createElement('td');
@@ -940,7 +948,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!entries.length) {
             const empty = document.createElement('p');
             empty.className = 'relationship-empty';
-            empty.textContent = 'None';
+            empty.textContent = I18N.t('none', 'None');
             section.appendChild(empty);
             parent.appendChild(section);
             return;
@@ -961,7 +969,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 meta.className = 'sorted-edge-meta';
                 meta.textContent = [
                     edge.type && formatStatus(edge.type),
-                    `confidence ${formatConfidence(edge.confidence)}`,
+                    `${I18N.t('confidence', 'confidence')} ${formatConfidence(edge.confidence)}`,
                     edge.evidence_level && formatStatus(edge.evidence_level)
                 ].filter(Boolean).join(' · ');
                 head.appendChild(meta);
@@ -984,7 +992,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 const button = document.createElement('button');
                 button.type = 'button';
                 button.className = 'sorted-edge-more';
-                button.textContent = `Show ${entries.length - limit} more`;
+                button.textContent = I18N.t('sorted_show_more_edges', 'Show {n} more').replace('{n}', entries.length - limit);
                 button.addEventListener('click', () => renderEntries(entries.length));
                 item.appendChild(button);
                 list.appendChild(item);
@@ -1003,7 +1011,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!item) {
             const empty = document.createElement('p');
             empty.className = 'sorted-detail-empty';
-            empty.textContent = 'No technology selected';
+            empty.textContent = I18N.t('sorted_no_selection', 'No technology selected');
             detailPanel.appendChild(empty);
             return;
         }
@@ -1011,7 +1019,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         const backButton = document.createElement('button');
         backButton.type = 'button';
         backButton.className = 'secondary-button sorted-back-results';
-        backButton.textContent = 'Back to results';
+        backButton.textContent = I18N.t('sorted_back_results', 'Back to results');
         backButton.addEventListener('click', () => {
             document.getElementById('sorted-tech-container')?.scrollIntoView({
                 behavior: reducedMotionQuery.matches ? 'auto' : 'smooth',
@@ -1035,7 +1043,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const badges = document.createElement('div');
         badges.className = 'sorted-detail-badges';
-        badges.appendChild(createDetailBadge(item.era || 'Unknown era'));
+        badges.appendChild(createDetailBadge(item.era ? I18N.label(item.era) : I18N.t('unknown_era', 'Unknown era')));
         if (item.maturity) badges.appendChild(createDetailBadge(formatStatus(item.maturity), `maturity-${item.maturity}`));
         if (item.reviewStatus) badges.appendChild(createDetailBadge(formatStatus(item.reviewStatus)));
         header.appendChild(badges);
@@ -1050,31 +1058,31 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const facts = document.createElement('section');
         facts.className = 'sorted-detail-section sorted-detail-facts';
-        appendDetailRow(facts, 'First known', item.firstKnownDate !== undefined
-            ? `${formatDate(item.firstKnownDate)} (${item.datePrecision || 'unknown'}; ${item.region || 'region unknown'})`
-            : 'Unknown');
-        appendDetailRow(facts, 'Branch', item.branch || 'Other');
-        appendDetailRow(facts, 'Depth', String(item.level ?? 0));
+        appendDetailRow(facts, I18N.t('sorted_first_known', 'First known'), item.firstKnownDate !== undefined
+            ? `${formatDate(item.firstKnownDate)} (${I18N.label(item.datePrecision || 'unknown')}; ${item.region || I18N.t('region_unknown', 'region unknown')})`
+            : I18N.t('unknown', 'Unknown'));
+        appendDetailRow(facts, I18N.t('sorted_branch', 'Branch'), I18N.label(item.branch || 'Other'));
+        appendDetailRow(facts, I18N.t('sorted_depth', 'Depth'), String(item.level ?? 0));
         if (Array.isArray(item.fields) && item.fields.length) {
-            appendDetailRow(facts, 'Fields', item.fields.join(', '));
+            appendDetailRow(facts, I18N.t('sorted_fields', 'Fields'), item.fields.map(field => I18N.label(field)).join(', '));
         }
         const lanes = Object.entries(item.fieldLanes || {})
-            .map(([field, lane]) => `${field}: ${lane}`);
-        if (lanes.length) appendDetailRow(facts, 'Lanes', lanes.join('; '));
+            .map(([field, lane]) => `${I18N.label(field)}: ${I18N.label(lane)}`);
+        if (lanes.length) appendDetailRow(facts, I18N.t('sorted_lanes', 'Lanes'), lanes.join('; '));
         detailPanel.appendChild(facts);
 
         if (item.roadmap) {
             const roadmap = document.createElement('section');
             roadmap.className = 'sorted-detail-section';
             const roadmapTitle = document.createElement('h3');
-            roadmapTitle.textContent = 'Roadmap';
+            roadmapTitle.textContent = I18N.t('sorted_roadmap', 'Roadmap');
             roadmap.appendChild(roadmapTitle);
-            appendDetailRow(roadmap, 'Role', item.roadmap.role || 'forecast');
-            appendDetailRow(roadmap, 'Timeframe', item.roadmap.timeframe || 'unknown');
-            appendDetailRow(roadmap, 'Confidence', item.roadmap.confidence || 'unknown');
-            if (item.roadmap.rationale) appendDetailRow(roadmap, 'Rationale', item.roadmap.rationale);
+            appendDetailRow(roadmap, I18N.t('sorted_role', 'Role'), item.roadmap.role || I18N.label('forecast'));
+            appendDetailRow(roadmap, I18N.t('sorted_timeframe', 'Timeframe'), item.roadmap.timeframe || I18N.t('unknown', 'unknown'));
+            appendDetailRow(roadmap, I18N.t('sorted_confidence', 'Confidence'), item.roadmap.confidence || I18N.t('unknown', 'unknown'));
+            if (item.roadmap.rationale) appendDetailRow(roadmap, I18N.t('meta_rationale', 'Rationale'), item.roadmap.rationale);
             if (Array.isArray(item.roadmap.blockers) && item.roadmap.blockers.length) {
-                appendDetailRow(roadmap, 'Blockers', item.roadmap.blockers.join(', '));
+                appendDetailRow(roadmap, I18N.t('meta_blockers', 'Blockers'), item.roadmap.blockers.join(', '));
             }
             detailPanel.appendChild(roadmap);
         }
@@ -1086,7 +1094,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 edge: getDependencyEdges(item).find(edge => edge.prerequisite === id)
             }))
             .sort((a, b) => formatTechLabel(a.id).localeCompare(formatTechLabel(b.id)));
-        appendEdgeList(detailPanel, 'Depends On', prereqEntries);
+        appendEdgeList(detailPanel, I18N.t('sorted_depends_on', 'Depends On'), prereqEntries);
 
         const unlockEntries = (activeGraph?.dependents.get(item.id) || [])
             .filter(id => activeGraph.byId.has(id))
@@ -1098,13 +1106,13 @@ document.addEventListener('DOMContentLoaded', async () => {
                 };
             })
             .sort((a, b) => formatTechLabel(a.id).localeCompare(formatTechLabel(b.id)));
-        appendEdgeList(detailPanel, 'Unlocks', unlockEntries);
+        appendEdgeList(detailPanel, I18N.t('sorted_unlocks', 'Unlocks'), unlockEntries);
 
         if (Array.isArray(item.sources) && item.sources.length) {
             const sources = document.createElement('section');
             sources.className = 'sorted-detail-section';
             const sourceTitle = document.createElement('h3');
-            sourceTitle.textContent = 'Sources';
+            sourceTitle.textContent = I18N.t('meta_sources', 'Sources');
             sources.appendChild(sourceTitle);
             appendSourceLinks(sources, item.sources);
             detailPanel.appendChild(sources);
@@ -1113,8 +1121,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function renderBranchView(items, totalCount, selectedField, mode) {
         if (countEl) {
-            const lens = selectedField === 'all' ? '' : `${selectedField}: `;
-            countEl.textContent = `${lens}${items.length.toLocaleString()} of ${totalCount.toLocaleString()} technologies`;
+            const lens = selectedField === 'all' ? '' : `${I18N.label(selectedField)}: `;
+            countEl.textContent = I18N.t('sorted_count_matrix', '{lens}{a} of {b} technologies')
+                .replace('{lens}', lens)
+                .replace('{a}', items.length.toLocaleString())
+                .replace('{b}', totalCount.toLocaleString());
         }
         if (showMoreBtn) showMoreBtn.hidden = true;
 
@@ -1122,7 +1133,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!items.length) {
             const empty = document.createElement('p');
             empty.className = 'sorted-empty';
-            empty.textContent = 'No technologies match the current filters.';
+            empty.textContent = I18N.t('sorted_no_match', 'No technologies match the current filters.');
             sectionsEl.appendChild(empty);
             return;
         }
@@ -1151,7 +1162,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             section.className = 'branch-section';
 
             const heading = document.createElement('h2');
-            heading.textContent = `${branch} (${branchItems.length})`;
+            heading.textContent = `${I18N.label(branch)} (${branchItems.length})`;
             section.appendChild(heading);
 
             const grid = document.createElement('div');
@@ -1162,7 +1173,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 column.className = 'branch-era-column';
 
                 const columnTitle = document.createElement('h3');
-                columnTitle.textContent = era;
+                columnTitle.textContent = I18N.label(era);
                 columnTitle.style.setProperty('--era-color', eraColors[era] || '#777');
                 column.appendChild(columnTitle);
 
@@ -1182,7 +1193,8 @@ document.addEventListener('DOMContentLoaded', async () => {
             const scroller = document.createElement('div');
             scroller.className = 'branch-era-scroll';
             scroller.tabIndex = 0;
-            scroller.setAttribute('aria-label', `${branch} eras; scroll horizontally to view every era`);
+            scroller.setAttribute('aria-label', I18N.t('sorted_group_eras_aria', '{branch} eras; scroll horizontally to view every era')
+                .replace('{branch}', I18N.label(branch)));
             scroller.appendChild(grid);
             section.appendChild(scroller);
             fragment.appendChild(section);
@@ -1208,7 +1220,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         if (selectedView === 'branches') {
             renderBranchView(filtered, data.length, selectedField, mode);
-            renderDetail(selectedTechId ? graph.byId.get(selectedTechId) : null);
+            renderDetail(selectedTechId ? viewById.get(selectedTechId) : null);
             updateSelectedMarkers();
             return;
         }
@@ -1216,7 +1228,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         const visibleItems = filtered.slice(0, visibleLimit);
 
         if (countEl) {
-            countEl.textContent = `Showing ${visibleItems.length.toLocaleString()} of ${filtered.length.toLocaleString()} matches (${data.length.toLocaleString()} total)`;
+            countEl.textContent = I18N.t('sorted_count_details', 'Showing {a} of {b} matches ({c} total)')
+                .replace('{a}', visibleItems.length.toLocaleString())
+                .replace('{b}', filtered.length.toLocaleString())
+                .replace('{c}', data.length.toLocaleString());
         }
         if (showMoreBtn) {
             showMoreBtn.hidden = visibleItems.length >= filtered.length;
@@ -1226,9 +1241,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!visibleItems.length) {
             const empty = document.createElement('p');
             empty.className = 'sorted-empty';
-            empty.textContent = 'No technologies match the current filters.';
+            empty.textContent = I18N.t('sorted_no_match', 'No technologies match the current filters.');
             sectionsEl.appendChild(empty);
-            renderDetail(selectedTechId ? graph.byId.get(selectedTechId) : null);
+            renderDetail(selectedTechId ? viewById.get(selectedTechId) : null);
             updateSelectedMarkers();
             return;
         }
@@ -1248,22 +1263,22 @@ document.addEventListener('DOMContentLoaded', async () => {
             section.className = 'sorted-era-section';
 
             const heading = document.createElement('h2');
-            heading.textContent = `${era} (${grouped.get(era).length})`;
+            heading.textContent = `${I18N.label(era)} (${grouped.get(era).length})`;
             heading.style.setProperty('--era-color', eraColors[era] || '#777');
             section.appendChild(heading);
 
             const table = document.createElement('table');
             table.className = 'sorted-table';
             table.innerHTML = `
-                <caption class="visually-hidden">${era} technologies</caption>
+                <caption class="visually-hidden">${I18N.t('sorted_era_tech_caption', '{era} technologies').replace('{era}', I18N.label(era))}</caption>
                 <thead>
                     <tr>
-                        <th scope="col">Technology</th>
-                        <th scope="col">Era</th>
-                        <th scope="col">Depth</th>
-                        <th scope="col">Prerequisites</th>
-                        <th scope="col">Unlocks</th>
-                        <th scope="col">Description</th>
+                        <th scope="col">${I18N.t('th_technology', 'Technology')}</th>
+                        <th scope="col">${I18N.t('th_era', 'Era')}</th>
+                        <th scope="col">${I18N.t('th_depth', 'Depth')}</th>
+                        <th scope="col">${I18N.t('th_prerequisites', 'Prerequisites')}</th>
+                        <th scope="col">${I18N.t('th_unlocks', 'Unlocks')}</th>
+                        <th scope="col">${I18N.t('th_description', 'Description')}</th>
                     </tr>
                 </thead>
             `;
@@ -1275,24 +1290,26 @@ document.addEventListener('DOMContentLoaded', async () => {
             const scroller = document.createElement('div');
             scroller.className = 'sorted-table-scroll';
             scroller.tabIndex = 0;
-            scroller.setAttribute('aria-label', `${era} technologies; scroll horizontally to view every column`);
+            scroller.setAttribute('aria-label', I18N.t('sorted_group_cols_aria', '{era} technologies; scroll horizontally to view every column')
+                .replace('{era}', I18N.label(era)));
             scroller.appendChild(table);
             section.appendChild(scroller);
             fragment.appendChild(section);
         }
 
         sectionsEl.appendChild(fragment);
-        renderDetail(selectedTechId ? graph.byId.get(selectedTechId) : null);
+        renderDetail(selectedTechId ? viewById.get(selectedTechId) : null);
         updateSelectedMarkers();
     }
 
     try {
-        setStatus('Loading technologies...');
+        setStatus(I18N.t('sorted_loading', 'Loading technologies...'));
         const resp = await fetch('api/tech-tree');
         if (!resp.ok) throw new Error('Failed to load tech tree');
         const data = await resp.json();
         const graph = buildGraph(data);
         activeGraph = graph;
+        await I18N.loadData();
 
         for (const item of data) {
             const itemClassificationText = classificationText(item);
@@ -1303,7 +1320,14 @@ document.addEventListener('DOMContentLoaded', async () => {
             for (const field of item.fields) {
                 item.fieldLanes[field] = classifyFieldLane(item, field, itemClassificationText);
             }
-            item.searchText = `${normalizeText(item, graph)} ${item.branch.toLowerCase()} ${item.fields.join(' ').toLowerCase()}`;
+        }
+
+        // Display layer: localized copies (name/description) keep the English
+        // classification inputs untouched while every rendered string can be Chinese.
+        viewData = data.map(item => I18N.localize(item));
+        viewById = new Map(viewData.map(item => [item.id, item]));
+        for (const item of viewData) {
+            item.searchText = `${normalizeText(item, graph, viewById)} ${item.branch.toLowerCase()} ${item.fields.join(' ').toLowerCase()}`;
         }
 
         const eras = [...new Set(data.map(item => item.era).filter(Boolean))]
@@ -1311,7 +1335,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         for (const era of eras) {
             const option = document.createElement('option');
             option.value = era;
-            option.textContent = era;
+            option.textContent = I18N.label(era);
             eraFilter.appendChild(option);
         }
         const branches = [...new Set(data.map(item => item.branch))]
@@ -1323,20 +1347,20 @@ document.addEventListener('DOMContentLoaded', async () => {
         for (const branch of branches) {
             const option = document.createElement('option');
             option.value = branch;
-            option.textContent = branch;
+            option.textContent = I18N.label(branch);
             branchFilter.appendChild(option);
         }
         for (const field of fieldRules.map(rule => rule.name)) {
             const option = document.createElement('option');
             option.value = field;
-            option.textContent = field;
+            option.textContent = I18N.label(field);
             fieldFilter.appendChild(option);
         }
 
         setStatus('');
         const hashTechId = getHashTechId();
         if (hashTechId && graph.byId.has(hashTechId)) selectedTechId = hashTechId;
-        render(data, graph);
+        render(viewData, graph);
         mainEl?.setAttribute('aria-busy', 'false');
 
         const scheduleRender = ({ resetLimit = true } = {}) => {
@@ -1345,7 +1369,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (renderFrameId !== null) window.cancelAnimationFrame(renderFrameId);
             renderFrameId = window.requestAnimationFrame(() => {
                 renderFrameId = null;
-                render(data, graph);
+                render(viewData, graph);
             });
         };
         searchInput?.addEventListener('input', () => {
@@ -1357,7 +1381,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             window.clearTimeout(searchTimer);
             searchInput.value = '';
             scheduleRender();
-            setStatus('Search cleared.');
+            setStatus(I18N.t('search_cleared', 'Search cleared.'));
         });
         viewMode?.addEventListener('change', scheduleRender);
         fieldFilter?.addEventListener('change', scheduleRender);
@@ -1373,7 +1397,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (eraFilter) eraFilter.value = 'all';
             if (sortMode) sortMode.value = 'era';
             scheduleRender();
-            setStatus('View and filters reset.');
+            setStatus(I18N.t('sorted_view_reset', 'View and filters reset.'));
             searchInput?.focus();
         });
         showMoreBtn?.addEventListener('click', () => {
@@ -1388,12 +1412,12 @@ document.addEventListener('DOMContentLoaded', async () => {
                 selectedTechId = null;
                 renderDetail(null);
                 updateSelectedMarkers();
-                if (selectionStatusEl) selectionStatusEl.textContent = 'Selection cleared.';
+                if (selectionStatusEl) selectionStatusEl.textContent = I18N.t('selection_cleared', 'Selection cleared.');
             }
         });
     } catch (err) {
         console.error('Error loading sorted tech view:', err);
-        setStatus('Failed to load technologies. Refresh the page or check the server.', 'error');
+        setStatus(I18N.t('sorted_load_failed', 'Failed to load technologies. Refresh the page or check the server.'), 'error');
         mainEl?.setAttribute('aria-busy', 'false');
     }
 

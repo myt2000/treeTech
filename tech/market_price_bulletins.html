@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,6 +15,11 @@
     <link rel="canonical" href="https://pushme.site/techtree/tech/market_price_bulletins.html" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","@id":"https://pushme.site/techtree/tech/market_price_bulletins.html","name":"Merchant Market Reports","description":"Courier-carried merchant correspondence reporting exchange rates and current market conditions between trading centers, anchored to Sienese reports from the Champagne fairs.","identifier":"market_price_bulletins","inDefinedTermSet":"https://pushme.site/techtree/","url":"https://pushme.site/techtree/tech/market_price_bulletins.html","dateCreated":"1265","sameAs":"https://pushme.site/techtree/tech/market_price_bulletins.html"}</script>
     <style>
+      html[data-lang="zh"] .i18n-en { display: none; }
+      html[data-lang="en"] .i18n-zh { display: none; }
+      .lang-toggle { margin-left: 0.75rem; padding: 0.15rem 0.6rem; cursor: pointer; }
+    </style>
+    <style>
       body { font-family: Arial, sans-serif; margin: 1.5rem; line-height: 1.5; color: #1f2937; }
       h1, h2 { margin: 1rem 0 0.5rem; }
       table { border-collapse: collapse; width: 100%; max-width: 100%; }
@@ -26,84 +31,86 @@
   </head>
   <body>
     <main>
-      <h1>Merchant Market Reports</h1>
-      <p>Courier-carried merchant correspondence reporting exchange rates and current market conditions between trading centers, anchored to Sienese reports from the Champagne fairs.</p>
+      <h1><span class="i18n-en">Merchant Market Reports</span><span class="i18n-zh">商人行情报告</span></h1>
+      <p><span class="i18n-en">Courier-carried merchant correspondence reporting exchange rates and current market conditions between trading centers, anchored to Sienese reports from the Champagne fairs.</span><span class="i18n-zh">由信使传递、报告交易中心之间汇率与市况的商人通信，锚定于锡耶纳人在香槟集市的数据。</span></p>
       <nav>
-        <a href="https://pushme.site/techtree/?target=market_price_bulletins">Graph</a>
-        <a href="https://pushme.site/techtree/sorted.html?target=market_price_bulletins">Sorted View</a>
-        <a href="https://pushme.site/techtree/demo.html?target=market_price_bulletins">Demo</a>
+        <a href="https://pushme.site/techtree/?target=market_price_bulletins"><span class="i18n-en">Graph</span><span class="i18n-zh">图谱</span></a>
+        <a href="https://pushme.site/techtree/sorted.html?target=market_price_bulletins"><span class="i18n-en">Sorted View</span><span class="i18n-zh">图谱视图</span></a>
+        <a href="https://pushme.site/techtree/demo.html?target=market_price_bulletins"><span class="i18n-en">Demo</span><span class="i18n-zh">演示</span></a>
+        <button type="button" id="lang-toggle" class="lang-toggle"></button>
       </nav>
 
-      <h2>Core metadata</h2>
-      <ul><li><strong>ID:</strong> market_price_bulletins</li><li><strong>Era:</strong> Medieval</li><li><strong>First known date:</strong> 1265 (exact)</li><li><strong>Region:</strong> Siena and the Champagne fairs at Troyes and Provins</li><li><strong>Review status:</strong> source_checked</li><li><strong>Maturity:</strong> N/A</li></ul>
+      <h2><span class="i18n-en">Core metadata</span><span class="i18n-zh">核心元数据</span></h2>
+      <ul><li><strong>ID:</strong> market_price_bulletins</li><li><strong><span class="i18n-en">Era</span><span class="i18n-zh">时代</span>:</strong> <span class="i18n-en">Medieval</span><span class="i18n-zh">中世纪</span></li><li><strong><span class="i18n-en">First known date</span><span class="i18n-zh">最早出现</span>:</strong> 1265 (<span class="i18n-en">exact</span><span class="i18n-zh">精确</span>)</li><li><strong><span class="i18n-en">Region</span><span class="i18n-zh">地区</span>:</strong> Siena and the Champagne fairs at Troyes and Provins</li><li><strong><span class="i18n-en">Review status</span><span class="i18n-zh">审核状态</span>:</strong> <span class="i18n-en">source_checked</span><span class="i18n-zh">已核来源</span></li><li><strong><span class="i18n-en">Maturity</span><span class="i18n-zh">成熟度</span>:</strong> N/A</li></ul>
 
-      <h2>Prerequisites</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/merchant_courier_networks.html">Merchant Courier Networks (merchant_courier_networks)</a></li><li><a href="https://pushme.site/techtree/tech/paper_making.html">Paper Making (paper_making)</a></li><li><a href="https://pushme.site/techtree/tech/trade_fairs.html">Trade Fairs (trade_fairs)</a></li></ul>
+      <h2><span class="i18n-en">Prerequisites</span><span class="i18n-zh">前置技术</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/merchant_courier_networks.html"><span class="i18n-en">Merchant Courier Networks</span><span class="i18n-zh">商人信使网络</span> (merchant_courier_networks)</a></li><li><a href="https://pushme.site/techtree/tech/paper_making.html"><span class="i18n-en">Paper Making</span><span class="i18n-zh">造纸</span> (paper_making)</a></li><li><a href="https://pushme.site/techtree/tech/trade_fairs.html"><span class="i18n-en">Trade Fairs</span><span class="i18n-zh">贸易集市</span> (trade_fairs)</a></li></ul>
 
-      <h2>Dependents</h2>
-      <ul><li>None.</li></ul>
+      <h2><span class="i18n-en">Dependents</span><span class="i18n-zh">依赖方</span></h2>
+      <ul><li><span class="i18n-en">None.</span><span class="i18n-zh">无。</span></li></ul>
 
-      <h2>Fields</h2>
-      <ul><li>None.</li></ul>
+      <h2><span class="i18n-en">Fields</span><span class="i18n-zh">领域</span></h2>
+      <ul><li><span class="i18n-en">None.</span><span class="i18n-zh">无。</span></li></ul>
 
       
 
-      <h2>Node sources</h2>
-      <ul><li><a href="https://www.manchesterhive.com/downloadpdf/display/9781526158147/9781526158147.00013.pdf" target="_blank" rel="noopener noreferrer">The Florentine florin: The politics and culture of money in the Middle Ages</a> (Manchester University Press, 2025, textbook) • Supports: node<br/><small>Locator: Chapter 3, pp. 148-149: documents Andrea de&#39; Tolomei&#39;s 29 November 1265 report from Troyes to his Sienese company, including the current florin exchange rate and its change since the preceding fair at Provins.</small></li><li><a href="https://doi.org/10.1111/ehr.13358" target="_blank" rel="noopener noreferrer">The emergence of double entry bookkeeping</a> (The Economic History Review, 2024, review) • Supports: node<br/><small>Locator: Champagne-fairs discussion, pp. 8-10: explains that fair couriers circulated prices of specie and bills, delivered current market information between Italy and Champagne, and carried merchant instructions by 1260.</small></li></ul>
+      <h2><span class="i18n-en">Node sources</span><span class="i18n-zh">节点来源</span></h2>
+      <ul><li><a href="https://www.manchesterhive.com/downloadpdf/display/9781526158147/9781526158147.00013.pdf" target="_blank" rel="noopener noreferrer">The Florentine florin: The politics and culture of money in the Middle Ages</a> (Manchester University Press, 2025, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Chapter 3, pp. 148-149: documents Andrea de&#39; Tolomei&#39;s 29 November 1265 report from Troyes to his Sienese company, including the current florin exchange rate and its change since the preceding fair at Provins.</small></li><li><a href="https://doi.org/10.1111/ehr.13358" target="_blank" rel="noopener noreferrer">The emergence of double entry bookkeeping</a> (The Economic History Review, 2024, <span class="i18n-en">review</span><span class="i18n-zh">综述</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Champagne-fairs discussion, pp. 8-10: explains that fair couriers circulated prices of specie and bills, delivered current market information between Italy and Champagne, and carried merchant instructions by 1260.</small></li></ul>
 
-      <h2>Prerequisite edge evidence</h2>
+      <h2><span class="i18n-en">Prerequisite edge evidence</span><span class="i18n-zh">前置边证据</span></h2>
       
-    <p><strong>Edge/source evidence summary:</strong></p>
+    <p><strong><span class="i18n-en">Edge/source evidence summary:</span><span class="i18n-zh">边/来源证据汇总：</span></strong></p>
     <ul>
-      <li>Prerequisite edges: 3</li>
-      <li>Average edge confidence: 87%</li>
-      <li>Prerequisite sources: 3</li>
-      <li>review: 1</li><li>textbook: 2</li>
+      <li><span class="i18n-en">Prerequisite edges:</span><span class="i18n-zh">前置边：</span> 3</li>
+      <li><span class="i18n-en">Average edge confidence:</span><span class="i18n-zh">平均边置信度：</span> 87%</li>
+      <li><span class="i18n-en">Prerequisite sources:</span><span class="i18n-zh">前置来源数：</span> 3</li>
+      <li><span class="i18n-en">review</span><span class="i18n-zh">综述</span>: 1</li><li><span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>: 2</li>
     </ul>
 
       <table>
         <thead>
           <tr>
-            <th>Prerequisite</th>
-            <th>Type</th>
-            <th>Confidence</th>
-            <th>Evidence level</th>
-            <th>Note</th>
-            <th>Sources</th>
+            <th><span class="i18n-en">Prerequisite</span><span class="i18n-zh">前置技术</span></th>
+            <th><span class="i18n-en">Type</span><span class="i18n-zh">类型</span></th>
+            <th><span class="i18n-en">Confidence</span><span class="i18n-zh">置信度</span></th>
+            <th><span class="i18n-en">Evidence level</span><span class="i18n-zh">证据等级</span></th>
+            <th><span class="i18n-en">Note</span><span class="i18n-zh">说明</span></th>
+            <th><span class="i18n-en">Sources</span><span class="i18n-zh">来源</span></th>
           </tr>
         </thead>
         <tbody>
           
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/trade_fairs.html">Trade Fairs</a> (trade_fairs)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/trade_fairs.html"><span class="i18n-en">Trade Fairs</span><span class="i18n-zh">贸易集市</span></a> (trade_fairs)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>90%</td>
-              <td>textbook</td>
+              <td><span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span></td>
               <td>The recurring Champagne fairs created distinct exchange markets whose changing rates and conditions were reported to merchant houses in other cities.</td>
-              <td><ul><li><a href="https://www.manchesterhive.com/downloadpdf/display/9781526158147/9781526158147.00013.pdf" target="_blank" rel="noopener noreferrer">The Florentine florin: The politics and culture of money in the Middle Ages</a> (Manchester University Press, 2025, textbook) • Supports: edge<br/><small>Locator: Chapter 3, pp. 148-149: cites a letter of 29 November 1265 in which Andrea de&#39; Tolomei reports from the Cold Fair of Troyes that florins exchanged at 7s. 9d. provinois, down from 8s. 1d. at the preceding St. Ayoul fair of Provins.</small></li></ul></td>
+              <td><ul><li><a href="https://www.manchesterhive.com/downloadpdf/display/9781526158147/9781526158147.00013.pdf" target="_blank" rel="noopener noreferrer">The Florentine florin: The politics and culture of money in the Middle Ages</a> (Manchester University Press, 2025, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Chapter 3, pp. 148-149: cites a letter of 29 November 1265 in which Andrea de&#39; Tolomei reports from the Cold Fair of Troyes that florins exchanged at 7s. 9d. provinois, down from 8s. 1d. at the preceding St. Ayoul fair of Provins.</small></li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/merchant_courier_networks.html">Merchant Courier Networks</a> (merchant_courier_networks)</td>
-              <td>required</td>
+              <td><a href="https://pushme.site/techtree/tech/merchant_courier_networks.html"><span class="i18n-en">Merchant Courier Networks</span><span class="i18n-zh">商人信使网络</span></a> (merchant_courier_networks)</td>
+              <td><span class="i18n-en">required</span><span class="i18n-zh">必需</span></td>
               <td>94%</td>
-              <td>review</td>
+              <td><span class="i18n-en">review</span><span class="i18n-zh">综述</span></td>
               <td>The scoped reports were letters moved between merchant houses and fairs by dedicated fair couriers, making the courier network the delivery mechanism for timely market information.</td>
-              <td><ul><li><a href="https://doi.org/10.1111/ehr.13358" target="_blank" rel="noopener noreferrer">The emergence of double entry bookkeeping</a> (The Economic History Review, 2024, review) • Supports: edge<br/><small>Locator: Champagne-fairs discussion, pp. 8-10: says fair couriers rapidly carried prices of specie and bills abroad, courier services informed Italian merchants of the latest market information, and a 1260 Siena-to-Champagne merchant letter was sent by courier.</small></li></ul></td>
+              <td><ul><li><a href="https://doi.org/10.1111/ehr.13358" target="_blank" rel="noopener noreferrer">The emergence of double entry bookkeeping</a> (The Economic History Review, 2024, <span class="i18n-en">review</span><span class="i18n-zh">综述</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Champagne-fairs discussion, pp. 8-10: says fair couriers rapidly carried prices of specie and bills abroad, courier services informed Italian merchants of the latest market information, and a 1260 Siena-to-Champagne merchant letter was sent by courier.</small></li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/paper_making.html">Paper Making</a> (paper_making)</td>
-              <td>accelerates</td>
+              <td><a href="https://pushme.site/techtree/tech/paper_making.html"><span class="i18n-en">Paper Making</span><span class="i18n-zh">造纸</span></a> (paper_making)</td>
+              <td><span class="i18n-en">accelerates</span><span class="i18n-zh">加速</span></td>
               <td>78%</td>
-              <td>textbook</td>
+              <td><span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span></td>
               <td>Thirteenth-century Italian paper mills made commercial letter production cheaper and more plentiful, but parchment remained an alternative writing surface.</td>
-              <td><ul><li><a href="https://academic.oup.com/reference/62416/reference-article-abstract/555936706" target="_blank" rel="noopener noreferrer">Letter Writing and Epistolary Culture</a> (Oxford University Press, 2013, textbook) • Supports: edge<br/><small>Locator: Overview of material conditions: describes the shift from animal-skin parchment to pulp-based paper and says the proliferation of water-powered paper mills in thirteenth-century Italy made letter production economical.</small></li></ul></td>
+              <td><ul><li><a href="https://academic.oup.com/reference/62416/reference-article-abstract/555936706" target="_blank" rel="noopener noreferrer">Letter Writing and Epistolary Culture</a> (Oxford University Press, 2013, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Overview of material conditions: describes the shift from animal-skin parchment to pulp-based paper and says the proliferation of water-powered paper mills in thirteenth-century Italy made letter production economical.</small></li></ul></td>
             </tr>
         </tbody>
       </table>
 
-      <p><small>This page is generated from canonical era JSON and is indexable by URL.</small></p>
+      <p><small><span class="i18n-en">This page is generated from canonical era JSON and is indexable by URL.</span><span class="i18n-zh">本页由正典时代 JSON 生成，可按 URL 索引。</span></small></p>
     </main>
+    <script src="../i18n-static.js"></script>
   </body>
 </html>

@@ -58,7 +58,8 @@ async function startFixture(t, options = {}) {
         taxonomy,
         initialData,
         readOnly: options.readOnly ?? true,
-        maxBodyBytes: options.maxBodyBytes
+        maxBodyBytes: options.maxBodyBytes,
+        zhTranslations: options.zhTranslations
     });
     await new Promise((resolve, reject) => {
         server.once('error', reject);
@@ -145,10 +146,46 @@ test('serves API and public assets without exposing repository internals', async
     assert.equal(indexResponse.status, 200);
     assert.match(await indexResponse.text(), /TechTree test/);
 
+    const missingZhResponse = await fetch(`${fixture.baseUrl}/api/i18n/zh`, {
+        headers: { 'Accept-Encoding': 'identity' }
+    });
+    assert.equal(missingZhResponse.status, 200);
+    assert.deepEqual(await responseJson(missingZhResponse), {});
+
     for (const privatePath of ['/server.js', '/.git/config', '/data/ancient.json', '/scripts/validate-data.js']) {
         const response = await fetch(`${fixture.baseUrl}${privatePath}`);
         assert.equal(response.status, 404, privatePath);
     }
+});
+
+test('serves Chinese display translations with conditional GET support', async t => {
+    const fixture = await startFixture(t, {
+        zhTranslations: {
+            root_technology: { name: '根技术', description: '用于依赖根的测试技术。' }
+        }
+    });
+
+    const zhResponse = await fetch(`${fixture.baseUrl}/api/i18n/zh`, {
+        headers: { 'Accept-Encoding': 'identity' }
+    });
+    assert.equal(zhResponse.status, 200);
+    assert.deepEqual(await responseJson(zhResponse), {
+        root_technology: { name: '根技术', description: '用于依赖根的测试技术。' }
+    });
+    assert.equal(zhResponse.headers.get('cache-control'), 'public, no-cache');
+    const zhEtag = zhResponse.headers.get('etag');
+    assert.ok(zhEtag);
+
+    const conditional = await fetch(`${fixture.baseUrl}/api/i18n/zh`, {
+        headers: { 'Accept-Encoding': 'identity', 'If-None-Match': zhEtag }
+    });
+    assert.equal(conditional.status, 304);
+    assert.equal(await conditional.text(), '');
+
+    const methodResponse = await fetch(`${fixture.baseUrl}/api/i18n/zh`, { method: 'POST' });
+    assert.equal(methodResponse.status, 405);
+    assert.equal(methodResponse.headers.get('allow'), 'GET, HEAD');
+    assert.equal((await responseJson(methodResponse)).error.code, 'method_not_allowed');
 });
 
 test('revalidates tech-tree GET and HEAD responses without retransmitting the dataset', async t => {
@@ -251,10 +288,8 @@ test('keeps gzip GET and HEAD metadata consistent and skips compressed binary as
 
 test('rejects unsafe and symlinked public paths without terminating the server', async t => {
     const fixture = await startFixture(t);
-    fs.symlinkSync(path.join(fixture.rootDir, 'server.js'), path.join(fixture.rootDir, 'assets', 'private.js'));
 
     for (const unsafePath of [
-        '/assets/private.js',
         '/assets/%00',
         '/assets/%2e%2e%5cserver.js'
     ]) {
@@ -262,6 +297,20 @@ test('rejects unsafe and symlinked public paths without terminating the server',
         assert.equal(response.status, 404, unsafePath);
         assert.equal((await responseJson(response)).error.code, 'not_found');
     }
+
+    try {
+        fs.symlinkSync(path.join(fixture.rootDir, 'server.js'), path.join(fixture.rootDir, 'assets', 'private.js'));
+    } catch (error) {
+        if (error.code === 'EPERM' || error.code === 'EACCES') {
+            t.skip('environment denies symlink creation (Windows without privileges); symlink traversal untestable here');
+            return;
+        }
+        throw error;
+    }
+
+    const symlinkResponse = await fetch(`${fixture.baseUrl}/assets/private.js`);
+    assert.equal(symlinkResponse.status, 404);
+    assert.equal((await responseJson(symlinkResponse)).error.code, 'not_found');
 
     const healthResponse = await fetch(`${fixture.baseUrl}/api/config`);
     assert.equal(healthResponse.status, 200);

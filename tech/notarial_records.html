@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,6 +15,11 @@
     <link rel="canonical" href="https://pushme.site/techtree/tech/notarial_records.html" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","@id":"https://pushme.site/techtree/tech/notarial_records.html","name":"Medieval Notarial Registers","description":"Authenticated registers and cartularies compiled by trained notaries to preserve commercial agreements, property transfers, debts, wills, and civic legal acts.","identifier":"notarial_records","inDefinedTermSet":"https://pushme.site/techtree/","url":"https://pushme.site/techtree/tech/notarial_records.html","dateCreated":"1155","sameAs":"https://pushme.site/techtree/tech/notarial_records.html"}</script>
     <style>
+      html[data-lang="zh"] .i18n-en { display: none; }
+      html[data-lang="en"] .i18n-zh { display: none; }
+      .lang-toggle { margin-left: 0.75rem; padding: 0.15rem 0.6rem; cursor: pointer; }
+    </style>
+    <style>
       body { font-family: Arial, sans-serif; margin: 1.5rem; line-height: 1.5; color: #1f2937; }
       h1, h2 { margin: 1rem 0 0.5rem; }
       table { border-collapse: collapse; width: 100%; max-width: 100%; }
@@ -26,84 +31,86 @@
   </head>
   <body>
     <main>
-      <h1>Medieval Notarial Registers</h1>
-      <p>Authenticated registers and cartularies compiled by trained notaries to preserve commercial agreements, property transfers, debts, wills, and civic legal acts.</p>
+      <h1><span class="i18n-en">Medieval Notarial Registers</span><span class="i18n-zh">中世纪公证登记簿</span></h1>
+      <p><span class="i18n-en">Authenticated registers and cartularies compiled by trained notaries to preserve commercial agreements, property transfers, debts, wills, and civic legal acts.</span><span class="i18n-zh">由受训公证员编制、保全商事协议、产权转让、债务、遗嘱和市民法律行为的认证登记簿与簿册。</span></p>
       <nav>
-        <a href="https://pushme.site/techtree/?target=notarial_records">Graph</a>
-        <a href="https://pushme.site/techtree/sorted.html?target=notarial_records">Sorted View</a>
-        <a href="https://pushme.site/techtree/demo.html?target=notarial_records">Demo</a>
+        <a href="https://pushme.site/techtree/?target=notarial_records"><span class="i18n-en">Graph</span><span class="i18n-zh">图谱</span></a>
+        <a href="https://pushme.site/techtree/sorted.html?target=notarial_records"><span class="i18n-en">Sorted View</span><span class="i18n-zh">图谱视图</span></a>
+        <a href="https://pushme.site/techtree/demo.html?target=notarial_records"><span class="i18n-en">Demo</span><span class="i18n-zh">演示</span></a>
+        <button type="button" id="lang-toggle" class="lang-toggle"></button>
       </nav>
 
-      <h2>Core metadata</h2>
-      <ul><li><strong>ID:</strong> notarial_records</li><li><strong>Era:</strong> Medieval</li><li><strong>First known date:</strong> 1155 (exact)</li><li><strong>Region:</strong> Genoa / medieval Italian notarial recordkeeping</li><li><strong>Review status:</strong> source_checked</li><li><strong>Maturity:</strong> N/A</li></ul>
+      <h2><span class="i18n-en">Core metadata</span><span class="i18n-zh">核心元数据</span></h2>
+      <ul><li><strong>ID:</strong> notarial_records</li><li><strong><span class="i18n-en">Era</span><span class="i18n-zh">时代</span>:</strong> <span class="i18n-en">Medieval</span><span class="i18n-zh">中世纪</span></li><li><strong><span class="i18n-en">First known date</span><span class="i18n-zh">最早出现</span>:</strong> 1155 (<span class="i18n-en">exact</span><span class="i18n-zh">精确</span>)</li><li><strong><span class="i18n-en">Region</span><span class="i18n-zh">地区</span>:</strong> Genoa / medieval Italian notarial recordkeeping</li><li><strong><span class="i18n-en">Review status</span><span class="i18n-zh">审核状态</span>:</strong> <span class="i18n-en">source_checked</span><span class="i18n-zh">已核来源</span></li><li><strong><span class="i18n-en">Maturity</span><span class="i18n-zh">成熟度</span>:</strong> N/A</li></ul>
 
-      <h2>Prerequisites</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/contract_law.html">Contract Law (contract_law)</a></li><li><a href="https://pushme.site/techtree/tech/legal_systems_common_civil.html">Legal Systems (Common/Civil Law) (legal_systems_common_civil)</a></li><li><a href="https://pushme.site/techtree/tech/paper_making.html">Paper Making (paper_making)</a></li></ul>
+      <h2><span class="i18n-en">Prerequisites</span><span class="i18n-zh">前置技术</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/contract_law.html"><span class="i18n-en">Contract Law</span><span class="i18n-zh">契约法</span> (contract_law)</a></li><li><a href="https://pushme.site/techtree/tech/legal_systems_common_civil.html"><span class="i18n-en">Legal Systems (Common/Civil Law)</span><span class="i18n-zh">法律体系（普通法/大陆法）</span> (legal_systems_common_civil)</a></li><li><a href="https://pushme.site/techtree/tech/paper_making.html"><span class="i18n-en">Paper Making</span><span class="i18n-zh">造纸</span> (paper_making)</a></li></ul>
 
-      <h2>Dependents</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/guild_apprentice_contracts.html">Guild Apprentice Contracts (guild_apprentice_contracts)</a></li><li><a href="https://pushme.site/techtree/tech/letters_of_credit.html">Letters of Credit (letters_of_credit)</a></li><li><a href="https://pushme.site/techtree/tech/maritime_insurance.html">Maritime Insurance (maritime_insurance)</a></li><li><a href="https://pushme.site/techtree/tech/merchant_courier_networks.html">Merchant Courier Networks (merchant_courier_networks)</a></li><li><a href="https://pushme.site/techtree/tech/merchant_courts.html">Merchant Courts (merchant_courts)</a></li><li><a href="https://pushme.site/techtree/tech/merchant_risk_pooling.html">Sea Loan &amp; Commenda Risk Sharing (merchant_risk_pooling)</a></li><li><a href="https://pushme.site/techtree/tech/watermark_paper_authentication.html">Watermark Paper Authentication (watermark_paper_authentication)</a></li></ul>
+      <h2><span class="i18n-en">Dependents</span><span class="i18n-zh">依赖方</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/guild_apprentice_contracts.html"><span class="i18n-en">Guild Apprentice Contracts</span><span class="i18n-zh">行会学徒契约</span> (guild_apprentice_contracts)</a></li><li><a href="https://pushme.site/techtree/tech/letters_of_credit.html"><span class="i18n-en">Letters of Credit</span><span class="i18n-zh">信用证</span> (letters_of_credit)</a></li><li><a href="https://pushme.site/techtree/tech/maritime_insurance.html"><span class="i18n-en">Maritime Insurance</span><span class="i18n-zh">海上保险</span> (maritime_insurance)</a></li><li><a href="https://pushme.site/techtree/tech/merchant_courier_networks.html"><span class="i18n-en">Merchant Courier Networks</span><span class="i18n-zh">商人信使网络</span> (merchant_courier_networks)</a></li><li><a href="https://pushme.site/techtree/tech/merchant_courts.html"><span class="i18n-en">Merchant Courts</span><span class="i18n-zh">商人法庭</span> (merchant_courts)</a></li><li><a href="https://pushme.site/techtree/tech/merchant_risk_pooling.html"><span class="i18n-en">Sea Loan &amp; Commenda Risk Sharing</span><span class="i18n-zh">海上借贷与康孟达风险分担</span> (merchant_risk_pooling)</a></li><li><a href="https://pushme.site/techtree/tech/watermark_paper_authentication.html"><span class="i18n-en">Watermark Paper Authentication</span><span class="i18n-zh">水印纸张鉴别</span> (watermark_paper_authentication)</a></li></ul>
 
-      <h2>Fields</h2>
-      <ul><li>None.</li></ul>
+      <h2><span class="i18n-en">Fields</span><span class="i18n-zh">领域</span></h2>
+      <ul><li><span class="i18n-en">None.</span><span class="i18n-zh">无。</span></li></ul>
 
       
 
-      <h2>Node sources</h2>
-      <ul><li><a href="https://www.museidigenova.it/en/cartulary-giovanni-scriba" target="_blank" rel="noopener noreferrer">Cartulary of Giovanni Scriba</a> (Museums in Genoa / State Archive of Genoa, 2026, official_agency) • Supports: node, maturity, edge<br/><small>Locator: The State Archive of Genoa page identifies Giovanni Scriba&#39;s register as the oldest existing notarial register, a paper manuscript, and the start of a long medieval Genoese notarial series.</small></li><li><a href="https://doi.org/10.1017/CBO9780511576423.002" target="_blank" rel="noopener noreferrer">Genoa at the Dawn of the Commercial Expansion</a> (Cambridge University Press, 2009, review) • Supports: node, maturity, edge<br/><small>Locator: Chapter summary says the Genoese created the oldest surviving notarial cartularies in Europe, Giovanni Scriba, 1155-64, and connects them to commercial agreements.</small></li><li><a href="https://academic.oup.com/past/article/230/suppl_11/71/2884263" target="_blank" rel="noopener noreferrer">Roman Notarial Records between Market and State</a> (Past &amp; Present / Oxford Academic, 2016, review) • Supports: node, edge<br/><small>Locator: Article extract explains that notarial records in Italy reflect medieval Italy&#39;s commercial dynamism and political fragmentation, and that Roman-law-influenced areas used notaries.</small></li></ul>
+      <h2><span class="i18n-en">Node sources</span><span class="i18n-zh">节点来源</span></h2>
+      <ul><li><a href="https://www.museidigenova.it/en/cartulary-giovanni-scriba" target="_blank" rel="noopener noreferrer">Cartulary of Giovanni Scriba</a> (Museums in Genoa / State Archive of Genoa, 2026, <span class="i18n-en">official_agency</span><span class="i18n-zh">官方机构</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node, maturity, edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> The State Archive of Genoa page identifies Giovanni Scriba&#39;s register as the oldest existing notarial register, a paper manuscript, and the start of a long medieval Genoese notarial series.</small></li><li><a href="https://doi.org/10.1017/CBO9780511576423.002" target="_blank" rel="noopener noreferrer">Genoa at the Dawn of the Commercial Expansion</a> (Cambridge University Press, 2009, <span class="i18n-en">review</span><span class="i18n-zh">综述</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node, maturity, edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Chapter summary says the Genoese created the oldest surviving notarial cartularies in Europe, Giovanni Scriba, 1155-64, and connects them to commercial agreements.</small></li><li><a href="https://academic.oup.com/past/article/230/suppl_11/71/2884263" target="_blank" rel="noopener noreferrer">Roman Notarial Records between Market and State</a> (Past &amp; Present / Oxford Academic, 2016, <span class="i18n-en">review</span><span class="i18n-zh">综述</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node, edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Article extract explains that notarial records in Italy reflect medieval Italy&#39;s commercial dynamism and political fragmentation, and that Roman-law-influenced areas used notaries.</small></li></ul>
 
-      <h2>Prerequisite edge evidence</h2>
+      <h2><span class="i18n-en">Prerequisite edge evidence</span><span class="i18n-zh">前置边证据</span></h2>
       
-    <p><strong>Edge/source evidence summary:</strong></p>
+    <p><strong><span class="i18n-en">Edge/source evidence summary:</span><span class="i18n-zh">边/来源证据汇总：</span></strong></p>
     <ul>
-      <li>Prerequisite edges: 3</li>
-      <li>Average edge confidence: 74%</li>
-      <li>Prerequisite sources: 3</li>
-      <li>review: 3</li>
+      <li><span class="i18n-en">Prerequisite edges:</span><span class="i18n-zh">前置边：</span> 3</li>
+      <li><span class="i18n-en">Average edge confidence:</span><span class="i18n-zh">平均边置信度：</span> 74%</li>
+      <li><span class="i18n-en">Prerequisite sources:</span><span class="i18n-zh">前置来源数：</span> 3</li>
+      <li><span class="i18n-en">review</span><span class="i18n-zh">综述</span>: 3</li>
     </ul>
 
       <table>
         <thead>
           <tr>
-            <th>Prerequisite</th>
-            <th>Type</th>
-            <th>Confidence</th>
-            <th>Evidence level</th>
-            <th>Note</th>
-            <th>Sources</th>
+            <th><span class="i18n-en">Prerequisite</span><span class="i18n-zh">前置技术</span></th>
+            <th><span class="i18n-en">Type</span><span class="i18n-zh">类型</span></th>
+            <th><span class="i18n-en">Confidence</span><span class="i18n-zh">置信度</span></th>
+            <th><span class="i18n-en">Evidence level</span><span class="i18n-zh">证据等级</span></th>
+            <th><span class="i18n-en">Note</span><span class="i18n-zh">说明</span></th>
+            <th><span class="i18n-en">Sources</span><span class="i18n-zh">来源</span></th>
           </tr>
         </thead>
         <tbody>
           
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/contract_law.html">Contract Law</a> (contract_law)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/contract_law.html"><span class="i18n-en">Contract Law</span><span class="i18n-zh">契约法</span></a> (contract_law)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>76%</td>
-              <td>review</td>
+              <td><span class="i18n-en">review</span><span class="i18n-zh">综述</span></td>
               <td>Notarial registers preserved commercial agreements and legal acts, so contract law supplies the agreement and obligation framework that the records authenticated.</td>
-              <td><ul><li><a href="https://doi.org/10.1017/CBO9780511576423.002" target="_blank" rel="noopener noreferrer">Genoa at the Dawn of the Commercial Expansion</a> (Cambridge University Press, 2009, review) • Supports: edge<br/><small>Locator: Chapter summary dates Giovanni Scriba&#39;s surviving notarial cartularies to 1155-64 and ties Genoese social encounters to commercial agreements.</small></li></ul></td>
+              <td><ul><li><a href="https://doi.org/10.1017/CBO9780511576423.002" target="_blank" rel="noopener noreferrer">Genoa at the Dawn of the Commercial Expansion</a> (Cambridge University Press, 2009, <span class="i18n-en">review</span><span class="i18n-zh">综述</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Chapter summary dates Giovanni Scriba&#39;s surviving notarial cartularies to 1155-64 and ties Genoese social encounters to commercial agreements.</small></li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/paper_making.html">Paper Making</a> (paper_making)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/paper_making.html"><span class="i18n-en">Paper Making</span><span class="i18n-zh">造纸</span></a> (paper_making)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>72%</td>
-              <td>review</td>
+              <td><span class="i18n-en">review</span><span class="i18n-zh">综述</span></td>
               <td>The scoped anchor artifact is a paper manuscript, making paper production an enabling medium for this surviving register tradition.</td>
-              <td><ul><li><a href="https://www.museidigenova.it/en/cartulary-giovanni-scriba" target="_blank" rel="noopener noreferrer">Cartulary of Giovanni Scriba</a> (Museums in Genoa / State Archive of Genoa, 2026, official_agency) • Supports: edge<br/><small>Locator: The State Archive of Genoa object page identifies the register as a paper manuscript and the oldest paper code in Western Europe.</small></li></ul></td>
+              <td><ul><li><a href="https://www.museidigenova.it/en/cartulary-giovanni-scriba" target="_blank" rel="noopener noreferrer">Cartulary of Giovanni Scriba</a> (Museums in Genoa / State Archive of Genoa, 2026, <span class="i18n-en">official_agency</span><span class="i18n-zh">官方机构</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> The State Archive of Genoa object page identifies the register as a paper manuscript and the oldest paper code in Western Europe.</small></li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/legal_systems_common_civil.html">Legal Systems (Common/Civil Law)</a> (legal_systems_common_civil)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/legal_systems_common_civil.html"><span class="i18n-en">Legal Systems (Common/Civil Law)</span><span class="i18n-zh">法律体系（普通法/大陆法）</span></a> (legal_systems_common_civil)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>74%</td>
-              <td>review</td>
+              <td><span class="i18n-en">review</span><span class="i18n-zh">综述</span></td>
               <td>Medieval Italian notarial records developed in Roman-law-influenced legal systems where notaries authenticated private legal acts.</td>
-              <td><ul><li><a href="https://academic.oup.com/past/article/230/suppl_11/71/2884263" target="_blank" rel="noopener noreferrer">Roman Notarial Records between Market and State</a> (Past &amp; Present / Oxford Academic, 2016, review) • Supports: edge<br/><small>Locator: Article extract says areas influenced by Roman law used notaries and that medieval Italians developed notarial records as a powerful form of writing.</small></li></ul></td>
+              <td><ul><li><a href="https://academic.oup.com/past/article/230/suppl_11/71/2884263" target="_blank" rel="noopener noreferrer">Roman Notarial Records between Market and State</a> (Past &amp; Present / Oxford Academic, 2016, <span class="i18n-en">review</span><span class="i18n-zh">综述</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Article extract says areas influenced by Roman law used notaries and that medieval Italians developed notarial records as a powerful form of writing.</small></li></ul></td>
             </tr>
         </tbody>
       </table>
 
-      <p><small>This page is generated from canonical era JSON and is indexable by URL.</small></p>
+      <p><small><span class="i18n-en">This page is generated from canonical era JSON and is indexable by URL.</span><span class="i18n-zh">本页由正典时代 JSON 生成，可按 URL 索引。</span></small></p>
     </main>
+    <script src="../i18n-static.js"></script>
   </body>
 </html>

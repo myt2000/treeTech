@@ -1,0 +1,126 @@
+ion_implantation	离子注入	把离子加速注入晶圆的半导体掺杂方法，精确控制晶体管电学特性。
+isotope_separation	同位素分离	把某元素特定同位素从其他同位素中分离富集的过程，对核应用至关重要。
+jet_aircraft_high_speed_flight	喷气飞机（高速飞行）	以喷气发动机推进、实现显著更快更高等级飞行的飞机。
+jet_airliners	喷气式客机	以喷气发动机为动力、飞行更快航程更长运力更大的商用客机。
+jet_engine	喷气发动机	从高速喷出的热气流产生推力的吸气式发动机。
+lab_on_a_chip	芯片实验室	把样品处理、反应、分离、传感和分析集成于小型流控芯片的微型化装置。
+laparoscopic_surgery	腹腔镜手术	运用摄像头、气腹、器械、视频显示和专门训练的微创外科。
+large_language_models	大语言模型	在广泛语料上训练的超大型 transformer 模型，能生成、摘要、翻译、推理并转换语言与代码。
+laser_scanners	激光扫描仪	利用激光与探测器读码、测量表面、扫描文件并测绘环境的光学系统。
+lasers	激光器	基于受激辐射光放大过程发射光的装置。
+lead_optimization	先导化合物优化	在进入临床开发之前，对候选分子在效价、选择性、暴露量、安全性和可制造性上的迭代改进。
+led_lighting_efficient_illumination	LED 照明（高效照明）	用于通用照明、兼具高光效与长寿命的发光二极管。
+linguistics_computational	计算语言学	对语言结构、语义、语音与文本的计算建模，服务翻译、搜索、对话与语言理解。
+lipid_nanoparticles	脂质纳米颗粒	用于保护并递送 RNA 等脆弱治疗分子进入细胞的纳米级脂质载体。
+liquid_crystal_displays_lcd_screens	液晶显示器（LCD 屏）	利用液晶光调制特性的平板显示器。
+liquid_fuel_propellants	液体燃料推进剂	比固体燃料性能更高、控制性更好的火箭液体化学推进剂的发展。
+liquid_fuel_rockets	液体燃料火箭	以泵送或增压液体推进剂获得可控高性能推力的火箭发动机。
+lithium_ion_batteries_rechargeable_power	锂离子电池（可充电电源）	广泛用于便携电子和电动汽车的高能量密度可充电电池。
+local_area_networks	局域网	以共享介质和分组协议把房间、楼宇、园区或工厂内的设备连成计算机网络的系统。
+lte_4g_networks	LTE / 4G 网络	采用 OFDMA 无线接入、演进分组核心与高吞吐蜂窝数据服务的全 IP 移动宽带网络。
+machine_learning_early_algorithms	机器学习（早期算法）	让计算机系统从数据中学习而无需显式编程的算法的发展（如决策树、支持向量机）。
+machine_vision_robotics	机器人机器视觉	让机器人检验物体、定位零件并引导动作的相机、照明与图像处理系统。
+magnetic_resonance_imaging	磁共振成像	基于核磁共振，结合磁体、射频信号、计算机与临床重建的医学成像。
+magnetic_tape_data_storage	磁带数据存储	把数字数据存储于磁带上，是早期的大容量计算机存储形式。
+mammography_screening	乳腺X光筛查	针对乳腺癌筛查、诊断与随访优化的低剂量X射线成像。
+masers_early	微波激射器（早期发展）	通过受激辐射放大产生相干电磁波的器件（微波频段），是激光器的前身。
+mass_media	大众媒体	经由大众传播触达大量受众、塑造文化与舆论的媒介技术总称。
+material_science_lightweight_alloys	材料科学（轻质合金）	面向航空航天等应用、以铝基和钛基为重点的高强轻质金属合金的发展。
+materials_informatics	材料信息学	借助数据库、仿真、机器学习和高通量实验的数据驱动材料发现。
+medical_linear_accelerators	医用直线加速器	融合粒子加速、成像、计划软件和临床安全系统的医院放疗设备。
+medicinal_chemistry	药物化学	结合有机化学、生物学和药理学，对类药分子进行设计、合成与优化。
+membrane_bioreactors	膜生物反应器	把生物处理与膜分离结合、产出高品质出水的污水处理系统。
+membrane_filtration_water_treatment	膜过滤水处理	微滤、超滤、纳滤及相关膜工艺，去除颗粒、病原体与溶解性污染物。
+mems_sensors	MEMS 传感器	以类半导体工艺制造的微机电加速度计、陀螺仪、压力传感器和麦克风。
+mesh_wifi_networks	Mesh Wi-Fi 网络	自组路由的无线接入点，扩展家庭、园区、城市与应急网络的覆盖、韧性与本地连接。
+messenger_rna_therapeutics	mRNA 疗法	面向疫苗、蛋白替代、肿瘤免疫治疗和快速响应治疗的可编程 RNA 药物。
+meteorology_advanced	高等气象学	基于数值模式、探空气球、雷达、卫星、遥感和全球观测网的天气科学。
+microfluidics	微流控	在通道与芯片中对微小液体体积进行精确操控，服务诊断、化学、生物与实验室自动化。
+microprocessors_cpu_on_a_chip	微处理器（单片 CPU）	制作在单一集成电路上的中央处理器，开启了个人计算机革命。
+microwave_relay_networks	微波接力网络	在铁塔间以视距无线中继承载电话、电视与数据业务的网络。
+ml_benchmark_datasets	机器学习基准数据集	用于比较机器学习系统、衡量进展的标准化数据集与排行榜。
+mlops_model_serving	MLOps 与模型服务	面向模型版本、部署、监控、回滚、特征管线和可扩展推理的运维工具。
+mobile_broadband_networks	移动宽带网络	整合无线接入、分组交换、移动设备、基站、频谱管理与互联网服务的高速蜂窝网络。
+mobile_operating_systems_smartphone_os	移动操作系统（手机 OS）	专为智能手机、平板等移动设备设计的操作系统。
+mobile_phones	移动电话	使用蜂窝网络的便携通信设备。
+mobile_robot_navigation	移动机器人导航	借助感知、定位、地图与控制规划并执行环境运动的机器人系统。
+model_evaluation_benchmarks	模型评测基准	测量模型能力、稳健性、公平性与风险的系统测试、基准套件与评测框架。
+model_pretraining_finetuning	模型预训练与微调	先在广泛数据上训练大模型、再用较小的精选数据集适配下游任务的工作流。
+modern_economics_keynesian	现代经济学（凯恩斯主义）	关于经济中总支出决定因素及其对产出、就业和通胀影响的宏观经济理论。
+molecular_biology	分子生物学	生物学分支，关注细胞各系统中生物大分子之间生物活性的分子基础。
+molecular_diagnostics	分子诊断	基于 DNA、RNA、蛋白、扩增、测序与计算解读的医学检测。
+monoclonal_antibodies	单克隆抗体	实验室生产的替代抗体分子，用于诊断及癌症等疾病的治疗。
+mosfet_transistors	MOSFET 晶体管	经绝缘栅控制的场效应晶体管，成为密集数字集成电路的主流开关器件。
+mrna_vaccine_platforms	mRNA 疫苗平台	面向快速疫苗开发的合成信使 RNA 设计、脂质纳米颗粒与制造管线。
+mrna_vaccines	mRNA 疫苗	递送信使 RNA 指令、使细胞产生抗原并激发靶向免疫保护的疫苗。
+multi_factor_authentication	多因素认证	要求口令、持有物、生物特征或密钥等多类证据的身份核验。
+multimodal_contrastive_learning	多模态对比学习	以成对样本对齐图像与文本等跨模态表示的训练方法。
+nanomedicine_drug_delivery	纳米药物递送	利用脂质体、聚合物颗粒和脂质纳米颗粒等纳米载体保护、靶向或调控体内药物。
+nanotechnology	纳米技术	成熟的纳米科学与工程技术：在约1-100纳米尺度理解、测量、建模并操控物质。
+nanotechnology_early	纳米技术（早期研究）	在原子分子尺度操控物质，为未来纳米工程奠基。
+network_management_snmp	网络管理 / SNMP	利用结构化管理信息监测、配置和管理网络设备的协议与工具。
+network_time_protocol	网络时间协议	在分组交换网络中同步计算机时钟的互联网协议。
+neuroscience	神经科学	在分子、细胞与认知层面对神经系统（包括大脑）的科学研究。
+nuclear_fission	核裂变	原子核分裂并释放巨大能量的过程。
+nuclear_fusion_research	核聚变研究	驾驭核聚变能量的理论与实验努力，以托卡马克和仿星器为主。
+nuclear_magnetic_resonance	核磁共振	检测磁场中原子核射频共振信号的谱学方法，后来成为 MRI 的物理基础。
+nuclear_medicine_imaging	核医学成像	利用放射性示踪剂测量体内生理功能的诊断成像。
+nuclear_power	核能发电	利用受控核裂变生产电力。
+nuclear_weapons	核武器	以核裂变或核聚变为威力来源、破坏力极大的武器。
+numerical_control_automated_machining	数控（自动化加工）	用穿孔带上的程序指令自动化机床，是 CNC 的前身。
+object_oriented_programming	面向对象编程	以可包含数据与代码的“对象”为核心的编程范式，是软件设计的重大演进。
+open_source_software	开源软件	源码公开、采用宽松或著佐权许可、由分布式社区共同维护的协作软件开发。
+operating_systems_os_computer_management	操作系统（计算机管理）	管理计算机软硬件资源、为程序提供公共服务的系统软件。
+operations_research	运筹学	面向物流、战争、工业、金融和公共规划的数学优化、仿真、排队与决策分析。
+orbital_launch_vehicles	入轨运载火箭	可把载荷加速至入轨速度并部署航天器的多级火箭。
+organ_transplantation	器官移植	以供体器官成功替换衰竭器官的临床实践，以1954年波士顿肾移植为锚点，后经外科技术、感染控制与免疫排斥控制而扩展。
+p_n_junction_diode	P-N 结二极管	由 p 型与 n 型区结合形成的半导体二极管，实现整流并衍生后来的光电器件。
+pacemakers_implantable	植入式心脏起搏器	通过植入导线、电池与临床程控监测并调节心律的电子装置。
+packet_switching	分组交换	把数字消息拆成带地址的分组、在共享网络中独立路由——可扩展数据网络的基础。
+pam_recognition_constraint	PAM 识别约束	Cas9 靶 DNA 必须包含相容的前间隔序列邻近基序，Cas9 才能识别、解链并切割目标序列。
+pam_specificity_engineering	工程化 PAM 特异性变体	对 Cas 酶进行工程改造或定向进化，改变其前间隔序列邻近基序特异性，扩大可靶向基因组位点范围。
+particle_accelerators	粒子加速器	把亚原子粒子加速至高速以研究基础物理的装置。
+pcr_diagnostics	PCR 诊断	通过扩增核酸检测病原体、突变或遗传标志物的分子诊断检验。
+pcr_polymerase_chain_reaction	聚合酶链式反应（PCR）	快速复制特定 DNA 样本百万至数十亿份的革命性实验室技术，是现代基因分析的基础。
+perceptrons	感知机	以可调权重做二值模式分类的早期可训练人工神经网络。
+personal_computers	个人计算机	由微处理器驱动、面向个人使用的平价计算机。
+pesticide_herbicide_systems	农药与除草剂体系	现代合成农药除草剂化学及防治昆虫、杂草、真菌等农业有害生物的施用实践。
+pfas_treatment_water_systems	水体 PFAS 治理	面向 PFAS 污染水流的活性炭、离子交换、高压膜及破坏性处理方案。
+pharmaceuticals_drug_design	药物与药物设计	系统性（常借助计算机）发现和开发新药物与疗法的方法。
+pharmacogenomics	药物基因组学	利用遗传变异预测药物反应、剂量、疗效或不良反应。
+pharmacokinetics_pharmacodynamics	药代动力学与药效动力学	定量研究药物浓度与吸收、分布、代谢、排泄及效应随时间的关系。
+phase_i_iii_clinical_trials	Ⅰ-Ⅲ期临床试验	在监管批准之前评估安全性、剂量、疗效与比较获益的序贯人体药物试验。
+photolithography	光刻	用光把光掩模上的几何图形转印到基片的光刻胶上的工艺，是集成电路制造的关键。
+photoresist_chemistry	光刻胶化学	在半导体光刻中界定精细电路图形的感光聚合物体系。
+piezoelectric_ultrasonic_transducers	压电超声换能器	把电信号转换为超声脉冲与回波的石英及后来的压电器件，用于声呐、无损检测和医用超声。
+plant_breeding_hybridization	植物育种与杂交	以遗传学为指导、运用受控杂交与遗传规律培育改良作物品种的育种计划。
+plasma_etching	等离子体刻蚀	微细加工中以反应等离子体去除选定薄膜材料的干法刻蚀工艺。
+plasma_physics	等离子体物理	研究物质第四态（等离子体）的学科，对聚变研究和天体物理至关重要。
+point_of_care_testing	床旁即时检测	在集中实验室之外、于患者近旁开展的便携医学检测，支持快速临床决策。
+polymer_chemistry	高分子化学	聚焦聚合物与大分子的化学合成、结构及化学/物理性质的化学分支。
+pooled_crispr_screens	混合 CRISPR 筛选	把向导 RNA 与表型关联的文库级 CRISPR 扰动实验，用于基因功能发现。
+positron_emission_tomography_pet	正电子发射断层扫描（PET）	探测正电子示踪剂产生的符合伽马射线、绘制代谢与生理功能图的功能成像方法。
+power_electronics	电力电子	面向驱动器、电网、可再生能源和车辆的电能变换、开关与控制固态电路。
+precision_agriculture	精准农业	以传感、卫星、GPS、数据和自动化逐田块优化灌溉、施肥、播种与收获决策。
+precision_mechanics_miniaturization	精密机械与小型化	对高精度小尺度机械部件与系统的工程设计。
+prime_editing	先导编辑	使用 Cas 切刻酶、逆转录酶和先导编辑向导 RNA 进行“查找-替换”式精确基因组编辑。
+probabilistic_graphical_models	概率图模型	以图结构表示不确定关系的模型，如贝叶斯网络和马尔可夫随机场。
+prompt_engineering_system_prompts	提示工程与系统提示	设计自然语言指令、示例、约束和工具模式，在推理时引导基础模型行为。
+protein_engineering	蛋白质工程	设计并改造蛋白，以改变结合、催化、稳定性、特异性或细胞功能。
+protein_sequencing	蛋白质测序	测定蛋白质氨基酸排列顺序的化学方法，首例于胰岛素完成，是序列化分子生物学的基础。
+protein_structure_prediction_ai	AI 蛋白质结构预测	从序列和生物学数据预测蛋白质结构与相互作用的机器学习系统。
+public_key_infrastructure	公钥基础设施	X.509 证书体系：由证书机构把身份绑定到公钥、签发与吊销证书，支持信任链与路径验证。
+pulse_oximetry	脉搏血氧测量	利用光电容积描记无创监测动脉血氧饱和度与脉搏。
+pumped_hydro_storage	抽水蓄能	把水抽至上水库储存电网电力、需电时经水轮机放水发电的储能方式。
+quantum_physics	量子物理	始于1900年普朗克量子化、并在1925-1927年矩阵力学与波动力学形式中发展为现代量子力学的广义物理理论。
+radar_radio_detection_and_ranging	雷达（无线电探测与测距）	利用无线电波测定物体的距离、角度或速度。
+radio	无线电	以电磁波无线传输音频信号。
+radio_broadcasting	无线电广播	以无线电波向广大听众分发音频内容。
+randomized_controlled_trials	随机对照试验	把受试者随机分入治疗组或对照组以估计干预效果的试验设计。
+real_world_evidence_regulatory_science	真实世界证据监管科学	在试验之后或并行，用常规收集的健康数据研究药物安全性、有效性、使用与监管问题。
+recombinant_dna_genetic_engineering	重组 DNA 与基因工程	把来自不同物种的 DNA 分子拼接并导入宿主生物、产生新遗传组合的技术。
+recombinant_protein_drugs	重组蛋白药物	由工程化细胞生产的治疗蛋白，包括重组激素、酶、细胞因子和凝血因子。
+recommender_systems	推荐系统	基于用户行为与物品数据对商品、媒体、搜索结果和社交信息流进行排序与个性化。
+regulatory_drug_approval	药品监管审批	药物获准临床使用前，对质量、安全性和有效性证据的正式审评。
+reinforcement_learning	强化学习	智能体通过奖励、动作与环境互动改进策略的学习框架。
+relational_data_warehousing	关系型数据仓库	整合运营企业数据、为最终用户提供一致报表、计划与分析的关系型存储。

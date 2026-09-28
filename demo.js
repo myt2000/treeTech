@@ -243,7 +243,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function traceStatus(trace = currentTrace) {
         if (!trace) return '';
-        return `${trace.target.name} · ${trace.ids.length - 1} prerequisites · ${trace.edges.length} dependency edges`;
+        return I18N.t('demo_trace_status', '{name} · {p} prerequisites · {e} dependency edges')
+            .replace('{name}', trace.target.name)
+            .replace('{p}', trace.ids.length - 1)
+            .replace('{e}', trace.edges.length);
     }
 
     function getDependencyEdges(item) {
@@ -255,7 +258,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             type: 'required',
             confidence: 0.5,
             evidence_level: 'weak_inference',
-            note: 'Legacy prerequisite without edge-level metadata.'
+            note: I18N.lang === 'zh' ? '缺少边级元数据的旧版前置。' : 'Legacy prerequisite without edge-level metadata.'
         }));
     }
 
@@ -287,8 +290,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function formatDate(value) {
-        if (typeof value !== 'number') return 'date unknown';
-        if (value < 0) return `${Math.abs(value).toLocaleString()} BCE`;
+        if (typeof value !== 'number') return I18N.t('demo_date_unknown', 'date unknown');
+        if (value < 0) {
+            const count = Math.abs(value).toLocaleString();
+            return I18N.lang === 'zh' ? `公元前 ${count}` : `${count} BCE`;
+        }
         return String(value);
     }
 
@@ -323,7 +329,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (bracketMatch && graph?.byId.has(bracketMatch[1])) return bracketMatch[1];
         const normalized = String(value || '').trim().toLowerCase();
         if (!normalized) return null;
-        const exact = techData.find(item => item.id.toLowerCase() === normalized || item.name.toLowerCase() === normalized);
+        const exact = techData.find(item => item.id.toLowerCase() === normalized
+            || item.name.toLowerCase() === normalized
+            || (I18N.zhEntry(item.id)?.name || '').toLowerCase() === normalized);
         return exact?.id || null;
     }
 
@@ -339,7 +347,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function buildTrace(id) {
-        const target = graph.byId.get(id);
+        const target = I18N.localize(graph.byId.get(id));
         if (!target) return null;
         const ids = new Set([id]);
         const edges = [];
@@ -480,45 +488,68 @@ document.addEventListener('DOMContentLoaded', async () => {
     function sourcePhrase(scene, trace) {
         if (scene.target) {
             const sourced = trace.edges.filter(entry => hasEdgeSource(entry.edge)).length;
-            return `${sourced}/${trace.edges.length} edge receipts`;
+            return I18N.t('demo_edge_receipts', '{a}/{b} edge receipts')
+                .replace('{a}', sourced)
+                .replace('{b}', trace.edges.length);
         }
-        if (scene.edge && hasEdgeSource(scene.edge)) return 'edge source checked';
-        if (scene.item.sources?.length) return `${scene.item.sources.length} node source${scene.item.sources.length === 1 ? '' : 's'}`;
-        return 'needs deeper sourcing';
+        if (scene.edge && hasEdgeSource(scene.edge)) return I18N.t('demo_edge_source_checked', 'edge source checked');
+        if (scene.item.sources?.length) {
+            return I18N.lang === 'zh'
+                ? `${scene.item.sources.length} 个节点来源`
+                : `${scene.item.sources.length} node source${scene.item.sources.length === 1 ? '' : 's'}`;
+        }
+        return I18N.t('demo_needs_sourcing', 'needs deeper sourcing');
     }
 
     function makeFallbackTitle(item, target) {
-        if (item.id === target.id) return 'The Payoff';
+        if (item.id === target.id) return I18N.t('demo_fallback_title', 'The Payoff');
         const lane = item.fieldLanes?.[target.fields?.[0] || ''];
+        if (I18N.lang === 'zh') {
+            if (lane) return I18N.label(lane);
+            return I18N.localize(item).name;
+        }
         if (lane && lane !== 'General') return lane.replace(/&/g, 'and');
         return item.name;
     }
 
     function makeCaption(item, edge, target) {
         if (item.id === target.id) {
-            return 'The target is the final frame: many earlier capabilities arriving in the right order.';
+            return I18N.t('demo_caption_target', 'The target is the final frame: many earlier capabilities arriving in the right order.');
         }
-        if (edge?.type === 'required') return `${item.name} is a hard prerequisite in the visible path to ${target.name}.`;
-        if (edge?.type === 'enabling') return `${item.name} makes the next step practical rather than merely imaginable.`;
-        if (edge?.type === 'commercial_or_scaling_dependency') return `${item.name} helps move the idea from lab result to repeatable system.`;
+        if (edge?.type === 'required') {
+            return I18N.t('demo_caption_required', '{name} is a hard prerequisite in the visible path to {target}.')
+                .replace('{name}', item.name)
+                .replace('{target}', target.name);
+        }
+        if (edge?.type === 'enabling') {
+            return I18N.t('demo_caption_enabling', '{name} makes the next step practical rather than merely imaginable.')
+                .replace('{name}', item.name);
+        }
+        if (edge?.type === 'commercial_or_scaling_dependency') {
+            return I18N.t('demo_caption_scaling', '{name} helps move the idea from lab result to repeatable system.')
+                .replace('{name}', item.name);
+        }
         if (item.description) return item.description;
-        return `${item.name} becomes part of the path toward ${target.name}.`;
+        return I18N.t('demo_caption_generic', '{name} becomes part of the path toward {target}.')
+            .replace('{name}', item.name)
+            .replace('{target}', target.name);
     }
 
     function buildScenes(trace) {
         const curated = storyCuts[trace.target.id];
         if (curated) {
+            const zhCut = I18N.lang === 'zh' ? (window.ZH_STORY_CUTS?.[trace.target.id] || []) : [];
             return curated
                 .filter(beat => graph.byId.has(beat.id))
                 .map((beat, index, beats) => {
-                    const item = graph.byId.get(beat.id);
+                    const item = I18N.localize(graph.byId.get(beat.id));
                     const nextId = beats[index + 1]?.id || trace.target.id;
                     const edge = item.id === trace.target.id ? null : bestEdgeForMilestone(item.id, nextId, trace);
                     return {
                         item,
                         edge,
-                        title: beat.title,
-                        caption: beat.caption,
+                        title: zhCut[index]?.title || beat.title,
+                        caption: zhCut[index]?.caption || beat.caption,
                         target: item.id === trace.target.id || index === beats.length - 1,
                         kind: classifyScene(item),
                         visual: beat.visual,
@@ -529,7 +560,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         const ids = selectMilestones(trace).slice(-6);
         return ids.map((id, index) => {
-            const item = graph.byId.get(id);
+            const item = I18N.localize(graph.byId.get(id));
             const nextId = ids[index + 1] || trace.target.id;
             const edge = id === trace.target.id ? null : bestEdgeForMilestone(id, nextId, trace);
             return {
@@ -1481,19 +1512,22 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (scenes.length && activeIndex !== lastProgressScene) {
             progressTrackEl.setAttribute(
                 'aria-valuetext',
-                `Scene ${activeIndex + 1} of ${scenes.length}: ${scenes[activeIndex].title || scenes[activeIndex].item.name}`
+                I18N.t('demo_scene_of', 'Scene {i} of {n}: {title}')
+                    .replace('{i}', activeIndex + 1)
+                    .replace('{n}', scenes.length)
+                    .replace('{title}', scenes[activeIndex].title || scenes[activeIndex].item.name)
             );
             lastProgressScene = activeIndex;
         }
     }
 
     function updateSceneText(scene) {
-        kickerEl.textContent = `${formatDate(scene.item.firstKnownDate)} · ${scene.item.era || 'Unknown era'} · ${sourcePhrase(scene, currentTrace)}`;
+        kickerEl.textContent = `${formatDate(scene.item.firstKnownDate)} · ${scene.item.era ? I18N.label(scene.item.era) : I18N.t('unknown_era', 'Unknown era')} · ${sourcePhrase(scene, currentTrace)}`;
         titleEl.textContent = scene.title || scene.item.name;
         captionEl.textContent = scene.caption;
         metaEl.textContent = scene.target
-            ? 'Target technology'
-            : `${scene.item.name} · ${scene.edge?.type ? scene.edge.type.replaceAll('_', ' ') : 'dependency'}`;
+            ? I18N.t('demo_target_badge', 'Target technology')
+            : `${scene.item.name} · ${scene.edge?.type ? I18N.label(scene.edge.type) : I18N.t('demo_dependency_fallback', 'dependency')}`;
         [...sceneListEl.children].forEach((child, index) => {
             const active = index === activeIndex;
             child.classList.toggle('is-active', active);
@@ -1525,7 +1559,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         requestRender();
         if (announce && targetInput.getAttribute('aria-invalid') !== 'true') {
             const scene = scenes[normalizedIndex];
-            setStatus(`Scene ${normalizedIndex + 1} of ${scenes.length}: ${scene.title || scene.item.name}`);
+            setStatus(I18N.t('demo_scene_of', 'Scene {i} of {n}: {title}')
+                .replace('{i}', normalizedIndex + 1)
+                .replace('{n}', scenes.length)
+                .replace('{title}', scene.title || scene.item.name));
         }
         if (focus) sceneListEl.children[normalizedIndex]?.focus();
     }
@@ -1540,7 +1577,10 @@ document.addEventListener('DOMContentLoaded', async () => {
             date.textContent = formatDate(scene.item.firstKnownDate);
             title.textContent = scene.title || scene.item.name;
             button.append(date, title);
-            button.setAttribute('aria-label', `Scene ${index + 1} of ${scenes.length}: ${date.textContent}, ${title.textContent}`);
+            button.setAttribute('aria-label', I18N.t('demo_scene_of', 'Scene {i} of {n}: {title}')
+                .replace('{i}', index + 1)
+                .replace('{n}', scenes.length)
+                .replace('{title}', `${date.textContent}, ${title.textContent}`));
             button.addEventListener('click', () => seekToScene(index));
             button.addEventListener('keydown', event => {
                 let nextIndex = null;
@@ -1586,8 +1626,10 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function updatePlaybackControl() {
-        playToggle.textContent = running ? 'Pause' : 'Play';
-        playToggle.setAttribute('aria-label', running ? 'Pause documentary' : 'Play documentary');
+        playToggle.textContent = running ? I18N.t('doc_pause', 'Pause') : I18N.t('doc_play', 'Play');
+        playToggle.setAttribute('aria-label', running
+            ? I18N.t('doc_pause_aria', 'Pause documentary')
+            : I18N.t('doc_play_aria', 'Play documentary'));
     }
 
     function setRunning(value, { userInitiated = false } = {}) {
@@ -1623,8 +1665,9 @@ document.addEventListener('DOMContentLoaded', async () => {
             return;
         }
         targetInput.setAttribute('aria-invalid', 'true');
-        setTargetStatus('Target not found. Choose a technology from the suggestions.', 'error');
-        setStatus('Target not found. Choose a technology from the suggestions.', 'error');
+        const notFound = I18N.t('demo_target_not_found', 'Target not found. Choose a technology from the suggestions.');
+        setTargetStatus(notFound, 'error');
+        setStatus(notFound, 'error');
     }
 
     function handleReducedMotionChange(event) {
@@ -1634,18 +1677,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     updatePlaybackControl();
 
     try {
-        setStatus('Loading graph...');
+        setStatus(I18N.t('doc_kicker_loading', 'Loading graph...'));
         const response = await fetch('api/tech-tree');
         if (!response.ok) throw new Error('Failed to load technology graph');
         techData = await response.json();
         graph = buildGraph(techData);
+        await I18N.loadData();
 
         const options = techData
             .slice()
             .sort((a, b) => a.name.localeCompare(b.name))
             .map(item => {
                 const option = document.createElement('option');
-                option.value = `${item.name} [${item.id}]`;
+                option.value = `${I18N.localize(item).name} [${item.id}]`;
                 return option;
             });
         targetOptionsEl.replaceChildren(...options);
@@ -1710,8 +1754,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         requestRender();
     } catch (error) {
         console.error(error);
-        setStatus('Failed to load demo.', 'error');
-        titleEl.textContent = 'TechTree demo failed to load';
+        setStatus(I18N.t('demo_load_failed', 'Failed to load demo.'), 'error');
+        titleEl.textContent = I18N.t('demo_load_failed_title', 'TechTree demo failed to load');
         captionEl.textContent = error.message;
         stageEl.setAttribute('aria-busy', 'false');
     }

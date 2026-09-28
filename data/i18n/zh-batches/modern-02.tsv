@@ -1,0 +1,126 @@
+digital_identity_federation	数字身份联合	跨组织访问控制所需的单点登录、身份提供方、令牌与信任框架。
+digital_identity_systems	数字身份系统	在线认证人员、组织、设备与服务的技术与制度体系。
+digital_music_distribution	数字音乐发行	对录制音乐进行编码、分发、变现、推荐和授权的在线平台。
+digital_payment_gateways	数字支付网关	连接商户、银行、卡组织、风控、身份、清算与电商流程的在线支付系统。
+digital_payment_wallets	数字支付钱包	在智能手机上保存支付凭证或储值账户，并经既有支付网络实现 NFC 挥手支付或应用内支付的手机钱包软件。
+digital_photography_ccd_cmos_sensors	数码摄影（CCD/CMOS 传感器）	以感光半导体传感器电子化地捕获图像。
+digital_signal_processing	数字信号处理（DSP）	对已转换为数字形式的信号（音频、视频等）进行处理。
+digital_signatures	数字签名	把消息绑定到私钥的密码学方案，使接收方可验证真实性、完整性与不可否认性。
+digital_subscriber_line_dsl	数字用户线路（DSL）	以 ADSL 为锚点的标准化 DSL 宽带接入技术，在运营商设备与用户驻地之间的既有金属双绞电话线上使用高频信号。
+digital_twin_infrastructure	数字孪生基础设施	面向建筑、工厂、电网、车辆、城市和供应链的动态数字模型，用于监测与优化。
+digital_twins	数字孪生	用于监测、仿真、预测和控制的机器、工厂、城市或人体的计算复制品。
+digital_video_streaming_platforms	数字视频流媒体平台	经由互联网与移动网络对视频进行编码、分发、推荐、变现与观看的在线系统。
+disaster_early_warning_systems	灾害预警系统	在洪水、风暴、火灾、海啸等灾害来临前向社区预警的传感、预报、通信与响应系统。
+dna_repair_nhej_hdr	NHEJ 与 HDR DNA 修复编辑	利用细胞非同源末端连接与同源定向修复通路，把核酸酶切口转化为敲除或精确编辑。
+dna_sequencing	DNA 测序	测定 DNA 分子内核苷酸的精确排列顺序。
+dna_structure	DNA 结构	遗传的分子基础——脱氧核糖核酸双螺旋结构的发现。
+dna_synthesis_oligonucleotides	DNA 合成与寡核苷酸	以化学和酶法生产指定 DNA 序列，用作引物、探针、向导 RNA、基因和合成构建体。
+domain_name_system	域名系统	把人类可读的互联网名称映射为网络地址和服务记录的分布式命名系统。
+double_blind_clinical_trials	双盲临床试验	受试者与研究者均不知晓治疗分组的临床试验设计，用以减少偏倚。
+dram_memory	DRAM 内存	以电容电荷存储比特、由控制电路周期刷新的动态随机存取存储器。
+drip_irrigation	滴灌	通过滴头和管路把水直接送到植物根系的低压灌溉。
+drone_aerial_mapping	无人机航测	面向测绘、摄影测量、巡检、农业、救灾和制图的小型无人机作业流程。
+drone_autonomy	无人机自主性	面向无人航空器的自主飞行控制、感知、规划与机队运营。
+duv_stepper_lithography	DUV 步进光刻	利用步进机和扫描光刻机以深紫外投影光刻先进半导体层。
+e_commerce_platforms	Web 电商平台	融合商品目录、搜索、账户、下单、信任、客服与履约协同的网店与商城系统。
+e-commerce	电子商务	借助互联网买卖商品或服务，并通过资金与数据流转完成交易。
+earth_observation_analytics	地球观测分析	把卫星影像转化为农业、气候、安全和基础设施情报的云端流水线。
+earth_observation_satellites	对地观测卫星	搭载光学、雷达、热红外或多光谱传感器的在轨平台，服务测绘、气象、气候与安全。
+earth_system_models	地球系统模式	耦合大气、海洋、冰冻圈、陆地、生物圈和人类排放的计算模型，用于气候与环境预测。
+economics_behavioral	经济学（行为）	研究心理、认知、情绪、文化与社会因素对个人与机构经济决策影响的学科。
+edge_ai_inference	边缘 AI 推理	在靠近数据源的手机、摄像头、车辆、传感器和嵌入式芯片上运行已训练模型。
+edge_computing	边缘计算	把计算与存储移近用户、传感器和设备，以降低时延、节省带宽并减少对中央基础设施的依赖。
+electric_vehicle_charging_networks	电动汽车充电网络	支撑电动道路交通的分布式充电站、支付系统、电网接入与管理软件。
+electrolyzer_manufacturing	电解槽制造	面向能源与工业用途的电解水制氢/氧电化学系统的规模化生产。
+electron_microscope	电子显微镜	以电子束而非可见光成像、可达纳米尺度的显微技术。
+electron_microscopy_advanced	高等电子显微镜	配备数字探测器、制样与计算重建的高分辨扫描与透射电子显微技术。
+electronic_design_automation_eda	电子设计自动化	用于定义、仿真、验证、布局布线和检查集成电路设计的软件工具。
+electronic_health_records	电子健康档案	整合病程记录、用药、检验、影像、医嘱、计费与照护协同的结构化临床记录。
+electronics	电子学	以电子为主导控制电能的科学，涵盖真空管与半导体。
+email_messaging_protocols	电子邮件与消息协议	使用地址、路由、邮件服务器、收件箱、附件和标准化协议的网络化异步通信系统。
+encryption_modern_cryptography_public_key	加密（现代密码学、公钥）	包括公钥密码在内的先进密码体系的构建，用于安全通信。
+endoscopy_video_systems	视频内镜系统	以光纤和数字仪器观察、记录并微创处理内脏器官。
+endpoint_detection_response	端点检测与响应	采集遥测、识别恶意行为、调查事件并处置受感染主机的主机安全平台。
+enterprise_cyber_identity	企业网络身份	面向组织的目录服务、单点登录、访问控制、审计日志与身份治理。
+enterprise_resource_planning	企业资源计划	围绕共享数据和流程整合财务、库存、制造、采购、人力资源与报表的一体化企业软件。
+environmental_dna_monitoring	环境 DNA 提取与监测	直接从土壤、水体、沉积物或空气样本中提取 DNA，后扩展为无创生物多样性与病原体监测。
+environmentalism_ecology	环保运动与生态学	十九世纪命名的科学生态学，以及后来以保护自然系统为关切的社会政治环境运动。
+ethernet	以太网	在共享或交换链路上以帧化分组通信的有线局域网家族。
+euv_lithography	极紫外（EUV）光刻	ASML 的极紫外光刻系统以13.5纳米光刻印最尖端芯片上最精细的层。
+ex_vivo_crispr_cell_therapy	体外 CRISPR 细胞疗法	在体外编辑患者或供体细胞、扩增检验后作为治疗产品回输。
+exoplanet_detection_analysis	系外行星探测与分析	利用凌星、视向速度、直接成像及相关天文数据分析方法探测研究太阳系外行星。
+fan_out_wafer_level_packaging	扇出型晶圆级封装	把已知良品裸片嵌入重构晶圆或面板、经再布线层向外引出 I/O 的晶圆级封装架构。
+federated_learning	联邦学习	在分布式设备或组织间进行机器学习、同时把原始数据留在本地以满足隐私、时延或治理要求。
+fiber_optics	光纤	以玻璃或塑料纤维把数据以光脉冲传输的技术。
+filters_membranes_early	滤材与膜（早期）	用于选择性分离物质的材料与技术，包括透析膜、水净化和空气过滤。
+financial_derivatives	现代金融衍生品	由正式定价、清算与市场风险实践支撑的标准化场内期权及相关衍生合同。
+finfet_transistors	FinFET 晶体管	以鳍状沟道改善小工艺节点静电控制的三维场效应晶体管。
+firewalls_packet_filtering	防火墙与包过滤	依据规则、状态、应用或身份情境检查并控制网络间流量的网络安全系统。
+five_g_new_radio	5G 新空口	支持增强移动宽带、低时延服务和海量机器类通信的蜂窝无线与核心网标准。
+flash_memory	闪存	可电擦写、用于存储卡、手机、SSD 和嵌入式设备的非易失性半导体存储器。
+flight_powered	有动力飞行	以重于空气的飞行器实现持续受控的空中航行。
+fluoridated_drinking_water	饮用水加氟	在人群尺度调整饮用水氟浓度以降低龋齿的公共水处理实践。
+foundation_models	基础模型	在广泛数据上训练、可跨众多下游任务与模态复用的大型可调适模型。
+frequency_division_multiplexing	频分复用	通过给每个信号分配独立频带，在同一介质上同时承载多路通信信道的技术。
+furnace_technology_high_temp	高温炉技术	可达到极高温度、服务金属、耐火材料与先进材料加工的电炉与工业炉。
+game_consoles_dedicated_gaming_hardware	游戏主机（专用游戏硬件）	连接电视等显示设备、专用于玩电子游戏的电子设备。
+game_engine_toolchains	游戏引擎工具链	可复用的软件引擎，涵盖渲染、物理、音频、脚本、资产管线、联机与游戏部署。
+gate_all_around_nanosheet_transistors	全环栅纳米片晶体管	栅极环绕堆叠纳米片沟道的晶体管，在 FinFET 之后延续逻辑微缩。
+gene_therapy_early	基因治疗（早期）	通过修改个体基因治疗或治愈疾病的实验性技术。
+gene_therapy_vectors	基因治疗载体	经工程化、把治疗性遗传物质送入患者细胞或组织的病毒与非病毒递送系统。
+genetic_engineering	基因工程	利用重组 DNA、递送系统、测序和可编程编辑工具直接操作生物体基因组。
+genetically_modified_crops	转基因作物	被赋予特定性状（如抗虫、耐除草剂或营养改良）的工程化作物品种。
+genomic_epidemiology	病原体基因组流行病学	把病原体序列与流行病学数据结合，追溯谱系、暴发、传播路径与演化变化。
+geothermal_power_earth_heat_energy	地热能发电	利用来自地球内部的地热能供暖与发电。
+globalization	二十世纪末全球化	1980年代经由贸易、资本流动、运输、通信、制度与知识交流加速的跨境一体化。
+glucose_biosensors	葡萄糖生物传感器	以酶化学、膜和电学或光学换能测量血液或组织间液中葡萄糖的生物传感器。
+good_laboratory_practice_toxicology	良好实验室规范毒理学	为监管申报而设、具备受控方案、记录与质量体系的标准化临床前安全研究。
+good_manufacturing_practice	药品生产质量管理规范	控制设施、工艺、文档、检测与批放行的制药质量体系。
+gps	全球定位系统（GPS）	1973年获批的 NAVSTAR GPS 项目及其三段式系统架构，发展全球卫星无线电定位、导航、测速与精密授时。
+gps_guided_logistics	GPS 车队物流	围绕 GPS 定位与数字地图构建的商业车队导航、车辆跟踪管理、路径规划、调度与配送效率系统。
+graphene_two_dimensional_materials	石墨烯与二维材料	以石墨烯为代表的原子级薄层材料，具有独特的电学、力学、热学与光学性质。
+graphical_user_interface_gui	图形用户界面（GUI）	以窗口、图标和菜单与计算机交互的视觉方式。
+graphical_user_interfaces	图形用户界面	经由窗口、图标、菜单、指点设备、字体排印和直接操纵的视觉人机交互。
+graphics_processing_units_gpu	图形处理器（GPU）	集成三维流水线功能、高度并行可编程执行的单芯片图形处理器，后被改造用于通用计算、仿真和机器学习负载。
+green_hydrogen	绿氢	以可再生电力驱动水电解制取的氢，锚定于首个风电与制氢结合的全尺寸示范系统。
+green_revolution_agriculture	绿色革命	在世界范围内提升农业产量（尤其以高产品种）的一系列研究与技术转移举措。
+greenhouse_gas_inventories	温室气体清单	用于估算、报告和核查温室气体排放与移除的标准化核算体系。
+grid_scale_battery_storage	电网级储能	接入公用电网、用于负荷平移、削峰、调频、备用容量及电网储能技术评估的兆瓦级电池系统。
+gsm_digital_cellular	GSM 数字蜂窝	采用 SIM 身份、数字语音编码、漫游和电路交换移动服务的第二代数字蜂窝标准。
+guidance_systems_early	制导系统（早期惯性）	以陀螺仪、加速度计和模拟/机电控制、不依赖外部基准对火箭进行制导与稳定控制的早期惯性系统。
+hard_disk_drives_magnetic_storage	硬盘驱动器（磁存储）	在旋转盘片上进行磁记录的机电式数据存储设备。
+hardware_description_languages_hdl	硬件描述语言	Verilog、VHDL 等用于描述、仿真和综合数字硬件的语言。
+hardware_security_modules	硬件安全模块	以抗篡改硬件生成、保护和使用密码密钥，服务身份、支付、签名与云服务。
+helicopters_vertical_takeoff_landing_vtol	直升机（垂直起降 VTOL）	以旋翼实现垂直起降、悬停及前后飞行的飞行器。
+high_bandwidth_memory_hbm	高带宽内存	以硅通孔和超宽接口堆叠 DRAM、服务高吞吐 GPU 与加速器的内存。
+high_na_euv_lithography	High-NA EUV 光刻	采用更高数值孔径光学以获得更小特征并减少多重曝光的新一代 EUV 光刻。
+high_performance_polymers	高性能聚合物	面向航空航天、电子、医疗与工业用途、具备卓越热学、化学、力学或电学性能的工程聚合物。
+high_speed_rail	高速铁路	以日本1964年东海道新干线为锚点的现代高速客运铁路：专用线路基础设施、电力牵引、信号与高速动车组。
+high_throughput_screening	高通量筛选	以机器人、分析方法和数据系统对大型化合物库针对生物靶标的自动化测试。
+high_voltage_transmission	高压输电	以高电压远距离输送大容量电力的输电线路与变电站。
+highway_systems	公路系统	面向高速机动运输、协同配套的铺装路网、设计标准、标志、养护与交通工程。
+homomorphic_encryption	同态加密	允许在不先解密的情况下对密文进行计算的密码学技术。
+hospital_information_systems	医院信息系统	整合患者档案、医嘱、检验、影像、计费、排班、药房和临床流程的医院一体化软件。
+http_protocol	HTTP 协议	在互联网上传输超文本、API、元数据与 Web 资源的应用协议。
+human_genome_project_dna_mapping	人类基因组计划（DNA 测绘）	测定构成人类 DNA 的核苷酸碱基对序列的国际研究计划。
+hybrid_bonding_advanced_packaging	混合键合先进封装	以直接键合实现高密度裸片对裸片或晶圆对晶圆集成、为三维芯片堆叠提供细间距垂直互连。
+hybrid_seed_production	杂交种子生产	产出高产品种杂交作物的受控植物育种与制种繁育体系。
+hydroponics	水培	以营养液、受控水质与根区环境管理实现的无土作物生产。
+hypertext_systems	超文本系统	计算机上显示的、带有读者可立即访问的超链接引用的文本。
+immuno_oncology_checkpoint_inhibitors	免疫检查点抑制剂	阻断 PD-1、PD-L1 或 CTLA-4 等抑制性免疫检查点的单克隆抗体癌症疗法。
+immunoassay_diagnostics	免疫分析诊断	利用抗体-抗原结合检测激素、蛋白、病原体和生物标志物的实验室检验。
+immunology_advanced	高等免疫学	以自我/非我识别、免疫耐受、移植排斥和工程化免疫干预为核心的战后细胞与分子免疫学。
+in_vitro_adme_toxicology	体外 ADME 与毒理学	在人体试验之前，以细胞与生化方法评估吸收、分布、代谢、排泄和毒性。
+in_vitro_fertilization	体外受精	运用激素调控、取卵、实验室受精、胚胎培养与移植的辅助生殖技术。
+industrial_robot_arms	工业机械臂	部署于工厂、承担焊接、喷漆、装配、机床上下料和物料搬运的机器人操作臂。
+information_theory	信息论	对数字信息的量化、存储与传输的数学研究。
+instruction_tuning_rlhf	指令微调与 RLHF	利用示范、排序和奖励模型，把语言模型调教为遵循指令与人类偏好的训练后方法。
+insulin_therapy	胰岛素治疗	面向糖尿病治疗的胰岛素提取、纯化、给药、监测及后来的重组生产。
+integrated_circuits	集成电路（微芯片）	大幅缩小电子设备尺寸与成本的微型化电子电路（芯片）。
+intermodal_freight_transport	多式联运货运	以现代集装箱化多式联运为锚点，标准化货物单元在船、卡车、铁路、港口与场站之间流转而无需装卸货物本身。
+international_cooperation_treaties	国际合作与条约	国家间为应对贸易、战争和环境等全球议题而缔结的正式协定与组织。
+internet	互联网	使用 TCP/IP 协议套的全球互联计算机网络系统。
+internet_of_things_iot_ubiquitous_connectivity	物联网与泛在连接	物理物体嵌入传感器、软件等技术、经互联网连接并交换数据的网络。
+internet_protocols_tcp_ip_arpanet	互联网协议（TCP/IP、ARPANET）	使计算机网络成为可能的基础通信协议的发展，源于 ARPANET。
+interplanetary_probes	行星际探测器	派往探索太阳系内其他行星、卫星、小行星或彗星的无人航天器。
+intrusion_detection_systems	入侵检测系统	利用特征、异常和行为指标检测可疑网络或主机活动的传感器与分析工具。

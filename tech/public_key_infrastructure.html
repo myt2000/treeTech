@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,6 +15,11 @@
     <link rel="canonical" href="https://pushme.site/techtree/tech/public_key_infrastructure.html" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","@id":"https://pushme.site/techtree/tech/public_key_infrastructure.html","name":"Public Key Infrastructure","description":"X.509 certificate infrastructure in which certification authorities bind identities to public keys, issue and revoke certificates, and support trust-chain and path validation.","identifier":"public_key_infrastructure","inDefinedTermSet":"https://pushme.site/techtree/","url":"https://pushme.site/techtree/tech/public_key_infrastructure.html","dateCreated":"1988","sameAs":"https://pushme.site/techtree/tech/public_key_infrastructure.html"}</script>
     <style>
+      html[data-lang="zh"] .i18n-en { display: none; }
+      html[data-lang="en"] .i18n-zh { display: none; }
+      .lang-toggle { margin-left: 0.75rem; padding: 0.15rem 0.6rem; cursor: pointer; }
+    </style>
+    <style>
       body { font-family: Arial, sans-serif; margin: 1.5rem; line-height: 1.5; color: #1f2937; }
       h1, h2 { margin: 1rem 0 0.5rem; }
       table { border-collapse: collapse; width: 100%; max-width: 100%; }
@@ -26,75 +31,77 @@
   </head>
   <body>
     <main>
-      <h1>Public Key Infrastructure</h1>
-      <p>X.509 certificate infrastructure in which certification authorities bind identities to public keys, issue and revoke certificates, and support trust-chain and path validation.</p>
+      <h1><span class="i18n-en">Public Key Infrastructure</span><span class="i18n-zh">公钥基础设施</span></h1>
+      <p><span class="i18n-en">X.509 certificate infrastructure in which certification authorities bind identities to public keys, issue and revoke certificates, and support trust-chain and path validation.</span><span class="i18n-zh">X.509 证书体系：由证书机构把身份绑定到公钥、签发与吊销证书，支持信任链与路径验证。</span></p>
       <nav>
-        <a href="https://pushme.site/techtree/?target=public_key_infrastructure">Graph</a>
-        <a href="https://pushme.site/techtree/sorted.html?target=public_key_infrastructure">Sorted View</a>
-        <a href="https://pushme.site/techtree/demo.html?target=public_key_infrastructure">Demo</a>
+        <a href="https://pushme.site/techtree/?target=public_key_infrastructure"><span class="i18n-en">Graph</span><span class="i18n-zh">图谱</span></a>
+        <a href="https://pushme.site/techtree/sorted.html?target=public_key_infrastructure"><span class="i18n-en">Sorted View</span><span class="i18n-zh">图谱视图</span></a>
+        <a href="https://pushme.site/techtree/demo.html?target=public_key_infrastructure"><span class="i18n-en">Demo</span><span class="i18n-zh">演示</span></a>
+        <button type="button" id="lang-toggle" class="lang-toggle"></button>
       </nav>
 
-      <h2>Core metadata</h2>
-      <ul><li><strong>ID:</strong> public_key_infrastructure</li><li><strong>Era:</strong> Modern</li><li><strong>First known date:</strong> 1988 (exact)</li><li><strong>Region:</strong> International CCITT/ISO directory standards; later global Internet PKI</li><li><strong>Review status:</strong> source_checked</li><li><strong>Maturity:</strong> established</li></ul>
+      <h2><span class="i18n-en">Core metadata</span><span class="i18n-zh">核心元数据</span></h2>
+      <ul><li><strong>ID:</strong> public_key_infrastructure</li><li><strong><span class="i18n-en">Era</span><span class="i18n-zh">时代</span>:</strong> <span class="i18n-en">Modern</span><span class="i18n-zh">现代</span></li><li><strong><span class="i18n-en">First known date</span><span class="i18n-zh">最早出现</span>:</strong> 1988 (<span class="i18n-en">exact</span><span class="i18n-zh">精确</span>)</li><li><strong><span class="i18n-en">Region</span><span class="i18n-zh">地区</span>:</strong> International CCITT/ISO directory standards; later global Internet PKI</li><li><strong><span class="i18n-en">Review status</span><span class="i18n-zh">审核状态</span>:</strong> <span class="i18n-en">source_checked</span><span class="i18n-zh">已核来源</span></li><li><strong><span class="i18n-en">Maturity</span><span class="i18n-zh">成熟度</span>:</strong> <span class="i18n-en">established</span><span class="i18n-zh">成熟</span></li></ul>
 
-      <h2>Prerequisites</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/digital_signatures.html">Digital Signatures (digital_signatures)</a></li><li><a href="https://pushme.site/techtree/tech/encryption_modern_cryptography_public_key.html">Encryption (Modern Cryptography, Public Key) (encryption_modern_cryptography_public_key)</a></li></ul>
+      <h2><span class="i18n-en">Prerequisites</span><span class="i18n-zh">前置技术</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/digital_signatures.html"><span class="i18n-en">Digital Signatures</span><span class="i18n-zh">数字签名</span> (digital_signatures)</a></li><li><a href="https://pushme.site/techtree/tech/encryption_modern_cryptography_public_key.html"><span class="i18n-en">Encryption (Modern Cryptography, Public Key)</span><span class="i18n-zh">加密（现代密码学、公钥）</span> (encryption_modern_cryptography_public_key)</a></li></ul>
 
-      <h2>Dependents</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/api_economy.html">API Economy (api_economy)</a></li><li><a href="https://pushme.site/techtree/tech/certificate_transparency_logs.html">Certificate Transparency Logs (certificate_transparency_logs)</a></li><li><a href="https://pushme.site/techtree/tech/cryptographic_agility_platforms.html">Cryptographic Agility Platforms (cryptographic_agility_platforms)</a></li><li><a href="https://pushme.site/techtree/tech/post_quantum_security_migration.html">Broad Post-Quantum Security Migration (post_quantum_security_migration)</a></li><li><a href="https://pushme.site/techtree/tech/tls_ssl_secure_transport.html">TLS/SSL Secure Transport (tls_ssl_secure_transport)</a></li></ul>
+      <h2><span class="i18n-en">Dependents</span><span class="i18n-zh">依赖方</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/api_economy.html"><span class="i18n-en">API Economy</span><span class="i18n-zh">API 经济</span> (api_economy)</a></li><li><a href="https://pushme.site/techtree/tech/certificate_transparency_logs.html"><span class="i18n-en">Certificate Transparency Logs</span><span class="i18n-zh">证书透明度日志</span> (certificate_transparency_logs)</a></li><li><a href="https://pushme.site/techtree/tech/cryptographic_agility_platforms.html"><span class="i18n-en">Cryptographic Agility Platforms</span><span class="i18n-zh">密码敏捷性平台</span> (cryptographic_agility_platforms)</a></li><li><a href="https://pushme.site/techtree/tech/post_quantum_security_migration.html"><span class="i18n-en">Broad Post-Quantum Security Migration</span><span class="i18n-zh">广域后量子安全迁移</span> (post_quantum_security_migration)</a></li><li><a href="https://pushme.site/techtree/tech/tls_ssl_secure_transport.html"><span class="i18n-en">TLS/SSL Secure Transport</span><span class="i18n-zh">TLS/SSL 安全传输</span> (tls_ssl_secure_transport)</a></li></ul>
 
-      <h2>Fields</h2>
-      <ul><li><a href="https://pushme.site/techtree/fields/cybersecurity-cryptography.html">Cybersecurity &amp; Cryptography</a></li></ul>
+      <h2><span class="i18n-en">Fields</span><span class="i18n-zh">领域</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/fields/cybersecurity-cryptography.html"><span class="i18n-en">Cybersecurity &amp; Cryptography</span><span class="i18n-zh">网络安全与密码学</span></a></li></ul>
 
-      <h2>Field lanes</h2><ul><li><strong>Cybersecurity &amp; Cryptography:</strong> Identity &amp; Trust</li></ul>
+      <h2><span class="i18n-en">Field lanes</span><span class="i18n-zh">子方向</span></h2><ul><li><strong><span class="i18n-en">Cybersecurity &amp; Cryptography</span><span class="i18n-zh">网络安全与密码学</span>:</strong> <span class="i18n-en">Identity &amp; Trust</span><span class="i18n-zh">身份与信任</span></li></ul>
 
-      <h2>Node sources</h2>
-      <ul><li><a href="https://www.itu.int/rec/T-REC-X.509-198811-S" target="_blank" rel="noopener noreferrer">Recommendation X.509 (11/88): The Directory - Authentication Framework</a> (International Telecommunication Union, 1988, official_agency) • Supports: node, maturity<br/><small>Locator: Recommendation record: X.509 (11/88), The Directory - Authentication framework, approved 25 November 1988.</small></li><li><a href="https://www.rfc-editor.org/rfc/rfc5280.html" target="_blank" rel="noopener noreferrer">RFC 5280: Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List Profile</a> (RFC Editor / IETF, 2008, primary_paper) • Supports: node, maturity<br/><small>Locator: PKIX architecture model, Section 3.2, and Section 6.1: defines certification authorities and end entities, CA-signed certificate chains, trust anchors, and path validation that binds subject identities to public keys.</small></li></ul>
+      <h2><span class="i18n-en">Node sources</span><span class="i18n-zh">节点来源</span></h2>
+      <ul><li><a href="https://www.itu.int/rec/T-REC-X.509-198811-S" target="_blank" rel="noopener noreferrer">Recommendation X.509 (11/88): The Directory - Authentication Framework</a> (International Telecommunication Union, 1988, <span class="i18n-en">official_agency</span><span class="i18n-zh">官方机构</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node, maturity<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Recommendation record: X.509 (11/88), The Directory - Authentication framework, approved 25 November 1988.</small></li><li><a href="https://www.rfc-editor.org/rfc/rfc5280.html" target="_blank" rel="noopener noreferrer">RFC 5280: Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List Profile</a> (RFC Editor / IETF, 2008, <span class="i18n-en">primary_paper</span><span class="i18n-zh">原始论文</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node, maturity<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> PKIX architecture model, Section 3.2, and Section 6.1: defines certification authorities and end entities, CA-signed certificate chains, trust anchors, and path validation that binds subject identities to public keys.</small></li></ul>
 
-      <h2>Prerequisite edge evidence</h2>
+      <h2><span class="i18n-en">Prerequisite edge evidence</span><span class="i18n-zh">前置边证据</span></h2>
       
-    <p><strong>Edge/source evidence summary:</strong></p>
+    <p><strong><span class="i18n-en">Edge/source evidence summary:</span><span class="i18n-zh">边/来源证据汇总：</span></strong></p>
     <ul>
-      <li>Prerequisite edges: 2</li>
-      <li>Average edge confidence: 98%</li>
-      <li>Prerequisite sources: 3</li>
-      <li>primary_source: 2</li>
+      <li><span class="i18n-en">Prerequisite edges:</span><span class="i18n-zh">前置边：</span> 2</li>
+      <li><span class="i18n-en">Average edge confidence:</span><span class="i18n-zh">平均边置信度：</span> 98%</li>
+      <li><span class="i18n-en">Prerequisite sources:</span><span class="i18n-zh">前置来源数：</span> 3</li>
+      <li><span class="i18n-en">primary_source</span><span class="i18n-zh">一手来源</span>: 2</li>
     </ul>
 
       <table>
         <thead>
           <tr>
-            <th>Prerequisite</th>
-            <th>Type</th>
-            <th>Confidence</th>
-            <th>Evidence level</th>
-            <th>Note</th>
-            <th>Sources</th>
+            <th><span class="i18n-en">Prerequisite</span><span class="i18n-zh">前置技术</span></th>
+            <th><span class="i18n-en">Type</span><span class="i18n-zh">类型</span></th>
+            <th><span class="i18n-en">Confidence</span><span class="i18n-zh">置信度</span></th>
+            <th><span class="i18n-en">Evidence level</span><span class="i18n-zh">证据等级</span></th>
+            <th><span class="i18n-en">Note</span><span class="i18n-zh">说明</span></th>
+            <th><span class="i18n-en">Sources</span><span class="i18n-zh">来源</span></th>
           </tr>
         </thead>
         <tbody>
           
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/encryption_modern_cryptography_public_key.html">Encryption (Modern Cryptography, Public Key)</a> (encryption_modern_cryptography_public_key)</td>
-              <td>required</td>
+              <td><a href="https://pushme.site/techtree/tech/encryption_modern_cryptography_public_key.html"><span class="i18n-en">Encryption (Modern Cryptography, Public Key)</span><span class="i18n-zh">加密（现代密码学、公钥）</span></a> (encryption_modern_cryptography_public_key)</td>
+              <td><span class="i18n-en">required</span><span class="i18n-zh">必需</span></td>
               <td>98%</td>
-              <td>primary_source</td>
+              <td><span class="i18n-en">primary_source</span><span class="i18n-zh">一手来源</span></td>
               <td>X.509 certificates carry subject public keys and certification paths are validated from trusted CA public keys, making public-key cryptography constitutive of PKI.</td>
-              <td><ul><li><a href="https://www.rfc-editor.org/rfc/rfc5280.html" target="_blank" rel="noopener noreferrer">RFC 5280: Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List Profile</a> (RFC Editor / IETF, 2008, primary_paper) • Supports: edge<br/><small>Locator: Sections 3.2, 4.1.1.1, 4.1.2.7, and 6.1: certification paths bind subjects to public keys and validate them from trust-anchor public keys.</small></li><li><a href="https://www-ee.stanford.edu/~hellman/publications/24.pdf" target="_blank" rel="noopener noreferrer">New Directions in Cryptography</a> (IEEE Transactions on Information Theory, 1976, primary_paper) • Supports: edge<br/><small>Locator: Abstract and pp. 644-648 (Sections I and III): defines public-key cryptosystems, public-key distribution, and public directories of encryption keys.</small></li></ul></td>
+              <td><ul><li><a href="https://www.rfc-editor.org/rfc/rfc5280.html" target="_blank" rel="noopener noreferrer">RFC 5280: Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List Profile</a> (RFC Editor / IETF, 2008, <span class="i18n-en">primary_paper</span><span class="i18n-zh">原始论文</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Sections 3.2, 4.1.1.1, 4.1.2.7, and 6.1: certification paths bind subjects to public keys and validate them from trust-anchor public keys.</small></li><li><a href="https://www-ee.stanford.edu/~hellman/publications/24.pdf" target="_blank" rel="noopener noreferrer">New Directions in Cryptography</a> (IEEE Transactions on Information Theory, 1976, <span class="i18n-en">primary_paper</span><span class="i18n-zh">原始论文</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Abstract and pp. 644-648 (Sections I and III): defines public-key cryptosystems, public-key distribution, and public directories of encryption keys.</small></li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/digital_signatures.html">Digital Signatures</a> (digital_signatures)</td>
-              <td>required</td>
+              <td><a href="https://pushme.site/techtree/tech/digital_signatures.html"><span class="i18n-en">Digital Signatures</span><span class="i18n-zh">数字签名</span></a> (digital_signatures)</td>
+              <td><span class="i18n-en">required</span><span class="i18n-zh">必需</span></td>
               <td>98%</td>
-              <td>primary_source</td>
+              <td><span class="i18n-en">primary_source</span><span class="i18n-zh">一手来源</span></td>
               <td>A certification authority digitally signs each X.509 certificate to certify the binding between its subject and public key, so digital signatures are required by the certificate model.</td>
-              <td><ul><li><a href="https://www.rfc-editor.org/rfc/rfc5280.html" target="_blank" rel="noopener noreferrer">RFC 5280: Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List Profile</a> (RFC Editor / IETF, 2008, primary_paper) • Supports: edge<br/><small>Locator: Sections 4.1.1.2-4.1.1.3 (pp. 17-18): the certificate contains signature algorithm and signature value fields, and the CA signature certifies the subject-to-public-key binding.</small></li></ul></td>
+              <td><ul><li><a href="https://www.rfc-editor.org/rfc/rfc5280.html" target="_blank" rel="noopener noreferrer">RFC 5280: Internet X.509 Public Key Infrastructure Certificate and Certificate Revocation List Profile</a> (RFC Editor / IETF, 2008, <span class="i18n-en">primary_paper</span><span class="i18n-zh">原始论文</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Sections 4.1.1.2-4.1.1.3 (pp. 17-18): the certificate contains signature algorithm and signature value fields, and the CA signature certifies the subject-to-public-key binding.</small></li></ul></td>
             </tr>
         </tbody>
       </table>
 
-      <p><small>This page is generated from canonical era JSON and is indexable by URL.</small></p>
+      <p><small><span class="i18n-en">This page is generated from canonical era JSON and is indexable by URL.</span><span class="i18n-zh">本页由正典时代 JSON 生成，可按 URL 索引。</span></small></p>
     </main>
+    <script src="../i18n-static.js"></script>
   </body>
 </html>

@@ -75,18 +75,27 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
     } catch (err) {
         console.error('Error loading tech tree:', err);
-        setStatus(appStatusEl, 'The technology graph could not be loaded. Refresh the page or check the server.', 'error');
+        setStatus(appStatusEl, I18N.t('load_error', 'The technology graph could not be loaded. Refresh the page or check the server.'), 'error');
         container.setAttribute('aria-busy', 'false');
         mainEl?.setAttribute('aria-busy', 'false');
         return;
     }
 
     if (!window.vis?.Network || !window.vis?.DataSet) {
-        setStatus(appStatusEl, 'The graph library could not be loaded. Refresh the page and try again.', 'error');
+        setStatus(appStatusEl, I18N.t('lib_error', 'The graph library could not be loaded. Refresh the page and try again.'), 'error');
         container.setAttribute('aria-busy', 'false');
         mainEl?.setAttribute('aria-busy', 'false');
         return;
     }
+
+    await I18N.loadData();
+
+    // Precompute per-node search text; Chinese names/descriptions join the index in zh mode.
+    const searchTexts = new Map();
+    dynamicData.forEach(tech => {
+        const zh = I18N.zhEntry(tech.id);
+        searchTexts.set(tech.id, `${tech.name} ${tech.id} ${tech.description || ''}${zh ? ` ${zh.name || ''} ${zh.description || ''}` : ''}`.toLowerCase());
+    });
 
     function getDependencyEdges(tech) {
         if (Array.isArray(tech.dependencyEdges)) return tech.dependencyEdges;
@@ -95,7 +104,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             type: 'enabling',
             confidence: 0.5,
             evidence_level: 'weak_inference',
-            note: 'Legacy prerequisite edge.'
+            note: I18N.t('legacy_edge_note', 'Legacy prerequisite edge.')
         }));
     }
 
@@ -131,7 +140,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             type: 'enabling',
             confidence: 0.5,
             evidence_level: 'weak_inference',
-            note: 'User-entered dependency; semantic review required.',
+            note: I18N.t('user_edge_note', 'User-entered dependency; semantic review required.'),
             reviewStatus: 'generated'
         };
     }
@@ -180,7 +189,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             swatch.className = 'legend-swatch';
             swatch.style.backgroundColor = color;
             const label = document.createElement('span');
-            label.textContent = era;
+            label.textContent = I18N.label(era);
             item.appendChild(swatch);
             item.appendChild(label);
             fragment.appendChild(item);
@@ -190,11 +199,11 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function populateEraFilter() {
         if (!eraFilter) return;
-        eraFilter.replaceChildren(new Option('All Eras', 'all'));
+        eraFilter.replaceChildren(new Option(I18N.t('all_eras', 'All eras'), 'all'));
         for (const era of Object.keys(eraColors)) {
             const opt = document.createElement('option');
             opt.value = era;
-            opt.textContent = era;
+            opt.textContent = I18N.label(era);
             eraFilter.appendChild(opt);
         }
     }
@@ -203,11 +212,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!fieldFilter) return;
         const fields = [...new Set(dynamicData.flatMap(tech => Array.isArray(tech.fields) ? tech.fields : []))]
             .sort((a, b) => a.localeCompare(b));
-        fieldFilter.replaceChildren(new Option('All Fields', 'all'));
+        fieldFilter.replaceChildren(new Option(I18N.t('all_fields', 'All fields'), 'all'));
         for (const field of fields) {
             const opt = document.createElement('option');
             opt.value = field;
-            opt.textContent = field;
+            opt.textContent = I18N.label(field);
             fieldFilter.appendChild(opt);
         }
     }
@@ -221,7 +230,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             .forEach(tech => {
                 const option = document.createElement('option');
                 option.value = tech.id;
-                option.label = tech.name;
+                option.label = I18N.localize(tech).name;
                 fragment.appendChild(option);
             });
         searchOptionsEl.replaceChildren(fragment);
@@ -325,12 +334,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     const nodeItems = dynamicData.map(tech => {
         const baseColor = eraColors[tech.era] || '#cccccc';
         const position = positions[tech.id] || { x: 0, y: 0 };
+        const localized = I18N.localize(tech);
         const node = {
             id: tech.id,
-            label: tech.name,
-            title: tech.description,
+            label: localized.name,
+            title: localized.description,
             era: tech.era,
-            description: tech.description,
+            description: localized.description,
             value: Math.min((dependentsCount[tech.id] || 0) + 1, 12),
             color: baseColor,
             origColor: baseColor,
@@ -366,7 +376,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 origColor: edgeColor(type),
                 width: type === 'required' ? 2 : 1,
                 dashes: type === 'speculative' || type === 'common_dependency',
-                title: `${type.replaceAll('_', ' ')} · ${Math.round(confidence * 100)}% confidence · ${edge.evidence_level || 'unknown'}\n${edge.note || ''}`
+                title: `${I18N.label(type)} · ${Math.round(confidence * 100)}% ${I18N.t('confidence', 'confidence')} · ${I18N.label(edge.evidence_level || 'unknown')}\n${edge.note || ''}`
             });
         });
     });
@@ -443,7 +453,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const graphFrame = container.querySelector('.vis-network');
     if (graphFrame) {
         graphFrame.setAttribute('role', 'group');
-        graphFrame.setAttribute('aria-label', 'Technology graph canvas');
+        graphFrame.setAttribute('aria-label', I18N.t('graph_canvas_aria', 'Technology graph canvas'));
         graphFrame.setAttribute('aria-describedby', 'graph-keyboard-help graph-context-summary');
     }
 
@@ -558,11 +568,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const lower = query.trim().toLowerCase();
         if (!lower) return new Set();
         return new Set(dynamicData
-            .filter(t => {
-                const text = `${t.name} ${t.id} ${t.description || ''}`.toLowerCase();
-                return text.includes(lower);
-            })
-            .map(t => t.id));
+            .filter(tech => (searchTexts.get(tech.id) || '').includes(lower))
+            .map(tech => tech.id));
     }
 
     function getFieldMatches(field) {
@@ -593,7 +600,10 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function formatDate(value) {
         if (typeof value !== 'number') return String(value);
-        if (value < 0) return `${Math.abs(value).toLocaleString()} BCE`;
+        if (value < 0) {
+            const count = Math.abs(value).toLocaleString();
+            return I18N.lang === 'zh' ? `公元前 ${count}` : `${count} BCE`;
+        }
         return String(value);
     }
 
@@ -646,7 +656,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!visibleIds.length) {
             const empty = document.createElement('span');
             empty.className = 'relationship-empty';
-            empty.textContent = 'None';
+            empty.textContent = I18N.t('none', 'None');
             containerEl.appendChild(empty);
             return;
         }
@@ -672,28 +682,28 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
 
         if (Array.isArray(tech.fields) && tech.fields.length) {
-            appendMetadataValue('Field', tech.fields.join(', '));
+            appendMetadataValue(I18N.t('meta_field', 'Field'), tech.fields.map(field => I18N.label(field)).join(', '));
         }
         if (tech.maturity) {
-            appendMetadataValue('Maturity', tech.maturity);
+            appendMetadataValue(I18N.t('meta_maturity', 'Maturity'), I18N.label(tech.maturity));
         }
         if (tech.firstKnownDate !== undefined) {
-            appendMetadataValue('First known', `${formatDate(tech.firstKnownDate)} (${tech.datePrecision || 'unknown'}; ${tech.region || 'region unknown'})`);
+            appendMetadataValue(I18N.t('meta_first_known', 'First known'), `${formatDate(tech.firstKnownDate)} (${I18N.label(tech.datePrecision || 'unknown')}; ${tech.region || I18N.t('region_unknown', 'region unknown')})`);
         }
         if (tech.reviewStatus) {
-            appendMetadataValue('Review', tech.reviewStatus.replaceAll('_', ' '));
+            appendMetadataValue(I18N.t('meta_review', 'Review'), I18N.label(tech.reviewStatus));
         }
         if (tech.roadmap) {
-            appendMetadataValue('Roadmap', `${tech.roadmap.role || 'forecast'} · ${tech.roadmap.timeframe || 'unknown'} · ${tech.roadmap.confidence || 'unknown'} confidence`);
-            if (tech.roadmap.rationale) appendMetadataValue('Rationale', tech.roadmap.rationale);
+            appendMetadataValue(I18N.t('meta_roadmap', 'Roadmap'), `${tech.roadmap.role || I18N.label('forecast')} · ${tech.roadmap.timeframe || I18N.t('unknown', 'unknown')} · ${tech.roadmap.confidence || I18N.t('unknown', 'unknown')} ${I18N.t('confidence', 'confidence')}`);
+            if (tech.roadmap.rationale) appendMetadataValue(I18N.t('meta_rationale', 'Rationale'), tech.roadmap.rationale);
             if (Array.isArray(tech.roadmap.blockers) && tech.roadmap.blockers.length) {
-                appendMetadataValue('Blockers', tech.roadmap.blockers.join(', '));
+                appendMetadataValue(I18N.t('meta_blockers', 'Blockers'), tech.roadmap.blockers.join(', '));
             }
         }
         if (Array.isArray(tech.sources) && tech.sources.length) {
             const section = document.createElement('section');
             const title = document.createElement('h3');
-            title.textContent = 'Sources';
+            title.textContent = I18N.t('meta_sources', 'Sources');
             section.appendChild(title);
             const list = document.createElement('ul');
             for (const source of tech.sources) {
@@ -735,12 +745,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (!nodeData) return;
 
         techNameEl.textContent = nodeData.label;
-        techEraEl.textContent = nodeData.era || 'Era unknown';
+        techEraEl.textContent = nodeData.era ? I18N.label(nodeData.era) : I18N.t('era_unknown', 'Era unknown');
         techDescriptionEl.textContent = nodeData.description;
 
         const prereqIds = getPrerequisiteIds(nodesById[nodeId] || {});
         const dependentIds = dependentsMap[nodeId] || [];
-        techPrerequisitesEl.textContent = `${prereqIds.length} direct prerequisite${prereqIds.length === 1 ? '' : 's'} · ${dependentIds.length} direct unlock${dependentIds.length === 1 ? '' : 's'}`;
+        techPrerequisitesEl.textContent = I18N.lang === 'zh'
+            ? `直接前置 ${prereqIds.length} 项 · 直接解锁 ${dependentIds.length} 项`
+            : `${prereqIds.length} direct prerequisite${prereqIds.length === 1 ? '' : 's'} · ${dependentIds.length} direct unlock${dependentIds.length === 1 ? '' : 's'}`;
         renderTechMetadata(nodesById[nodeId]);
         renderRelationshipList(prereqListEl, prereqIds);
         renderRelationshipList(unlocksListEl, dependentIds);
@@ -756,16 +768,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     function updateGraphSummary(visibleCount, totalCount, matchCount) {
         if (!graphContextSummaryEl) return;
         const parts = [introMode && isUnseededFocusedView()
-            ? `Starter map · ${visibleCount} of ${totalCount} visible`
-            : `${visibleCount} of ${totalCount} visible`];
-        if (currentEraFilter !== 'all') parts.push(currentEraFilter);
-        if (currentFieldFilter !== 'all') parts.push(currentFieldFilter);
-        if (currentSearchQuery) parts.push(`${matchCount} search match${matchCount === 1 ? '' : 'es'}`);
+            ? I18N.t('summary_starter', 'Starter map · {a} of {b} visible').replace('{a}', visibleCount).replace('{b}', totalCount)
+            : I18N.t('summary_visible', '{a} of {b} visible').replace('{a}', visibleCount).replace('{b}', totalCount)];
+        if (currentEraFilter !== 'all') parts.push(I18N.label(currentEraFilter));
+        if (currentFieldFilter !== 'all') parts.push(I18N.label(currentFieldFilter));
+        if (currentSearchQuery) {
+            parts.push(I18N.lang === 'zh'
+                ? `${matchCount} 个搜索匹配`
+                : `${matchCount} search match${matchCount === 1 ? '' : 'es'}`);
+        }
         if (selectedNodeId) {
             const prereqCount = existingIds(prereqMap[selectedNodeId] || []).length;
             const unlockCount = existingIds(dependentsMap[selectedNodeId] || []).length;
-            parts.push(`${prereqCount} prerequisites`);
-            parts.push(`${unlockCount} unlocks`);
+            parts.push(I18N.lang === 'zh' ? `${prereqCount} 项前置` : `${prereqCount} prerequisites`);
+            parts.push(I18N.lang === 'zh' ? `${unlockCount} 项解锁` : `${unlockCount} unlocks`);
         }
         graphContextSummaryEl.textContent = parts.join(' · ');
     }
@@ -874,7 +890,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         if (fieldFilter) fieldFilter.value = 'all';
         if (!selectedNodeId && (focusRelevantInput?.checked ?? true)) introMode = true;
         updateGraphView({ fit: true });
-        setStatus(appStatusEl, 'Filters cleared.');
+        setStatus(appStatusEl, I18N.t('filters_cleared', 'Filters cleared.'));
     }
 
     function applySearch(query) {
@@ -920,14 +936,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         window.history.replaceState(null, '', url);
         updateInfoPanel(null);
         updateGraphView({ fit: true });
-        setStatus(appStatusEl, 'Starter map restored.');
+        setStatus(appStatusEl, I18N.t('starter_restored', 'Starter map restored.'));
     }
 
     function showAllTechnologies() {
         introMode = false;
         if (focusRelevantInput) focusRelevantInput.checked = false;
         updateGraphView({ fit: true });
-        setStatus(appStatusEl, `Showing all ${dynamicData.length.toLocaleString()} technologies.`);
+        setStatus(appStatusEl, I18N.t('showing_all', 'Showing all {n} technologies.').replace('{n}', dynamicData.length.toLocaleString()));
     }
 
     function selectQuickStart(nodeId) {
@@ -944,18 +960,20 @@ document.addEventListener('DOMContentLoaded', async () => {
     function selectFirstSearchMatch() {
         const query = searchInput?.value.trim() || '';
         if (!query) {
-            setStatus(appStatusEl, 'Enter a technology name or identifier to select it.');
+            setStatus(appStatusEl, I18N.t('enter_to_select', 'Enter a technology name or identifier to select it.'));
             return;
         }
         const normalized = query.toLowerCase();
         const candidates = getSelectableSearchIds(query);
         const exact = candidates.find(id => {
             const item = nodesById[id];
-            return id.toLowerCase() === normalized || item?.name.toLowerCase() === normalized;
+            if (id.toLowerCase() === normalized || item?.name.toLowerCase() === normalized) return true;
+            const zhName = I18N.zhEntry(id)?.name || '';
+            return zhName.toLowerCase() === normalized;
         });
         const targetId = exact || candidates[0];
         if (!targetId) {
-            setStatus(appStatusEl, 'No selectable technology matches the current search and filters.', 'error');
+            setStatus(appStatusEl, I18N.t('no_match', 'No selectable technology matches the current search and filters.'), 'error');
             return;
         }
         selectTechnology(targetId);
@@ -971,7 +989,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         window.history.replaceState(null, '', url);
         updateInfoPanel(nodeId);
         updateGraphView({ focusSelected: true });
-        setStatus(appStatusEl, `Selected ${formatTechLabel(nodeId)}.`);
+        setStatus(appStatusEl, I18N.t('selected_tech', 'Selected {name}.').replace('{name}', formatTechLabel(nodeId)));
     }
 
     network.on("selectNode", function (params) {
@@ -988,7 +1006,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         window.history.replaceState(null, '', url);
         updateInfoPanel(null);
         updateGraphView({ fit: true });
-        setStatus(appStatusEl, 'Selection cleared.');
+        setStatus(appStatusEl, I18N.t('selection_cleared', 'Selection cleared.'));
     });
 
     if (searchInput) {
@@ -1001,7 +1019,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 window.clearTimeout(searchTimer);
                 searchInput.value = '';
                 applySearch('');
-                setStatus(appStatusEl, 'Search cleared.');
+                setStatus(appStatusEl, I18N.t('search_cleared', 'Search cleared.'));
                 return;
             }
             if (event.key === 'Enter') {
@@ -1073,23 +1091,61 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     function validateEditorValues(values, editingId = null) {
-        if (!/^[a-z0-9]+(?:[_-][a-z0-9]+)*$/.test(values.id)) {
-            return 'Identifier must use lowercase letters, numbers, underscores, or hyphens.';
-        }
-        if (values.id.length > 160) return 'Identifier must be 160 characters or fewer.';
-        if (!values.name) return 'Name is required.';
-        if (values.name.length > 200) return 'Name must be 200 characters or fewer.';
-        if (!values.description) return 'Description is required.';
-        if (values.description.length > 5000) return 'Description must be 5,000 characters or fewer.';
-        if (!validEras.has(values.era)) return 'Select a valid era.';
-        if (!editingId && nodesById[values.id]) return 'A technology with this identifier already exists.';
-        if (new Set(values.prerequisites).size !== values.prerequisites.length) {
-            return 'Prerequisites must not contain duplicate identifiers.';
-        }
-        if (values.prerequisites.includes(values.id)) return 'A technology cannot require itself.';
+        if (!/^[a-z0-9]+(?:[_-][a-z0-9]+)*$/.test(values.id)) return 'id_format';
+        if (values.id.length > 160) return 'id_length';
+        if (!values.name) return 'name_required';
+        if (values.name.length > 200) return 'name_length';
+        if (!values.description) return 'description_required';
+        if (values.description.length > 5000) return 'description_length';
+        if (!validEras.has(values.era)) return 'era';
+        if (!editingId && nodesById[values.id]) return 'duplicate';
+        if (new Set(values.prerequisites).size !== values.prerequisites.length) return 'dup_prereq';
+        if (values.prerequisites.includes(values.id)) return 'self_prereq';
         const missing = values.prerequisites.filter(prerequisite => !nodesById[prerequisite]);
-        if (missing.length) return `Unknown prerequisite: ${missing[0]}.`;
+        if (missing.length) return `unknown_prereq:${missing[0]}`;
         return '';
+    }
+
+    function editorErrorMessage(key) {
+        if (key.startsWith('unknown_prereq:')) {
+            return I18N.t('editor_err_unknown_prereq', 'Unknown prerequisite: {id}.').replace('{id}', key.slice('unknown_prereq:'.length));
+        }
+        const fallbacks = {
+            id_format: 'Identifier must use lowercase letters, numbers, underscores, or hyphens.',
+            id_length: 'Identifier must be 160 characters or fewer.',
+            name_required: 'Name is required.',
+            name_length: 'Name must be 200 characters or fewer.',
+            description_required: 'Description is required.',
+            description_length: 'Description must be 5,000 characters or fewer.',
+            era: 'Select a valid era.',
+            duplicate: 'A technology with this identifier already exists.',
+            dup_prereq: 'Prerequisites must not contain duplicate identifiers.',
+            self_prereq: 'A technology cannot require itself.'
+        };
+        return I18N.t(`editor_err_${key}`, fallbacks[key] || key);
+    }
+
+    function editorErrorTarget(key) {
+        if (key.startsWith('unknown_prereq:')) return newTechPrereqInput;
+        const targets = {
+            id_format: newTechIdInput,
+            id_length: newTechIdInput,
+            duplicate: newTechIdInput,
+            name_required: newTechNameInput,
+            name_length: newTechNameInput,
+            description_required: newTechDescriptionInput,
+            description_length: newTechDescriptionInput,
+            era: newTechEraInput
+        };
+        return targets[key] || newTechPrereqInput;
+    }
+
+    function showEditorValidationError(key) {
+        clearEditorInvalidStates();
+        const input = editorErrorTarget(key);
+        input?.setAttribute('aria-invalid', 'true');
+        setStatus(editorStatusEl, editorErrorMessage(key), 'error');
+        input?.focus();
     }
 
     const editorInputs = [
@@ -1102,18 +1158,6 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     function clearEditorInvalidStates() {
         editorInputs.forEach(input => input.setAttribute('aria-invalid', 'false'));
-    }
-
-    function showEditorValidationError(message) {
-        clearEditorInvalidStates();
-        let input = newTechPrereqInput;
-        if (message.startsWith('Identifier') || message.startsWith('A technology with')) input = newTechIdInput;
-        else if (message.startsWith('Name')) input = newTechNameInput;
-        else if (message.startsWith('Description')) input = newTechDescriptionInput;
-        else if (message.startsWith('Select a valid era')) input = newTechEraInput;
-        input?.setAttribute('aria-invalid', 'true');
-        setStatus(editorStatusEl, message, 'error');
-        input?.focus();
     }
 
     function preserveDependencyEdges(tech, prerequisites) {
@@ -1134,18 +1178,19 @@ document.addEventListener('DOMContentLoaded', async () => {
     async function apiErrorMessage(response) {
         try {
             const payload = await response.json();
-            const message = payload.error?.message || `Save failed (${response.status}).`;
+            const message = payload.error?.message
+                || I18N.t('save_failed', 'Save failed ({status}).').replace('{status}', response.status);
             const details = Array.isArray(payload.error?.details) ? payload.error.details.slice(0, 3) : [];
             return details.length ? `${message} ${details.join(' ')}` : message;
         } catch (error) {
-            return `Save failed (${response.status}).`;
+            return I18N.t('save_failed', 'Save failed ({status}).').replace('{status}', response.status);
         }
     }
 
     async function persistCandidate(candidate, successMessage) {
         if (isSaving) return false;
         setMutationControlsDisabled(true);
-        setStatus(editorStatusEl, 'Saving...');
+        setStatus(editorStatusEl, I18N.t('saving', 'Saving...'));
         setStatus(appStatusEl, '');
 
         try {
@@ -1164,7 +1209,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             return true;
         } catch (error) {
             console.error('Failed to save tech tree:', error);
-            setStatus(editorStatusEl, error.message || 'The technology graph could not be saved.', 'error');
+            setStatus(editorStatusEl, error.message || I18N.t('save_error', 'The technology graph could not be saved.'), 'error');
             setMutationControlsDisabled(false);
             return false;
         }
@@ -1180,7 +1225,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         newTechIdInput.disabled = false;
         newTechEraInput.disabled = false;
         editingNodeId = null;
-        if (editorTitleEl) editorTitleEl.textContent = 'Add Technology';
+        if (editorTitleEl) editorTitleEl.textContent = I18N.t('editor_title_add', 'Add Technology');
         if (updateBtn) updateBtn.hidden = true;
         if (cancelEditBtn) cancelEditBtn.hidden = true;
         if (addBtn) addBtn.hidden = false;
@@ -1206,7 +1251,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
             const candidate = cloneData();
             candidate.push(applyDefaultMetadata({ ...values }));
-            await persistCandidate(candidate, 'Technology added. Reloading the graph...');
+            await persistCandidate(candidate, I18N.t('added_msg', 'Technology added. Reloading the graph...'));
         });
     }
 
@@ -1224,7 +1269,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             newTechIdInput.disabled = true;
             newTechEraInput.disabled = true;
             editingNodeId = tech.id;
-            if (editorTitleEl) editorTitleEl.textContent = 'Edit Technology';
+            if (editorTitleEl) editorTitleEl.textContent = I18N.t('editor_title_edit', 'Edit Technology');
             if (addBtn) addBtn.hidden = true;
             if (updateBtn) updateBtn.hidden = false;
             if (cancelEditBtn) cancelEditBtn.hidden = false;
@@ -1258,7 +1303,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 prerequisites: values.prerequisites,
                 dependencyEdges: preserveDependencyEdges(current, values.prerequisites)
             };
-            await persistCandidate(candidate, 'Technology updated. Reloading the graph...');
+            await persistCandidate(candidate, I18N.t('updated_msg', 'Technology updated. Reloading the graph...'));
         });
     }
 
@@ -1269,9 +1314,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             if (!tech) return;
             const dependentCount = dependentsMap[selectedNodeId]?.length || 0;
             const dependencyNotice = dependentCount
-                ? ` This will also remove it from ${dependentCount} dependent ${dependentCount === 1 ? 'node' : 'nodes'}.`
+                ? (I18N.lang === 'zh'
+                    ? ` 这将同时把它从 ${dependentCount} 个依赖它的节点中移除。`
+                    : ` This will also remove it from ${dependentCount} dependent ${dependentCount === 1 ? 'node' : 'nodes'}.`)
                 : '';
-            if (!window.confirm(`Delete "${tech.name}"?${dependencyNotice}`)) return;
+            if (!window.confirm(`${I18N.t('delete_confirm', 'Delete "{name}"?').replace('{name}', tech.name)}${dependencyNotice}`)) return;
 
             const candidate = cloneData()
                 .filter(item => item.id !== selectedNodeId)
@@ -1280,7 +1327,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     prerequisites: item.prerequisites.filter(prerequisite => prerequisite !== selectedNodeId),
                     dependencyEdges: item.dependencyEdges.filter(edge => edge.prerequisite !== selectedNodeId)
                 }));
-            await persistCandidate(candidate, 'Technology deleted. Reloading the graph...');
+            await persistCandidate(candidate, I18N.t('deleted_msg', 'Technology deleted. Reloading the graph...'));
         });
     }
 

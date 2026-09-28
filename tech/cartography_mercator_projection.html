@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,6 +15,11 @@
     <link rel="canonical" href="https://pushme.site/techtree/tech/cartography_mercator_projection.html" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","@id":"https://pushme.site/techtree/tech/cartography_mercator_projection.html","name":"Cartography (Mercator Projection)","description":"Development of new map projections, like Mercator's, aiding navigation for global exploration by representing lines of constant course (rhumb lines) as straight segments.","identifier":"cartography_mercator_projection","inDefinedTermSet":"https://pushme.site/techtree/","url":"https://pushme.site/techtree/tech/cartography_mercator_projection.html","dateCreated":"1569","sameAs":"https://pushme.site/techtree/tech/cartography_mercator_projection.html"}</script>
     <style>
+      html[data-lang="zh"] .i18n-en { display: none; }
+      html[data-lang="en"] .i18n-zh { display: none; }
+      .lang-toggle { margin-left: 0.75rem; padding: 0.15rem 0.6rem; cursor: pointer; }
+    </style>
+    <style>
       body { font-family: Arial, sans-serif; margin: 1.5rem; line-height: 1.5; color: #1f2937; }
       h1, h2 { margin: 1rem 0 0.5rem; }
       table { border-collapse: collapse; width: 100%; max-width: 100%; }
@@ -26,102 +31,104 @@
   </head>
   <body>
     <main>
-      <h1>Cartography (Mercator Projection)</h1>
-      <p>Development of new map projections, like Mercator&#39;s, aiding navigation for global exploration by representing lines of constant course (rhumb lines) as straight segments.</p>
+      <h1><span class="i18n-en">Cartography (Mercator Projection)</span><span class="i18n-zh">地图学（墨卡托投影）</span></h1>
+      <p><span class="i18n-en">Development of new map projections, like Mercator&#39;s, aiding navigation for global exploration by representing lines of constant course (rhumb lines) as straight segments.</span><span class="i18n-zh">墨卡托等新投影的发展，把等角航线表现为直线段，助力全球探索的航海。</span></p>
       <nav>
-        <a href="https://pushme.site/techtree/?target=cartography_mercator_projection">Graph</a>
-        <a href="https://pushme.site/techtree/sorted.html?target=cartography_mercator_projection">Sorted View</a>
-        <a href="https://pushme.site/techtree/demo.html?target=cartography_mercator_projection">Demo</a>
+        <a href="https://pushme.site/techtree/?target=cartography_mercator_projection"><span class="i18n-en">Graph</span><span class="i18n-zh">图谱</span></a>
+        <a href="https://pushme.site/techtree/sorted.html?target=cartography_mercator_projection"><span class="i18n-en">Sorted View</span><span class="i18n-zh">图谱视图</span></a>
+        <a href="https://pushme.site/techtree/demo.html?target=cartography_mercator_projection"><span class="i18n-en">Demo</span><span class="i18n-zh">演示</span></a>
+        <button type="button" id="lang-toggle" class="lang-toggle"></button>
       </nav>
 
-      <h2>Core metadata</h2>
-      <ul><li><strong>ID:</strong> cartography_mercator_projection</li><li><strong>Era:</strong> Renaissance</li><li><strong>First known date:</strong> 1569 (exact)</li><li><strong>Region:</strong> Duisburg / Low Countries</li><li><strong>Review status:</strong> source_checked</li><li><strong>Maturity:</strong> N/A</li></ul>
+      <h2><span class="i18n-en">Core metadata</span><span class="i18n-zh">核心元数据</span></h2>
+      <ul><li><strong>ID:</strong> cartography_mercator_projection</li><li><strong><span class="i18n-en">Era</span><span class="i18n-zh">时代</span>:</strong> <span class="i18n-en">Renaissance</span><span class="i18n-zh">文艺复兴</span></li><li><strong><span class="i18n-en">First known date</span><span class="i18n-zh">最早出现</span>:</strong> 1569 (<span class="i18n-en">exact</span><span class="i18n-zh">精确</span>)</li><li><strong><span class="i18n-en">Region</span><span class="i18n-zh">地区</span>:</strong> Duisburg / Low Countries</li><li><strong><span class="i18n-en">Review status</span><span class="i18n-zh">审核状态</span>:</strong> <span class="i18n-en">source_checked</span><span class="i18n-zh">已核来源</span></li><li><strong><span class="i18n-en">Maturity</span><span class="i18n-zh">成熟度</span>:</strong> N/A</li></ul>
 
-      <h2>Prerequisites</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/cartography.html">Cartography (cartography)</a></li><li><a href="https://pushme.site/techtree/tech/geometry.html">Geometry (geometry)</a></li><li><a href="https://pushme.site/techtree/tech/mathematics.html">Mathematics (mathematics)</a></li><li><a href="https://pushme.site/techtree/tech/navigation.html">Navigation (navigation)</a></li><li><a href="https://pushme.site/techtree/tech/printing_press.html">Printing Press (printing_press)</a></li></ul>
+      <h2><span class="i18n-en">Prerequisites</span><span class="i18n-zh">前置技术</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/cartography.html"><span class="i18n-en">Cartography</span><span class="i18n-zh">地图学</span> (cartography)</a></li><li><a href="https://pushme.site/techtree/tech/geometry.html"><span class="i18n-en">Geometry</span><span class="i18n-zh">几何学</span> (geometry)</a></li><li><a href="https://pushme.site/techtree/tech/mathematics.html"><span class="i18n-en">Mathematics</span><span class="i18n-zh">数学</span> (mathematics)</a></li><li><a href="https://pushme.site/techtree/tech/navigation.html"><span class="i18n-en">Navigation</span><span class="i18n-zh">导航术</span> (navigation)</a></li><li><a href="https://pushme.site/techtree/tech/printing_press.html"><span class="i18n-en">Printing Press</span><span class="i18n-zh">印刷机</span> (printing_press)</a></li></ul>
 
-      <h2>Dependents</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/map_projection_science.html">Map Projection Science (map_projection_science)</a></li><li><a href="https://pushme.site/techtree/tech/printed_map_atlases.html">Printed Map Atlases (printed_map_atlases)</a></li></ul>
+      <h2><span class="i18n-en">Dependents</span><span class="i18n-zh">依赖方</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/map_projection_science.html"><span class="i18n-en">Map Projection Science</span><span class="i18n-zh">地图投影科学</span> (map_projection_science)</a></li><li><a href="https://pushme.site/techtree/tech/printed_map_atlases.html"><span class="i18n-en">Printed Map Atlases</span><span class="i18n-zh">印刷地图集</span> (printed_map_atlases)</a></li></ul>
 
-      <h2>Fields</h2>
-      <ul><li>None.</li></ul>
+      <h2><span class="i18n-en">Fields</span><span class="i18n-zh">领域</span></h2>
+      <ul><li><span class="i18n-en">None.</span><span class="i18n-zh">无。</span></li></ul>
 
       
 
-      <h2>Node sources</h2>
-      <ul><li><a href="https://education.nationalgeographic.org/resource/gerardus-mercator/" target="_blank" rel="noopener noreferrer">Gerardus Mercator</a> (National Geographic Society, 2023, review) • Supports: node</li><li><a href="https://www.britannica.com/science/Mercator-projection" target="_blank" rel="noopener noreferrer">Mercator projection</a> (Encyclopaedia Britannica, 2026, textbook) • Supports: node</li></ul>
+      <h2><span class="i18n-en">Node sources</span><span class="i18n-zh">节点来源</span></h2>
+      <ul><li><a href="https://education.nationalgeographic.org/resource/gerardus-mercator/" target="_blank" rel="noopener noreferrer">Gerardus Mercator</a> (National Geographic Society, 2023, <span class="i18n-en">review</span><span class="i18n-zh">综述</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node</li><li><a href="https://www.britannica.com/science/Mercator-projection" target="_blank" rel="noopener noreferrer">Mercator projection</a> (Encyclopaedia Britannica, 2026, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node</li></ul>
 
-      <h2>Prerequisite edge evidence</h2>
+      <h2><span class="i18n-en">Prerequisite edge evidence</span><span class="i18n-zh">前置边证据</span></h2>
       
-    <p><strong>Edge/source evidence summary:</strong></p>
+    <p><strong><span class="i18n-en">Edge/source evidence summary:</span><span class="i18n-zh">边/来源证据汇总：</span></strong></p>
     <ul>
-      <li>Prerequisite edges: 5</li>
-      <li>Average edge confidence: 68%</li>
-      <li>Prerequisite sources: 4</li>
-      <li>expert_inference: 5</li>
+      <li><span class="i18n-en">Prerequisite edges:</span><span class="i18n-zh">前置边：</span> 5</li>
+      <li><span class="i18n-en">Average edge confidence:</span><span class="i18n-zh">平均边置信度：</span> 68%</li>
+      <li><span class="i18n-en">Prerequisite sources:</span><span class="i18n-zh">前置来源数：</span> 4</li>
+      <li><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span>: 5</li>
     </ul>
 
       <table>
         <thead>
           <tr>
-            <th>Prerequisite</th>
-            <th>Type</th>
-            <th>Confidence</th>
-            <th>Evidence level</th>
-            <th>Note</th>
-            <th>Sources</th>
+            <th><span class="i18n-en">Prerequisite</span><span class="i18n-zh">前置技术</span></th>
+            <th><span class="i18n-en">Type</span><span class="i18n-zh">类型</span></th>
+            <th><span class="i18n-en">Confidence</span><span class="i18n-zh">置信度</span></th>
+            <th><span class="i18n-en">Evidence level</span><span class="i18n-zh">证据等级</span></th>
+            <th><span class="i18n-en">Note</span><span class="i18n-zh">说明</span></th>
+            <th><span class="i18n-en">Sources</span><span class="i18n-zh">来源</span></th>
           </tr>
         </thead>
         <tbody>
           
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/cartography.html">Cartography</a> (cartography)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/cartography.html"><span class="i18n-en">Cartography</span><span class="i18n-zh">地图学</span></a> (cartography)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>68%</td>
-              <td>expert_inference</td>
+              <td><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span></td>
               <td>Cartography provides a capability that enables this technology without being the only possible path.</td>
-              <td><p>No sources recorded.</p></td>
+              <td><p><span class="i18n-en">No sources recorded.</span><span class="i18n-zh">暂无来源记录。</span></p></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/mathematics.html">Mathematics</a> (mathematics)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/mathematics.html"><span class="i18n-en">Mathematics</span><span class="i18n-zh">数学</span></a> (mathematics)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>68%</td>
-              <td>expert_inference</td>
+              <td><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span></td>
               <td>Mathematics provides a capability that enables this technology without being the only possible path.</td>
-              <td><ul><li><a href="https://www.britannica.com/science/mathematics" target="_blank" rel="noopener noreferrer">Mathematics</a> (Encyclopaedia Britannica, 2026, textbook) • Supports: edge</li></ul></td>
+              <td><ul><li><a href="https://www.britannica.com/science/mathematics" target="_blank" rel="noopener noreferrer">Mathematics</a> (Encyclopaedia Britannica, 2026, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge</li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/printing_press.html">Printing Press</a> (printing_press)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/printing_press.html"><span class="i18n-en">Printing Press</span><span class="i18n-zh">印刷机</span></a> (printing_press)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>68%</td>
-              <td>expert_inference</td>
+              <td><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span></td>
               <td>Printing Press provides a capability that enables this technology without being the only possible path.</td>
-              <td><ul><li><a href="https://www.loc.gov/item/2021666734" target="_blank" rel="noopener noreferrer">Gutenberg Bible</a> (Library of Congress, 2021, official_agency) • Supports: edge</li></ul></td>
+              <td><ul><li><a href="https://www.loc.gov/item/2021666734" target="_blank" rel="noopener noreferrer">Gutenberg Bible</a> (Library of Congress, 2021, <span class="i18n-en">official_agency</span><span class="i18n-zh">官方机构</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge</li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/geometry.html">Geometry</a> (geometry)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/geometry.html"><span class="i18n-en">Geometry</span><span class="i18n-zh">几何学</span></a> (geometry)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>68%</td>
-              <td>expert_inference</td>
+              <td><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span></td>
               <td>Geometry provides a capability that enables this technology without being the only possible path.</td>
-              <td><ul><li><a href="https://www.britannica.com/science/geometry" target="_blank" rel="noopener noreferrer">Geometry</a> (Encyclopaedia Britannica, 2026, textbook) • Supports: edge</li></ul></td>
+              <td><ul><li><a href="https://www.britannica.com/science/geometry" target="_blank" rel="noopener noreferrer">Geometry</a> (Encyclopaedia Britannica, 2026, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge</li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/navigation.html">Navigation</a> (navigation)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/navigation.html"><span class="i18n-en">Navigation</span><span class="i18n-zh">导航术</span></a> (navigation)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>68%</td>
-              <td>expert_inference</td>
+              <td><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span></td>
               <td>Navigation provides a capability that enables this technology without being the only possible path.</td>
-              <td><ul><li><a href="https://www.britannica.com/technology/navigation-technology" target="_blank" rel="noopener noreferrer">Navigation</a> (Encyclopaedia Britannica, 2026, textbook) • Supports: edge</li></ul></td>
+              <td><ul><li><a href="https://www.britannica.com/technology/navigation-technology" target="_blank" rel="noopener noreferrer">Navigation</a> (Encyclopaedia Britannica, 2026, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge</li></ul></td>
             </tr>
         </tbody>
       </table>
 
-      <p><small>This page is generated from canonical era JSON and is indexable by URL.</small></p>
+      <p><small><span class="i18n-en">This page is generated from canonical era JSON and is indexable by URL.</span><span class="i18n-zh">本页由正典时代 JSON 生成，可按 URL 索引。</span></small></p>
     </main>
+    <script src="../i18n-static.js"></script>
   </body>
 </html>

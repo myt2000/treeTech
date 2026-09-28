@@ -51,7 +51,7 @@ The local server binds to loopback and runs read-only by default.
 <!-- QUALITY_SNAPSHOT_START -->
 ## Quality Snapshot
 
-Generated 2026-07-16 from the same dataset audit used by `npm run accuracy:risks`. This is a launch-quality trust snapshot for non-Future nodes, not proof of global accuracy.
+Generated 2026-09-28 from the same dataset audit used by `npm run accuracy:risks`. This is a launch-quality trust snapshot for non-Future nodes, not proof of global accuracy.
 
 Future-era technologies are forecast/roadmap nodes. They are structurally validated, but they are excluded from launch-quality source-check, placeholder-date, edge-source, source-fit, and source-URL gates.
 
@@ -99,6 +99,8 @@ Canonical records live in the era files under [`data/`](data/). Small, source-ba
 | `npm run coverage` | Report coverage by era and technology branch. |
 | `npm run build:public` | Generate stable technology and field pages. |
 | `npm run check:public` | Verify generated public pages are complete and current. |
+| `npm run i18n:import` | Merge TSV batches from `data/i18n/zh-batches/` into `data/i18n/zh.json`. |
+| `npm run i18n:check` | Validate Chinese translations against the canonical dataset (`--strict` requires 100% coverage). |
 
 ## License
 

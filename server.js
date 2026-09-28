@@ -16,6 +16,9 @@ const PUBLIC_ROOT_FILES = new Set([
     'app.js',
     'demo.js',
     'sorted.js',
+    'i18n.js',
+    'i18n-zh.js',
+    'i18n-static.js',
     'style.css',
     'robots.txt',
     'sitemap.xml',
@@ -54,6 +57,20 @@ function loadData(dataDir, taxonomy) {
         if (!Array.isArray(chunk)) throw new Error(`${file} must contain a JSON array`);
         return chunk;
     });
+}
+
+// Optional display-layer translations keyed by technology id. Missing or broken
+// file degrades to an empty map so the canonical English data keeps serving.
+function loadZhTranslations(dataDir) {
+    const filePath = path.join(dataDir, 'i18n', 'zh.json');
+    if (!fs.existsSync(filePath)) return {};
+    try {
+        const parsed = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+        return parsed && typeof parsed === 'object' && !Array.isArray(parsed) ? parsed : {};
+    } catch (error) {
+        console.error('Failed to load Chinese translations:', error);
+        return {};
+    }
 }
 
 function serializableTechnology(item) {
@@ -395,6 +412,8 @@ function createServer(options = {}) {
     const taxonomy = options.taxonomy || loadTaxonomy(dataDir);
     let techData = options.initialData || loadData(dataDir, taxonomy);
     let techRepresentation = createJsonRepresentation(techData);
+    let zhTranslations = options.zhTranslations || loadZhTranslations(dataDir);
+    let zhRepresentation = createJsonRepresentation(zhTranslations);
 
     return http.createServer((req, res) => {
         let pathname;
@@ -411,6 +430,21 @@ function createServer(options = {}) {
                 return;
             }
             sendJsonValue(req, res, 200, { readOnly }, 'no-store');
+            return;
+        }
+
+        if (pathname === '/api/i18n/zh') {
+            if (!['GET', 'HEAD'].includes(req.method)) {
+                sendJson(req, res, 405, 'method_not_allowed', 'Only GET and HEAD are allowed.', null, { Allow: 'GET, HEAD' });
+                return;
+            }
+            const selected = selectJsonRepresentation(req, zhRepresentation);
+            const responseHeaders = { ETag: selected.etag };
+            if (ifNoneMatchMatches(req.headers['if-none-match'], selected.etag)) {
+                sendNotModified(res, TECH_TREE_CACHE_CONTROL, responseHeaders);
+                return;
+            }
+            sendJsonRepresentation(req, res, zhRepresentation, TECH_TREE_CACHE_CONTROL);
             return;
         }
 
@@ -538,6 +572,7 @@ module.exports = {
     createServer,
     isJsonContentType,
     loadData,
+    loadZhTranslations,
     parseReadOnly,
     saveData
 };

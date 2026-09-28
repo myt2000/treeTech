@@ -1,0 +1,123 @@
+relational_query_languages_sql	关系型查询语言（SQL）	在企业规模上定义、查询和更新关系数据库的声明式语言。
+relativity_special_general	相对论（狭义与广义）	爱因斯坦相对论，涵盖狭义相对论（1905）与广义相对论（1915），重塑了空间、时间、引力的物理学及 GPS 等技术。
+remote_patient_monitoring	远程患者监测	面向院外患者监测的联网医疗传感、应用、告警、记录与临床流程。
+renewable_energy_systems	可再生能源并网	把水电、风电、太阳能和地热等非公用事业可再生能源发电接入电网的监管、技术与运营整合。
+renewable_microgrids	可再生微电网	结合光伏、风电、电池、控制、离网运行与需求管理、提供韧性电力的本地电网。
+retrieval_augmented_generation	检索增强生成	把生成模型与外部搜索或数据库结合、使回答基于检索信息落地的 AI 架构。
+reusable_launch_vehicles	可复用运载火箭	设计为可回收并重复使用主要级段或航天器的发射系统，以降低发射成本与节奏限制。
+reverse_osmosis_desalination	反渗透海水淡化	以膜工艺从海水或苦咸水中去除盐分与杂质，供应市政、工业和应急用水。
+rfid_cold_chain_monitoring	RFID 冷链监测	用 RFID 标签与传感器识别货运并监测冷链物流中温度敏感的食品、疫苗、生物制品和物料。
+rfid_tracking	RFID 追踪	面向非接触盘点、物流、门禁、支付和资产追踪的射频识别标签与读写器。
+ride_hailing_platforms	网约车平台	面向城市出行的手机叫车、路径规划、支付、司机匹配与信用评价体系。
+risc_microprocessors	RISC 微处理器	精简指令集计算机架构的 VLSI 微处理器实现，锚定于伯克利 RISC-I 芯片及后来的商用 RISC 家族。
+rna_interference	RNA 干扰	小 RNA 实现的序列特异基因沉默，确立了可编程降低基因表达的实用路径。
+robotic_manipulators	机器人操作臂	面向定位、抓取、焊接、装配与搬运任务的可编程机械臂和末端执行器。
+robotics	机器人学	面向工业等应用的自主或遥控机器的设计与使用。
+rocketry	火箭技术	继戈达德式实验火箭之后、以可控液体燃料推进实现高空飞行与航天发射的现代火箭技术。
+route_optimization_logistics	路径优化物流	为货运与服务车队规划车辆路线、装载、送达窗口、成本与约束的算法与软件。
+satellite_constellations	卫星星座	超越单颗航天器覆盖范围的卫星协同组网，最早由1963年发射、分别监视地球互补半球的成对维拉卫星演示。
+satellite_navigation_receivers	卫星导航接收机	解码卫星授时信号以定位导航的消费级、车载、航空、航海和测量接收机。
+satellite_remote_sensing	卫星遥感	面向科学与业务、对陆地、海洋、大气、作物、城市和灾害的在轨成像与光谱测量。
+satellite_technology	卫星技术	把人造卫星用于通信、观测和导航。
+satellite_weather_forecasting	卫星天气预报	融合卫星数据、雷达、数值模式、通信与预警系统的业务化天气预报。
+scada_water_systems	水务 SCADA 控制	用于监测泵站、水池、阀门、水厂与配水管网的数据采集与监控系统。
+search_engines	搜索引擎	为万维网资源构建可检索目录或索引的 Web 软件系统，从早期人工目录演进到爬虫、索引、排序与查询引擎。
+secure_software_development_lifecycle	安全软件开发生命周期	把威胁建模、代码评审、依赖管控、测试与发布安全融入软件开发的工程实践。
+security_information_event_management	安全信息与事件管理	面向网络防御的集中日志采集、关联分析、告警、审计与事件调查系统。
+self_supervised_learning	自监督学习	从原始数据中自建预测学习信号、无需人工标注目标的训练方式。
+semiconductor_devices	半导体器件	用于控制、放大、开关或转换电信号的工程化半导体结型与有源器件。
+semiconductor_photomasks	半导体光掩模	用于把电路版图投影到涂胶晶圆上的高精度图形掩模或 reticle。
+semiconductor_process_nodes	半导体工艺节点	由器件架构、密度、光刻、互连和工艺设计规则界定的各代半导体制造。
+sequence_to_sequence_attention	序列到序列注意力	把输入序列映射为输出序列、同时学习对相关上下文加注意力的神经架构模式。
+serverless_cloud_functions	无服务器云函数	具备计量、API、弹性伸缩、部署工具与托管运维的事件驱动云执行环境。
+servo_control_systems	伺服控制系统	利用反馈精确控制位置、速度、扭矩或力的闭环执行系统。
+shape_memory_alloys	形状记忆合金	在温度或应力变化时恢复预设形状的合金，用于执行器、医疗器械、管接头和自适应系统。
+silicon_photonics_interconnects	硅光互连	与硅工艺集成的光通信器件，在芯片、封装和数据中心系统之间传输数据。
+silicon_planar_process	硅平面工艺	以二氧化硅掩蔽与表面钝化制造可靠、可量产硅器件的制造方法。
+single_cell_sequencing	单细胞测序	测量单个细胞遗传或转录组信息、揭示隐藏生物学变异的测序方法。
+single_guide_rna_design	单链向导 RNA 设计	设计合成 Cas9 兼容的单链向导 RNA，融合靶向与支架功能，引导 Cas9 到达目标基因组位点。
+skyscrapers	摩天大楼	依托钢构架、钢筋混凝土和电梯实现的高层建筑。
+slam_robotics	SLAM 机器人	同步定位与建图方法：机器人在估计自身位置的同时构建环境地图。
+smallsat_cubesats	小卫星与立方星	降低卫星研制成本、支撑快速教育、商业与科学任务的标准化小型航天器。
+smart_grid_controls	智能电网控制	用于平衡分布式电源、储能与需求的数字控制、传感、预测、通信与自动化。
+smart_grids	智能电网	配备传感、通信、自动化与分析、用于监测、控制、可靠性与分布式资源的电网。
+smart_water_networks	智慧水务网络	管理公用管网漏损、压力、水质与需求的联网传感、计量、分析与控制系统。
+smartphone_app_stores	智能手机应用商店	整合移动应用分发、开发者发布、支付处理、审核、更新、身份与平台治理的大众智能手机软件市场。
+smartphone_gps_navigation	智能手机 GPS 导航	利用卫星接收、传感器、地图、网络和交通数据的移动地图与逐向导航。
+smartphones	智能手机	具备计算机多种功能的移动电话，通常带触摸屏界面、互联网接入和可运行下载应用的操作系统。
+social_media	社交媒体	让人们在网络社区中创建个人资料、分享媒体并使社交连接可见的基于 Web 的社交网络与社区发布服务。
+social_media_content_moderation	平台内容审核体系	管理社交媒体规模言论的平台规则、用户举报、处置队列、审核流程、通知与申诉。
+software_defined_networking	软件定义网络	分离控制面与转发面、以软件控制器编程分组转发行为的网络架构。
+software_engineering	软件工程	把工程原则系统地应用于软件设计、开发与维护。
+software_supply_chain_security	软件供应链安全	保障依赖、构建系统、来源、代码签名、包仓库和部署管线的实践。
+solar_photovoltaics	太阳能光伏	直接把阳光转为电力的半导体器件，用于计算器、卫星、屋顶和公用事业级发电。
+solar_power	太阳能发电	利用光伏电池把阳光能量转化为电力。
+solid_state_drives_ssd_flash_memory	固态硬盘（SSD 闪存）	以集成电路存储单元持久保存数据的数据存储设备，通常采用闪存。
+space_flight	太空飞行	飞越地球大气层之外。
+space_shuttle_reusable_spacecraft	航天飞机（可复用航天器）	部分可重复使用的近地轨道航天器系统的发展：垂直发射、滑翔着陆。
+space_stations	空间站	可供乘员驻留、运营与研究的在轨结构，始于苏联礼炮一号。
+space_telescopes	空间望远镜	把望远镜置于大气畸变与吸收之上的在轨天文台。
+spacecraft_guidance_navigation_control	航天器制导、导航与控制	确定并控制航天器位置、姿态与轨迹的传感器、执行机构、计算机与算法。
+speech_recognition_deep_learning	深度学习语音识别	用于听写、助手、字幕、呼叫中心和无障碍工具的神经转写与语音理解系统。
+sram_cache_memory	SRAM 缓存内存	用作高速缓存及后来处理器缓存的静态随机存取集成电路存储。
+stem_cell_research	干细胞研究	研究可分化为多种细胞类型的未分化或部分分化细胞，面向再生医学应用。
+streaming_music_platforms	流媒体音乐平台	依托曲库、推荐、版权、支付与内容分发的订阅制和广告支持音乐服务。
+structure_based_drug_design	基于结构的药物设计	以三维分子结构指导结合、优化与选择性的药物设计路径。
+submarine_fiber_optic_cables	海底光缆	配备中继器、登陆站和管理系统、构成洲际互联网骨干的海底光缆系统。
+superalloys	镍基高温合金	为高温强度、抗蠕变、耐腐蚀和涡轮性能而设计的合金。
+supercomputing	超级计算	不计成本追求最高性能的科学计算机：从早期定制机到后来的向量与大规模并行系统，用于解决计算密集型科学与工程问题。
+superconductors_high_temp	高温超导体	临界温度高于早期金属超导体的陶瓷等非常规超导材料，始于贝德诺尔茨与米勒1986年的钡镧铜氧发现。
+supersonic_transport	超音速客机	为超过音速飞行而设计的民用飞机，如协和式。
+supervised_learning_pipelines	监督学习管线	涵盖数据标注、特征提取、模型训练、性能验证与预测器部署的工作流。
+supply_chain_management_software	早期供应链计划软件	在后来的 ERP 套件之前协调运营流程的计算机化物料需求、库存、路径与物流计划系统。
+support_vector_machines	支持向量机	寻找最大间隔决策边界、常借核函数实现非线性分类的监督学习模型。
+surgical_robotics	手术机器人	通过精准器械定位、遥操作、成像与运动缩放辅助手术的机器人系统。
+symbolic_ai_expert_systems	符号 AI 与专家系统	把人类专业知识编码为符号、推理规则和知识库的规则式 AI 系统。
+synthetic_biology	合成生物学	融合生物构建方法、DNA 合成、建模与标准化，对生物部件、回路、途径、细胞和生物体进行工程化。
+synthetic_materials_advanced	先进合成材料	通过高分子化学发展出尼龙、特氟龙、凯夫拉等高性能合成材料。
+system_on_chip_soc	片上系统	在单一裸片上整合处理器核心、内存控制器、接口、加速器和外设的集成电路。
+systems_biology	系统生物学	把生物网络、通路和表型作为相互作用系统进行计算与数学建模。
+systems_engineering	系统工程	面向复杂技术系统全生命周期设计、集成、测试与管理的跨学科方法。
+talens	TALEN 技术	把转录激活子样效应子 DNA 结合结构域与 FokI 核酸酶结构域融合、实现靶向基因组切割的工程蛋白。
+telecommunications	电信	以电子手段（广播、电视、电话网络）远距离传输信息。
+telemedicine_platforms	远程医疗平台	运用视频、消息、记录、诊断、排班、远程监测与受监管健康流程的临床照护系统。
+telemedicine_video_consults	交互式视频远程诊疗	经双向电视与电信链路进行的实时远程检查、诊断、心理治疗与临床会诊。
+television	电视	传输图像与声音并在屏幕上重现的系统，是强大的大众媒介。
+through_silicon_vias	硅通孔	蚀刻贯穿硅裸片或中介层的垂直电气连接，支撑密集的3D与2.5D芯片集成。
+time_division_multiplexing	时分复用	把多路数字信道交错插入共享传输链路重复时隙的技术。
+tls_ssl_secure_transport	TLS/SSL 安全传输	为 Web、邮件、API 及其他互联网服务认证端点并加密传输数据的协议。
+tool_using_language_models	工具使用型语言模型	连接 API、代码执行、搜索、检索、计算器或外部软件工具的语言模型。
+touchscreen_interfaces	触摸屏界面	把电子传感与视觉显示结合、直接以手指操作的触控显示输入设备。
+transformer_architectures	Transformer 架构	基于注意力、可高效扩展到文本、代码、图像、音频与多模态数据的神经网络架构。
+transistors	晶体管	用于放大或开关电子信号与电功率、取代真空管的半导体器件。
+tungsten_filament_production	钨丝生产	库利奇式延性拉制钨丝生产，用于白炽灯丝及相关真空器件。
+ultrasound_medical_imaging	超声医学成像	运用高频声换能器、信号处理、显示与临床判读的诊断成像。
+unsupervised_learning_clustering	无监督学习与聚类	在无标注数据中发现潜在结构、簇、嵌入或密度模式的算法。
+urban_planning_modern	现代城市规划	关于土地利用与建成环境（含空气、水和基础设施）发展与设计的技术与政治过程。
+utility_scale_solar_pv	公用事业级光伏电站	配备逆变器、跟踪支架、控制和并网系统的大规模光伏电站，用于批量发电。
+vaccine_development_modern	现代疫苗研发	运用先进分子生物学与基因工程快速开发高效疫苗（如 mRNA、病毒载体）。
+vacuum_tubes_electron_control	真空管（电子控制）	在真空中控制电流的电子元件，是无线电、计算机等早期电子学的基础。
+vector_databases	向量数据库	针对嵌入存储与语义相似检索（文本、图像、音频、代码等高维数据）优化的数据系统。
+version_control_systems	版本控制系统	跟踪源文件修订、历史、检出、分支、合并与发布、服务开发全过程的软件工具与仓库。
+viral_vectors	病毒载体	经工程化改造、把遗传载荷送入细胞、服务研究、基因治疗与基因组编辑的病毒。
+virtual_reality	虚拟现实	可模拟人在真实或想象世界中临场感的沉浸式计算机仿真环境。
+virtualization_early_vm_tech	虚拟化（早期虚拟机技术）	在单一物理机上创建计算机硬件平台、操作系统或存储设备的虚拟版本。
+vlsi_design	超大规模集成电路设计	设计含数千至数十亿晶体管的超大规模集成电路的方法学。
+voice_over_ip	IP 语音（VoIP）	经互联网协议网络编码语音与信令的分组语音系统。
+vulnerability_scanners	漏洞扫描器	在攻击者利用之前自动识别已知软件、配置、网络和 Web 应用弱点的工具。
+warehouse_autonomous_mobile_robots	仓库自主移动机器人	借助导航、车队控制和物流软件集成、在仓库中搬运库存、料车或货架的移动机器人。
+warehouse_barcode_automation	仓库条码自动化	服务仓库的条码扫描器、标签、拣选系统、库存数据库、手持终端和分拨流程。
+warehouse_management_systems	仓库管理系统	跟踪库存、人员、订单、储位、拣货、包装与发货执行的软件与扫描流程。
+water_reuse_reclamation	水回用与再生	把市政或工业废水处理为灌溉、工业、地下水补给或饮用回用水的处理链与配水控制。
+weather_satellites	气象卫星	观测云系、风暴、海面温度、大气水汽和气候变量的在轨平台。
+web_browsers	网页浏览器	检索、渲染、导航并脚本化网页文档与应用的客户端软件。
+wifi_wireless_networking	Wi-Fi 无线网络	使设备无需线缆即可接入本地网络与互联网的短距离无线技术。
+wind_power_modern	风电（现代）	以1941年 Smith-Putnam 风机及后来并网风电场为锚点的公用事业级现代风力发电。
+wind_turbine_farms	风电场	面向大规模风电的气动风机阵列、电力电子、控制与并网系统。
+wind_turbine_power_electronics	风机电力电子	把风机波动输出整定为可靠并网的变流器与控制。
+word_embeddings	词向量	从大规模语料的分布模式中学习得到的词语向量表示。
+world_wide_web	万维网	文档及其他 Web 资源以 URL 标识、经超链接互连、可通过互联网访问的信息系统。
+x_ray_crystallography	X射线晶体学	通过分析X射线衍射图样测定晶体原子与分子结构的技术。
+x_ray_imaging	X射线成像	利用X射线观察不透明物体内部结构，彻底改变了医学诊断。
+zero_trust_security	零信任安全	持续验证身份、设备状态、策略与情境，而非信任网络边界的安全架构。
+zinc_finger_nucleases	锌指核酸酶	把工程化 DNA 结合锌指蛋白与核酸酶融合、在 CRISPR 主导之前实现可编程基因组切割。

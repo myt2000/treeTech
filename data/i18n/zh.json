@@ -1,0 +1,6634 @@
+{
+  "3d_printing_additive_manufacturing": {
+    "name": "3D 打印（增材制造）",
+    "description": "从 CAD 模型或数字三维模型出发逐层构建三维实体。"
+  },
+  "3d_printing_advanced": {
+    "name": "3D 打印（先进/多材料）",
+    "description": "能以金属、陶瓷和生物材料等多种材料构建复杂物体的增材制造。"
+  },
+  "5g_6g_communication_networks": {
+    "name": "6G 通信网络",
+    "description": "商用前的第六代无线系统，预期以新频谱、感知、AI 辅助无线控制及更紧密的卫星与边缘集成扩展 5G。"
+  },
+  "abacus": {
+    "name": "算盘",
+    "description": "一种利用算珠或石子进行记数运算的早期计算工具，可辅助完成复杂的算术计算。"
+  },
+  "acoustic_leak_detection": {
+    "name": "声学泄漏检测",
+    "description": "通过分析管道噪声和压力瞬变来定位自来水主管泄漏的传感器与相关分析方法。"
+  },
+  "activated_sludge_process": {
+    "name": "活性污泥法",
+    "description": "利用曝气微生物絮团降解有机污染的生物污水处理工艺。"
+  },
+  "active_support_structures": {
+    "name": "主动支撑结构",
+    "description": "本身不具备静力稳定、依靠计算机控制的主动动力元件维持形态的巨型结构，实现被动材料无法企及的设计。"
+  },
+  "actuarial_annuity_tables": {
+    "name": "精算年金表",
+    "description": "为养老金、终身年金、保险合同和公共债务估值的数学表格。"
+  },
+  "adaptive_climate_grids": {
+    "name": "自适应气候电网",
+    "description": "在气候压力下协调可再生能源、储能、需求响应、天气预报与分布式发电的能源系统。"
+  },
+  "additive_manufacturing_metal": {
+    "name": "金属增材制造",
+    "description": "面向复杂金属零件、工装和医疗植入物的激光与电子束粉末床系统。"
+  },
+  "advanced_ai": {
+    "name": "高等 AI 系统",
+    "description": "具备广泛多模态能力、工具使用、规划、适应性和跨领域可靠运行的未来 AI 系统。"
+  },
+  "advanced_ceramics": {
+    "name": "先进陶瓷",
+    "description": "具备高硬度、耐热、绝缘、生物相容性或电子性能的工程陶瓷材料。"
+  },
+  "advanced_chemistry": {
+    "name": "高等化学",
+    "description": "现代化学科学，包括原子论、化学计量学、元素周期表以及众多元素的分离。"
+  },
+  "advanced_hunting_gathering": {
+    "name": "高级狩猎采集",
+    "description": "狩猎采集社会依靠狩猎、采集、捕鱼和食腐维生，同时运用复合工具组、投射辅助工具、追踪技能、营地建筑和深厚的生态知识。"
+  },
+  "advanced_materials_science": {
+    "name": "高等材料科学",
+    "description": "战后跨学科材料科学与工程：对成分、加工、结构、性能和使用行为的统一研究，用于设计并应用金属、陶瓷、聚合物、复合材料、半导体等先进材料。"
+  },
+  "advanced_metallurgy_medieval": {
+    "name": "高等冶金（中世纪）",
+    "description": "早期与盛期中世纪的钢铁冶金：块炼铁固结、渗碳、锻焊钢、热处理，以及后来的高炉/精炼实践，造就更坚固的工具、武器和护甲。"
+  },
+  "advanced_nanomedicine": {
+    "name": "高等纳米医学",
+    "description": "在分子层面运用纳米技术进行疾病诊断、治疗与预防，包括纳米机器人。"
+  },
+  "advanced_optics_space_based": {
+    "name": "星载光学仪器",
+    "description": "安装于航天器上的光学相机、望远镜、光谱仪和辐射计，用于在大气层外对地球、天气系统和天文目标成像。"
+  },
+  "advanced_oxidation_water_treatment": {
+    "name": "高级氧化水处理",
+    "description": "产生羟基自由基等高活性氧化剂、以降解水中痕量有机污染物的工艺。"
+  },
+  "advanced_recycling_sortation": {
+    "name": "机器人近红外塑料分选",
+    "description": "运用机器人操作、近红外光谱、模式识别及机械或气动分流来分离塑料流路的计算机控制回收系统。"
+  },
+  "advanced_semiconductor_packaging_2_5d_3d": {
+    "name": "先进半导体封装（2.5D/3D）",
+    "description": "借助中介层、扇出、晶圆键合或垂直堆叠集成多颗裸片，以提升带宽、密度与良率。"
+  },
+  "advanced_shipbuilding_bireme_trireme": {
+    "name": "希腊三列桨座战船",
+    "description": "一种轻巧狭长的希腊地中海战船，由排成三层的 170 支桨驱动，配有木质船体、航行用帆、加固船体的缆索和青铜撞角。"
+  },
+  "advanced_stone_tools": {
+    "name": "先进石器",
+    "description": "早期阿舍利两面器石器技术，包括手斧式大型切割工具以及超出简单石核-石片传统的其他成形器具。"
+  },
+  "advanced_textile_dyes_tyrian_purple": {
+    "name": "高级织物染料（泰尔紫）",
+    "description": "复杂而昂贵的染色工艺，例如从骨螺中提取紫色染料，是财富与地位的象征。"
+  },
+  "adverse_event_reporting_systems": {
+    "name": "不良事件报告系统",
+    "description": "收集、分析并处置疑似药物副作用与安全信号报告的上市后体系。"
+  },
+  "advertising_mass_media_early": {
+    "name": "大众广告",
+    "description": "广告代理商与印刷广告活动，购买报纸版面、散发传单和商业名片、张贴城市广告牌，并为不断扩大的市场打造品牌。"
+  },
+  "aerodynamics_subsonic": {
+    "name": "经典低速空气动力学",
+    "description": "对低速气流中升力、阻力和稳定性的定量研究，始于乔治·凯利对气动力与飞行器功能的分离。"
+  },
+  "aerodynamics_supersonic": {
+    "name": "空气动力学（超音速）",
+    "description": "研究超过音速的气流，对高性能飞行器和火箭至关重要。"
+  },
+  "aging_research_senolytics": {
+    "name": "衰老研究（衰老细胞清除与逆龄）",
+    "description": "对衰老过程的科学研究及延缓、阻断或逆转衰老的干预手段（如衰老细胞清除剂）的发展。"
+  },
+  "agribusiness": {
+    "name": "农业综合企业",
+    "description": "涵盖农业及其相关商业活动的产业部门，涉及大规模生产、加工与流通。"
+  },
+  "agricultural_drones": {
+    "name": "农业无人机",
+    "description": "用于作物巡查、喷施、测绘、畜牧监测和田间分析的无人航空系统。"
+  },
+  "agricultural_revolution_enclosures": {
+    "name": "农业革命与圈地运动",
+    "description": "土地权属、圈地、选择性育种、轮作和面向市场的农业变革，提升了生产率并使劳动力离开土地。"
+  },
+  "agriculture": {
+    "name": "农业",
+    "description": "对驯化作物的系统栽培和动物的饲养，带来粮食盈余并催生定居社会。"
+  },
+  "agriculture_advances_medieval": {
+    "name": "中世纪农业进步",
+    "description": "一系列农耕改进的组合：更重的犁、更好的挽具、扩大的磨坊和轮作制，提高了产量与盈余。"
+  },
+  "ai_accelerators": {
+    "name": "AI 加速器",
+    "description": "针对机器学习工作负载中矩阵运算、张量计算和内存搬运优化的专用处理器。"
+  },
+  "ai_assisted_global_governance_systems": {
+    "name": "AI 辅助全球治理体系",
+    "description": "运用先进 AI 在全球治理与国际关系中进行分析、决策支持与协调。"
+  },
+  "ai_clinical_care_networks": {
+    "name": "AI 临床照护网络",
+    "description": "协同的 AI 系统，支撑检伤分类、诊断、治疗规划、监测、药物选择与临床流程。"
+  },
+  "ai_closed_loop_drug_discovery": {
+    "name": "AI 闭环药物发现",
+    "description": "结合生成模型、机器人合成、自动化实验与主动学习以优化候选药物的预测型药物发现系统。"
+  },
+  "ai_cultural_memory_archives": {
+    "name": "AI 文化记忆档案",
+    "description": "面向艺术、音乐、文学、口述史、游戏、仪式、表演、语言与文化遗产保护的 AI 策展档案。"
+  },
+  "ai_diagnostic_decision_support": {
+    "name": "AI 诊断决策支持",
+    "description": "融合影像、检验、病历与指南、在可审计医疗监督下辅助诊断的临床系统。"
+  },
+  "ai_driven_drug_discovery": {
+    "name": "端到端 AI 药物发现",
+    "description": "成熟且经验证的 AI 工作流：从靶点选择到化合物设计、实验规划、优化与临床转化，人工交接极少。"
+  },
+  "ai_governance_ethics_frameworks_robust": {
+    "name": "AI 治理与伦理框架（强健）",
+    "description": "面向先进、前沿与通用 AI 系统的全面法律、伦理、技术风险与多利益相关方治理框架。"
+  },
+  "ai_governed_power_markets": {
+    "name": "AI 治理电力市场",
+    "description": "自主协调发电、储能、需求响应、输电、微电网与可靠性定价的市场。"
+  },
+  "ai_mediated_supply_negotiation": {
+    "name": "AI 居中供应谈判",
+    "description": "在供应网络中就采购、产能、交付窗口、质量条款与替代方案开展谈判的自主代理。"
+  },
+  "ai_model_auditing": {
+    "name": "AI 模型审计",
+    "description": "对先进 AI 系统的能力、偏见、稳健性、滥用路径与对齐风险进行的独立技术评估。"
+  },
+  "ai_native_government_services": {
+    "name": "AI 原生政务服务",
+    "description": "围绕可审计 AI 助手、资格认定自动化、多语言访问与持续政策反馈重塑的公共服务。"
+  },
+  "ai_personal_health_twins": {
+    "name": "AI 个人健康孪生",
+    "description": "整合个人生理、遗传、暴露、行为与治疗响应的数字模型，服务预防保健。"
+  },
+  "ai_personal_memory_systems": {
+    "name": "AI 个人记忆系统",
+    "description": "用户可控的 AI 助手长期记忆层，组织人生事件、偏好、文档、决策与人际关系。"
+  },
+  "ai_personal_tutoring_companions": {
+    "name": "AI 个人辅导伴侣",
+    "description": "能跨人生阶段建模学习者目标、记忆、动机、课程与测评的持久自适应导师。"
+  },
+  "ai_safety_alignment_methods": {
+    "name": "AI 安全与对齐方法",
+    "description": "减少有害行为、提升可控性、评估滥用风险并使模型与人类意图一致的技术。"
+  },
+  "ai_scientist_automated_discovery": {
+    "name": "AI 科学家（自动化发现）",
+    "description": "专司提出假设、设计实验和解读结果、以自主加速科学发现的 AGI。"
+  },
+  "ai_training_clusters": {
+    "name": "AI 训练集群",
+    "description": "配备高速网络、存储、调度与冷却的大规模 GPU 与加速器集群，用于训练深度学习模型。"
+  },
+  "ai_treaty_verification_systems": {
+    "name": "AI 条约核查系统",
+    "description": "以 AI 辅助监测军控、气候、生物安全、太空交通、网络协议与资源条约。"
+  },
+  "ai_value_alignment_problem": {
+    "name": "AI 价值对齐问题",
+    "description": "确保先进人工智能的目标与行为与人类价值保持一致的难题。"
+  },
+  "air_conditioning": {
+    "name": "空气调节",
+    "description": "通过制冷循环、风机、风管和建筑级气候系统对室内温度与湿度进行机械控制。"
+  },
+  "air_quality_monitoring": {
+    "name": "空气质量监测",
+    "description": "测量颗粒物、臭氧、氮氧化物、二氧化硫和挥发性有机物等污染物的仪器网络。"
+  },
+  "air_traffic_control": {
+    "name": "空中交通管制",
+    "description": "机场塔台、无线电通信、程序与航路管制中心，负责航空器间隔并协调受控空域内的安全运行。"
+  },
+  "alchemy": {
+    "name": "炼金术",
+    "description": "前现代的实验性实用传统，涉及嬗变、材料加工和原型化学实践，其根源可溯至希腊化时代的实验室。"
+  },
+  "algebra_basic": {
+    "name": "初等代数",
+    "description": "求解方程和理解符号表示的早期方法，为以符号化方式处理数量关系奠定了基础。"
+  },
+  "algorithms_computation_theory": {
+    "name": "算法与计算理论",
+    "description": "对算法、可计算性与复杂性的形式化研究，构成计算机科学的理论基础。"
+  },
+  "alkaloid_isolation": {
+    "name": "生物碱分离",
+    "description": "从植物中化学提取并纯化吗啡、奎宁等活性生物碱，制成可计量的药物物质。"
+  },
+  "alternating_current_power": {
+    "name": "交流电力系统",
+    "description": "使用交流电的发电、变压器与输电系统，实现高效变压和远距离电力分配。"
+  },
+  "aluminum_production_hall_heroult": {
+    "name": "铝生产（霍尔-埃鲁法）",
+    "description": "从矿石铝土矿电解冶炼铝的工艺，使这种轻质高强金属在经济上可行并得以广泛使用。"
+  },
+  "aluminum_smelting": {
+    "name": "铝冶炼",
+    "description": "以霍尔-埃鲁电解槽在商业规模上把溶于熔融冰晶石中的氧化铝还原为金属铝的初级铝冶炼作业。"
+  },
+  "amateur_radio_communities": {
+    "name": "早期业余无线电俱乐部",
+    "description": "无线电信验者的有组织社群，共享器材知识、协调测试并推动无线电通信合作。"
+  },
+  "ambulatory_physiological_monitoring": {
+    "name": "动态生理监测",
+    "description": "患者在连续床旁监护之外进行日常活动时，对心电等生理信号的便携式临床监测。"
+  },
+  "amphitheater_colosseum": {
+    "name": "圆形竞技场与罗马斗兽场",
+    "description": "古罗马的永久性竞技场馆：设有阶梯座位的椭圆形公共观赏建筑，始于庞贝等石造竞技场，最终以罗马斗兽场为巅峰。"
+  },
+  "amphora_shipping_standards": {
+    "name": "双耳瓶航运标准",
+    "description": "古罗马及地中海地区标准化的运输双耳瓶，统一其形制、容量、产地、分布与货运容器分类，用于盛运葡萄酒、油、鱼露、果品等货物。"
+  },
+  "analytic_geometry": {
+    "name": "笛卡尔解析几何",
+    "description": "笛卡尔1637年的《几何学》系统地把代数运算和方程与几何作图和曲线关联起来。"
+  },
+  "anatomical_illustration": {
+    "name": "解剖图示",
+    "description": "面向尸体、器官和手术过程的精细印刷视觉记录，用于解剖教学和医学观察的标准化。"
+  },
+  "anatomical_specimen_collections": {
+    "name": "解剖标本收藏",
+    "description": "为医学教学与研究保存的解剖制备物、骨骼、铸型、湿标本、蜡模型和比较标本。"
+  },
+  "anatomical_studies_vesalius_detailed": {
+    "name": "解剖学研究（维萨里）",
+    "description": "《人体的构造》等革命性解剖图谱，基于直接人体解剖，纠正了古代错误，并以高质量写实版画呈现。"
+  },
+  "anatomical_theater_design": {
+    "name": "解剖剧场设计",
+    "description": "具备视线、采光、排水和教学规程的阶梯式解剖示教剧场。"
+  },
+  "anatomy_early_studies": {
+    "name": "解剖学（早期研究）",
+    "description": "对人体和动物结构的初步探索，多借助观察和有限的解剖进行。"
+  },
+  "ancestor_worship": {
+    "name": "新石器时代祖先崇奉",
+    "description": "对已故社区先人的仪式性敬奉，考古上以新石器时代杰里科的灰泥头骨和被精心保存的人类遗骸为代表。"
+  },
+  "anesthetics": {
+    "name": "麻醉剂",
+    "description": "乙醚、氯仿等物质的发现与应用，可诱导暂时失去意识和痛觉，彻底改变了外科手术。"
+  },
+  "animal_domestication": {
+    "name": "早期动物驯化",
+    "description": "人类对动物种群的长期控制与繁育，始于狼/狗的驯化，后来扩展到各类家畜。"
+  },
+  "animal_drawn_plows": {
+    "name": "畜力犁",
+    "description": "套驾役畜牵引犁具，扩大了农户可耕种田地的面积和深度。"
+  },
+  "animal_husbandry": {
+    "name": "畜牧业",
+    "description": "为获取肉、奶、毛和畜力而对牲畜进行系统性照料、繁育和饲养。"
+  },
+  "animal_pack_saddles": {
+    "name": "洋海软皮革骑鞍",
+    "description": "以两个填充的翼状皮革垫围绕中央鞍桥缝合成早期软性骑乘马鞍。"
+  },
+  "animal_powered_threshing": {
+    "name": "拉姆凯驴踏打谷",
+    "description": "驱赶驴群在萨卡拉打谷场上踩踏大麦，随后把谷糠混合物扫入容器准备扬谷。"
+  },
+  "animal_tracking_signs": {
+    "name": "动物追踪与痕迹判读",
+    "description": "通过解读兽踪、足迹等痕迹开展狩猎并了解野生动物。"
+  },
+  "anthropology_cultural": {
+    "name": "文化人类学",
+    "description": "十九世纪对人类社会、文化、语言、经济和历史发展的比较研究与分类。"
+  },
+  "antibiotic_susceptibility_testing": {
+    "name": "抗生素敏感性检测",
+    "description": "测量病原体是否被特定抗生素抑制的实验室方法，用于指导治疗和耐药监测。"
+  },
+  "antibiotics": {
+    "name": "抗生素",
+    "description": "杀灭或抑制细菌生长的药物，彻底改变了医学与公共卫生。"
+  },
+  "antimatter_production_containment": {
+    "name": "反物质生产与约束",
+    "description": "大量制造并安全储存反物质（通常以磁阱）的技术。"
+  },
+  "antimatter_rockets": {
+    "name": "反物质火箭",
+    "description": "利用正反物质湮灭获得最高比冲、实现快速行星际与恒星际航行的推进系统。"
+  },
+  "api_economy": {
+    "name": "API 经济",
+    "description": "围绕支付、地图、身份、物流、AI 和数据服务的程序化接口构建的商业与软件生态。"
+  },
+  "apis_mellifera_domestication_beekeeping": {
+    "name": "养蜂",
+    "description": "驯养和培育蜂群，以获取蜂蜜（重要甜味剂）和蜂蜡（用于书写板、铸造和封缄）。"
+  },
+  "apothecary_shops": {
+    "name": "药房",
+    "description": "专门零售兼专业服务店铺，从事药品与药材的制备、销售和咨询。"
+  },
+  "apprenticeship_systems": {
+    "name": "学徒制",
+    "description": "结构化的训练契约，传承手艺知识、规范劳动力准入并维系行会标准。"
+  },
+  "aqueduct_maintenance_crews": {
+    "name": "输水道维护队",
+    "description": "负责维持输水道、蓄水池和管道正常运转的测量员、石匠、检查员、清洁工和管理人员。"
+  },
+  "aqueduct_siphons_lead_pipes": {
+    "name": "输水道虹吸管与铅管",
+    "description": "先进的输水道技术，包括用倒虹吸管跨越山谷，以及使用铅管分配用水。"
+  },
+  "aqueducts": {
+    "name": "输水道",
+    "description": "为把水远距离输送至城市、农田和皇家园林而修建的渠道、桥管和水道系统。"
+  },
+  "arch_bridge_construction": {
+    "name": "拱桥建造",
+    "description": "古典罗马石拱桥建造技术，以现存的法布里奇乌斯桥等为代表，用坚固拱券承载道路跨越河流和城市水道。"
+  },
+  "archery": {
+    "name": "西布杜弓箭使用",
+    "description": "依据西布杜洞穴石器证据推断的带石镞弓箭狩猎技术。"
+  },
+  "arches_domes": {
+    "name": "拱券与穹顶",
+    "description": "拱、拱顶和穹顶等曲线砌体结构，通过压力传导荷载，实现耐久的开口、大跨屋顶及后来的宏伟室内空间。"
+  },
+  "armored_cavalry_stirrups": {
+    "name": "具装骑兵马镫",
+    "description": "改进的踏脚与鞍具配件，服务于骑乘作战、运输和冲击战术。"
+  },
+  "arquebus": {
+    "name": "火绳钩枪",
+    "description": "十五世纪中叶发展出的早期肩射滑膛火绳枪，带钩状支架。"
+  },
+  "arsenal_standardized_ship_parts": {
+    "name": "威尼斯兵工厂预制船件",
+    "description": "威尼斯兵工厂预制并仓储船舶部件、索具、船帆、桨、桅、武器和补给，实现战舰快速组装与装备。"
+  },
+  "art": {
+    "name": "艺术",
+    "description": "通过颜料、刻痕、身体装饰和便携物件进行的象征性视觉表达，用于记忆、仪式与交流。"
+  },
+  "art_conservation_workshops": {
+    "name": "艺术品修复作坊",
+    "description": "面向绘画及相关彩色器物的专业修复保护实践，包括材料检验、清洗、修补、补绘、重新装裱和档案记录。"
+  },
+  "artificial_general_intelligence": {
+    "name": "通用人工智能（AGI）",
+    "description": "预测中的一类 AI 系统：能在广泛认知任务与领域上以约等于或高于人类的广度与表现进行学习、推理和运用知识。"
+  },
+  "artificial_intelligence_early": {
+    "name": "人工智能（早期）",
+    "description": "能够完成需要基础类人智能任务的机器系统（如专家系统、符号推理、搜索算法）。"
+  },
+  "artificial_neurons": {
+    "name": "人工神经元",
+    "description": "受生物神经元启发的数学单元，对加权输入与非线性激活进行计算。"
+  },
+  "artificial_superintelligence_asi": {
+    "name": "人工超智能（ASI）",
+    "description": "在科学创造力、综合智慧与社交技能等几乎所有领域都远超最优秀人脑的智能体。"
+  },
+  "artillery_fortification_schools": {
+    "name": "炮兵与要塞学校",
+    "description": "制度化的军事教学，涵盖火炮操典、弹道学、几何、要塞设计、攻防与战场工程。"
+  },
+  "aseptic_surgery": {
+    "name": "无菌外科",
+    "description": "通过器械灭菌、使用无菌手套和维持无菌区域来防止伤口微生物污染的外科实践。"
+  },
+  "assembly_line": {
+    "name": "流水装配线",
+    "description": "标准化部件与细分工序随传送装置流经工人的移动生产线系统，以福特1913年高地公园工厂为典范。"
+  },
+  "assembly_line_quality_systems": {
+    "name": "流水线质量体系",
+    "description": "嵌入移动生产线的检验站、量规、过程控制和反馈回路。"
+  },
+  "asteroid_habitat_caverns": {
+    "name": "小行星栖息洞穴",
+    "description": "在小行星内部开凿的加压居住与工业空间，兼具屏蔽、资源获取与低重力定居功能。"
+  },
+  "asteroid_industrial_ecosystems": {
+    "name": "小行星工业生态",
+    "description": "横跨小行星与在轨基础设施运行的采矿、精炼、制造、推进剂、栖息与物流联动系统。"
+  },
+  "asteroid_mining": {
+    "name": "小行星采矿",
+    "description": "从小行星及其他小天体开采原材料的活动。"
+  },
+  "astrolabe_early": {
+    "name": "星盘（早期）",
+    "description": "一种早期的模拟计算装置，可求解多种天文问题，用于测量天体的高度。"
+  },
+  "astrolabe_quadrant": {
+    "name": "星盘与象限仪",
+    "description": "精密的导航与天文仪器，用于测量天体高度以确定纬度和时间。"
+  },
+  "astronomy": {
+    "name": "天文学",
+    "description": "对天体与天象的研究，被新工具、精确数学模型和对地心教条的挑战所革新。"
+  },
+  "atlatl": {
+    "name": "投矛器（Atlatl）",
+    "description": "上旧石器时代的投矛器技术，能以更大的力量和射程掷出镖状投掷物，证据锚定于马西埃尔-卡纳尔的痕迹证据。"
+  },
+  "atlatl_spear_throwers": {
+    "name": "投矛器",
+    "description": "通过痕迹匹配的投射尖状器得到证实的杠杆式投矛器，扩展了狩猎镖的射程和冲击能量。"
+  },
+  "atmospheric_carbon_capture_large_scale": {
+    "name": "大气碳捕集与封存（大规模）",
+    "description": "直接从大气中移除二氧化碳并长期封存的技术。"
+  },
+  "atomic_clocks": {
+    "name": "原子钟",
+    "description": "基于原子共振的极高精度计时装置。"
+  },
+  "atomic_force_microscopy_manipulation": {
+    "name": "原子力显微与操纵",
+    "description": "在原子尺度成像并操控物质的技术。"
+  },
+  "atomic_layer_deposition": {
+    "name": "原子层沉积",
+    "description": "逐层构建材料的自限性薄膜沉积技术。"
+  },
+  "atomic_theory_daltonian": {
+    "name": "道尔顿原子论",
+    "description": "认为物质由称为原子的离散单元构成、每种元素具有独特原子质量的科学理论。"
+  },
+  "automated_teller_machines": {
+    "name": "自动柜员机",
+    "description": "机电式出钞机及后来的联网终端，在有人网点之外提供自动取款与账户服务。"
+  },
+  "automatic_telephone_switching": {
+    "name": "自动电话交换",
+    "description": "无需人工接线员即可接通呼叫的机电交换系统。"
+  },
+  "automobile": {
+    "name": "汽车",
+    "description": "以奔驰专利motorwagen为锚点的实用汽油汽车谱系，区别于后来的流水线汽车量产。"
+  },
+  "automobile_mass_production": {
+    "name": "量产汽车",
+    "description": "面向大众市场制造平价汽车，以移动流水线的运用为开创。"
+  },
+  "automobile_prototype": {
+    "name": "汽车（原型）",
+    "description": "“无马马车”的发明：以内燃机驱动的自走车辆，代表最早可用的汽车。"
+  },
+  "autonomous_ai_agent_workflows": {
+    "name": "自主 AI 代理工作流",
+    "description": "在有限监督下规划多步骤工作、调用工具、管理记忆、监控进度并从错误中恢复的 AI 系统。"
+  },
+  "autonomous_arcologies": {
+    "name": "自主巨型生态建筑",
+    "description": "融合居住、交通、食物、能源、水、治理与机器人维护的密集自调节城市巨型结构。"
+  },
+  "autonomous_asteroid_mining_swarms": {
+    "name": "自主小行星采矿蜂群",
+    "description": "面向小行星资源的协同机器人勘探、开挖、分选、精炼、维修与运输系统。"
+  },
+  "autonomous_biosecurity_sentinels": {
+    "name": "自主生物安全哨兵",
+    "description": "面向新生生物威胁的分布式传感、测序、AI 分析、报告与响应系统。"
+  },
+  "autonomous_disaster_response_swarms": {
+    "name": "自主灾害响应蜂群",
+    "description": "面向火灾、洪水、地震、风暴和基础设施失效的机器人、无人机、传感、医疗与物流协同集群。"
+  },
+  "autonomous_freight_corridors": {
+    "name": "自主货运通道",
+    "description": "整合自动驾驶卡车、传感、通信、充电、场站与运营管控的指定物流走廊。"
+  },
+  "autonomous_lab_platforms": {
+    "name": "自主实验平台",
+    "description": "在极少人工输入下规划并执行实验的机器人仪器、主动学习与仿真回路。"
+  },
+  "autonomous_labor_platforms": {
+    "name": "自主劳动平台",
+    "description": "以有限人工监督规划、谈判、执行并验证复杂经济工作的软件代理与机器人协同机队。"
+  },
+  "autonomous_lunar_construction_fleets": {
+    "name": "自主月面建设机队",
+    "description": "在月球整备场地、修建道路、栖息舱、着陆坪、供电系统与月壤屏蔽层的机器人机队。"
+  },
+  "autonomous_ocean_restoration": {
+    "name": "自主海洋修复",
+    "description": "面向珊瑚礁、渔业、碳循环、污染清理与海岸韧性的机器人与生物系统。"
+  },
+  "autonomous_orbital_shipyards": {
+    "name": "自主在轨船厂",
+    "description": "在轨道上装配、维修、加注、检查与升级航天器和栖息设施的机器人设施。"
+  },
+  "autonomous_science_labs": {
+    "name": "自主科学实验室",
+    "description": "借助 AI 设计实验、操作仪器、分析结果并更新假设的机器人实验室。"
+  },
+  "autonomous_space_traffic_control": {
+    "name": "自主空间交通管制",
+    "description": "在拥挤轨道区域由 AI 管理的跟踪、路由、避撞、发射窗口、碎片治理与对接协调。"
+  },
+  "autonomous_supply_chains": {
+    "name": "自主供应链",
+    "description": "自动预测需求、谈判产能、安排货运、调度生产并从扰动中恢复的供应网络。"
+  },
+  "autonomous_vehicle_stack": {
+    "name": "自动驾驶系统栈",
+    "description": "面向自动驾驶车辆的一体化感知、定位、环境理解、规划、控制、地图、仿真与安全体系。"
+  },
+  "backpropagation_training": {
+    "name": "鲁梅尔哈特-辛顿-威廉姆斯反向传播",
+    "description": "1986年提出的学习方法：把输出误差经隐藏单元反向传播以调整连接权重，使多层神经网络表示可被训练。"
+  },
+  "backside_power_delivery": {
+    "name": "背面供电",
+    "description": "从晶圆背面走线供电的芯片制造方案，减少正面互连拥塞与电压跌落。"
+  },
+  "bacteriology_kochs_postulates": {
+    "name": "细菌学",
+    "description": "对细菌的科学研究，通过柯霍法则等方法与培养基的发展确立特定细菌为特定疾病的病因。"
+  },
+  "ballista_onager": {
+    "name": "扭力弹射器械",
+    "description": "以机架和双扭力弹簧发射箭矢或石块的攻城器械，后发展为希腊化与罗马时代的弩炮（ballista）传统。"
+  },
+  "ballistic_missiles_icbm": {
+    "name": "弹道导弹（洲际导弹）",
+    "description": "沿弹道轨迹把一个或多个弹头送至预定目标、具备洲际射程的导弹。"
+  },
+  "ballistics_and_kinematics_galileo": {
+    "name": "弹道与运动学（伽利略）",
+    "description": "对运动的数学研究，包括重力下抛体的路径。伽利略确立抛体运动可分解为水平与垂直分量。"
+  },
+  "ballistics_early": {
+    "name": "早期弹道学",
+    "description": "对攻城器械和射箭中抛体运动的初步认识。"
+  },
+  "banking": {
+    "name": "银行",
+    "description": "成熟的金融机构与实践，包括放贷、货币兑换和投资，由美第奇等显赫家族开创。"
+  },
+  "banking_early_forms": {
+    "name": "商人存款银行",
+    "description": "商人存款店铺保管钱币或货物并开出可转让收据，架起了从储值到存款凭证的机构桥梁。"
+  },
+  "barcodes": {
+    "name": "条形码",
+    "description": "用于追踪产品、库存、货运、票据、单证和制造流程的机器可读光学码。"
+  },
+  "barcodes_inventory_systems": {
+    "name": "条码库存系统",
+    "description": "服务零售收银、仓储、物流与制造管控的机器可读商品码和扫描器。"
+  },
+  "barometer": {
+    "name": "气压计",
+    "description": "测量大气压的水银柱仪器，由托里拆利的真空实验发展而来。"
+  },
+  "barter": {
+    "name": "以物易物",
+    "description": "不借助交换媒介，直接以货物和服务交换其他货物和服务。"
+  },
+  "base_editing": {
+    "name": "碱基编辑",
+    "description": "源自 CRISPR 的编辑器，无需双链断裂即可化学转换单个 DNA 碱基。"
+  },
+  "basic_arithmetic": {
+    "name": "基础算术",
+    "description": "数制体系（如六十进制或十进制）及其运算的发展，用于会计、贸易和工程。"
+  },
+  "basic_boat_propulsion": {
+    "name": "人力船只推进",
+    "description": "在帆推进之前或与之并存的划桨、撑篙、摇橹和操舵桨等人力行船方式。"
+  },
+  "basic_cartography": {
+    "name": "巴比伦世界地图",
+    "description": "一块楔形文字泥板，描绘巴比伦、幼发拉底河、有名称的周边地区、环形大洋以及所记述的外围区域。"
+  },
+  "basic_chemistry": {
+    "name": "基础化学",
+    "description": "超越纯粹炼金术的系统性物质实验，涉及酸、碱、蒸馏与提纯过程。"
+  },
+  "basic_chemistry_early_forms": {
+    "name": "古典化学技艺",
+    "description": "古典地中海地区通行的经验性物质转化知识，涵盖金属、陶瓷、染料、药物、玻璃、食品与发酵，承袭自更古老的工艺传统。"
+  },
+  "basic_geometry_and_surveying": {
+    "name": "基础几何与测量",
+    "description": "几何原理在土地测量（尤其洪水之后）、灌溉规划和大型建筑放线中的实际应用。"
+  },
+  "basic_rope_making": {
+    "name": "基础制绳",
+    "description": "将植物纤维、树皮纤维或动物筋腱捻合成绳索，用于捆扎、装柄、网具、陷阱、住所和工具。"
+  },
+  "basic_shelter": {
+    "name": "简易庇护所",
+    "description": "用灌木枝、树枝、兽皮或骨头搭建的简易遮蔽物，用于抵御天气并支持营地重复使用。"
+  },
+  "basic_weaving_basketry": {
+    "name": "基础编织与篮筐",
+    "description": "交错编结植物纤维或薄木条，制作容器、席垫和简单织物。"
+  },
+  "battlefield_wound_care": {
+    "name": "埃德温·史密斯创伤护理",
+    "description": "古埃及针对伤口、骨折、脱臼的临床创伤护理，涵盖诊断、预后、包扎、缝合、夹板固定及相关处置。"
+  },
+  "bell_foundry_workshops": {
+    "name": "铸钟作坊",
+    "description": "面向教堂钟、城镇警钟、钟楼钟和市政信号的专门铸造工场。"
+  },
+  "bellows": {
+    "name": "风箱",
+    "description": "用于金属加工的强制鼓风装置，早期可靠证据来自陶质锅式风箱和吹管喷嘴。"
+  },
+  "bessemer_process": {
+    "name": "贝塞麦炼钢法",
+    "description": "通过向熔融生铁吹气除杂来低成本量产钢的第一种工业化工艺。"
+  },
+  "bessemer_steel_conversion": {
+    "name": "穆什特镜铁改良",
+    "description": "罗伯特·穆什特在空气吹炼后加入铁碳锰合金（镜铁），纠正了过度氧化的贝塞麦钢并改善其加工性。"
+  },
+  "bicycle": {
+    "name": "自行车",
+    "description": "人力脚踏驱动的单轨双轮车辆。链条传动和充气轮胎等创新使其成为流行的交通方式。"
+  },
+  "bicycle_safety_design": {
+    "name": "安全自行车设计",
+    "description": "链条驱动、等轮径的安全自行车，配充气轮胎、轻量车架、轴承、制动器并实现量产。"
+  },
+  "big_data_analytics_computational_statistics": {
+    "name": "大数据分析与计算统计学",
+    "description": "以先进计算方法分析超大数据集，发掘模式、相关性与洞见。"
+  },
+  "bills_of_exchange_clearing": {
+    "name": "汇票清算",
+    "description": "使商人无需搬运大量钱币即可跨城清偿债务的金融票据与清算实践。"
+  },
+  "bills_of_exchange_early_finance": {
+    "name": "汇票与早期金融",
+    "description": "无需实体搬运货币即可转移资金的金融工具：向特定人支付一定金额的书面指令，便利了远距离贸易。"
+  },
+  "bio_digital_convergence_seamless_integration": {
+    "name": "生物-数字融合（无缝集成）",
+    "description": "生物系统与数字系统的深度融合，模糊人类与机器的边界。"
+  },
+  "bio_enhancements_genetic_cybernetic_augmentation": {
+    "name": "生物增强（基因与赛博格改造）",
+    "description": "通过基因改造或植入式电子装置增强人类能力的技术。"
+  },
+  "biochemistry": {
+    "name": "生物化学",
+    "description": "研究生命体内及与生命相关的化学过程。"
+  },
+  "biodesigned_construction_materials": {
+    "name": "生物设计建材",
+    "description": "菌丝体、生物水泥、生长型复合材料和自修复结构构件等工程化生物材料。"
+  },
+  "bioengineered_carbon_sinks": {
+    "name": "生物工程碳汇",
+    "description": "面向持久移除碳的工程化生态系统、作物、藻类、微生物、土壤与监测系统。"
+  },
+  "biofoundries_autonomous": {
+    "name": "自主生物铸造厂",
+    "description": "以机器人和 AI 指导设计、构建、测试并放大生物系统与合成生物体的设施。"
+  },
+  "bioinformatics": {
+    "name": "生物信息学",
+    "description": "把计算机科学与统计应用于生物数据，尤其是基因组数据。"
+  },
+  "biological_immortality": {
+    "name": "生物学永生",
+    "description": "达到可忽略衰老的状态：生物衰老过程被完全阻断且可逆，使老死不再可能。"
+  },
+  "biology": {
+    "name": "作为统一科学的生物学",
+    "description": "1802年由拉马克和特雷维拉努斯命名的生命有机体统一科学，把原先分离的博物学、解剖学、生理学和植物学纳入同一领域。"
+  },
+  "biopharmaceutical_manufacturing": {
+    "name": "生物制药生产",
+    "description": "以活细胞或生物系统为来源的生物药品的受控生产、纯化、检测与放行。"
+  },
+  "bioprinted_transplant_organs": {
+    "name": "生物打印移植器官",
+    "description": "由细胞、支架、血管网络与成熟生物反应器装配的患者匹配组织与器官。"
+  },
+  "biosimilars": {
+    "name": "生物类似药",
+    "description": "由分析、生产、临床与监管可比性证据支持的高度相似的后续生物药。"
+  },
+  "blast_furnace": {
+    "name": "高炉",
+    "description": "以持续热风鼓风（常由水力风箱驱动）大批量生产优质铸铁的高大炉体。"
+  },
+  "blockchain_cryptocurrency": {
+    "name": "区块链与加密货币",
+    "description": "以公钥签名、密码学哈希链、工作量证明和网络共识为交易定序、无需中央铸币的对等数字现金与账本设计。"
+  },
+  "blood_circulation_harvey": {
+    "name": "血液循环（哈维）",
+    "description": "血液由心脏泵送、在闭合环路中全身循环的发现与实证演示，是生理学的里程碑。"
+  },
+  "blood_typing": {
+    "name": "血型分型",
+    "description": "发现人类主要血型（A、B、O）及相容性的重要性，首次使安全输血成为可能。"
+  },
+  "blown_glass": {
+    "name": "吹制玻璃",
+    "description": "以空心管自由吹制成型为核心的早期玻璃工艺，使古代地中海地区器皿生产更快、更廉价、样式更多样。"
+  },
+  "bluetooth_short_range": {
+    "name": "蓝牙",
+    "description": "设备间短距离无线数据交换标准，常用于外设与配件。"
+  },
+  "bone_awls_needles": {
+    "name": "旧石器时代骨锥",
+    "description": "用于锥穿兽皮的尖状骨器，与带孔针缝纫技术同期或更早。"
+  },
+  "bone_needles_tailoring": {
+    "name": "旧石器时代带孔骨针",
+    "description": "带针孔的骨、鹿角或象牙针，用于把线或筋腱缝过兽皮和衣物。"
+  },
+  "bone_tool_making": {
+    "name": "骨器制作",
+    "description": "用动物骨骼制作实用器具，包括打制的大型哺乳动物骨器以及后来的骨锥、骨针和尖状器。"
+  },
+  "book_binding_codex_production": {
+    "name": "书籍装帧（册子本制作）",
+    "description": "把羊皮、犊皮或后来的纸页组装装订于封面之间的技术，制成耐久册子本，在多数书籍用途上取代卷轴。"
+  },
+  "bookbinding_workshops": {
+    "name": "装订作坊",
+    "description": "为手抄本和印刷书进行缝订、包面、加扣、修复与装饰的手工业作坊。"
+  },
+  "border_customs_posts": {
+    "name": "边境关卡",
+    "description": "设于边境的海关检查站与办事机构，官员在此查验货物，征收通行税、进出口税、入市税和过境税。"
+  },
+  "border_gateway_protocol": {
+    "name": "边界网关协议",
+    "description": "让自治系统在全球互联网上交换可达性信息的域间路由协议。"
+  },
+  "botanical_gardens_herbaria": {
+    "name": "植物园与腊叶标本馆",
+    "description": "用于医药、分类、农业、帝国交流和科学教学的活体植物收集与保存标本。"
+  },
+  "botanical_gardens_systematic_collection": {
+    "name": "植物园与系统采集",
+    "description": "为植物的科学考察、栽培与分类而设的园圃，多与大学关联并由全球探索提供动力。"
+  },
+  "botanical_herbarium_sheets": {
+    "name": "腊叶标本台纸",
+    "description": "经压制、贴标签的植物标本，供比较、教学、医药、分类和学者间交换。"
+  },
+  "boundary_markers_land_tenure": {
+    "name": "界标与土地权属",
+    "description": "用于界定田地、灌溉权、继承和纳税的实物界标、口传地界和记录性权属主张。"
+  },
+  "brain_computer_interface": {
+    "name": "脑机接口（BCI）",
+    "description": "增强或接线的脑与外部设备之间的直接通信通路。"
+  },
+  "brain_computer_interface_non_invasive_eeg_fnirs": {
+    "name": "脑机接口（无创 EEG/fNIRS）",
+    "description": "无需外科植入、以外部传感器读取脑活动的脑机接口。"
+  },
+  "brain_mapping": {
+    "name": "脑图谱",
+    "description": "借助神经影像、神经科学与计算数据整合，绘制脑解剖、活动、连接、化学与功能地图。"
+  },
+  "bread_ovens": {
+    "name": "面包烤炉",
+    "description": "规模化烘焙发酵与无酵面包的封闭加热炉室，支撑城市食物供给和专门化劳动。"
+  },
+  "breech_loading_firearms": {
+    "name": "工业后膛步枪",
+    "description": "以专门精密机械制造的后膛步枪，实现从枪管后部装填，并可重复生产枪机及其部件。"
+  },
+  "bridge_arch_inspection": {
+    "name": "桥梁拱券巡检",
+    "description": "对重要通道桥梁的拱券、桥墩、基础、洪水影响、路面、通行税和修缮情况进行定期检查。"
+  },
+  "bridge_chapels_tolls": {
+    "name": "桥上礼拜堂与过桥费",
+    "description": "通过通行费、捐赠和法律特权为桥梁修建与养护筹资的宗教与市政制度。"
+  },
+  "bridge_toll_booths": {
+    "name": "桥税与修桥捐",
+    "description": "以通行费特许、收费点、养护账目和交通管理支撑的受控桥梁通行。"
+  },
+  "bronze_casting_molds": {
+    "name": "青铜铸造铸型",
+    "description": "用于铸造工具、武器、饰物、器皿、构件和标准化金属件的可复用或一次性铸型。"
+  },
+  "bronze_working": {
+    "name": "青铜冶炼",
+    "description": "将铜锡合金成青铜，这种坚硬耐用的金属可打造更优良的工具、武器和护甲。"
+  },
+  "build_automation_tools": {
+    "name": "构建自动化工具",
+    "description": "以可重复命令与依赖规则从源码定义编译、链接、打包、测试并再生软件产物的工具与脚本。"
+  },
+  "bureaucracy": {
+    "name": "阿契美尼德帝国官僚体系",
+    "description": "阿契美尼德（波斯）帝国的层级总督制行政体系，依靠任命官员、文书机构、书面公文、税收制度和层层相辖的省级权力治理辽阔疆土。"
+  },
+  "cable_modems_docsis": {
+    "name": "线缆调制解调器（DOCSIS）",
+    "description": "经由光纤同轴混合有线电视网传输分组数据的宽带接入系统。"
+  },
+  "cadastral_tax_maps": {
+    "name": "地籍税册",
+    "description": "经测量编制的土地记录，将地块、业主、作物、道路、灌溉与纳税义务相互关联。"
+  },
+  "calculus_formalization": {
+    "name": "莱布尼茨公开发表的微分学",
+    "description": "莱布尼茨1684年的《新方法》发表微分学记号及幂、积、商的求导法则。"
+  },
+  "calendars": {
+    "name": "历法",
+    "description": "基于月相和太阳周期的时间追踪体系，对农业、节庆和民政生活至关重要。"
+  },
+  "canal_lock_gates": {
+    "name": "运河船闸闸门",
+    "description": "帮助船只在不同运河或河流水位间升降的水控闸门与闸室。"
+  },
+  "canal_networks": {
+    "name": "渠网系统",
+    "description": "相互连通的人工水道，用于受管理农业景观中的灌溉、排水、防洪和运输。"
+  },
+  "canning_food_preservation": {
+    "name": "罐头与食品保藏",
+    "description": "将食品加工后密封于镀锡钢板或玻璃等气密容器中保存的方法。"
+  },
+  "cannons": {
+    "name": "火炮",
+    "description": "早期火药炮械，包括用于攻城与野战的臼炮及其他类火炮。"
+  },
+  "capitalism_industrial": {
+    "name": "工业资本主义",
+    "description": "以生产资料私有制、市场竞争和雇佣劳动为特征，并随工业化而扩大的经济制度。"
+  },
+  "carbon_accounting_software": {
+    "name": "碳核算软件",
+    "description": "跨组织与供应链测量、归属、审计和报告温室气体排放的数字工具与软件平台。"
+  },
+  "carbon_capture_and_storage": {
+    "name": "碳捕集与封存",
+    "description": "把二氧化碳从工业或电厂排放流中分离并封存于地下或耐久产品中的系统。"
+  },
+  "cart_axle_bearings": {
+    "name": "卢布尔雅那转轴车轮轴承",
+    "description": "车轮与轴一体转动的木制车轴组件，轴由车架支撑充当滑动轴承。"
+  },
+  "cartography": {
+    "name": "地图学",
+    "description": "为探索、贸易和治理绘制精细准确地图的技艺与科学，因印刷术和新的数学投影而增强。"
+  },
+  "cartography_mercator_projection": {
+    "name": "地图学（墨卡托投影）",
+    "description": "墨卡托等新投影的发展，把等角航线表现为直线段，助力全球探索的航海。"
+  },
+  "cartridge_ammunition": {
+    "name": "定装弹药",
+    "description": "把弹头、发射药和底火封装于金属弹壳内的整体弹药单元，简化并加快了装填过程。"
+  },
+  "cas12_cas13_editing_platforms": {
+    "name": "Cas12 与 Cas13 编辑平台",
+    "description": "Cas9 之外的 CRISPR 系统，扩展了 DNA 靶向、RNA 靶向、诊断和转录组工程能力。"
+  },
+  "cas9_programmable_nuclease": {
+    "name": "可编程 Cas9 核酸酶",
+    "description": "配置为 RNA 引导核酸酶的 Cas9，可被编程切割匹配的 DNA 序列。"
+  },
+  "casgevy_exa_cel": {
+    "name": "Casgevy / Exa-cel",
+    "description": "首个获 FDA 批准的 CRISPR/Cas9 疗法：编辑自体造血干细胞，治疗镰状细胞病和β地中海贫血。"
+  },
+  "casting_and_molding": {
+    "name": "铸造与模制",
+    "description": "将熔融金属倒入石质或陶质铸型，制造复杂形状的工具和器物。"
+  },
+  "castle_garrison_logistics": {
+    "name": "城堡驻军后勤",
+    "description": "设防城堡的运营支撑：由城守统领的驻军、粮秣军械储备、水源、警戒勤务、地方供给聚落和围城持久安排。"
+  },
+  "castle_signal_beacons": {
+    "name": "规范化中世纪烽燧网络",
+    "description": "以白昼烟、夜间火的规范化烽火链与瞭望网络，警示敌情并动员地方防御。"
+  },
+  "catalysis": {
+    "name": "催化",
+    "description": "研究和应用催化剂以提升化学反应速率，是工业化学的基础。"
+  },
+  "catalytic_converters_vehicle_emissions": {
+    "name": "催化转化器",
+    "description": "利用催化剂降低一氧化碳、碳氢化合物和氮氧化物的车辆尾气处理装置。"
+  },
+  "cathode_ray_tube_crt_displays": {
+    "name": "阴极射线管（CRT）显示器",
+    "description": "把电子束指向荧光屏以生成图像的真空管。"
+  },
+  "celestial_mythology_constellations": {
+    "name": "天体神话与星座",
+    "description": "基于天象观察创造的故事与图案，构成早期宇宙观和记忆辅助。"
+  },
+  "cell_culture": {
+    "name": "细胞培养",
+    "description": "在受控培养基中于生物体外培养细胞，支撑病毒学、疫苗、单克隆抗体、毒理学和再生医学。"
+  },
+  "cellular_agriculture_bioreactors": {
+    "name": "细胞农业生物反应器",
+    "description": "以培养细胞、发酵、合成生物学、蛋白设计和自动化生物反应器进行的规模化食品生产。"
+  },
+  "cellular_networks": {
+    "name": "蜂窝网络",
+    "description": "把服务区分成蜂窝小区并在基站间切换移动用户的无线接入网络。"
+  },
+  "census": {
+    "name": "人口普查",
+    "description": "对人口、户、土地或牲畜的系统性清点，用于支撑税收、劳役组织、兵役和公共规划。"
+  },
+  "central_bank_digital_currency_pilots": {
+    "name": "央行数字货币试点",
+    "description": "测试主权数字货币、支付通道、身份、结算规则、隐私控制与可编程金融基础设施的央行数字货币部署与试点。"
+  },
+  "central_station_power": {
+    "name": "中央电站供电",
+    "description": "通过共享的城市和区域配电网络向众多用户供电的大型发电站。"
+  },
+  "certificate_transparency_logs": {
+    "name": "证书透明度日志",
+    "description": "公开证书签发、强化 Web 信任并帮助发现被入侵机构的公开追加式日志与审计系统。"
+  },
+  "chain_mail_armor": {
+    "name": "锁子甲",
+    "description": "以相互连接的金属环制成的柔性护身甲，在凯尔特、罗马及后世军事装备中用作锁甲衫等防护具。"
+  },
+  "chainmail_armor_smithing": {
+    "name": "锁子甲锻造",
+    "description": "以互锁铆接铁环制成柔性甲胄，对砍杀与刺击武器防护良好。"
+  },
+  "chaos_theory_complex_systems": {
+    "name": "混沌理论与复杂系统",
+    "description": "研究对初始条件高度敏感的动态系统，以及复杂互联网络的行为。"
+  },
+  "charcoal_pit_kilns": {
+    "name": "木炭窑坑",
+    "description": "以覆土坑和堆窑在限氧条件下炭化堆放薪材的传统炭化设施，产量高于露天火塘。"
+  },
+  "charcoal_production": {
+    "name": "木炭生产",
+    "description": "在受限氧气条件下有意炭化木材，获得木炭燃料和还原材料。"
+  },
+  "chariot": {
+    "name": "辛塔什塔-彼得罗夫卡早期战车",
+    "description": "辛塔什塔-彼得罗夫卡共同体的早期轻型马拉战车，以辐条车轮坑、马队和马具为证据。"
+  },
+  "charitable_hospital_networks": {
+    "name": "慈善医院网络",
+    "description": "为旅人、穷人和病者提供收容、护理、隔离和有组织照护的宗教与市政机构。"
+  },
+  "charterparty_shipping_contracts": {
+    "name": "租船运输契约",
+    "description": "船东将船舶或舱位租予承租人的书面租船或货运合同，界定运费、航程条款、风险与争议管辖。"
+  },
+  "cheese_and_yogurt_making": {
+    "name": "新石器时代奶酪滤制",
+    "description": "用带孔陶器把凝乳与乳清分离，将奶保存为低乳糖的新石器时代乳制品。"
+  },
+  "chemical_assay_laboratories": {
+    "name": "冶金火试金工坊",
+    "description": "以熔剂、试金炉、灰皿、分金和称量为矿石与贵金属样品做火试金的工坊。"
+  },
+  "chemical_dyes_synthetic": {
+    "name": "合成化学染料",
+    "description": "大规模生产的煤焦油染料与合成染料，改变了纺织、印刷、化学和工业研究实验室。"
+  },
+  "chemical_fertilizers": {
+    "name": "化学肥料",
+    "description": "制造的矿物与化学肥料，始于劳斯普通过磷酸钙工艺，后扩展到工业氮、磷、钾肥。"
+  },
+  "chemical_mechanical_planarization": {
+    "name": "化学机械抛光",
+    "description": "结合浆料化学与机械研磨把多层集成电路平坦化的晶圆抛光工艺。"
+  },
+  "chemical_process_control": {
+    "name": "化工过程控制",
+    "description": "用于可重复工业化工生产的仪表、取样、阀门和批次记录。"
+  },
+  "chemical_recipe_books": {
+    "name": "印刷的秘方书",
+    "description": "流通医药、食品保存、化妆品、油墨、染色和化学精炼实用指令的流行印刷配方书。"
+  },
+  "chemical_vapor_deposition": {
+    "name": "化学气相沉积",
+    "description": "从反应气体形成固体材料的一系列化学气相沉积工艺，包括半导体薄膜与外延沉积。"
+  },
+  "chieftainship": {
+    "name": "首领制",
+    "description": "早期酋邦中正式的世袭社区领导权，亲缘权威、经济资源、仪式合法性和强制权力集中于首领职位。"
+  },
+  "chiplet_architecture": {
+    "name": "芯粒架构",
+    "description": "把多颗更小裸片组合进单一封装的处理器设计思路，以改善良率、扩展性与产品复用。"
+  },
+  "chivalry": {
+    "name": "骑士精神",
+    "description": "骑士阶层的理想化行为准则，融合武艺、基督教价值观与宫廷礼仪，塑造了中世纪文学与贵族文化。"
+  },
+  "cinematography_motion_pictures": {
+    "name": "电影摄影与活动影像",
+    "description": "在柔性胶片上记录并放映连续摄影图像，制造运动的错觉。"
+  },
+  "circular_materials_economy": {
+    "name": "循环材料经济",
+    "description": "围绕再使用、维修、再制造、回收、材料护照和低废弃物产品循环设计的工业体系。"
+  },
+  "circus_chariot_racing": {
+    "name": "竞赛场（Circus）与战车竞赛",
+    "description": "修建大型竞赛场（circus），并将战车竞赛组织为主要的公共娱乐和社交盛事。"
+  },
+  "citizenship_as_legal_concept": {
+    "name": "公民权（法律概念）",
+    "description": "作为主权国家法律成员的正式身份，赋予特定的权利、特权与义务。"
+  },
+  "city_states": {
+    "name": "城邦",
+    "description": "由单一城市及其周边领土构成独立国家并拥有自身政府和军队的政治结构。"
+  },
+  "civic_contract_registries": {
+    "name": "城市契约登记制度",
+    "description": "由城市建立的记录体系，登记或公布财产买卖、公共租赁、公共工程合同、包税权及其他经法庭认可的协议。"
+  },
+  "civic_fire_brigades": {
+    "name": "城市消防队",
+    "description": "为应对密集城区火灾而建立的有组织队伍、装备、取水条件、巡逻瞭望与城市防火规章。"
+  },
+  "civic_open_data_portals": {
+    "name": "政务开放数据门户",
+    "description": "发布预算、交通、卫生、环境、许可、地图和公共记录以支持透明度与 civic 软件的政府数据门户。"
+  },
+  "civic_record_offices": {
+    "name": "市政档案室",
+    "description": "保存特许状、税册、地契、判决、行会记录和公共工程账目的城市档案机构。"
+  },
+  "civic_water_meters": {
+    "name": "城市公共配水计量器",
+    "description": "罗马的公共配水制度，通过供水水箱、按口径标准（如 quinaria 管）校准的管道、官方记录和法律特许来分配公共用水。"
+  },
+  "civil_service_examinations_early": {
+    "name": "早期文官考试",
+    "description": "通过对法律、读写、哲学与治国之术的笔试或口试正式选拔行政官员的制度。"
+  },
+  "civilizational_risk_dashboards": {
+    "name": "文明风险仪表盘",
+    "description": "面向生物安全、气候、AI、核、太空、网络和基础设施风险的一体化监测与决策系统。"
+  },
+  "classical_historiography_herodotus_thucydides": {
+    "name": "古典史学（希罗多德与修昔底德）",
+    "description": "系统性历史书写的形成，强调探究精神、证据运用与叙事。"
+  },
+  "classical_sculpture": {
+    "name": "古典雕塑",
+    "description": "古典希腊的石雕、青铜与建筑装饰雕塑，强调自然主义、比例、静穆平衡、人体解剖观察和理想化的人体形象。"
+  },
+  "clay_accounting_tokens": {
+    "name": "近东陶质记账筹码",
+    "description": "史前近东用于财务与货物记账的小型成形陶质筹码，早于楔形文字出现。"
+  },
+  "clay_gathering_and_preparation": {
+    "name": "黏土采集与制备",
+    "description": "黏土的选取、清洗、混合和羼和，使其成为可用的陶土，直接见于仙人洞遗址最早已知的制陶传统。"
+  },
+  "clay_pipe_drainage": {
+    "name": "平粮台陶质排水管",
+    "description": "与户内及公共沟渠相连的互锁陶管，把季风雨水排出平粮台城址。"
+  },
+  "clay_tablet_receipts": {
+    "name": "乌尔第三王朝泥板收据",
+    "description": "新苏美尔楔形文字泥板收据，记录乌尔第三王朝行政体系内的货物交付或接收。"
+  },
+  "clean_rooms": {
+    "name": "洁净室",
+    "description": "以层流方式让高度过滤的空气持续流经受控工作空间的洁净室与洁净台，服务对污染敏感的制造与研究。"
+  },
+  "climate_adaptation_infrastructure": {
+    "name": "气候适应基础设施",
+    "description": "针对气候变化风险建造的海防、耐热城市、水系统、作物、庇护所与物流。"
+  },
+  "climate_engineering_geoengineering": {
+    "name": "气候工程 / 地球工程",
+    "description": "对地球气候系统进行大规模干预以对冲气候变化。"
+  },
+  "climate_models_general_circulation": {
+    "name": "气候模式与大气环流模式",
+    "description": "模拟大气、海洋、陆地、冰冻圈和能量流动以预测气候行为的计算机模型。"
+  },
+  "climate_resilient_crop_breeding": {
+    "name": "气候韧性作物育种",
+    "description": "培育耐热、耐旱、耐涝、耐盐、抗虫并适应季节漂移作物的育种与基因组选择计划。"
+  },
+  "clinical_blood_banking": {
+    "name": "临床血库",
+    "description": "面向外科、创伤、产科和医院诊疗的血液采集、分型、储存、配型与受控输血。"
+  },
+  "clinical_laboratory_automation": {
+    "name": "临床实验室自动化",
+    "description": "面向高通量临床化学、血液学、微生物学和免疫分析的自动化仪器与工作流程。"
+  },
+  "clinical_observation_diagnosis": {
+    "name": "临床观察与诊断",
+    "description": "基于观察患者症状、记录病史和判断预后的系统化医学方法。"
+  },
+  "clinical_prime_editing": {
+    "name": "临床先导编辑",
+    "description": "把先导编辑器用于治疗：在不产生双链断裂的前提下引入精确替换、小片段插入或缺失。"
+  },
+  "clockwork_automata": {
+    "name": "程序化发条自动机",
+    "description": "宫廷发条自动机，结合钟表、活动人偶、音乐、自行推进、程序化音筒与顺序化机械效果。"
+  },
+  "clockwork_mechanisms": {
+    "name": "发条机构",
+    "description": "实现机械钟、自动机及其他精巧装置的精密齿轮、发条和擒纵机构，标志机械工程的一次跃升。"
+  },
+  "closed_carbon_economy": {
+    "name": "闭环碳经济",
+    "description": "把碳流捕集、循环、矿化或合成，使材料与燃料不再依赖净化石开采的工业体系。"
+  },
+  "closed_loop_life_support": {
+    "name": "闭环生命保障",
+    "description": "为长周期航天器或地外栖息再生空气、水、废物流并最终再生食物投入的生命保障架构。"
+  },
+  "closed_loop_life_support_early_forms": {
+    "name": "BIOS-3 生物再生生命保障",
+    "description": "利用藻类与高等植物进行气体交换、食物生产和生物再生闭环实验的密闭人类居住设施。"
+  },
+  "cloud_computing_distributed_systems": {
+    "name": "云计算与分布式系统",
+    "description": "通过互联网交付计算服务（含服务器、存储、数据库、网络和软件）。"
+  },
+  "cloud_data_warehouses": {
+    "name": "云数据仓库",
+    "description": "提供弹性、按用付费数据仓库的托管云分析数据库服务，用于整合、存储、查询与治理大型组织数据集。"
+  },
+  "cloud_seeding_advanced": {
+    "name": "人工增雨（先进）",
+    "description": "通过向云播撒物质（可能借助 AI 与纳米技术）改变降水的复杂方法。"
+  },
+  "cmos_logic": {
+    "name": "CMOS 逻辑",
+    "description": "用 n 沟道与 p 沟道 MOSFET 配对实现低功耗数字逻辑的互补 MOS 电路。"
+  },
+  "coagulation_flocculation_water_treatment": {
+    "name": "混凝与絮凝处理",
+    "description": "通过投药与混合使细颗粒脱稳，使其聚集、沉降或过滤出水的化学工艺。"
+  },
+  "coal_mining": {
+    "name": "采煤",
+    "description": "从地表露头和地下煤层开采煤炭，后来规模化以供应蒸汽机、钢铁厂、铁路和城市工业。"
+  },
+  "coal_tar_distillation": {
+    "name": "煤焦油蒸馏",
+    "description": "从煤气生产的副产品煤焦油中分离有用有机化学物的工艺，奠定了合成有机化学工业的基础。"
+  },
+  "coaxial_cable": {
+    "name": "同轴电缆",
+    "description": "具有同心导体的屏蔽铜缆，用于宽带、射频、电视和早期长途电话传输。"
+  },
+  "codex_early_book_form": {
+    "name": "册子本（早期书籍形态）",
+    "description": "希腊罗马世界早期出现的装订成页书籍形态，与卷轴相对，提高了书面信息的便携性、随机查阅和紧凑存放能力。"
+  },
+  "codified_law": {
+    "name": "古代成文法典",
+    "description": "成文的法律或司法裁决汇编，以美索不达米亚苏美尔与巴比伦法典传统为代表。"
+  },
+  "coin_die_engraving": {
+    "name": "钱币雕模",
+    "description": "对钱币模具的精密雕刻，涵盖官方符号、肖像、铭文和防伪标记。"
+  },
+  "coin_mint_assay_offices": {
+    "name": "钱币铸造检验机构",
+    "description": "国家与城市铸币中的质量管控，检验金属纯度、重量、模具、官方标记和钱币成色。"
+  },
+  "cold_chain_logistics": {
+    "name": "冷链物流",
+    "description": "面向食品、药品、疫苗和生物制品的温控运输、储存、监测与操作系统。"
+  },
+  "cold_storage_warehouses": {
+    "name": "冷藏仓库",
+    "description": "运用机械制冷、保温、动力和仓储作业，在受控低温下保存易腐货物的专用仓库。"
+  },
+  "collaborative_robots_cobots": {
+    "name": "协作机器人",
+    "description": "以力限制、传感、安全控制和易编程设计、可在人群附近作业的机器人。"
+  },
+  "color_printing_woodblock_intaglio": {
+    "name": "彩色印刷（木版、凹版）",
+    "description": "以多块雕版或刻版——每种颜色一块——产生多色图像的早期技术。"
+  },
+  "columbian_exchange": {
+    "name": "哥伦布大交换",
+    "description": "哥伦布航行后美洲、西非与旧大陆之间植物、动物、文化、人口、技术、疾病和思想的广泛交流。"
+  },
+  "combinatorial_chemistry": {
+    "name": "组合化学",
+    "description": "平行合成大型化合物库，用于类药化合物的筛选与优化。"
+  },
+  "combine_harvesters": {
+    "name": "联合收割机",
+    "description": "把收割、脱粒、扬谷合并为一项机械化收获作业的机器，始于马拉的联合收割脱粒机。"
+  },
+  "combined_arms_tactics": {
+    "name": "多兵种协同战术",
+    "description": "综合运用重步兵、骑兵、散兵、弓箭手等不同兵种，以取得战场优势。"
+  },
+  "combined_cycle_gas_turbines": {
+    "name": "联合循环燃气轮机",
+    "description": "把燃气轮机与蒸汽循环结合以提升燃油效率和运行灵活性的电厂。"
+  },
+  "commedia_dell_arte": {
+    "name": "即兴喜剧",
+    "description": "意大利职业即兴戏剧，围绕固定角色、面具、剧情梗概、方言与巡回剧团展开。"
+  },
+  "commercial_auction_houses": {
+    "name": "商业拍卖行",
+    "description": "面向艺术品、船舶、货物、书籍、遗产、商品与金融债权的有组织拍卖场所与记录。"
+  },
+  "commercial_aviation_systems": {
+    "name": "商业航空体系",
+    "description": "支撑定期客运与货运航空服务的航司、飞机、机场、维修、票务、安全与监管体系。"
+  },
+  "communications_satellites": {
+    "name": "通信卫星",
+    "description": "跨大区域中继广播、电视、电话、互联网与数据信号的人造卫星。"
+  },
+  "compact_fusion_reactors": {
+    "name": "紧凑型聚变反应堆",
+    "description": "适合为航天器、载具和偏远栖息地供电的小型高效聚变电源。"
+  },
+  "comparative_anatomy_collections": {
+    "name": "比较解剖学收藏",
+    "description": "印刷与手抄的人体和动物解剖观察集，用于跨物种比较骨骼、器官、发育、疾病与功能。"
+  },
+  "compass": {
+    "name": "罗盘",
+    "description": "盒内干式轴针配刻度盘的磁针罗盘，可可靠判定方向，彻底改变海船导航。"
+  },
+  "compiler_toolchains": {
+    "name": "编译器工具链",
+    "description": "服务软件生产的语言编译器、链接器、调试器、构建系统、包工具和运行环境。"
+  },
+  "composite_materials_carbon_fiber": {
+    "name": "复合材料（碳纤维）",
+    "description": "高性能碳纤维及其增强聚合物复合材料：以碳纤维增强结合聚合物基体，实现高强度重量比的结构应用。"
+  },
+  "composite_sickle_blades": {
+    "name": "奥哈罗二号复合镰刃",
+    "description": "用于收获近熟野生谷物的光泽燧石刃片，包括装柄于复合手柄中的镶刃。"
+  },
+  "composite_tools": {
+    "name": "装柄石矛",
+    "description": "装接到矛杆上的石质矛头，构成早期的多部件狩猎工具。"
+  },
+  "compound_microscope": {
+    "name": "复式显微镜",
+    "description": "多透镜显微镜，揭示了简单放大之外的细胞、微生物、纤维和细微结构。"
+  },
+  "computational_genomics_platforms": {
+    "name": "计算基因组学平台",
+    "description": "用于提交、归档、检索、比对与分析 DNA 序列记录的公共序列数据库基础设施。"
+  },
+  "computational_social_science_predictive_modeling": {
+    "name": "计算社会科学与预测建模",
+    "description": "运用计算方法、大数据和 AI 对社会动态与行为进行建模、仿真与预测。"
+  },
+  "computed_tomography_ct": {
+    "name": "计算机断层扫描（CT）",
+    "description": "由大量X射线测量经计算机处理重建身体横断面图像的医学成像。"
+  },
+  "computer_aided_design_cad_software": {
+    "name": "计算机辅助设计（CAD 软件）",
+    "description": "利用计算机系统辅助设计的创建、修改、分析或优化。"
+  },
+  "computer_aided_drug_design": {
+    "name": "计算机辅助药物设计",
+    "description": "用于候选药物优先级排序与优化的计算建模、分子对接、模拟与信息学。"
+  },
+  "computer_aided_manufacturing_cam_systems": {
+    "name": "计算机辅助制造（CAM 系统）",
+    "description": "以软件控制机床及相关机械进行工件制造。"
+  },
+  "computer_graphics_3d": {
+    "name": "三维计算机图形",
+    "description": "在二维空间（如屏幕）中生成并显示三维图像，对现代游戏、仿真和设计至关重要。"
+  },
+  "computer_networking": {
+    "name": "计算机网络",
+    "description": "把两台以上计算设备连接起来共享数据，构成局域网与广域网的实践。"
+  },
+  "computer_vision": {
+    "name": "计算机视觉",
+    "description": "从图像或视频提取结构、物体、运动与场景信息的计算方法。"
+  },
+  "computer_vision_deep_learning": {
+    "name": "深度学习计算机视觉",
+    "description": "借助大型数据集和加速训练，对视觉内容进行分类、检测、分割与生成的神经网络系统。"
+  },
+  "computers_early": {
+    "name": "计算机（早期/大型机）",
+    "description": "以真空管或晶体管存储和处理数据的电子装置。"
+  },
+  "concentric_castles": {
+    "name": "同心城堡",
+    "description": "以多重同心防御墙环环相扣的先进城堡设计，形成层次纵深、射界交叉的坚固防御。"
+  },
+  "concrete": {
+    "name": "混凝土",
+    "description": "早期胶凝性类混凝土建筑材料：以加热生成的石灰或石膏为黏结剂，配合矿物基底、骨料或地面层，形成耐久的建筑板面。"
+  },
+  "concrete_road_surfaces": {
+    "name": "罗马分层路面",
+    "description": "耐久的古罗马道路铺面，采用多层石料、排水、路缘、铺路石块，并在条件允许处使用砂浆或类混凝土粘结材料。"
+  },
+  "concrete_vaulting": {
+    "name": "混凝土拱顶",
+    "description": "罗马混凝土拱顶与穹顶，以罗马混凝土（opus caementicium）和砌体模板浇筑，为浴场、神庙、市场和基础设施营造大跨室内空间。"
+  },
+  "confidential_computing": {
+    "name": "机密计算",
+    "description": "以隔离、远程证明和加密内存保护使用中数据的硬件信任执行环境。"
+  },
+  "connectomics": {
+    "name": "连接组学",
+    "description": "连接组的构建与研究：对生物体神经系统连接的全面测绘。"
+  },
+  "consciousness_studies_advanced": {
+    "name": "高等意识研究",
+    "description": "联通神经证据、心理模型与哲学分析的意识跨学科科学的预期成熟。"
+  },
+  "construction": {
+    "name": "古典纪念性营造",
+    "description": "古典时期的石作与公共营造实践，涵盖神庙、公共建筑、道路、输水道及相关纪念性工程，综合砌筑、布局与重型构件吊装。"
+  },
+  "consumer_installment_credit": {
+    "name": "大众分期销售",
+    "description": "先付首付交付耐用品、再按计划分期收回余款的零售合同，扩大了家庭获得大规模产品的途径。"
+  },
+  "consumerism": {
+    "name": "消费主义",
+    "description": "由大规模生产和广告驱动、鼓励人们不断购置更多商品与服务的经济社会秩序。"
+  },
+  "container_orchestration": {
+    "name": "容器编排",
+    "description": "跨集群自动管理容器化工作负载与服务，包括部署、调度、扩缩、故障转移、发布和恢复控制。"
+  },
+  "container_ports": {
+    "name": "集装箱港口",
+    "description": "针对标准化集装箱优化的码头：配备起重机、堆场、软件、海关流程和运输衔接。"
+  },
+  "containerization_shipping": {
+    "name": "集装箱化",
+    "description": "以1956年 Ideal X 首航及后来标准化集装箱网络为锚点的现代多式联运集装箱海运体系。"
+  },
+  "containerized_microservices": {
+    "name": "容器化微服务",
+    "description": "经由容器与编排系统打包部署的小型网络化应用服务。"
+  },
+  "content_delivery_networks": {
+    "name": "内容分发网络",
+    "description": "把 Web 内容缓存在更靠近用户之处的分布式缓存与路由系统，降低时延并提升韧性。"
+  },
+  "continuous_glucose_monitors": {
+    "name": "连续血糖监测仪",
+    "description": "追踪血糖并指导糖尿病治疗的可穿戴传感器与软件。"
+  },
+  "continuous_integration": {
+    "name": "持续集成",
+    "description": "频繁集成软件变更、及早发现回归的自动化构建、测试与检查。"
+  },
+  "continuous_pharmaceutical_manufacturing": {
+    "name": "连续制药生产",
+    "description": "通过连续受控加工而非离散批次生产原料药或制剂的一体化生产系统。"
+  },
+  "contract_law": {
+    "name": "契约法",
+    "description": "规范协议、债务、买卖、雇用、合伙、代理及救济的法学说与书面契约规则，使商业更可预期。"
+  },
+  "controlled_environment_agriculture": {
+    "name": "受控环境农业",
+    "description": "主动调控光照、温度、湿度、养分、气体与卫生条件的室内或封闭作物生产系统。"
+  },
+  "controlled_release_formulations": {
+    "name": "缓控释制剂",
+    "description": "利用包衣、骨架、聚合物或渗透系统随时间释放活性成分的剂型技术。"
+  },
+  "convolutional_neural_networks": {
+    "name": "卷积神经网络",
+    "description": "具有局部特征检测器和池化/下采样层级的神经网络，用于视觉与空间模式识别，后来借反向传播与 GPU 大规模训练。"
+  },
+  "copper_alloy_edge_tools": {
+    "name": "铜合金刃具",
+    "description": "用铜和青铜合金制作的凿、刀、锛、斧和镰刃镶片，服务于手工业与农业。"
+  },
+  "copper_rivets_fasteners": {
+    "name": "铜钉、铜钩与紧固件",
+    "description": "小型加工铜钉、铜钩、锥具及相关紧固或穿刺物件，用于皮革、木材、衣物、工具和容器。"
+  },
+  "copper_wiring_production": {
+    "name": "铜线生产",
+    "description": "拉制或绝缘铜导线的生产与应用，服务早期电磁装置、电报电路、发电机及后来的电气布线。"
+  },
+  "copper_working": {
+    "name": "铜加工",
+    "description": "在后期冶炼铜冶金之前，以锻打和退火将自然铜加工成珠子、别针、饰物和小工具。"
+  },
+  "corporation_limited_liability": {
+    "name": "有限责任股份公司",
+    "description": "股东对公司债务承担法律责任上限的注册公司形式，锚定于19世纪50年代中期英国有限责任与合股公司法。"
+  },
+  "counter_reformation": {
+    "name": "反宗教改革",
+    "description": "天主教会为回应新教改革而开启的复兴时期，始于特伦托会议，涉及结构改革、耶稣会等新修会及巴洛克艺术的兴盛。"
+  },
+  "court_transcript_scribes": {
+    "name": "罗马速记文书",
+    "description": "受过训练的快速书写人员，以速记符号记录演说及官方法律或元老院议事过程。"
+  },
+  "craft_guild_apprenticeship_contracts": {
+    "name": "行会学徒契约",
+    "description": "界定技艺传授、劳动义务、费用与师傅责任的正式训练协议。"
+  },
+  "craft_quality_marks": {
+    "name": "手工业质量印记",
+    "description": "用于证明制作者责任、法定成色、产地或工艺质量的行会监督印记、纯度 hallmark 与检查制度。"
+  },
+  "crane_lifting_devices": {
+    "name": "起重机与吊装装置",
+    "description": "利用杠杆、滑轮和绞盘获得机械优势的起重系统，用于重型建造。"
+  },
+  "crispr_adaptive_immunity": {
+    "name": "CRISPR 适应性免疫",
+    "description": "细菌与古菌的免疫系统：储存间隔序列并利用 CRISPR 相关蛋白识别入侵核酸。"
+  },
+  "crispr_delivery_aav_lnp_rnp": {
+    "name": "CRISPR 递送：AAV、LNP 与 RNP",
+    "description": "用于把基因组编辑器送入靶细胞的病毒载体、脂质纳米颗粒和核糖核蛋白递送形式。"
+  },
+  "crispr_gene_editing": {
+    "name": "CRISPR-Cas9 基因编辑",
+    "description": "以 Cas9 和向导 RNA 实现可编程基因组编辑，进行定点切割、敲除、修复与序列改造。"
+  },
+  "crispr_off_target_profiling": {
+    "name": "CRISPR 脱靶分析",
+    "description": "检测 CRISPR 核酸酶非预期活性、提升编辑安全性的全基因组实验与计算方法。"
+  },
+  "crispri_crispra": {
+    "name": "CRISPRi 与 CRISPRa",
+    "description": "把催化失活的 Cas 系统与调控结构域融合，在不切割 DNA 的前提下抑制或激活基因。"
+  },
+  "crop_landrace_selection": {
+    "name": "作物地方品种选育",
+    "description": "农民基于土壤、气候、管理系统、食味偏好、加工与储存需求对地方适应型作物群体的选择。"
+  },
+  "crop_rotation_and_fallowing": {
+    "name": "轮作与休耕",
+    "description": "通过轮换不同作物或让田地季节性闲置来提升土壤肥力和作物产量。"
+  },
+  "crop_rotation_three_field": {
+    "name": "轮作（三圃制）",
+    "description": "把土地分为三区轮换种植（如小麦、豆类、休耕）的农业实践，使土壤肥力改善，产量比二圃制提高三分之一。"
+  },
+  "crop_rotation_two_field": {
+    "name": "轮作（二圃制）",
+    "description": "将土地分成两块、一块耕种一块休耕以恢复地力的农业制度，可改善长期收成。"
+  },
+  "crossbow": {
+    "name": "弩",
+    "description": "以机械力发射弩箭的强力弓械，训练门槛低于长弓，可穿透当时大多数护甲。"
+  },
+  "cryogenics": {
+    "name": "低温物理",
+    "description": "通过气体液化、绝热、压缩和热力学控制来产生并研究极低温。"
+  },
+  "cryogenics_advanced": {
+    "name": "低温技术（高等）",
+    "description": "极低温下材料的制备与行为，对量子计算与先进传感器至关重要。"
+  },
+  "cryonics": {
+    "name": "人体低温保存",
+    "description": "以低温保存人体、期待未来复温救治的实践。"
+  },
+  "cryptographic_agility_platforms": {
+    "name": "密码敏捷性平台",
+    "description": "跨应用、设备、云和档案清点、轮换、测试并替换密码算法与密钥的体系。"
+  },
+  "cryptographic_hash_functions": {
+    "name": "密码学哈希函数",
+    "description": "把数据映射为定长摘要的单向函数，用于完整性校验、口令存储、签名和分布式系统。"
+  },
+  "crystal_growth_techniques": {
+    "name": "晶体生长技术",
+    "description": "制备高纯度单晶的方法，是半导体等先进材料的关键。"
+  },
+  "currency": {
+    "name": "货币",
+    "description": "古典时代以铸币为基础的货币体系，依托国家或城市权威、标准重量与带标记的钱币媒介，实现超越直接以物易物的便携交换。"
+  },
+  "customary_law": {
+    "name": "习惯法",
+    "description": "口耳相传的既定规则体系，用以规范社会行为、财产纠纷和犯罪行为。"
+  },
+  "customer_relationship_management": {
+    "name": "客户关系管理",
+    "description": "追踪客户、销售、服务工单、营销活动、订阅和账户历史的企业软件。"
+  },
+  "cyber_threat_intelligence": {
+    "name": "网络威胁情报",
+    "description": "对攻击者基础设施、恶意软件、指标、战术、漏洞和风险报告的收集与分析。"
+  },
+  "cybernetic_immortality_consciousness_transfer_to_machines": {
+    "name": "赛博格永生（意识转移至机器）",
+    "description": "通过把人类意识或核心人格数据转移至耐久人工躯体或系统来实现的一种永生。"
+  },
+  "cybernetics": {
+    "name": "控制论",
+    "description": "研究动物与机器中控制与通信的学科，影响了人工智能与机器人学。"
+  },
+  "cybersecurity_operations_centers": {
+    "name": "安全运营中心",
+    "description": "监测、调查和响应网络威胁的团队、工具、遥测、日志、告警与处置手册。"
+  },
+  "dams_and_reservoirs": {
+    "name": "坝堰与蓄水池",
+    "description": "用于拦蓄灌溉、防洪、城市供水和动力的土、石或砖石坝体与蓄水设施。"
+  },
+  "data_centers_early": {
+    "name": "数据中心（早期）",
+    "description": "安置计算机系统及通信、存储等配套设施的设施。"
+  },
+  "data_compression": {
+    "name": "数据压缩",
+    "description": "以比原始表示更少的比特编码信息的过程，对存储与传输至关重要。"
+  },
+  "data_labeling_platforms": {
+    "name": "数据标注平台",
+    "description": "面向机器学习的标注数据集采集、注释、审计与版本管理工具和工作流。"
+  },
+  "data_storage_petascale_exascale": {
+    "name": "数据存储（PB/EB 级）",
+    "description": "以 PB、EB 计、存储管理极海量数据的技术。"
+  },
+  "database_management_systems": {
+    "name": "数据库管理系统",
+    "description": "独立于应用程序组织、存储、检索、更新和管理持久化结构化数据的软件系统。"
+  },
+  "databases_relational_dbms": {
+    "name": "数据库（关系型 DBMS）",
+    "description": "以关系模型组织、存储和检索大量结构化数据的系统。"
+  },
+  "decentralized_autonomous_organizations_daos": {
+    "name": "去中心化自治组织（DAO）",
+    "description": "以计算机程序编码的透明规则表示、由成员控制而不受中央政府影响的新型组织。"
+  },
+  "decimal_fractions": {
+    "name": "小数",
+    "description": "以十进记法表示分数，简化了计算、测量、土地丈量、簿记和科学数表。"
+  },
+  "decision_tree_ensemble_methods": {
+    "name": "决策树集成方法",
+    "description": "以随机森林、梯度提升为代表，组合众多决策树实现稳健分类与回归的预测方法。"
+  },
+  "deep_drilling_technology": {
+    "name": "深钻技术",
+    "description": "面向深层地热与油气资源的高压钻井系统、井下传感器、泥浆工程和定向钻井技术。"
+  },
+  "deep_learning_neural_networks": {
+    "name": "深度学习神经网络",
+    "description": "训练多层神经网络学习内部表示，完成视觉、语音、语言与预测任务，后以大数据和加速硬件扩展规模。"
+  },
+  "deep_space_habitat_governance": {
+    "name": "深空栖息地治理",
+    "description": "面向在轨、月球、火星与小行星聚落的法律、市政、安全、劳动、健康、资源与冲突解决体系。"
+  },
+  "defensive_watchtowers": {
+    "name": "铁器时代道路瞭望塔",
+    "description": "建于道路和渡口上方、用于观察动向并控制行政区通行的独立圆形砖石塔楼。"
+  },
+  "democracy_republicanism": {
+    "name": "民主与共和主义",
+    "description": "涉及公民参与和代议政府的政治制度的形成与发展。"
+  },
+  "demography": {
+    "name": "人口学",
+    "description": "以人口规模、结构和发展为主要对象的科学研究。"
+  },
+  "dense_wavelength_division_multiplexing": {
+    "name": "密集波分复用",
+    "description": "在一根光纤上复用众多密集波长通道以扩展骨干容量的商用光传输系统。"
+  },
+  "department_stores_mass_retail": {
+    "name": "现代百货商店与大众零售",
+    "description": "把丰富商品按部门组织并采用大销量商业手段的大型城市零售机构，以乐蓬马歇百货为锚点。"
+  },
+  "desalination_energy_recovery": {
+    "name": "海水淡化能量回收",
+    "description": "在反渗透海水淡化厂回收能量的压力交换器、透轮和工艺设计。"
+  },
+  "dialysis_machines": {
+    "name": "透析机",
+    "description": "以膜、泵、传感器和无菌流程为肾衰竭患者过滤血液或腹腔液的医疗设备。"
+  },
+  "diesel_engine_compression_ignition": {
+    "name": "柴油机",
+    "description": "依靠机械压缩产生的高温使燃油着火的内燃机，具有更高扭矩和燃油效率。"
+  },
+  "diffusion_models_generative_ai": {
+    "name": "扩散模型与生成式 AI",
+    "description": "通过逆转逐步加噪过程学习合成图像、音频、视频、分子等数据的生成模型。"
+  },
+  "digital_advertising_exchanges": {
+    "name": "数字广告交易平台",
+    "description": "实时竞价、定向、测量与结算在线广告曝光的自动化市场。"
+  },
+  "digital_archaeology": {
+    "name": "数字考古",
+    "description": "从废弃或受损数字系统中抢救、解读并保存数据、防范“数字黑暗时代”的专门技术。"
+  },
+  "digital_identity_federation": {
+    "name": "数字身份联合",
+    "description": "跨组织访问控制所需的单点登录、身份提供方、令牌与信任框架。"
+  },
+  "digital_identity_systems": {
+    "name": "数字身份系统",
+    "description": "在线认证人员、组织、设备与服务的技术与制度体系。"
+  },
+  "digital_immortality": {
+    "name": "数字永生",
+    "description": "把人的性格或意识以数字格式保存以求某种永生的假设性概念。"
+  },
+  "digital_music_distribution": {
+    "name": "数字音乐发行",
+    "description": "对录制音乐进行编码、分发、变现、推荐和授权的在线平台。"
+  },
+  "digital_payment_gateways": {
+    "name": "数字支付网关",
+    "description": "连接商户、银行、卡组织、风控、身份、清算与电商流程的在线支付系统。"
+  },
+  "digital_payment_wallets": {
+    "name": "数字支付钱包",
+    "description": "在智能手机上保存支付凭证或储值账户，并经既有支付网络实现 NFC 挥手支付或应用内支付的手机钱包软件。"
+  },
+  "digital_photography_ccd_cmos_sensors": {
+    "name": "数码摄影（CCD/CMOS 传感器）",
+    "description": "以感光半导体传感器电子化地捕获图像。"
+  },
+  "digital_physics_simulated_reality_research": {
+    "name": "数字物理（模拟现实研究）",
+    "description": "把宇宙视为计算系统的哲学与科学研究，探究现实本身是否为一场模拟。"
+  },
+  "digital_signal_processing": {
+    "name": "数字信号处理（DSP）",
+    "description": "对已转换为数字形式的信号（音频、视频等）进行处理。"
+  },
+  "digital_signatures": {
+    "name": "数字签名",
+    "description": "把消息绑定到私钥的密码学方案，使接收方可验证真实性、完整性与不可否认性。"
+  },
+  "digital_subscriber_line_dsl": {
+    "name": "数字用户线路（DSL）",
+    "description": "以 ADSL 为锚点的标准化 DSL 宽带接入技术，在运营商设备与用户驻地之间的既有金属双绞电话线上使用高频信号。"
+  },
+  "digital_twin_infrastructure": {
+    "name": "数字孪生基础设施",
+    "description": "面向建筑、工厂、电网、车辆、城市和供应链的动态数字模型，用于监测与优化。"
+  },
+  "digital_twins": {
+    "name": "数字孪生",
+    "description": "用于监测、仿真、预测和控制的机器、工厂、城市或人体的计算复制品。"
+  },
+  "digital_video_streaming_platforms": {
+    "name": "数字视频流媒体平台",
+    "description": "经由互联网与移动网络对视频进行编码、分发、推荐、变现与观看的在线系统。"
+  },
+  "direct_air_capture": {
+    "name": "直接空气捕集",
+    "description": "以工程系统直接从环境空气中化学移除二氧化碳并封存或利用。"
+  },
+  "direct_energy_weapons": {
+    "name": "定向能武器",
+    "description": "发射高度聚焦能量（激光、微波、粒子束）而非投射物的武器。"
+  },
+  "direct_neural_simulation_whole_brain_emulation_detailed": {
+    "name": "直接神经仿真（全脑仿真）",
+    "description": "在神经或亚神经层面高保真仿真整个人脑，实现心智上传。"
+  },
+  "dirigibles_zeppelins": {
+    "name": "飞艇与齐柏林飞艇",
+    "description": "可操纵的轻于空气的飞行器的发展，常带刚性骨架（齐柏林），能实现有动力受控飞行。"
+  },
+  "disaster_early_warning_systems": {
+    "name": "灾害预警系统",
+    "description": "在洪水、风暴、火灾、海啸等灾害来临前向社区预警的传感、预报、通信与响应系统。"
+  },
+  "distillation_advanced": {
+    "name": "中世纪蒸馏瓶蒸馏",
+    "description": "阿拉伯与波斯炼金、香水和医药传统中对蒸馏瓶蒸馏的改进，以受控加热、蒸气冷凝和反复蒸馏纯化玫瑰水、香水、药剂等液体。"
+  },
+  "distillation_for_alcoholic_spirits": {
+    "name": "烈酒蒸馏",
+    "description": "把蒸馏应用于发酵酒液，生产生命之水、白兰地等浓缩烈酒。"
+  },
+  "distributed_ai_labor_markets": {
+    "name": "分布式 AI 劳动市场",
+    "description": "人类与 AI 代理就任务签约、验证产出、累积声誉、结算支付并协调组织的市场。"
+  },
+  "division_of_labor": {
+    "name": "劳动分工",
+    "description": "把生产组织为专门化工序，使工人、工具和机器提升速度、一致性与规模。"
+  },
+  "dna_repair_nhej_hdr": {
+    "name": "NHEJ 与 HDR DNA 修复编辑",
+    "description": "利用细胞非同源末端连接与同源定向修复通路，把核酸酶切口转化为敲除或精确编辑。"
+  },
+  "dna_sequencing": {
+    "name": "DNA 测序",
+    "description": "测定 DNA 分子内核苷酸的精确排列顺序。"
+  },
+  "dna_structure": {
+    "name": "DNA 结构",
+    "description": "遗传的分子基础——脱氧核糖核酸双螺旋结构的发现。"
+  },
+  "dna_synthesis_oligonucleotides": {
+    "name": "DNA 合成与寡核苷酸",
+    "description": "以化学和酶法生产指定 DNA 序列，用作引物、探针、向导 RNA、基因和合成构建体。"
+  },
+  "domain_name_system": {
+    "name": "域名系统",
+    "description": "把人类可读的互联网名称映射为网络地址和服务记录的分布式命名系统。"
+  },
+  "dose_response_testing": {
+    "name": "剂量-反应测试",
+    "description": "系统比较治疗剂量水平与观察到的疗效和毒性，以指导更安全的治疗。"
+  },
+  "double_blind_clinical_trials": {
+    "name": "双盲临床试验",
+    "description": "受试者与研究者均不知晓治疗分组的临床试验设计，用以减少偏倚。"
+  },
+  "double_entry_bookkeeping": {
+    "name": "复式记账法",
+    "description": "把交易记录为关联借贷的会计方法；帕乔利1494年的印刷著作使这一商人方法得以广泛传授。"
+  },
+  "double_entry_diffusion": {
+    "name": "复式簿记传播",
+    "description": "借贷记账法经商号、银行、手册和商业教育的扩散。"
+  },
+  "double_hulled_ship_designs": {
+    "name": "佩蒂双层船体船",
+    "description": "威廉·佩蒂爵士实验性的双层底或双体帆船，由成对船体建造，以检验稳定性、载量与速度优势。"
+  },
+  "dram_memory": {
+    "name": "DRAM 内存",
+    "description": "以电容电荷存储比特、由控制电路周期刷新的动态随机存取存储器。"
+  },
+  "drip_irrigation": {
+    "name": "滴灌",
+    "description": "通过滴头和管路把水直接送到植物根系的低压灌溉。"
+  },
+  "drone_aerial_mapping": {
+    "name": "无人机航测",
+    "description": "面向测绘、摄影测量、巡检、农业、救灾和制图的小型无人机作业流程。"
+  },
+  "drone_autonomy": {
+    "name": "无人机自主性",
+    "description": "面向无人航空器的自主飞行控制、感知、规划与机队运营。"
+  },
+  "drone_logistics_autonomous_delivery_networks": {
+    "name": "无人机物流与自主配送网络",
+    "description": "以自主无人机广泛开展包裹配送与物流。"
+  },
+  "drop_spindles": {
+    "name": "纳哈尔恩盖夫二号纺轮",
+    "description": "一百多件穿孔卵石的组合，其几何形态与实验性能支持将其用作纺纱坠轮。"
+  },
+  "drug_delivery_systems_targeted": {
+    "name": "给药系统（靶向）",
+    "description": "把治疗药物递送至体内特定部位、提升疗效并降低副作用的先进方法。"
+  },
+  "dry_compass_navigation": {
+    "name": "干式罗盘导航",
+    "description": "适合颠簸海况下船载导航的支座式磁针与刻度盘。"
+  },
+  "dugout_paddles": {
+    "name": "杜文塞木桨",
+    "description": "出自杜文塞中石器时代湖岸的刻制松木桨，是北欧桨驱动水上交通的直接证据。"
+  },
+  "duv_stepper_lithography": {
+    "name": "DUV 步进光刻",
+    "description": "利用步进机和扫描光刻机以深紫外投影光刻先进半导体层。"
+  },
+  "dyed_textiles": {
+    "name": "贝伊切苏尔坦靛蓝染色织物",
+    "description": "以单针环编制成的青铜时代麻织物，用靛玉红染料着色，染料可能来自当地可得的菘蓝。"
+  },
+  "dynamite": {
+    "name": "达纳炸药",
+    "description": "将硝化甘油吸入硅藻土等多孔材料制成的更稳定可控的高爆炸药，彻底改变了采矿和工程爆破。"
+  },
+  "dynamo": {
+    "name": "自励工业发电机",
+    "description": "利用剩磁和通过励磁线圈的反馈，把机械旋转转化为强大持续电流、无需永磁体的自励直流发电机。"
+  },
+  "dyson_sphere_swarm": {
+    "name": "戴森球 / 戴森云",
+    "description": "包裹恒星以捕获其大部分功率输出的假想巨型结构。"
+  },
+  "e-commerce": {
+    "name": "电子商务",
+    "description": "借助互联网买卖商品或服务，并通过资金与数据流转完成交易。"
+  },
+  "e_commerce_platforms": {
+    "name": "Web 电商平台",
+    "description": "融合商品目录、搜索、账户、下单、信任、客服与履约协同的网店与商城系统。"
+  },
+  "early_alchemy_material_science": {
+    "name": "伪德谟克利特炼金配方",
+    "description": "早期希腊炼金配方，内容包括金属着色、仿制金银材料、仿造宝石和制取紫色染料。"
+  },
+  "early_astronomy_observation": {
+    "name": "早期天文观测",
+    "description": "对天体（日、月、星辰）的系统性观测，用于计时、导航和仪式。"
+  },
+  "early_boats": {
+    "name": "早期船只",
+    "description": "简易筏子、独木舟等早期水上交通工具的使用或建造，用于渡越水域。"
+  },
+  "early_copyright_printing_privileges": {
+    "name": "早期版权与印刷特权",
+    "description": "面向印刷商、作者、音乐出版、地图、版画和书籍的法律特权与许可，塑造了文学商业和文化生产。"
+  },
+  "early_firearms": {
+    "name": "早期火器",
+    "description": "十四世纪原始的手持火铳等火器，把火炮技术缩小为由一两名士兵操作的笨重火药武器。"
+  },
+  "early_fortifications": {
+    "name": "泰勒苏丹墙与塔",
+    "description": "前陶新石器时代在泰勒苏丹遗址约公元前8300年修建的环形石砌围墙、壕沟与塔楼。"
+  },
+  "early_medicine": {
+    "name": "早期医学",
+    "description": "以古典文本（体液学说）、草药疗法和有限外科实践为基础的医疗，多在修道院和民间医者中施行。"
+  },
+  "early_musical_instruments_flutes_drums": {
+    "name": "奥瑞纳骨与象牙笛",
+    "description": "展现成熟上旧石器时代音乐传统的骨笛和象牙笛。"
+  },
+  "early_navigation": {
+    "name": "早期导航",
+    "description": "借助地标和天象观测进行基本的沿岸与开阔水域导航。"
+  },
+  "early_notarial_practice": {
+    "name": "早期公证实践",
+    "description": "由获授权的书记与见证人记录契约、产权转移、债务和法律声明，以取信于公众。"
+  },
+  "early_optics": {
+    "name": "早期光学",
+    "description": "对光、反射和折射的基本认识，以及简单透镜与镜子的应用。"
+  },
+  "early_patent_systems": {
+    "name": "英国发明特权",
+    "description": "在详细说明书成为常规披露形式之前，英王授予发明人临时独占特权的制度。"
+  },
+  "early_scientific_conferences": {
+    "name": "早期科学会议",
+    "description": "学者与赞助人之间有组织的集会、演示、通信宣读、辩论和会议记录。"
+  },
+  "early_symbolic_communication": {
+    "name": "早期符号交流",
+    "description": "正式记数或文字出现之前使用的抽象图形符号，如交叉刻纹的赭石绘画和雕刻。"
+  },
+  "early_veterinary_medicine": {
+    "name": "早期兽医学",
+    "description": "对马、牛、骆驼等役用动物的有组织医护，包括饮食调理、创伤治疗、繁育知识和实用外科。"
+  },
+  "earth_observation_analytics": {
+    "name": "地球观测分析",
+    "description": "把卫星影像转化为农业、气候、安全和基础设施情报的云端流水线。"
+  },
+  "earth_observation_satellites": {
+    "name": "对地观测卫星",
+    "description": "搭载光学、雷达、热红外或多光谱传感器的在轨平台，服务测绘、气象、气候与安全。"
+  },
+  "earth_system_models": {
+    "name": "地球系统模式",
+    "description": "耦合大气、海洋、冰冻圈、陆地、生物圈和人类排放的计算模型，用于气候与环境预测。"
+  },
+  "economics_behavioral": {
+    "name": "经济学（行为）",
+    "description": "研究心理、认知、情绪、文化与社会因素对个人与机构经济决策影响的学科。"
+  },
+  "ecopoiesis_biosphere_creation": {
+    "name": "生态发生（生物圈营造）",
+    "description": "把微生物先驱生态系统引入无生命行星的过程，是地球化的第一步。"
+  },
+  "edge_ai_inference": {
+    "name": "边缘 AI 推理",
+    "description": "在靠近数据源的手机、摄像头、车辆、传感器和嵌入式芯片上运行已训练模型。"
+  },
+  "edge_computing": {
+    "name": "边缘计算",
+    "description": "把计算与存储移近用户、传感器和设备，以降低时延、节省带宽并减少对中央基础设施的依赖。"
+  },
+  "electric_arc_lighting": {
+    "name": "电弧灯",
+    "description": "面向街道、工厂、剧院、探照灯和公共空间的明亮电弧照明系统。"
+  },
+  "electric_arc_welding": {
+    "name": "早期碳弧焊",
+    "description": "利用电弧热量连接金属板材，确立碳电极电弧焊的技术谱系。"
+  },
+  "electric_elevators": {
+    "name": "电动电梯",
+    "description": "采用电动机、井道、控制和建筑一体化的商用载人电梯系统，支撑更高的城市建筑。"
+  },
+  "electric_fans": {
+    "name": "电风扇",
+    "description": "以电机驱动的风扇，用于通风、降温、工业气流和建筑舒适。"
+  },
+  "electric_generators_dynamos": {
+    "name": "法拉第圆盘发电机",
+    "description": "通过电磁感应把机械运动转化为电流的旋转导体，确立了发电机与直流发电机的谱系。"
+  },
+  "electric_motor": {
+    "name": "电动机",
+    "description": "把电能转化为机械运动的装置，是法拉第所演示电机原理的直接应用。"
+  },
+  "electric_power_meters": {
+    "name": "电能表",
+    "description": "支撑计费、负荷规划、节电和分布式电力商业模式的测量装置。"
+  },
+  "electric_railway_signaling": {
+    "name": "电气铁路信号",
+    "description": "为更安全的大运量铁路运营服务的轨道电路、信号、联锁、电报联络和控制规则。"
+  },
+  "electric_street_lighting": {
+    "name": "电路灯",
+    "description": "在城市供电区内用于公共夜间街道照明的中央电站电灯与线路。"
+  },
+  "electric_traction_motors": {
+    "name": "电力牵引电机",
+    "description": "用于有轨电车、地铁、矿用机车和工业牵引的大扭矩电动机。"
+  },
+  "electric_tramways": {
+    "name": "电气有轨电车",
+    "description": "由架空线或暗轨供电的城市轨道交通，重塑了通勤、街道设计与大都市成长。"
+  },
+  "electric_vehicle_charging_networks": {
+    "name": "电动汽车充电网络",
+    "description": "支撑电动道路交通的分布式充电站、支付系统、电网接入与管理软件。"
+  },
+  "electrical_appliances_early": {
+    "name": "早期电阻加热电器",
+    "description": "通过电阻元件把电流直接转化为热的家用器具，以接入既有照明线路的早期熨斗和电炉为代表。"
+  },
+  "electrical_grid_early_distribution": {
+    "name": "电网（早期配电）",
+    "description": "从中央电站向用户配电的最初网络，始于面向城市照明的直流系统。"
+  },
+  "electrical_lighting_systems": {
+    "name": "电气照明系统",
+    "description": "使可靠的室内与街道照明变得实用的发电、配电、灯具、布线、开关和固定装置。"
+  },
+  "electrical_substations": {
+    "name": "变电站",
+    "description": "实现变压、倒闸操作、设备保护并向分区配电的电网节点。"
+  },
+  "electricity": {
+    "name": "电",
+    "description": "对电现象的科学研究与实际驾驭，从早期静电学到电流、电压、电阻、电池和电功率。"
+  },
+  "electrocardiography_early": {
+    "name": "早期心电图",
+    "description": "用灵敏仪器测量并记录心脏电信号，并进行临床解读。"
+  },
+  "electrochemical_industry": {
+    "name": "伏打电解与早期电化学",
+    "description": "利用伏打电堆的持续电流分解水和溶解化合物的实验，确立电解并奠定早期电化学基础。"
+  },
+  "electrolyzer_manufacturing": {
+    "name": "电解槽制造",
+    "description": "面向能源与工业用途的电解水制氢/氧电化学系统的规模化生产。"
+  },
+  "electromagnetism_early_discoveries": {
+    "name": "早期电磁学",
+    "description": "奥斯特、法拉第、安培发现的电与磁的基本联系，使电磁铁与感应原理成为可能。"
+  },
+  "electromagnetism_maxwell": {
+    "name": "电磁学（麦克斯韦方程组）",
+    "description": "把电、磁和光统一进单一基础方程组理论框架，预言电磁波的存在。"
+  },
+  "electron_discovery": {
+    "name": "电子的发现",
+    "description": "通过阴极射线实验确认电子为亚原子粒子、电荷的基本单元。"
+  },
+  "electron_microscope": {
+    "name": "电子显微镜",
+    "description": "以电子束而非可见光成像、可达纳米尺度的显微技术。"
+  },
+  "electron_microscopy_advanced": {
+    "name": "高等电子显微镜",
+    "description": "配备数字探测器、制样与计算重建的高分辨扫描与透射电子显微技术。"
+  },
+  "electronic_design_automation_eda": {
+    "name": "电子设计自动化",
+    "description": "用于定义、仿真、验证、布局布线和检查集成电路设计的软件工具。"
+  },
+  "electronic_health_records": {
+    "name": "电子健康档案",
+    "description": "整合病程记录、用药、检验、影像、医嘱、计费与照护协同的结构化临床记录。"
+  },
+  "electronics": {
+    "name": "电子学",
+    "description": "以电子为主导控制电能的科学，涵盖真空管与半导体。"
+  },
+  "electroplating": {
+    "name": "电镀",
+    "description": "利用电流沉积金属镀层，用于防腐蚀、装饰、导电和精密制造。"
+  },
+  "electroplating_industrial": {
+    "name": "专利化工业电镀",
+    "description": "以电流和受控电解液进行商业金属镀覆，经伯明翰专利、工厂应用与授权制造确立。"
+  },
+  "email_messaging_protocols": {
+    "name": "电子邮件与消息协议",
+    "description": "使用地址、路由、邮件服务器、收件箱、附件和标准化协议的网络化异步通信系统。"
+  },
+  "encrypted_ai_clouds": {
+    "name": "加密 AI 云",
+    "description": "以硬件隔离、密码学、策略执行与审计保护敏感工作负载的云 AI 基础设施。"
+  },
+  "encryption_modern_cryptography_public_key": {
+    "name": "加密（现代密码学、公钥）",
+    "description": "包括公钥密码在内的先进密码体系的构建，用于安全通信。"
+  },
+  "encyclopedic_compendiums_knowledge_organization": {
+    "name": "《哲学珍珠》印刷汇编",
+    "description": "格雷戈尔·赖施的十二卷印刷汇编，把文法、逻辑、修辞、算术、音乐、几何、天文、自然哲学、心理学和道德哲学组织为大学课程参考书。"
+  },
+  "endoscopy_video_systems": {
+    "name": "视频内镜系统",
+    "description": "以光纤和数字仪器观察、记录并微创处理内脏器官。"
+  },
+  "endpoint_detection_response": {
+    "name": "端点检测与响应",
+    "description": "采集遥测、识别恶意行为、调查事件并处置受感染主机的主机安全平台。"
+  },
+  "engineering": {
+    "name": "中世纪工程",
+    "description": "面向城堡、大教堂、磨坊、桥梁、水工和攻城器械的中世纪应用设计与建造实践，融合手艺知识与数学、几何、力学、起重装置、金属和水力学。"
+  },
+  "engraved_scientific_plates": {
+    "name": "《显微图谱》雕版科学图版",
+    "description": "胡克《显微图谱》中大幅雕版折叠图版，把显微镜观察转化为可复制的科学插图。"
+  },
+  "enterprise_cyber_identity": {
+    "name": "企业网络身份",
+    "description": "面向组织的目录服务、单点登录、访问控制、审计日志与身份治理。"
+  },
+  "enterprise_resource_planning": {
+    "name": "企业资源计划",
+    "description": "围绕共享数据和流程整合财务、库存、制造、采购、人力资源与报表的一体化企业软件。"
+  },
+  "environmental_dna_monitoring": {
+    "name": "环境 DNA 提取与监测",
+    "description": "直接从土壤、水体、沉积物或空气样本中提取 DNA，后扩展为无创生物多样性与病原体监测。"
+  },
+  "environmentalism_ecology": {
+    "name": "环保运动与生态学",
+    "description": "十九世纪命名的科学生态学，以及后来以保护自然系统为关切的社会政治环境运动。"
+  },
+  "epicureanism": {
+    "name": "伊壁鸠鲁学派",
+    "description": "源于伊壁鸠鲁学说的哲学流派，主张凭借知识过适度节制、免于恐惧的快乐生活。"
+  },
+  "epigenetic_engineering_rejuvenation": {
+    "name": "表观遗传工程与逆龄",
+    "description": "在不改变底层 DNA 序列的前提下精确修改表观基因组，重置细胞年龄标记并逆转衰老损伤。"
+  },
+  "estate_survey_maps": {
+    "name": "庄园测绘图",
+    "description": "由测量绘制的大比例尺（多为手稿）庄园地图，用于地产管理、地租、地界、土地利用与纠纷。"
+  },
+  "ethernet": {
+    "name": "以太网",
+    "description": "在共享或交换链路上以帧化分组通信的有线局域网家族。"
+  },
+  "euv_lithography": {
+    "name": "极紫外（EUV）光刻",
+    "description": "ASML 的极紫外光刻系统以13.5纳米光刻印最尖端芯片上最精细的层。"
+  },
+  "ex_vivo_crispr_cell_therapy": {
+    "name": "体外 CRISPR 细胞疗法",
+    "description": "在体外编辑患者或供体细胞、扩增检验后作为治疗产品回输。"
+  },
+  "exoplanet_atmospheric_analysis": {
+    "name": "系外行星大气分析",
+    "description": "分析系外行星光谱以确定大气成分并寻找潜在生物标志。"
+  },
+  "exoplanet_detection_analysis": {
+    "name": "系外行星探测与分析",
+    "description": "利用凌星、视向速度、直接成像及相关天文数据分析方法探测研究太阳系外行星。"
+  },
+  "exotic_matter_physics_negative_mass_energy": {
+    "name": "奇异物质物理（负质量/负能量）",
+    "description": "对具有负质量或负能量密度等异常属性物质的理论与实验研究，可能用于先进推进。"
+  },
+  "exotic_propulsion_warp_drives_wormholes": {
+    "name": "奇异推进（曲率驱动、虫洞）",
+    "description": "基于操控时空的假想超光速航行方式，如曲率驱动或穿越虫洞。"
+  },
+  "experimental_botany_gardens": {
+    "name": "实验植物园",
+    "description": "为作物试验、药物、驯化、分类和种子交换设计的园圃。"
+  },
+  "experimental_controls": {
+    "name": "受控对照试验",
+    "description": "在总体相似的患者条件下分配不同干预的前瞻性比较，以詹姆斯·林德的六组坏血病试验为代表。"
+  },
+  "experimental_mining_assays": {
+    "name": "矿山估值火试金",
+    "description": "用于估算矿石金属含量、选择处理方案、判断采矿是否值得冶炼的小样火试金与冶金试验。"
+  },
+  "experimental_pharmacology": {
+    "name": "实验药理学",
+    "description": "在医疗实践中对疗法、剂量、制剂与观察效果的系统比较。"
+  },
+  "explainable_ai_xai": {
+    "name": "强健可解释 AI（XAI）",
+    "description": "面向复杂已部署模型的 AI 解释、透明度、可解释性与问责方法。"
+  },
+  "exploration_global": {
+    "name": "早期近代远洋探索",
+    "description": "早期近代欧洲的发现与寻路远洋航行，尤以伊比利亚大西洋及跨洋扩张为代表，依托航海仪器、地图学和卡拉维尔船型。"
+  },
+  "eyeglass_prescription_practices": {
+    "name": "早期验配眼镜实践",
+    "description": "在标准化临床验光之前，按年龄、近用或远用需求和分级镜片度数挑选订购镜片的做法。"
+  },
+  "factory_system": {
+    "name": "工厂制度",
+    "description": "在专门建造的工场或工厂内进行的集中式工业生产，在同一厂区整合动力机械、纪律化雇佣劳动和协同工序。"
+  },
+  "fan_out_wafer_level_packaging": {
+    "name": "扇出型晶圆级封装",
+    "description": "把已知良品裸片嵌入重构晶圆或面板、经再布线层向外引出 I/O 的晶圆级封装架构。"
+  },
+  "federated_learning": {
+    "name": "联邦学习",
+    "description": "在分布式设备或组织间进行机器学习、同时把原始数据留在本地以满足隐私、时延或治理要求。"
+  },
+  "feminism_first_wave_suffrage": {
+    "name": "美国有组织女权选举权运动",
+    "description": "1848年塞尼卡福尔斯大会公开启动的美国女性公民与政治权利有组织运动。"
+  },
+  "fermentation_basic": {
+    "name": "基础发酵",
+    "description": "通过微生物作用保存食物并酿造饮品（如啤酒、蜂蜜酒）的早期技术。"
+  },
+  "fermented_dairy_products": {
+    "name": "小河开菲尔发酵乳制品",
+    "description": "由反刍动物乳制成的开菲尔发酵奶酪，通过定量蛋白质组学在小河早期青铜时代墓葬随葬有机团块中鉴定出来。"
+  },
+  "feudalism": {
+    "name": "封建制度",
+    "description": "以领主与封臣之间的土地保有权（采邑）、忠诚和兵役为基础的社会经济政治制度。"
+  },
+  "fiber_optics": {
+    "name": "光纤",
+    "description": "以玻璃或塑料纤维把数据以光脉冲传输的技术。"
+  },
+  "field_boundary_survey_stones": {
+    "name": "库杜鲁授地界石",
+    "description": "刻有铭文的巴比伦库杜鲁（权益石），以楔形文字和神祇符号纪念王室授地并记录土地权属主张。"
+  },
+  "field_terracing": {
+    "name": "早期梯田",
+    "description": "减缓侵蚀并在坡地上拓展农业的石质与土质梯田。"
+  },
+  "filters_membranes_early": {
+    "name": "滤材与膜（早期）",
+    "description": "用于选择性分离物质的材料与技术，包括透析膜、水净化和空气过滤。"
+  },
+  "financial_derivatives": {
+    "name": "现代金融衍生品",
+    "description": "由正式定价、清算与市场风险实践支撑的标准化场内期权及相关衍生合同。"
+  },
+  "fine_arts_medieval": {
+    "name": "罗马式与哥特式美术",
+    "description": "西方中世纪罗马式与哥特式绘画、雕塑、壁画、彩窗、金工和手抄本彩饰，围绕教堂、修道院及后来的城市大教堂作坊产生。"
+  },
+  "finfet_transistors": {
+    "name": "FinFET 晶体管",
+    "description": "以鳍状沟道改善小工艺节点静电控制的三维场效应晶体管。"
+  },
+  "fire_control": {
+    "name": "用火控制",
+    "description": "人属对火的受控使用与维持，考古学上以原地燃烧、灰烬和烧骨为证据。"
+  },
+  "fired_bricks_early_kilns": {
+    "name": "早期窑烧砖",
+    "description": "在受控窑炉或类窑烧成系统中焙烧砖坯，制造耐久的黏土建筑砖。"
+  },
+  "firewalls_packet_filtering": {
+    "name": "防火墙与包过滤",
+    "description": "依据规则、状态、应用或身份情境检查并控制网络间流量的网络安全系统。"
+  },
+  "fish_hook_barbs": {
+    "name": "倒刺鱼钩",
+    "description": "带倒刺、尖锋和系线的改进钩形，使河流、湖泊和海岸的捕捞更可靠。"
+  },
+  "fish_weirs": {
+    "name": "潜没石鱼梁",
+    "description": "低矮的石头潮汐陷阱墙，涨潮时鱼群越墙而入，退潮时被截留。"
+  },
+  "fish_weirs_and_traps": {
+    "name": "鱼梁与鱼陷阱",
+    "description": "以少量日常劳作把鱼引入可收获的潮汐或河川围圈的固定式石、苇或木桩结构。"
+  },
+  "fishing_nets_hooks": {
+    "name": "旧石器时代鱼钩",
+    "description": "作为晚更新世海洋生计组成部分的整体式贝壳鱼钩。"
+  },
+  "fishing_spear_gigs": {
+    "name": "卡坦达骨鱼叉头",
+    "description": "出自卡坦达的带倒刺骨鱼叉头，用于在中非叉捕大型淡水鱼。"
+  },
+  "five_g_new_radio": {
+    "name": "5G 新空口",
+    "description": "支持增强移动宽带、低时延服务和海量机器类通信的蜂窝无线与核心网标准。"
+  },
+  "flash_memory": {
+    "name": "闪存",
+    "description": "可电擦写、用于存储卡、手机、SSD 和嵌入式设备的非易失性半导体存储器。"
+  },
+  "flight_powered": {
+    "name": "有动力飞行",
+    "description": "以重于空气的飞行器实现持续受控的空中航行。"
+  },
+  "fluid_mechanics_early": {
+    "name": "早期流体力学",
+    "description": "通过水力学和自然哲学发展出的对水、空气、压力、浮力、流动与泵的实用和数学认识。"
+  },
+  "fluoridated_drinking_water": {
+    "name": "饮用水加氟",
+    "description": "在人群尺度调整饮用水氟浓度以降低龋齿的公共水处理实践。"
+  },
+  "flush_toilet_trap_seal": {
+    "name": "带存水弯冲水马桶",
+    "description": "利用存水弯水封隔绝室内与下水道臭气、并把排泄物冲入排水管道的卫生洁具。"
+  },
+  "food_cold_chain": {
+    "name": "食品冷链",
+    "description": "使易腐食品在流通全程保持低温的一体化冷藏储存、运输、仓库与零售体系。"
+  },
+  "food_pasteurization_heat_treatment": {
+    "name": "食品巴氏杀菌",
+    "description": "以受控加热杀灭奶、酒等食品饮品中的病原体，大幅改善公共健康、安全与保质期。"
+  },
+  "food_preservation_drying_salting": {
+    "name": "食物保存（晾晒、盐渍）",
+    "description": "借助日光或火力干燥以及盐渍保存食物的方法，盐渍体现于后来由盐支撑的专门化生产。"
+  },
+  "food_storage_pits": {
+    "name": "早期储食窖穴与储坑",
+    "description": "在专门高架粮仓和驯化谷物农业出现之前，用于储存采集或栽种食物的小型储仓和地坑。"
+  },
+  "foraging_and_botany": {
+    "name": "觅食与植物学",
+    "description": "凭借积累共享的知识辨识并采集野生植物，用作食物、药物和材料。"
+  },
+  "force_fields_containment_deflection": {
+    "name": "力场（约束与偏转）",
+    "description": "产生稳定局域能量场（等离子体、引力等）以约束危险材料或偏转物理物体。"
+  },
+  "forging_and_smithing": {
+    "name": "锻造与金工",
+    "description": "通过加热后锤打来塑造金属的技艺，可造出更坚固精细的工具和武器。"
+  },
+  "formal_logic_syllogism": {
+    "name": "形式逻辑（三段论）",
+    "description": "系统化的推理原则，尤指亚里士多德创立的演绎推理。"
+  },
+  "fortified_camps_marching_camps": {
+    "name": "行军营垒",
+    "description": "军队行军途中每夜构筑标准化、可防御临时营地的做法，对保障军事安全至关重要。"
+  },
+  "fortified_town_planning": {
+    "name": "设防城镇规划",
+    "description": "由城墙、城门、塔楼、市场、水源、街道管制和防御分区塑造的城市布局。"
+  },
+  "fortified_water_gates": {
+    "name": "设防水门",
+    "description": "管制船只、防洪、收税并保障城市安全的设防河港门户。"
+  },
+  "fortress_water_cisterns": {
+    "name": "要塞蓄水池",
+    "description": "为围城下的城堡和设防城镇提供保护的井、水池、排水与屋面集水系统。"
+  },
+  "foundation_model_operating_systems": {
+    "name": "基础模型操作系统",
+    "description": "由通用 AI 模型协调工具、记忆、权限、用户目标和应用工作流的运行环境。"
+  },
+  "foundation_models": {
+    "name": "基础模型",
+    "description": "在广泛数据上训练、可跨众多下游任务与模态复用的大型可调适模型。"
+  },
+  "frequency_division_multiplexing": {
+    "name": "频分复用",
+    "description": "通过给每个信号分配独立频带，在同一介质上同时承载多路通信信道的技术。"
+  },
+  "fresco_painting": {
+    "name": "湿壁画",
+    "description": "在新抹灰泥上以水性颜料作画的耐久壁画技法，成为公共与私人建筑的突出装饰。"
+  },
+  "fulling_mills": {
+    "name": "漂洗磨坊",
+    "description": "把水力锻锤应用于漂洗（清洗并增厚呢绒），是中世纪纺织业的关键机械化。"
+  },
+  "fully_autonomous_transportation_networks_level_5": {
+    "name": "全自主交通网络（L5）",
+    "description": "无需人工干预运行的自驾车辆（汽车、卡车、无人机）一体化网络。"
+  },
+  "furnace_technology_high_temp": {
+    "name": "高温炉技术",
+    "description": "可达到极高温度、服务金属、耐火材料与先进材料加工的电炉与工业炉。"
+  },
+  "fusion_desalination_water_systems": {
+    "name": "聚变淡化水系统",
+    "description": "以充沛低碳能源驱动海水淡化、泵送、循环与抗旱城市供水的大型水系统。"
+  },
+  "fusion_industrial_heat": {
+    "name": "聚变工业热能",
+    "description": "聚变驱动的高温热能，服务钢铁、水泥、化工、淡化、回收与合成燃料。"
+  },
+  "fusion_power": {
+    "name": "聚变能",
+    "description": "广泛驾驭核聚变反应的能量，提供清洁而充沛的能源。"
+  },
+  "fusion_power_early_reactors": {
+    "name": "聚变能（早期反应堆）",
+    "description": "实现净能量增益的首批实验性小型聚变反应堆的开发与运行。"
+  },
+  "fusion_powered_industrial_clusters": {
+    "name": "聚变动力工业集群",
+    "description": "高温聚变热能与电力同钢铁、化工、淡化和合成燃料的整合。"
+  },
+  "fusion_rockets": {
+    "name": "聚变火箭",
+    "description": "以聚变动力获得高推力与高效率、实现快速行星际航行的航天推进系统。"
+  },
+  "galleon_ship_design": {
+    "name": "盖伦帆船设计",
+    "description": "兼作货船与军舰的大型多甲板帆船，其设计压低了前楼、呈方帆轮廓，成为稳定的火炮平台和远洋舰船。"
+  },
+  "game_consoles_dedicated_gaming_hardware": {
+    "name": "游戏主机（专用游戏硬件）",
+    "description": "连接电视等显示设备、专用于玩电子游戏的电子设备。"
+  },
+  "game_engine_toolchains": {
+    "name": "游戏引擎工具链",
+    "description": "可复用的软件引擎，涵盖渲染、物理、音频、脚本、资产管线、联机与游戏部署。"
+  },
+  "game_theory_advanced": {
+    "name": "博弈论（高等）",
+    "description": "面向复杂系统、关于理性决策者策略互动的精细数学模型。"
+  },
+  "gastraphetes_belly_bow": {
+    "name": "腹弓（Gastraphetes）",
+    "description": "一种早期弩，以腹部抵靠借力张弦，威力大于普通手拉弓。"
+  },
+  "gate_all_around_nanosheet_transistors": {
+    "name": "全环栅纳米片晶体管",
+    "description": "栅极环绕堆叠纳米片沟道的晶体管，在 FinFET 之后延续逻辑微缩。"
+  },
+  "geared_calculating_devices": {
+    "name": "齿轮计算装置",
+    "description": "希腊化时代的齿轮式天文计算器，以安提基特拉机械为代表，用青铜齿轮系和刻度盘模拟历法与天体周期。"
+  },
+  "gears_simple_classical": {
+    "name": "希腊化时代齿轮",
+    "description": "希腊化时代的齿轮与齿轮传动装置，用于传递旋转运动、改变传动比，驱动水钟、自动装置、提水机械和天文仪器。"
+  },
+  "gene_therapy_early": {
+    "name": "基因治疗（早期）",
+    "description": "通过修改个体基因治疗或治愈疾病的实验性技术。"
+  },
+  "gene_therapy_vectors": {
+    "name": "基因治疗载体",
+    "description": "经工程化、把治疗性遗传物质送入患者细胞或组织的病毒与非病毒递送系统。"
+  },
+  "generative_design_ecosystems": {
+    "name": "生成式设计生态",
+    "description": "对产品、建筑、药物和基础设施进行设计、仿真、制造、测试、修复与迭代的 AI 系统。"
+  },
+  "genetic_engineering": {
+    "name": "基因工程",
+    "description": "利用重组 DNA、递送系统、测序和可编程编辑工具直接操作生物体基因组。"
+  },
+  "genetically_modified_crops": {
+    "name": "转基因作物",
+    "description": "被赋予特定性状（如抗虫、耐除草剂或营养改良）的工程化作物品种。"
+  },
+  "genetics_mendel": {
+    "name": "遗传学（孟德尔）",
+    "description": "孟德尔通过实验发现并发表的颗粒式遗传原理，包括显性、分离和自由组合定律。"
+  },
+  "genomic_epidemiology": {
+    "name": "病原体基因组流行病学",
+    "description": "把病原体序列与流行病学数据结合，追溯谱系、暴发、传播路径与演化变化。"
+  },
+  "geocentric_model_ptolemaic": {
+    "name": "地心说模型（托勒密体系）",
+    "description": "托勒密《天文学大成》的地心球面宇宙体系，运用三角学和几何行星模型预测天体运行。"
+  },
+  "geology": {
+    "name": "地质学",
+    "description": "对地球的物质、结构、过程和历史的科学研究，包括均变论等原理。"
+  },
+  "geometry": {
+    "name": "几何学",
+    "description": "研究空间性质的数学分支，涉及图形的距离、形状、大小和相对位置等属性。"
+  },
+  "geothermal_power_earth_heat_energy": {
+    "name": "地热能发电",
+    "description": "利用来自地球内部的地热能供暖与发电。"
+  },
+  "germ_theory": {
+    "name": "疾病细菌说",
+    "description": "由巴斯德和柯霍证明的科学理论：许多疾病由特定微生物的生长繁殖引起。"
+  },
+  "glass_blowing_workshops": {
+    "name": "玻璃吹制作坊",
+    "description": "罗马时期使用自由吹制与模吹技术、规模化生产玻璃器皿、灯具、窗玻璃及相关制品的专业作坊。"
+  },
+  "glass_lamp_chimneys": {
+    "name": "早期玻璃灯",
+    "description": "晚期罗马用于照明的吹制玻璃油灯，以储油洁净、透光高效而受重视。"
+  },
+  "glass_lenses_early": {
+    "name": "早期玻璃与水晶透镜",
+    "description": "以磨制或成形的玻璃、注水玻璃器和水晶，用于放大、聚光取火、光学实验和辅助视物。"
+  },
+  "glass_mirror_backing": {
+    "name": "玻璃镜背衬",
+    "description": "以抛光玻璃和金属背衬制成的反光镜面，用于梳妆、仪器和礼仪用品。"
+  },
+  "glass_mosaic_tesserae": {
+    "name": "玻璃马赛克嵌片",
+    "description": "用于墙面、地面、宗教和公共建筑镶嵌画的彩色玻璃小方块。"
+  },
+  "glass_window_panes": {
+    "name": "玻璃窗板",
+    "description": "用于贵族建筑、浴场、温室和公共建筑的平板或铸造半透明玻璃。"
+  },
+  "glassmaking": {
+    "name": "玻璃制造",
+    "description": "在高温作坊环境中以富硅砂与苏打或植物灰及石灰熔融，制作珠子、吊坠、镶嵌物及后来器皿等早期人造玻璃物件。"
+  },
+  "global_climate_control_treaties": {
+    "name": "全球气候调控条约",
+    "description": "协调碳移除、太阳辐射管理、生态修复、水系统、监测与责任归属的治理体系。"
+  },
+  "global_consciousness_network": {
+    "name": "全球意识网络（假想）",
+    "description": "个体意识经由先进脑机接口与 AI 相互连接、形成集体智能的推测性未来。"
+  },
+  "global_weather_control_climate_stabilization": {
+    "name": "全球天气控制与气候稳定",
+    "description": "管理全球气候格局、缓减极端天气的协调性大规模干预。"
+  },
+  "globalization": {
+    "name": "二十世纪末全球化",
+    "description": "1980年代经由贸易、资本流动、运输、通信、制度与知识交流加速的跨境一体化。"
+  },
+  "glucose_biosensors": {
+    "name": "葡萄糖生物传感器",
+    "description": "以酶化学、膜和电学或光学换能测量血液或组织间液中葡萄糖的生物传感器。"
+  },
+  "gold_and_silver_working": {
+    "name": "金银加工",
+    "description": "加工金、银等自然贵金属，用于饰物、礼器及价值储藏。"
+  },
+  "good_laboratory_practice_toxicology": {
+    "name": "良好实验室规范毒理学",
+    "description": "为监管申报而设、具备受控方案、记录与质量体系的标准化临床前安全研究。"
+  },
+  "good_manufacturing_practice": {
+    "name": "药品生产质量管理规范",
+    "description": "控制设施、工艺、文档、检测与批放行的制药质量体系。"
+  },
+  "gothic_architecture": {
+    "name": "哥特式建筑",
+    "description": "以尖拱、肋架拱顶和飞扶壁为特征的建筑风格，造就更高更轻、窗面开阔的结构。"
+  },
+  "gps": {
+    "name": "全球定位系统（GPS）",
+    "description": "1973年获批的 NAVSTAR GPS 项目及其三段式系统架构，发展全球卫星无线电定位、导航、测速与精密授时。"
+  },
+  "gps_guided_logistics": {
+    "name": "GPS 车队物流",
+    "description": "围绕 GPS 定位与数字地图构建的商业车队导航、车辆跟踪管理、路径规划、调度与配送效率系统。"
+  },
+  "granaries": {
+    "name": "前驯化粮仓",
+    "description": "德拉遗址为干燥储粮专门建造的高架结构，保护栽培的野生谷物和其他储粮免受潮气和鼠患。"
+  },
+  "granary_pest_control": {
+    "name": "粮仓虫害防治",
+    "description": "保护储粮的密封仓、灰烬、猫、陷阱、高架地板和巡查制度。"
+  },
+  "graphene_two_dimensional_materials": {
+    "name": "石墨烯与二维材料",
+    "description": "以石墨烯为代表的原子级薄层材料，具有独特的电学、力学、热学与光学性质。"
+  },
+  "graphical_user_interface_gui": {
+    "name": "图形用户界面（GUI）",
+    "description": "以窗口、图标和菜单与计算机交互的视觉方式。"
+  },
+  "graphical_user_interfaces": {
+    "name": "图形用户界面",
+    "description": "经由窗口、图标、菜单、指点设备、字体排印和直接操纵的视觉人机交互。"
+  },
+  "graphics_processing_units_gpu": {
+    "name": "图形处理器（GPU）",
+    "description": "集成三维流水线功能、高度并行可编程执行的单芯片图形处理器，后被改造用于通用计算、仿真和机器学习负载。"
+  },
+  "gray_goo_scenario_containment": {
+    "name": "灰蛊情景与遏制",
+    "description": "针对失控自复制纳米机器人灾难性风险的研究及强健对策的开发。"
+  },
+  "green_hydrogen": {
+    "name": "绿氢",
+    "description": "以可再生电力驱动水电解制取的氢，锚定于首个风电与制氢结合的全尺寸示范系统。"
+  },
+  "green_revolution_agriculture": {
+    "name": "绿色革命",
+    "description": "在世界范围内提升农业产量（尤其以高产品种）的一系列研究与技术转移举措。"
+  },
+  "greenhouse_gas_inventories": {
+    "name": "温室气体清单",
+    "description": "用于估算、报告和核查温室气体排放与移除的标准化核算体系。"
+  },
+  "grid_scale_battery_storage": {
+    "name": "电网级储能",
+    "description": "接入公用电网、用于负荷平移、削峰、调频、备用容量及电网储能技术评估的兆瓦级电池系统。"
+  },
+  "grinding_stones_querns": {
+    "name": "上旧石器时代磨石",
+    "description": "手动操作的磨石，把野生植物加工成富含淀粉的粉状食物。"
+  },
+  "gsm_digital_cellular": {
+    "name": "GSM 数字蜂窝",
+    "description": "采用 SIM 身份、数字语音编码、漫游和电路交换移动服务的第二代数字蜂窝标准。"
+  },
+  "guidance_systems_early": {
+    "name": "制导系统（早期惯性）",
+    "description": "以陀螺仪、加速度计和模拟/机电控制、不依赖外部基准对火箭进行制导与稳定控制的早期惯性系统。"
+  },
+  "guild_apprentice_contracts": {
+    "name": "行会学徒契约",
+    "description": "界定训练年限、费用、操守、工具、住宿及权利义务的书面协议。"
+  },
+  "guild_certification_seals": {
+    "name": "行会认证印记",
+    "description": "证明训练、会籍、产地、质量及受管商品销售权的官方印记与证书。"
+  },
+  "guild_halls_trade_centers": {
+    "name": "行会会所与商贸中心",
+    "description": "为行会活动专门兴建（往往华美）的建筑群，充当商业、行业管制与城市自豪感的中心。"
+  },
+  "guilds": {
+    "name": "行会",
+    "description": "围绕共同经济、法律、互助或宗教目标结成的商人、工匠或其他平信徒组织；正式的工匠行会与商人行会规范贸易、质量、劳动与学徒制。"
+  },
+  "gunpowder": {
+    "name": "宋代火药方",
+    "description": "以硝石、硫磺和木炭配比成文的黑火药配方，用于宋代军用燃烧弹、火炮弹和火箭。"
+  },
+  "haber_bosch_process_early": {
+    "name": "哈伯-博施法",
+    "description": "在高温高压下以大气氮和氢合成氨的工业过程，是化肥与炸药的关键。"
+  },
+  "haptics_advanced": {
+    "name": "高等触觉反馈",
+    "description": "以力、振动或运动为用户营造真实触感并融入 VR/AR 的技术。"
+  },
+  "harbor_customs_houses": {
+    "name": "港口海关",
+    "description": "设于港口的官署，负责核定关税、审核货物舱单、执行检疫规定并查验商人单证。"
+  },
+  "harbor_engineering_breakwaters": {
+    "name": "港口工程（防波堤）",
+    "description": "以石料、碎石、木材、防波堤坝及后来的混凝土防波堤构筑的人工港口防护，减少波浪侵袭并营造更安全的锚地。"
+  },
+  "harbor_lighthouses": {
+    "name": "港口灯塔",
+    "description": "法罗斯式沿海塔楼，以烟火信号引导船只入港并标示危险的进近航道。"
+  },
+  "hard_disk_drives_magnetic_storage": {
+    "name": "硬盘驱动器（磁存储）",
+    "description": "在旋转盘片上进行磁记录的机电式数据存储设备。"
+  },
+  "hardware_description_languages_hdl": {
+    "name": "硬件描述语言",
+    "description": "Verilog、VHDL 等用于描述、仿真和综合数字硬件的语言。"
+  },
+  "hardware_security_modules": {
+    "name": "硬件安全模块",
+    "description": "以抗篡改硬件生成、保护和使用密码密钥，服务身份、支付、签名与云服务。"
+  },
+  "heavy_cavalry": {
+    "name": "重骑兵",
+    "description": "配备板甲、骑枪和披甲战马的骑士，构成中世纪战争的主导冲击力量。"
+  },
+  "heavy_draft_plowing": {
+    "name": "美索不达米亚播种犁",
+    "description": "装有犁铧后漏斗的畜力犁，由第二名操作者把种子定量播入新开的犁沟。"
+  },
+  "heavy_plow_mouldboard": {
+    "name": "重犁（翻土板犁）",
+    "description": "带翻土板的先进轮式重犁，能翻开欧洲黏重土壤，显著提升农业生产力。"
+  },
+  "helicopters_vertical_takeoff_landing_vtol": {
+    "name": "直升机（垂直起降 VTOL）",
+    "description": "以旋翼实现垂直起降、悬停及前后飞行的飞行器。"
+  },
+  "heliocentrism_copernicus": {
+    "name": "日心说（哥白尼）",
+    "description": "地球和行星绕太阳（太阳系中心）公转的天文模型，由哥白尼在《天体运行论》中提出。"
+  },
+  "heraldry": {
+    "name": "纹章学",
+    "description": "用于辨识个人、家族与机构的世袭纹章、视觉规范、纹章描述及记录体系，十二世纪兴起于西欧具装精英之中。"
+  },
+  "herbal_medicine_preparation": {
+    "name": "草药制备",
+    "description": "将草本植物和树脂与葡萄酒作为药载结合，直接证据来自阿拜多斯陶罐的化学分析残留物。"
+  },
+  "herbalism": {
+    "name": "草药学",
+    "description": "以植物入药，实用知识与仪式及口传传统相结合。"
+  },
+  "hide_glue_production": {
+    "name": "苏黎世新石器时代皮胶",
+    "description": "从牛和家养羊类组织中提取的胶原蛋白胶，用于把装饰树皮条固定在新石器时代紫杉弓上。"
+  },
+  "hide_processing": {
+    "name": "孔特拉邦迪耶皮革与毛皮加工",
+    "description": "用骨器加工兽皮与毛皮以制作皮革和毛皮。"
+  },
+  "hide_tent_frames": {
+    "name": "文多兰达罗马皮革帐篷板",
+    "description": "出自罗马军用帐篷、经裁剪缝制的牛皮与羊皮护板，使用于文多兰达要塞首次驻防时期。"
+  },
+  "high_bandwidth_memory_hbm": {
+    "name": "高带宽内存",
+    "description": "以硅通孔和超宽接口堆叠 DRAM、服务高吞吐 GPU 与加速器的内存。"
+  },
+  "high_na_euv_lithography": {
+    "name": "High-NA EUV 光刻",
+    "description": "采用更高数值孔径光学以获得更小特征并减少多重曝光的新一代 EUV 光刻。"
+  },
+  "high_performance_polymers": {
+    "name": "高性能聚合物",
+    "description": "面向航空航天、电子、医疗与工业用途、具备卓越热学、化学、力学或电学性能的工程聚合物。"
+  },
+  "high_speed_rail": {
+    "name": "高速铁路",
+    "description": "以日本1964年东海道新干线为锚点的现代高速客运铁路：专用线路基础设施、电力牵引、信号与高速动车组。"
+  },
+  "high_throughput_screening": {
+    "name": "高通量筛选",
+    "description": "以机器人、分析方法和数据系统对大型化合物库针对生物靶标的自动化测试。"
+  },
+  "high_voltage_transmission": {
+    "name": "高压输电",
+    "description": "以高电压远距离输送大容量电力的输电线路与变电站。"
+  },
+  "highway_systems": {
+    "name": "公路系统",
+    "description": "面向高速机动运输、协同配套的铺装路网、设计标准、标志、养护与交通工程。"
+  },
+  "history": {
+    "name": "历史学",
+    "description": "对过去事件、统治者、战争、迁徙和社会变迁的书面探究，综合运用史料、证词、年表与阐释。"
+  },
+  "homomorphic_encryption": {
+    "name": "同态加密",
+    "description": "允许在不先解密的情况下对密文进行计算的密码学技术。"
+  },
+  "horse_collar": {
+    "name": "马颈圈",
+    "description": "让马在不被勒住呼吸的前提下高效牵引重载的衬垫挽具，革新了农业与运输。"
+  },
+  "horse_shoes": {
+    "name": "马蹄铁",
+    "description": "钉于马蹄的铁掌，防止磨损并提供抓地力，对劳役和军用都至关重要。"
+  },
+  "horseback_riding": {
+    "name": "骑马",
+    "description": "以马为骑乘坐骑实现机动、放牧、通信及后来的战争，区别于更广义的马驯化过程。"
+  },
+  "horticulture": {
+    "name": "园圃栽培",
+    "description": "小规模有用植物栽培，锚定于奥哈罗二号遗址狩猎采集者在新石器农业之前试种野生谷物的证据。"
+  },
+  "hospital_information_systems": {
+    "name": "医院信息系统",
+    "description": "整合患者档案、医嘱、检验、影像、计费、排班、药房和临床流程的医院一体化软件。"
+  },
+  "hospital_patient_wards": {
+    "name": "医院病房",
+    "description": "按患者、床位、陪护、膳食、药房、记录与慈善照护分开组织的医院空间。"
+  },
+  "hospital_pharmacies": {
+    "name": "医院药房",
+    "description": "面向患者护理的药品、糖浆、药膏、馏液、草药和处方集的制度化制备与储存。"
+  },
+  "hospitals_early": {
+    "name": "早期医院",
+    "description": "专司照护病者、贫者与弱者的机构建制，多具宗教背景并提供收容照护。"
+  },
+  "household_electric_refrigerators": {
+    "name": "家用电冰箱",
+    "description": "集机械制冷、电动机、恒温控制与家用即插即用于一体的家用电冰箱。"
+  },
+  "household_textile_production": {
+    "name": "贝伊切苏尔坦家庭纺织作坊",
+    "description": "青铜时代贝伊切苏尔坦一处住宅房间内的专门化纺纱与重锤织机织造。"
+  },
+  "http_protocol": {
+    "name": "HTTP 协议",
+    "description": "在互联网上传输超文本、API、元数据与 Web 资源的应用协议。"
+  },
+  "human_anatomy_physiology": {
+    "name": "人体解剖与生理",
+    "description": "经复兴而严格的人体结构与功能研究，从古代文本转向直接、系统的解剖与实证观察。"
+  },
+  "human_genome_project_dna_mapping": {
+    "name": "人类基因组计划（DNA 测绘）",
+    "description": "测定构成人类 DNA 的核苷酸碱基对序列的国际研究计划。"
+  },
+  "human_hibernation_suspended_animation": {
+    "name": "人类休眠 / 假死",
+    "description": "诱导人体进入代谢迟滞、把生物机能降至最低，用于长期太空航行或医学保存。"
+  },
+  "humanism": {
+    "name": "人文主义",
+    "description": "强调人的潜能、成就与理性的思想运动，从古典古代的艺术、文学和哲学汲取灵感。"
+  },
+  "humanoid_general_purpose_robots": {
+    "name": "人形通用机器人",
+    "description": "以灵巧硬件和基础模型控制执行多样人居环境任务的移动操作机器人。"
+  },
+  "humoral_theory": {
+    "name": "体液学说",
+    "description": "主张健康与疾病源于血液、黏液、黄胆汁、黑胆汁四种体液平衡与否的医学学说。"
+  },
+  "hunting_gathering_basic": {
+    "name": "基础狩猎采集",
+    "description": "通过采集、狩猎、食腐、捕鱼和简单工具获取野生食物的移动觅食生计。"
+  },
+  "hybrid_bonding_advanced_packaging": {
+    "name": "混合键合先进封装",
+    "description": "以直接键合实现高密度裸片对裸片或晶圆对晶圆集成、为三维芯片堆叠提供细间距垂直互连。"
+  },
+  "hybrid_seed_production": {
+    "name": "杂交种子生产",
+    "description": "产出高产品种杂交作物的受控植物育种与制种繁育体系。"
+  },
+  "hydraulics": {
+    "name": "水力学",
+    "description": "流体力学的研究与应用，尤其侧重水的输送与控制。"
+  },
+  "hydroelectric_power_plants": {
+    "name": "水力发电厂",
+    "description": "通过水轮机和发电机把落差或水流转化为电能的电站。"
+  },
+  "hydroponics": {
+    "name": "水培",
+    "description": "以营养液、受控水质与根区环境管理实现的无土作物生产。"
+  },
+  "hypertext_systems": {
+    "name": "超文本系统",
+    "description": "计算机上显示的、带有读者可立即访问的超链接引用的文本。"
+  },
+  "hypocaust_underfloor_heating": {
+    "name": "火坑供暖系统（地下供暖）",
+    "description": "由熔炉热风在地板下空腔与墙体夹层内循环的集中供暖系统，用于别墅和公共浴场。"
+  },
+  "iatrochemistry_paracelsus": {
+    "name": "医疗化学（帕拉塞尔苏斯）",
+    "description": "帕拉塞尔苏斯式化学医学：以化学原理解释身体，提倡矿物制剂与蒸馏，以替代正统盖伦疗法。"
+  },
+  "illuminated_manuscripts_scribal_art": {
+    "name": "彩饰手抄本与抄写艺术",
+    "description": "在修道院缮写室制作的精美装饰手写书籍，常饰以金箔（彩饰）和细密插图（细密画）。"
+  },
+  "immuno_oncology_checkpoint_inhibitors": {
+    "name": "免疫检查点抑制剂",
+    "description": "阻断 PD-1、PD-L1 或 CTLA-4 等抑制性免疫检查点的单克隆抗体癌症疗法。"
+  },
+  "immunoassay_diagnostics": {
+    "name": "免疫分析诊断",
+    "description": "利用抗体-抗原结合检测激素、蛋白、病原体和生物标志物的实验室检验。"
+  },
+  "immunology_advanced": {
+    "name": "高等免疫学",
+    "description": "以自我/非我识别、免疫耐受、移植排斥和工程化免疫干预为核心的战后细胞与分子免疫学。"
+  },
+  "in_situ_space_pharmaceuticals": {
+    "name": "太空原位制药",
+    "description": "借助生物铸造厂与本地供应链，在轨道、月球、火星和小行星聚落生产药物。"
+  },
+  "in_vitro_adme_toxicology": {
+    "name": "体外 ADME 与毒理学",
+    "description": "在人体试验之前，以细胞与生化方法评估吸收、分布、代谢、排泄和毒性。"
+  },
+  "in_vitro_fertilization": {
+    "name": "体外受精",
+    "description": "运用激素调控、取卵、实验室受精、胚胎培养与移植的辅助生殖技术。"
+  },
+  "in_vivo_crispr_therapeutics": {
+    "name": "体内 CRISPR 疗法",
+    "description": "把基因组编辑器直接递送入体治疗疾病，无需取出细胞做体外制备。"
+  },
+  "industrial_ballistics_laboratories": {
+    "name": "桑迪胡克军械试验场",
+    "description": "美国陆军军械部专门试验场，用于试射测试新武器、线膛炮、弹药、火药、炮弹、引信、底火并测量弹道性能。"
+  },
+  "industrial_canning_lines": {
+    "name": "工业罐头生产线",
+    "description": "把制罐、食品预处理、装填、封口、热处理和包装整合为耐储存食品生产的罐头厂体系。"
+  },
+  "industrial_cinema_distribution": {
+    "name": "工业化电影发行",
+    "description": "面向电影的拷贝、影院、排片、放映设备、广告、审查与发行网络。"
+  },
+  "industrial_design_profession": {
+    "name": "工业设计职业",
+    "description": "面向人机工学、风格、可用性、品牌、模具和量产的制成品专业设计。"
+  },
+  "industrial_gas_production": {
+    "name": "煤气制造",
+    "description": "在蒸馏罐中生产煤气，并经洗涤、净化、储存与配送，形成日益工业化的煤气厂。"
+  },
+  "industrial_glass_production_float_glass": {
+    "name": "工业玻璃生产",
+    "description": "以工业规模生产大尺寸均匀平板与窗玻璃的方法，从冠制和筒制板玻璃作坊到后来的浮法玻璃生产。"
+  },
+  "industrial_laboratories_standard_testing": {
+    "name": "国家标准与检测实验室",
+    "description": "为验证仪器、检测材料、测定物理常数、维护工业与科学计量标准而设立的国家专门实验室。"
+  },
+  "industrial_parts_catalogs": {
+    "name": "工业零件目录",
+    "description": "面向机床、五金、部件、替换件的产品规格、价格与订购信息的印刷商贸目录和技术文献。"
+  },
+  "industrial_quality_control": {
+    "name": "工业质量控制",
+    "description": "为保持工业产出可重复可靠而采用的工厂检验、合格性测试、量规、公差及后来的抽样与统计方法。"
+  },
+  "industrial_refrigeration": {
+    "name": "工业制冷",
+    "description": "面向冷库、肉类加工、酿造和食品物流的机械压缩与吸收式制冷系统。"
+  },
+  "industrial_research_laboratories": {
+    "name": "美国企业研究实验室",
+    "description": "把科学家与工程师集中于一处开展原创研究、支撑持续工业创新的公司中央实验室。"
+  },
+  "industrial_revolution": {
+    "name": "工业革命",
+    "description": "由手工生产转向以煤、蒸汽、机床、工厂和不断扩展的运输网络为动力的机械化工业的广泛变革。"
+  },
+  "industrial_robot_arms": {
+    "name": "工业机械臂",
+    "description": "部署于工厂、承担焊接、喷漆、装配、机床上下料和物料搬运的机器人操作臂。"
+  },
+  "industrial_safety_codes": {
+    "name": "工业安全规程",
+    "description": "面向作业场所危险的工厂规则、检查、机械防护、锅炉标准和报告义务。"
+  },
+  "industrial_safety_regulation": {
+    "name": "工业安全监管",
+    "description": "工厂检查、事故报告、机械防护、工时规定、通风和职业健康保护。"
+  },
+  "industrial_time_clocks": {
+    "name": "员工考勤钟",
+    "description": "记录员工标识及班次上下班时间、用于考勤和薪资管理的机械装置。"
+  },
+  "industrial_urbanization": {
+    "name": "工业化城市化",
+    "description": "工业化期间以人口迁入驱动的城镇增长，城市人口扩张、就业结构变化和工厂聚居集中。"
+  },
+  "industrial_water_softening": {
+    "name": "工业水软化",
+    "description": "以化学与机械方法处理水，减少水垢、改善锅炉运行、保护管道并稳定工业过程。"
+  },
+  "information_theory": {
+    "name": "信息论",
+    "description": "对数字信息的量化、存储与传输的数学研究。"
+  },
+  "instruction_tuning_rlhf": {
+    "name": "指令微调与 RLHF",
+    "description": "利用示范、排序和奖励模型，把语言模型调教为遵循指令与人类偏好的训练后方法。"
+  },
+  "instrument_calibration_standards": {
+    "name": "仪器校准标准",
+    "description": "对照可重复基准校验刻度、象限仪、六分仪、浑天仪、钟表、透镜和测量仪器的共同规范。"
+  },
+  "insulae_apartment_blocks": {
+    "name": "因苏拉（公寓楼）",
+    "description": "供城市居民居住的多层公寓楼，底层常设有商铺。"
+  },
+  "insulin_therapy": {
+    "name": "胰岛素治疗",
+    "description": "面向糖尿病治疗的胰岛素提取、纯化、给药、监测及后来的重组生产。"
+  },
+  "insurance_actuarial_pricing": {
+    "name": "精算保险定价",
+    "description": "运用死亡率、航程、货物和风险表更系统地给保险与年金合同定价。"
+  },
+  "insurance_brokerage_offices": {
+    "name": "保险经纪行",
+    "description": "为船东、商人、承保人、理赔、保单、保费和市场信息牵线搭桥的经纪事务所。"
+  },
+  "insurance_claims_adjustment": {
+    "name": "早期保险理赔",
+    "description": "评估火灾损失、核对保单记录、确认受保财产并结清火险理赔的早期程序。"
+  },
+  "integrated_circuits": {
+    "name": "集成电路（微芯片）",
+    "description": "大幅缩小电子设备尺寸与成本的微型化电子电路（芯片）。"
+  },
+  "interchangeable_parts": {
+    "name": "可互换零件",
+    "description": "按受控尺寸制造部件，使分开生产的零件可装配到同型号任何一件武器上，锚定于约翰·霍尔在哈珀斯渡口有据可查的统一化成果。"
+  },
+  "intergalactic_travel": {
+    "name": "星系际旅行",
+    "description": "星系之间的旅行，需要近光速或超光速推进、自持世代飞船或数字意识转移。"
+  },
+  "intermodal_freight_transport": {
+    "name": "多式联运货运",
+    "description": "以现代集装箱化多式联运为锚点，标准化货物单元在船、卡车、铁路、港口与场站之间流转而无需装卸货物本身。"
+  },
+  "internal_combustion_engine": {
+    "name": "内燃机",
+    "description": "在燃烧室内燃烧燃料以产生动力的发动机，始于勒努瓦煤气机，后有奥托循环和汽油机。"
+  },
+  "international_cooperation_treaties": {
+    "name": "国际合作与条约",
+    "description": "国家间为应对贸易、战争和环境等全球议题而缔结的正式协定与组织。"
+  },
+  "international_law_early_grotius": {
+    "name": "早期国际法（格劳秀斯）",
+    "description": "格劳秀斯式早期国际法：从《海洋自由论》的自由海主张到《战争与和平法》为主权关系、贸易、战争与和平提供的自然法框架。"
+  },
+  "internet": {
+    "name": "互联网",
+    "description": "使用 TCP/IP 协议套的全球互联计算机网络系统。"
+  },
+  "internet_of_things_iot_ubiquitous_connectivity": {
+    "name": "物联网与泛在连接",
+    "description": "物理物体嵌入传感器、软件等技术、经互联网连接并交换数据的网络。"
+  },
+  "internet_protocols_tcp_ip_arpanet": {
+    "name": "互联网协议（TCP/IP、ARPANET）",
+    "description": "使计算机网络成为可能的基础通信协议的发展，源于 ARPANET。"
+  },
+  "interplanetary_probes": {
+    "name": "行星际探测器",
+    "description": "派往探索太阳系内其他行星、卫星、小行星或彗星的无人航天器。"
+  },
+  "interplanetary_supply_chains": {
+    "name": "行星际供应链",
+    "description": "联通地球、在轨仓储、月面基地、火星栖息地、小行星工业与自主制造的物流网络。"
+  },
+  "interstellar_probe_swarms": {
+    "name": "恒星际探测器蜂群",
+    "description": "面向邻近恒星发射的微型自主探测器舰队，服务科学、测绘、通信与先导任务。"
+  },
+  "interstellar_travel": {
+    "name": "恒星际旅行",
+    "description": "预测中跨越恒星际空间乃至在恒星系统间航行的航天任务类别，目前由机器人先导研究支撑而非实际的星对星运输。"
+  },
+  "intrusion_detection_systems": {
+    "name": "入侵检测系统",
+    "description": "利用特征、异常和行为指标检测可疑网络或主机活动的传感器与分析工具。"
+  },
+  "ion_exchange_water_softening": {
+    "name": "离子交换水软化",
+    "description": "用交换树脂去除水中硬度离子或特定污染物的水处理工艺。"
+  },
+  "ion_implantation": {
+    "name": "离子注入",
+    "description": "把离子加速注入晶圆的半导体掺杂方法，精确控制晶体管电学特性。"
+  },
+  "iron_production": {
+    "name": "工业炼铁",
+    "description": "以焦炭、高炉、搅炼、轧制和改进炉窑实现规模化制铁，供应铁轨、桥梁、机器和发动机。"
+  },
+  "iron_working": {
+    "name": "铁器加工",
+    "description": "把铁加工成器物，最初以锤锻陨铁，后经块炼铁冶炼与锻造传统。"
+  },
+  "irrigation": {
+    "name": "灌溉",
+    "description": "通过渠沟进行的受控水管理，支撑干旱地区的大规模农业。"
+  },
+  "irrigation_canals_local": {
+    "name": "地方灌溉渠",
+    "description": "大型区域渠网出现之前村落用于分水的小型渠道、沟渠、水闸和田间水道。"
+  },
+  "irrigation_sluice_gates": {
+    "name": "灌溉水闸",
+    "description": "控制田间与渠网配水的简易闸门、木板、水槽和堰。"
+  },
+  "isotope_separation": {
+    "name": "同位素分离",
+    "description": "把某元素特定同位素从其他同位素中分离富集的过程，对核应用至关重要。"
+  },
+  "itineraries_route_guides": {
+    "name": "旅程志与航线指南",
+    "description": "为旅行者和商人编写的路线指南与沿岸航行志（periploi），列明道路或航路、距离、港口、危险、市镇、锚地和岔口。"
+  },
+  "jet_aircraft_high_speed_flight": {
+    "name": "喷气飞机（高速飞行）",
+    "description": "以喷气发动机推进、实现显著更快更高等级飞行的飞机。"
+  },
+  "jet_airliners": {
+    "name": "喷气式客机",
+    "description": "以喷气发动机为动力、飞行更快航程更长运力更大的商用客机。"
+  },
+  "jet_engine": {
+    "name": "喷气发动机",
+    "description": "从高速喷出的热气流产生推力的吸气式发动机。"
+  },
+  "joint_stock_companies": {
+    "name": "合股公司",
+    "description": "股份可由股东买卖的企业形态，为全球贸易和殖民等大型高风险事业汇集资本。"
+  },
+  "joint_stock_insurance_pools": {
+    "name": "合股保险池",
+    "description": "面向航程、火灾、货物、年金和商业冒险的分摊风险投资与保险安排。"
+  },
+  "kardashev_scale_civilizational_advancement": {
+    "name": "卡尔达肖夫等级文明进阶",
+    "description": "依据能源消耗与掌控程度达到 I 型（行星）、II 型（恒星）或 III 型（星系）文明地位。"
+  },
+  "kiln_fired_roof_tiles": {
+    "name": "乔村复合瓦",
+    "description": "龙山时代乔村聚落以互锁烧土构件铺设的复合屋面。"
+  },
+  "kinship_systems": {
+    "name": "亲属制度",
+    "description": "界定关系与世系的正式体系，构成早期社会结构的基础。"
+  },
+  "lab_on_a_chip": {
+    "name": "芯片实验室",
+    "description": "把样品处理、反应、分离、传感和分析集成于小型流控芯片的微型化装置。"
+  },
+  "labor_specialization": {
+    "name": "劳动分工",
+    "description": "社会中的任务分化，使个人得以专门从事农耕、制陶、金工等特定工作，其动力来自粮食盈余。"
+  },
+  "labor_unions_collective_bargaining": {
+    "name": "工会与集体谈判",
+    "description": "工业时代为改善工资、工时、工作条件和地位，通过集体行动与谈判组织起来的工人结社与行业工会。"
+  },
+  "laboratory_diagnostic_medicine": {
+    "name": "实验室诊断医学",
+    "description": "借助显微镜、培养、化学分析、血液检测、病理实验室和标准化病历的临床诊断。"
+  },
+  "laparoscopic_surgery": {
+    "name": "腹腔镜手术",
+    "description": "运用摄像头、气腹、器械、视频显示和专门训练的微创外科。"
+  },
+  "large_language_models": {
+    "name": "大语言模型",
+    "description": "在广泛语料上训练的超大型 transformer 模型，能生成、摘要、翻译、推理并转换语言与代码。"
+  },
+  "laser_scanners": {
+    "name": "激光扫描仪",
+    "description": "利用激光与探测器读码、测量表面、扫描文件并测绘环境的光学系统。"
+  },
+  "lasers": {
+    "name": "激光器",
+    "description": "基于受激辐射光放大过程发射光的装置。"
+  },
+  "lateen_sail_caravel": {
+    "name": "三角帆与卡拉维尔帆船",
+    "description": "卡拉维尔等先进船型，结合方帆与三角斜帆，提升机动性、逆风航行与远洋能力。"
+  },
+  "latifundia_large_scale_farming": {
+    "name": "大庄园（拉蒂芬迪亚）",
+    "description": "土地兼并而成的巨型农业庄园，多以奴隶劳动耕作，专注于谷物、橄榄或葡萄等面向出口的经济作物。"
+  },
+  "latrines_and_waste_pits": {
+    "name": "厕所与垃圾坑",
+    "description": "专门的人体排泄物处置场所，减少了住所、营地、作坊和早期聚落周围的污染。"
+  },
+  "lead_optimization": {
+    "name": "先导化合物优化",
+    "description": "在进入临床开发之前，对候选分子在效价、选择性、暴露量、安全性和可制造性上的迭代改进。"
+  },
+  "lead_working": {
+    "name": "铅加工",
+    "description": "铅的开采与冶炼，以及把铅铸造成管材、包覆板和砝码的成形技术。"
+  },
+  "leather_tanning": {
+    "name": "施尼德约赫植物鞣革",
+    "description": "在新石器时代晚期的阿尔卑斯以多种植物的提取液把兽皮鞣制成耐久皮革。"
+  },
+  "leather_working": {
+    "name": "皮革加工",
+    "description": "用植物或矿物鞣剂把兽皮加工成耐久柔韧的皮革。"
+  },
+  "led_lighting_efficient_illumination": {
+    "name": "LED 照明（高效照明）",
+    "description": "用于通用照明、兼具高光效与长寿命的发光二极管。"
+  },
+  "legal_commentary_glossators": {
+    "name": "法律注释（注释法学派）",
+    "description": "对罗马法文本（《民法大全》）的学术分析与诠释，所加注释（glosses）成为欧洲法律思想的基础。"
+  },
+  "legal_deposit_archives": {
+    "name": "法定呈缴存档",
+    "description": "要求将公共或外来文献提交、抄录、编目并保存于城市、神庙、王室或图书馆库房的制度。"
+  },
+  "legal_personhood_institutions": {
+    "name": "机构法律人格",
+    "description": "承认神庙、城市、社团或法团式组织可以拥有财产、提起诉讼、订立契约并超越个人而存续。"
+  },
+  "legal_systems_common_civil": {
+    "name": "法律体系（普通法/大陆法）",
+    "description": "锚定于查士丁尼罗马法编纂的大陆法传统，以及以王室法院、先例和成文诉讼程序为基础的后来英国普通法制度。"
+  },
+  "legal_systems_early": {
+    "name": "早期法律体系",
+    "description": "建立正式的法律、法庭和司法程序，以调解纠纷、维持社会秩序。"
+  },
+  "legionary_tactics_maniple_cohort": {
+    "name": "军团战术（中队与大队）",
+    "description": "在大军团内使用较小而独立战术单位（中队 maniple 或大队 cohort）的灵活且纪律严明的军事学说。"
+  },
+  "lens_grinding_workshops": {
+    "name": "磨镜作坊",
+    "description": "专司镜片研磨、抛光、测量与装配的眼镜制作铺，后来把同一工艺基础延伸到光学仪器。"
+  },
+  "letters_of_credit": {
+    "name": "信用证",
+    "description": "使商人无需携带大量钱币即可跨城转移购买力的金融工具。"
+  },
+  "levers_and_rollers": {
+    "name": "杠杆、橇板与木滑道",
+    "description": "轮式运输出现前用于采石、移运和竖立巨石的实用重载辅助：木杠杆、梁木、橇板、厚板和滑道。"
+  },
+  "levers_pulleys_ramps": {
+    "name": "古典简单机械与起重辅助装置",
+    "description": "对杠杆、坡道、绳索、滑轮、滑轮组和绞盘的实用与理论运用，在提升、拖曳、建造和机械中获取机械优势。"
+  },
+  "liberalism_classical": {
+    "name": "古典自由主义",
+    "description": "以正当且有限的权威、个人自由、法治、私有财产和市场交换为核心的自由主义政治传统，主张从最小国家到适度公共品供给不等。"
+  },
+  "libraries": {
+    "name": "图书馆",
+    "description": "收集、保存并提供书面知识查阅的机构，多服务于学者和精英阶层。"
+  },
+  "libraries_and_archives": {
+    "name": "早期图书馆与档案",
+    "description": "成文记录与参考文本的制度性收藏，最早见于晚乌鲁克数千块经济泥板和词表，后来见于埃布拉专门建造的档案室。"
+  },
+  "library_catalogs": {
+    "name": "图书馆目录",
+    "description": "用于查找和管理卷轴、册子本与档案的有序清单、书架、标签、主题分类和著者记录。"
+  },
+  "light_bulb": {
+    "name": "白炽灯泡",
+    "description": "电流加热灯丝至白炽发光的电灯，使安全电照明得以普及。"
+  },
+  "lighthouse_networks": {
+    "name": "灯塔网络",
+    "description": "源自法罗斯灯塔的灯塔体系及后世古代港口灯火信标传统，以高塔和火光标示港口入口与海上航线。"
+  },
+  "lighthouses": {
+    "name": "灯塔",
+    "description": "以灯火信号引导海上船只的塔楼，体现国家对海事基础设施的重大投入。"
+  },
+  "lime_mortar_engineering": {
+    "name": "石灰砂浆工程",
+    "description": "经改进的石灰砂浆制备与应用，服务耐久的砌体、拱顶、要塞、桥梁和城市建筑。"
+  },
+  "lime_plaster": {
+    "name": "石灰砂浆",
+    "description": "煅烧石灰石或贝壳，将石灰与水及骨料混合，制成耐久的墙面涂层、地面和防水面层。"
+  },
+  "linear_perspective_vanishing_point": {
+    "name": "线性透视（灭点）",
+    "description": "由阿尔伯蒂和布鲁内莱斯基等艺术家编纂的数学体系，用汇聚于灭点的正交线在平面上表现三维物体与空间。"
+  },
+  "linguistics_computational": {
+    "name": "计算语言学",
+    "description": "对语言结构、语义、语音与文本的计算建模，服务翻译、搜索、对话与语言理解。"
+  },
+  "lipid_nanoparticles": {
+    "name": "脂质纳米颗粒",
+    "description": "用于保护并递送 RNA 等脆弱治疗分子进入细胞的纳米级脂质载体。"
+  },
+  "liquid_crystal_displays_lcd_screens": {
+    "name": "液晶显示器（LCD 屏）",
+    "description": "利用液晶光调制特性的平板显示器。"
+  },
+  "liquid_fuel_propellants": {
+    "name": "液体燃料推进剂",
+    "description": "比固体燃料性能更高、控制性更好的火箭液体化学推进剂的发展。"
+  },
+  "liquid_fuel_rockets": {
+    "name": "液体燃料火箭",
+    "description": "以泵送或增压液体推进剂获得可控高性能推力的火箭发动机。"
+  },
+  "lithium_ion_batteries_rechargeable_power": {
+    "name": "锂离子电池（可充电电源）",
+    "description": "广泛用于便携电子和电动汽车的高能量密度可充电电池。"
+  },
+  "local_area_networks": {
+    "name": "局域网",
+    "description": "以共享介质和分组协议把房间、楼宇、园区或工厂内的设备连成计算机网络的系统。"
+  },
+  "logarithms": {
+    "name": "对数",
+    "description": "把乘除、开方和天文计算化为更简算术运算的数学表和方法。"
+  },
+  "logarithms_calculus_early": {
+    "name": "卡瓦列里不可分方法",
+    "description": "卡瓦列里发表的几何方法把面积和立体视为平行不可分截面的集合，是积分学的重要先声。"
+  },
+  "logistics_supply_lines": {
+    "name": "后勤与补给线",
+    "description": "为军队和庞大人口提供远距离补给的组织体系，对帝国的建立至关重要。"
+  },
+  "long_duration_energy_storage": {
+    "name": "长时储能",
+    "description": "为高比例可再生电力系统设计、可持续放电数小时、数天乃至跨季度的电网储能。"
+  },
+  "longbow": {
+    "name": "长弓",
+    "description": "通常以紫杉制成的高大型强弓，射速高、射程远，深刻影响中世纪晚期战争。"
+  },
+  "longevity_escape_velocity_lev": {
+    "name": "长寿逃逸速度（LEV）",
+    "description": "预期中的门槛：重复的老年科学与逆龄干预使健康预期寿命的延长快于日历时间流逝。"
+  },
+  "longitude_prize_systems": {
+    "name": "经度奖金制度",
+    "description": "面向实用导航、计时、天文和仪器方案的公共奖励与评审机制。"
+  },
+  "loom": {
+    "name": "乌卢贾克重锤织机",
+    "description": "依据乌卢贾克土丘12号建筑内共同出土的十一件织机坠锤推断的新石器时代重锤织机。"
+  },
+  "loom_weights": {
+    "name": "乌卢贾克新石器织机坠锤",
+    "description": "用于张紧经线的陶质坠锤，约公元前6000年出现于乌卢贾克土丘，后以十一件一组的织机坠锤组合出土。"
+  },
+  "low_energy_desalination_membranes": {
+    "name": "低能耗淡化膜",
+    "description": "面向缺水地区、旨在降低淡化能耗、结垢、浓盐水与成本门槛的膜与工艺系统。"
+  },
+  "lte_4g_networks": {
+    "name": "LTE / 4G 网络",
+    "description": "采用 OFDMA 无线接入、演进分组核心与高吞吐蜂窝数据服务的全 IP 移动宽带网络。"
+  },
+  "lunar_mass_driver_exports": {
+    "name": "月球质量驱动器外运",
+    "description": "以电磁发射把月球材料、推进剂、屏蔽材料与制成品送入轨道供应链。"
+  },
+  "lunar_oxygen_extraction": {
+    "name": "月面氧提取",
+    "description": "把月壤或水冰加工为氧气，供生命保障、推进剂、金属与工业系统使用。"
+  },
+  "lunar_resource_utilization": {
+    "name": "月球资源利用",
+    "description": "为持续的离地活动开采加工月冰、月壤、金属、氧气与建材。"
+  },
+  "machicolations": {
+    "name": "堞口（突堞）",
+    "description": "城垛或凸出廊道底板上的开口，守军可向下面的进攻者投掷石块、沸液或其他投射物。"
+  },
+  "machine_gun": {
+    "name": "机枪",
+    "description": "借助弹链或弹匣快速连续发射步枪弹的全自动固定或便携枪械，彻底改变了战争。"
+  },
+  "machine_learning_early_algorithms": {
+    "name": "机器学习（早期算法）",
+    "description": "让计算机系统从数据中学习而无需显式编程的算法的发展（如决策树、支持向量机）。"
+  },
+  "machine_vision_robotics": {
+    "name": "机器人机器视觉",
+    "description": "让机器人检验物体、定位零件并引导动作的相机、照明与图像处理系统。"
+  },
+  "madrigals_polyphonic_music": {
+    "name": "牧歌与复调音乐",
+    "description": "世俗声乐的繁荣，以牧歌为标志。这个时代的复杂复调把多条独立旋律线交织一体，细腻地表达文本。"
+  },
+  "magnetic_resonance_imaging": {
+    "name": "磁共振成像",
+    "description": "基于核磁共振，结合磁体、射频信号、计算机与临床重建的医学成像。"
+  },
+  "magnetic_tape_data_storage": {
+    "name": "磁带数据存储",
+    "description": "把数字数据存储于磁带上，是早期的大容量计算机存储形式。"
+  },
+  "mail_order_catalog_retail": {
+    "name": "邮购目录零售",
+    "description": "面向异地消费者的印刷目录、邮政订单、仓库、包裹物流、信贷和标准化商品。"
+  },
+  "mammography_screening": {
+    "name": "乳腺X光筛查",
+    "description": "针对乳腺癌筛查、诊断与随访优化的低剂量X射线成像。"
+  },
+  "manorialism": {
+    "name": "庄园制",
+    "description": "盛期中世纪西欧的领地管理制度：领主、依附佃户、习惯义务、农业、地租和地方司法围绕庄园及其法庭组织。"
+  },
+  "manuscript_music_workshops": {
+    "name": "手抄乐谱作坊",
+    "description": "从事记谱圣咏、复调、理论与演出书籍的复制、教学、保存与流通。"
+  },
+  "map_projection_science": {
+    "name": "地图投影科学",
+    "description": "系统研究如何把弯曲地球转绘为平面地图，同时管控距离、面积、方位和形状的变形。"
+  },
+  "marine_chronometer_prototypes": {
+    "name": "惠更斯-布鲁斯航海钟原型",
+    "description": "惠更斯、亚历山大·布鲁斯与塞韦林·奥斯特韦克为1662年经度试验研制的专用摆式航海钟，是早期但未成功的海上机械计时方案。"
+  },
+  "marine_compass_routes": {
+    "name": "罗盘航线",
+    "description": "以罗盘方位、波托兰海图、季风和积累的引航知识规划的常态化远洋航线。"
+  },
+  "maritime_insurance": {
+    "name": "海上保险",
+    "description": "把船舶与货物损失风险从商人转移给承保人的独立保费合同，区别于更早的海上借贷与康孟达投资契约。"
+  },
+  "maritime_law_codes": {
+    "name": "海事法典",
+    "description": "规范海损、运费、海难救助、契约、船员、货物和港口纠纷的法律惯习与成文规则。"
+  },
+  "maritime_pilot_books": {
+    "name": "航海引航书",
+    "description": "记录港口、方位、洋流、危险、地标、水深、风向和季节航线的书面航行指南。"
+  },
+  "maritime_pilotage": {
+    "name": "海上引航",
+    "description": "依托对海岸、海流、危险、风况和港口的专门地方知识，引导船只安全进出。"
+  },
+  "market_price_bulletins": {
+    "name": "商人行情报告",
+    "description": "由信使传递、报告交易中心之间汇率与市况的商人通信，锚定于锡耶纳人在香槟集市的数据。"
+  },
+  "market_town_charters": {
+    "name": "市镇特许状",
+    "description": "授权集市、通行税、法庭、城墙和受管贸易特权的法律特许。"
+  },
+  "mars_closed_loop_agriculture": {
+    "name": "火星闭环农业",
+    "description": "火星栖息地的食物系统：使用再生水、废物养分、受控大气与韧性作物。"
+  },
+  "mars_regolith_construction": {
+    "name": "火星月壤建造",
+    "description": "运用火星土壤、黏结剂、烧结、屏蔽与本地资源加工的增材与机器人建造。"
+  },
+  "mars_surface_habitats": {
+    "name": "火星地表栖息舱",
+    "description": "面向长期人类或机器人定居火星的加压、防辐射、就地供给栖息设施。"
+  },
+  "marxism_communism": {
+    "name": "马克思主义与共产主义",
+    "description": "以唯物史观分析阶级关系与社会冲突、主张无阶级无国家社会的政治经济理论。"
+  },
+  "masers_early": {
+    "name": "微波激射器（早期发展）",
+    "description": "通过受激辐射放大产生相干电磁波的器件（微波频段），是激光器的前身。"
+  },
+  "masonry": {
+    "name": "砌石工艺",
+    "description": "用于建造耐久结构、墙体和陵墓的石材整形与砌筑技术。"
+  },
+  "mass_drivers_space_launch": {
+    "name": "质量投射器（太空发射）",
+    "description": "把载荷射入太空或为航天器加速的电磁加速器。"
+  },
+  "mass_media": {
+    "name": "大众媒体",
+    "description": "经由大众传播触达大量受众、塑造文化与舆论的媒介技术总称。"
+  },
+  "mass_media_newspapers": {
+    "name": "大众媒体（报纸）",
+    "description": "蒸汽动力轮转印刷机和铁路发行使报纸得以广泛流通，以前所未有的规模塑造公众舆论。"
+  },
+  "mass_production": {
+    "name": "大规模生产",
+    "description": "以专门机械和劳动分工大批量制造标准化产品。"
+  },
+  "material_science_lightweight_alloys": {
+    "name": "材料科学（轻质合金）",
+    "description": "面向航空航天等应用、以铝基和钛基为重点的高强轻质金属合金的发展。"
+  },
+  "materials_informatics": {
+    "name": "材料信息学",
+    "description": "借助数据库、仿真、机器学习和高通量实验的数据驱动材料发现。"
+  },
+  "materials_science_exotic": {
+    "name": "可编程物质研究",
+    "description": "研究模块化、可重构或承载计算的材料，其形状或物理属性可在程序控制下改变。"
+  },
+  "mathematics": {
+    "name": "数学",
+    "description": "对数量（数论）、结构（代数）、空间（几何）和变化（分析）等主题的抽象研究。"
+  },
+  "matter_replication_star_trek_style": {
+    "name": "物质复制（《星际迷航》式）",
+    "description": "由能量或基础组件按需创造或嬗变物质的假想技术。"
+  },
+  "measuring_rods_and_lines": {
+    "name": "埃及肘尺测杆",
+    "description": "刻有刻度的木杆，承载埃及肘尺作为便携长度标准，用于建造和手工业测量。"
+  },
+  "mechanical_automata_heros_engine": {
+    "name": "希罗式气动与水力自动装置",
+    "description": "与亚历山大里亚的希罗相关的气动、水力和蒸汽压力演示机械，包括神庙自动装置、舞台器械和风神球（aeolipile）。"
+  },
+  "mechanical_bell_striking": {
+    "name": "机械报时钟",
+    "description": "与钟表联动的敲击机构，向城镇、修道院、集市和作坊播报时间信号。"
+  },
+  "mechanical_calculators_early": {
+    "name": "早期机械计算器",
+    "description": "面向算术、天文、会计、测量和工程工作的齿轮装置与计算辅助工具。"
+  },
+  "mechanical_clock_dials": {
+    "name": "公共机械钟面",
+    "description": "与重锤驱动公共机构耦合的钟面，使城镇既能读到机械调节的时间，也能听到鸣响。"
+  },
+  "mechanical_clock_towers": {
+    "name": "机械钟楼",
+    "description": "安装于塔楼之上的公共机械钟，用于协调祈祷、集市、劳动、市政仪式和城市时间纪律。"
+  },
+  "mechanical_clock_workday_regulation": {
+    "name": "公共钟表工时管理",
+    "description": "利用公共时钟和劳动钟执行守时，协调市政会议、劳动时间、集市与城市管理。"
+  },
+  "mechanical_clocks": {
+    "name": "机械钟",
+    "description": "凭借擒纵机构（机轴-摆杆）与齿轮系变得实用的重锤驱动计时装置，最初用于中世纪晚期欧洲公共时钟。"
+  },
+  "mechanical_clocks_water_escapements": {
+    "name": "水钟反馈与报时机构",
+    "description": "水钟（漏刻）的机械化子系统，利用反馈调节、浮子、齿轮元件或报时显示，把受控水流转化为可见或可闻的报时运动。"
+  },
+  "mechanical_theater_machinery": {
+    "name": "文艺复兴透视舞台机械",
+    "description": "文艺复兴舞台体系：强制透视布景、搭建立体街景、隐藏舞台机械、灯光效果和活动布景装置。"
+  },
+  "mechanized_laundry": {
+    "name": "机械化洗衣",
+    "description": "以电机驱动滚筒、换向齿轮、绞干器、水和皂剂实现家务洗衣机械化的早期电动洗衣机。"
+  },
+  "mechanized_tractors": {
+    "name": "机械化拖拉机",
+    "description": "为犁地、运输、播种及后来众多田间作业提供移动动力的自走式农用车辆，限定于实用汽油发动机拖拉机。"
+  },
+  "medical_case_notes": {
+    "name": "希波克拉底病历",
+    "description": "《希波克拉底文集·流行病论》中的书面个案记录，记载症状、病程、预后与结局。"
+  },
+  "medical_case_records": {
+    "name": "早期近代病历档案",
+    "description": "执业者的系列诊疗记录，涉及患者、医学问题、判断与治疗，以留存下来的福尔曼和纳皮尔病历簿为代表。"
+  },
+  "medical_ethics": {
+    "name": "医学伦理",
+    "description": "围绕诊断、保密、病人照护、教学和可接受医疗行为而形成的职业规范。"
+  },
+  "medical_linear_accelerators": {
+    "name": "医用直线加速器",
+    "description": "融合粒子加速、成像、计划软件和临床安全系统的医院放疗设备。"
+  },
+  "medical_triage_practices": {
+    "name": "医疗检伤分类",
+    "description": "按紧急程度、伤情、可救治性、后送优先级和有限医疗能力对战伤人员进行分流的实践。"
+  },
+  "medicinal_chemistry": {
+    "name": "药物化学",
+    "description": "结合有机化学、生物学和药理学，对类药分子进行设计、合成与优化。"
+  },
+  "medicine_clinical": {
+    "name": "临床医学",
+    "description": "基于科学原理并在医院环境中直接观察患者，对疾病进行系统诊断、治疗和预防。"
+  },
+  "megalithic_construction": {
+    "name": "巨石建筑",
+    "description": "采石、运输、竖立并排布超大型石料以构成纪念性建筑，多用于仪式、公共或丧葬目的。"
+  },
+  "membrane_bioreactors": {
+    "name": "膜生物反应器",
+    "description": "把生物处理与膜分离结合、产出高品质出水的污水处理系统。"
+  },
+  "membrane_filtration_water_treatment": {
+    "name": "膜过滤水处理",
+    "description": "微滤、超滤、纳滤及相关膜工艺，去除颗粒、病原体与溶解性污染物。"
+  },
+  "meme_engineering_cognitive_security": {
+    "name": "模因工程与认知安全",
+    "description": "为良性社会结果设计并传播文化观念（模因）、并保护人群免受武器化信息侵害的科学。"
+  },
+  "memory_editing_therapeutic": {
+    "name": "记忆编辑（治疗性）",
+    "description": "精确靶向、抑制或增强特定记忆的先进神经技术，主要用于治疗创伤、PTSD 与成瘾。"
+  },
+  "mems_sensors": {
+    "name": "MEMS 传感器",
+    "description": "以类半导体工艺制造的微机电加速度计、陀螺仪、压力传感器和麦克风。"
+  },
+  "mercantilism_economic_theory": {
+    "name": "重商主义经济理论",
+    "description": "经济民族主义：通过国家管控贸易与殖民，最大化出口、最小化进口并积累贵金属（金银条块）以造就富强国家。"
+  },
+  "merchant_accounting_ledgers": {
+    "name": "商人会计账簿",
+    "description": "装订成册的多账户商人账簿（尤以日记账与总账为主），用于追踪信贷、航程、存货、合伙与远距离交易。"
+  },
+  "merchant_accounting_manuals": {
+    "name": "商人会计手册",
+    "description": "教授簿记、汇率、度量衡、合伙会计、保险、利息和商业算术的印刷书籍。"
+  },
+  "merchant_arbitration_boards": {
+    "name": "商人仲裁庭",
+    "description": "处理合同、质量、债务、保险、航运与公平规则的商事争议机构。"
+  },
+  "merchant_banking_houses": {
+    "name": "商人银行行号",
+    "description": "兼营贸易、存款、信贷、汇兑、会计和政治金融的家族与合伙商号。"
+  },
+  "merchant_convoy_systems": {
+    "name": "威尼斯穆达商船护航队",
+    "description": "由威尼斯共和国组织航路、启航日期和船只租赁的国家排期武装商帆船护航队。"
+  },
+  "merchant_courier_networks": {
+    "name": "商人信使网络",
+    "description": "连接商号、银行、集市、法庭、港口和公证处的私人信使体系。"
+  },
+  "merchant_courts": {
+    "name": "商人法庭",
+    "description": "适用商业习惯、合同、票据、航运索赔和市场规则的专门商事法庭。"
+  },
+  "merchant_marine_registry": {
+    "name": "商船注册",
+    "description": "海关商船登记记录，标识船舶、船东、船长、吨位或尺度、母港及后来的产权或登记变更。"
+  },
+  "merchant_partnership_contracts": {
+    "name": "商人合伙契约",
+    "description": "古亚述与美索不达米亚关于汇集贸易资本、指派代理人、分摊风险、作价股权和分配利润的书面商人协议。"
+  },
+  "merchant_risk_pooling": {
+    "name": "海上借贷与康孟达风险分担",
+    "description": "在投资人、行商和保险人间分配资本、利润、亏损与海上贸易风险的海上借贷、康孟达及早期保险式契约。"
+  },
+  "mesh_wifi_networks": {
+    "name": "Mesh Wi-Fi 网络",
+    "description": "自组路由的无线接入点，扩展家庭、园区、城市与应急网络的覆盖、韧性与本地连接。"
+  },
+  "messenger_rna_therapeutics": {
+    "name": "mRNA 疗法",
+    "description": "面向疫苗、蛋白替代、肿瘤免疫治疗和快速响应治疗的可编程 RNA 药物。"
+  },
+  "metal_casting_molds": {
+    "name": "金属铸造铸型",
+    "description": "使工具、武器、饰物、构件和礼器得以重复生产的可复用或一次性铸型。"
+  },
+  "metal_coinage": {
+    "name": "金属铸币",
+    "description": "铸有标准重量和国家或城市权威标记的琥珀金、金、银或贱金属钱币，使便携的货币交换成为可能。"
+  },
+  "metallurgical_slag_reuse": {
+    "name": "冶金炉渣再利用",
+    "description": "冶炼炉渣与炉窑废料在道路垫层、建筑、颜料和工艺学习中的再利用。"
+  },
+  "metamaterials_engineered_media": {
+    "name": "超材料与工程介质",
+    "description": "通过结构几何产生体材料所不具备的光学、声学、力学或电磁行为的材料。"
+  },
+  "metaverse_deep_immersion": {
+    "name": "元宇宙（深度沉浸）",
+    "description": "预期中的一类持久、高度沉浸的共享虚拟世界：由联网 XR 接口、交互式三维环境、AI 辅助内容与更丰富的感官反馈构建。"
+  },
+  "meteorology_advanced": {
+    "name": "高等气象学",
+    "description": "基于数值模式、探空气球、雷达、卫星、遥感和全球观测网的天气科学。"
+  },
+  "micro_electromechanical_systems_mems": {
+    "name": "微机电系统（MEMS）",
+    "description": "以微细加工技术制造的小型化机械与机电元件。"
+  },
+  "microbiology_early_observations": {
+    "name": "微生物学（早期观察）",
+    "description": "列文虎克以强力单式显微镜对水、牙垢等物质中微生物（“小动物”）的最初观察，揭示前所未见的世界。"
+  },
+  "microfluidics": {
+    "name": "微流控",
+    "description": "在通道与芯片中对微小液体体积进行精确操控，服务诊断、化学、生物与实验室自动化。"
+  },
+  "micrometers_precision_measurement": {
+    "name": "测微器与精密测量",
+    "description": "面向天文、机加工、显微、测量和仪器校准的精细测量装置与实践。"
+  },
+  "microprocessors_cpu_on_a_chip": {
+    "name": "微处理器（单片 CPU）",
+    "description": "制作在单一集成电路上的中央处理器，开启了个人计算机革命。"
+  },
+  "microscope": {
+    "name": "显微镜",
+    "description": "观察极小物体的光学仪器。早期复式与单式显微镜为科学研究打开了微观世界。"
+  },
+  "microwave_relay_networks": {
+    "name": "微波接力网络",
+    "description": "在铁塔间以视距无线中继承载电话、电视与数据业务的网络。"
+  },
+  "military_depot_records": {
+    "name": "军需仓库记录",
+    "description": "服务于要塞和军队行政的书面军事报告、部队账目、休假申请、补给清单及运输与物资记录。"
+  },
+  "military_engineer_corps": {
+    "name": "早期近代皇家工程兵团",
+    "description": "有组织的王室军事工程军官序列，负责要塞、攻城、守备工事、道路、土方、地图和工程管理机构。"
+  },
+  "military_engineering_corps": {
+    "name": "军事工程部队",
+    "description": "为野战军队规划道路、桥梁、攻城工事、营垒、供水和后勤的专业军事工程人员。"
+  },
+  "military_field_medicine": {
+    "name": "军队战地医疗",
+    "description": "为士兵组织的医疗保障，包括专职军医（medici）、战地外科和常设军医院（valetudinaria）。"
+  },
+  "military_map_rooms": {
+    "name": "陆军部军事地图档案室",
+    "description": "法国军事制图与档案机构，为战役和国防制作并保存军用地图、要塞图、纪要和地形情报。"
+  },
+  "military_road_waystations": {
+    "name": "罗马军用道路驿站",
+    "description": "罗马帝国道路沿线的接力站与官方停留点，支撑公共驿传（cursus publicus）和军政通信。"
+  },
+  "military_signal_flags": {
+    "name": "军旗信号",
+    "description": "用作集合标志与信号、用以规范部队调动、单位配置和战斗协同的军旗、徽帜（vexilla）及旗状视觉信号。"
+  },
+  "military_staff_colleges": {
+    "name": "军事参谋学院",
+    "description": "面向在职军官的中期职业教育学校，通过诸兵种合成研究、军事历史、战略、计划、行政、地理和参谋演练培养总参谋部与高级指挥人才。"
+  },
+  "military_veterinary_corps": {
+    "name": "军队兽医部队",
+    "description": "为骑兵、驮畜、战车队、运输牲畜和军队补给体系提供的专业动物医护。"
+  },
+  "military_waystations": {
+    "name": "军用驿站",
+    "description": "阿契美尼德时代沿路的王室驿站、岗哨、歇息处和换马站，支撑官方信使与国家军政后勤。"
+  },
+  "mind_uploading": {
+    "name": "心智上传（全脑仿真）",
+    "description": "扫描大脑神经结构并以数字方式仿真其意识的假想过程。"
+  },
+  "mining": {
+    "name": "采矿",
+    "description": "从地表坑、露天矿场和浅矿中有意开采矿物与地质材料，初期包括赭石和赤铁矿。"
+  },
+  "ml_benchmark_datasets": {
+    "name": "机器学习基准数据集",
+    "description": "用于比较机器学习系统、衡量进展的标准化数据集与排行榜。"
+  },
+  "mlops_model_serving": {
+    "name": "MLOps 与模型服务",
+    "description": "面向模型版本、部署、监控、回滚、特征管线和可扩展推理的运维工具。"
+  },
+  "mobile_broadband_networks": {
+    "name": "移动宽带网络",
+    "description": "整合无线接入、分组交换、移动设备、基站、频谱管理与互联网服务的高速蜂窝网络。"
+  },
+  "mobile_operating_systems_smartphone_os": {
+    "name": "移动操作系统（手机 OS）",
+    "description": "专为智能手机、平板等移动设备设计的操作系统。"
+  },
+  "mobile_phones": {
+    "name": "移动电话",
+    "description": "使用蜂窝网络的便携通信设备。"
+  },
+  "mobile_robot_navigation": {
+    "name": "移动机器人导航",
+    "description": "借助感知、定位、地图与控制规划并执行环境运动的机器人系统。"
+  },
+  "model_evaluation_benchmarks": {
+    "name": "模型评测基准",
+    "description": "测量模型能力、稳健性、公平性与风险的系统测试、基准套件与评测框架。"
+  },
+  "model_pretraining_finetuning": {
+    "name": "模型预训练与微调",
+    "description": "先在广泛数据上训练大模型、再用较小的精选数据集适配下游任务的工作流。"
+  },
+  "modern_economics_keynesian": {
+    "name": "现代经济学（凯恩斯主义）",
+    "description": "关于经济中总支出决定因素及其对产出、就业和通胀影响的宏观经济理论。"
+  },
+  "molecular_assemblers_practical": {
+    "name": "实用分子装配器",
+    "description": "用于装配材料、传感器、药物、催化剂和精密部件的可编程纳米制造系统。"
+  },
+  "molecular_assemblers_universal_construction": {
+    "name": "分子装配器 / 通用建造",
+    "description": "以原子级精度定位反应分子、引导化学反应、实现自下而上建造的纳米机器。"
+  },
+  "molecular_biology": {
+    "name": "分子生物学",
+    "description": "生物学分支，关注细胞各系统中生物大分子之间生物活性的分子基础。"
+  },
+  "molecular_diagnostics": {
+    "name": "分子诊断",
+    "description": "基于 DNA、RNA、蛋白、扩增、测序与计算解读的医学检测。"
+  },
+  "monastic_infirmaries": {
+    "name": "修道院病房",
+    "description": "结合药草园、护理常规、记录与慈善照护的宗教医疗病区。"
+  },
+  "monastic_scriptoria": {
+    "name": "修道院缮写室",
+    "description": "有组织的手抄复制作坊，保存、制作、校订、装饰并流通宗教与学术文本。"
+  },
+  "monasticism_and_scriptoria": {
+    "name": "修道制度与缮写室",
+    "description": "宗教共同体（修道院）的建立，通过专门书写间（缮写室）的手稿复制成为学术、农业和知识保存的中心。"
+  },
+  "monoclonal_antibodies": {
+    "name": "单克隆抗体",
+    "description": "实验室生产的替代抗体分子，用于诊断及癌症等疾病的治疗。"
+  },
+  "mortar_and_pestle": {
+    "name": "埃及石灰华臼杵",
+    "description": "保存自埃及新王国时期的一套石灰华臼与杵，确立了器物形制本身，未赋予缺乏依据的食物、颜料或药用用途。"
+  },
+  "mortar_pestle_food_processing": {
+    "name": "臼杵食物加工",
+    "description": "用石臼捣磨加工野生植物与谷物，以供粉碎、烹煮、储存和发酵。"
+  },
+  "mosaic_art": {
+    "name": "马赛克镶嵌艺术",
+    "description": "用彩色石块、玻璃或陶片（嵌片）拼合成图像与图案的装饰艺术，多用于地面和墙面。"
+  },
+  "mosfet_transistors": {
+    "name": "MOSFET 晶体管",
+    "description": "经绝缘栅控制的场效应晶体管，成为密集数字集成电路的主流开关器件。"
+  },
+  "motorized_logistics": {
+    "name": "摩托化后勤",
+    "description": "有组织地运用卡车连队、仓库、道路、维护和调度系统，把后勤延伸到铁路端点和港口之外。"
+  },
+  "movable_metal_type_casting": {
+    "name": "活字金属字铸造",
+    "description": "以字冲、字模、铸型和合金铸造可复用金属活字，获得可重复的字形用于印刷。"
+  },
+  "mrna_vaccine_platforms": {
+    "name": "mRNA 疫苗平台",
+    "description": "面向快速疫苗开发的合成信使 RNA 设计、脂质纳米颗粒与制造管线。"
+  },
+  "mrna_vaccines": {
+    "name": "mRNA 疫苗",
+    "description": "递送信使 RNA 指令、使细胞产生抗原并激发靶向免疫保护的疫苗。"
+  },
+  "mud_brick_sun_dried": {
+    "name": "泥砖（晒制）",
+    "description": "手工成型、常以有机质羼和的富黏土砖，经日晒干燥用于新石器时代永久性建筑。"
+  },
+  "multi_factor_authentication": {
+    "name": "多因素认证",
+    "description": "要求口令、持有物、生物特征或密钥等多类证据的身份核验。"
+  },
+  "multimodal_contrastive_learning": {
+    "name": "多模态对比学习",
+    "description": "以成对样本对齐图像与文本等跨模态表示的训练方法。"
+  },
+  "municipal_building_codes": {
+    "name": "城市建筑法规",
+    "description": "关于街道、墙体、火灾风险、卫生、公寓密度、公共工程和施工责任的市政规定。"
+  },
+  "municipal_charters": {
+    "name": "城市特许状",
+    "description": "界定城镇特权、市场、税收、行会权利、自治及对领定义务的法律特许。"
+  },
+  "municipal_debt_bonds": {
+    "name": "市政公债",
+    "description": "城镇与邦国为修墙、战争、水工、道路、港口和市政建筑发行的公共债务工具。"
+  },
+  "municipal_fire_watch": {
+    "name": "城市防火瞭望",
+    "description": "中世纪市政当局用以减少城市火灾的分区瞭望、宵禁与夜巡、防火规则、消防器材储备和罚则。"
+  },
+  "municipal_gas_lighting": {
+    "name": "城市煤气路灯",
+    "description": "由煤气厂生产、经管道配送并维护煤气灯具的公共街道照明。"
+  },
+  "municipal_wastewater_treatment": {
+    "name": "城市污水处理",
+    "description": "在排放或回用前去除污水中固体、病原体、有机物和营养物的市政处理系统。"
+  },
+  "municipal_water_supply": {
+    "name": "城市供水",
+    "description": "为城市共享用水提供的井、输水道、喷泉、水夫及维护规则。"
+  },
+  "municipal_water_treatment": {
+    "name": "城市水处理",
+    "description": "以集中过滤、水库和配水管道为密集城市供给更安全饮用水，后来的加氯消毒由更专门的工艺节点承担。"
+  },
+  "musical_notation_polyphony": {
+    "name": "记谱法与复调",
+    "description": "记写音乐的体系（线谱记谱法）的发展与多声部独立旋律的复调音乐的兴起，改变了西方音乐。"
+  },
+  "musketry_formations": {
+    "name": "十七世纪火枪齐射阵形",
+    "description": "以有组织横列的火枪手实施协同齐射，弥补火绳枪装填慢、精度差的缺陷。"
+  },
+  "muskets_flintlock": {
+    "name": "火枪（燧发枪）",
+    "description": "枪械技术的重大进步：燧发机构以火石击打钢质击砧发火，比火绳枪更可靠、耐候且射速更高。"
+  },
+  "mythology_and_cosmology": {
+    "name": "早期美索不达米亚神话宇宙观",
+    "description": "根植口传、保存于早期美索不达米亚文学中的神话叙事，解释诸神、宇宙秩序、创世、自然力量及人类在世间的位置。"
+  },
+  "nailed_horseshoes": {
+    "name": "钉掌马蹄铁",
+    "description": "钉牢于蹄上的铁掌，保护役畜在道路、田野、战场和长途商路上作业。"
+  },
+  "nanobot_swarms_construction_environmental_remediation": {
+    "name": "纳米机器人蜂群（建造与环境修复）",
+    "description": "协同执行建造结构、清理污染等复杂任务的纳米机器人群体。"
+  },
+  "nanomedicine_drug_delivery": {
+    "name": "纳米药物递送",
+    "description": "利用脂质体、聚合物颗粒和脂质纳米颗粒等纳米载体保护、靶向或调控体内药物。"
+  },
+  "nanotechnology": {
+    "name": "纳米技术",
+    "description": "成熟的纳米科学与工程技术：在约1-100纳米尺度理解、测量、建模并操控物质。"
+  },
+  "nanotechnology_early": {
+    "name": "纳米技术（早期研究）",
+    "description": "在原子分子尺度操控物质，为未来纳米工程奠基。"
+  },
+  "nationalism_modern": {
+    "name": "法国大革命民族主义",
+    "description": "以人民主权、爱国团结和民族应由自己的国家来代表的主张表达的大众政治民族主义，锚定于法国大革命。"
+  },
+  "natural_adhesives": {
+    "name": "旧石器时代桦树沥青黏合剂",
+    "description": "有意生产的桦树皮焦油，用作石器装柄黏合剂。"
+  },
+  "natural_dyes": {
+    "name": "德祖祖阿纳染色亚麻纤维",
+    "description": "保存于德祖祖阿纳洞穴上旧石器时代地层中的纺纱、打结并染色的野生亚麻纤维。"
+  },
+  "natural_language_processing_advanced": {
+    "name": "自然语言处理（高等）",
+    "description": "以高细腻度与准确率理解、解读并生成人类语言的 AI。"
+  },
+  "naval_artillery_broadside_cannons": {
+    "name": "舰炮（舷侧齐射炮）",
+    "description": "在专门建造的战舰两舷布设大量重炮，实施毁灭性的协调齐射（舷炮齐射），把海战从接舷战变为炮战。"
+  },
+  "naval_convoy_systems": {
+    "name": "西班牙珍宝船队护航队",
+    "description": "西班牙大西洋珍宝船队护航体系：商船须编队航行，由武装军舰护卫以防私掠船和敌国海军。"
+  },
+  "naval_gunnery_tables": {
+    "name": "印刷火炮射表与操典",
+    "description": "把弹丸尺寸重量、装药量、象限仪仰角、射程等比较整理为可复用指令与数表的印刷炮兵手册。"
+  },
+  "naval_logbooks": {
+    "name": "皇家海军军官航海日志",
+    "description": "军官例行的航程记录，涵盖船位、航向、动态、天气、信号、命令及选定船上事件。"
+  },
+  "navigation": {
+    "name": "导航术",
+    "description": "在旅行中确定位置与航向的系统技术，包括天文导航和早期地图。"
+  },
+  "navigational_astronomy": {
+    "name": "航海天文",
+    "description": "在旅行和航海中利用星辰、太阳高度、历法和几何来估算方向、季节和纬度。"
+  },
+  "net_sinker_weights": {
+    "name": "新石器时代渔网坠",
+    "description": "系于渔网上控制其深度与形状的石质坠锤，朝鲜贝丘出土数百件。"
+  },
+  "network_management_snmp": {
+    "name": "网络管理 / SNMP",
+    "description": "利用结构化管理信息监测、配置和管理网络设备的协议与工具。"
+  },
+  "network_time_protocol": {
+    "name": "网络时间协议",
+    "description": "在分组交换网络中同步计算机时钟的互联网协议。"
+  },
+  "neural_art_bci_creativity": {
+    "name": "神经艺术（BCI 创作）",
+    "description": "借助先进脑机接口直接从思想与情感进行艺术创作，催生全新媒介形态。"
+  },
+  "neural_lace": {
+    "name": "神经织网 / 先进 BCI",
+    "description": "预期中的一类超柔性网状或线状神经植入物，支持高通道数、长期的脑机接口。"
+  },
+  "neural_organoid_computing": {
+    "name": "类脑器官计算",
+    "description": "生物神经组织与传感器、算法耦合，用于实验性计算与疾病建模。"
+  },
+  "neuromorphic_computing": {
+    "name": "神经形态计算",
+    "description": "模仿神经系统神经生物学架构以求更高效率的计算机工程。"
+  },
+  "neuroscience": {
+    "name": "神经科学",
+    "description": "在分子、细胞与认知层面对神经系统（包括大脑）的科学研究。"
+  },
+  "newspaper_advertising": {
+    "name": "报纸广告",
+    "description": "刊登于期刊的商品、船期、拍卖、药品和服务的付费启事。"
+  },
+  "newspaper_periodicals": {
+    "name": "报纸期刊",
+    "description": "定期印刷、流通商业、政治、科学和军事信息的新闻纸与公报。"
+  },
+  "nitroglycerin_synthesis": {
+    "name": "硝化甘油合成",
+    "description": "以甘油、硝酸和硫酸制备威力巨大但不稳定的液态炸药硝化甘油的化学过程。"
+  },
+  "norias_water_wheels": {
+    "name": "诺里亚水车与提水轮",
+    "description": "以轮驱动的提水装置，把河水或渠水提升到输水道、农田和蓄水池。"
+  },
+  "notarial_records": {
+    "name": "中世纪公证登记簿",
+    "description": "由受训公证员编制、保全商事协议、产权转让、债务、遗嘱和市民法律行为的认证登记簿与簿册。"
+  },
+  "nuclear_fission": {
+    "name": "核裂变",
+    "description": "原子核分裂并释放巨大能量的过程。"
+  },
+  "nuclear_fusion_research": {
+    "name": "核聚变研究",
+    "description": "驾驭核聚变能量的理论与实验努力，以托卡马克和仿星器为主。"
+  },
+  "nuclear_magnetic_resonance": {
+    "name": "核磁共振",
+    "description": "检测磁场中原子核射频共振信号的谱学方法，后来成为 MRI 的物理基础。"
+  },
+  "nuclear_medicine_imaging": {
+    "name": "核医学成像",
+    "description": "利用放射性示踪剂测量体内生理功能的诊断成像。"
+  },
+  "nuclear_power": {
+    "name": "核能发电",
+    "description": "利用受控核裂变生产电力。"
+  },
+  "nuclear_weapons": {
+    "name": "核武器",
+    "description": "以核裂变或核聚变为威力来源、破坏力极大的武器。"
+  },
+  "numerical_control_automated_machining": {
+    "name": "数控（自动化加工）",
+    "description": "用穿孔带上的程序指令自动化机床，是 CNC 的前身。"
+  },
+  "object_oriented_programming": {
+    "name": "面向对象编程",
+    "description": "以可包含数据与代码的“对象”为核心的编程范式，是软件设计的重大演进。"
+  },
+  "observatory_instrument_programs": {
+    "name": "乌拉尼堡天文台仪器计划",
+    "description": "前望远镜时代协调的天文观测计划：专用天文台、校准的肉眼仪器、观测日志、星表、重复测量和归算方法。"
+  },
+  "observatory_star_catalogs": {
+    "name": "第谷天文台星表",
+    "description": "由第谷·布拉赫乌拉尼堡观测计划得出的恒星测量位置与星等发表成果，为后来的天文数表所用。"
+  },
+  "obsidian_blade_trade": {
+    "name": "黑曜石刀贸易",
+    "description": "远距离交换锋利的火山玻璃刀叶与石核，用于切割、外科手术、手工制作、身份象征物品和仪式用途。"
+  },
+  "occupational_accident_insurance": {
+    "name": "工伤事故保险",
+    "description": "面向工作场所伤残、死亡以及保费、申报和安全激励的保险与赔付体系。"
+  },
+  "ocean_colonization_underwater_habitats_seasteading": {
+    "name": "海洋殖民（水下栖息与海上定居）",
+    "description": "在洋面之上或之下建立永久人类定居点。"
+  },
+  "ochre_pigment_processing": {
+    "name": "赭石颜料加工",
+    "description": "通过研磨、加热和调配矿物颜料，用于人体涂绘、洞穴艺术、仪式器物和表面装饰。"
+  },
+  "offworld_biomanufacturing": {
+    "name": "离地生物制造",
+    "description": "在轨道、月球、小行星和行星聚落以生物方式生产食物、药品、塑料、燃料和建材。"
+  },
+  "oil_based_inks": {
+    "name": "油性油墨",
+    "description": "以干性油（如亚麻籽油）为黏结剂的油墨，形成适合金属活字纸张印刷的耐久黏稠介质。"
+  },
+  "oil_drilling": {
+    "name": "石油钻井",
+    "description": "以机械动力钻机（常由蒸汽机驱动）从地下油藏开采石油。"
+  },
+  "oil_lamps": {
+    "name": "拉斯科石制脂肪灯",
+    "description": "琢制的砂岩灯与中空石灰岩盘，用于盛放动物油脂燃料，在拉斯科洞穴内提供便携照明。"
+  },
+  "oil_painting": {
+    "name": "油画",
+    "description": "以干性油（如亚麻籽油）调合颜料作画的技术，比以往技法更富深度、光泽、浓彩、晕染与写实。"
+  },
+  "oil_wick_lamps": {
+    "name": "灯芯油灯",
+    "description": "青铜时代的陶制油灯，最初为碟状器皿，以漂浮的纤维灯芯燃烧液体燃料，实现受控的居家或仪式照明。"
+  },
+  "olive_press_grape_press": {
+    "name": "橄榄与葡萄压榨机",
+    "description": "常以杠杆或螺杆驱动的大型机械压榨设备，在产业规模上高效榨取橄榄油和葡萄汁。"
+  },
+  "on_device_personal_foundation_models": {
+    "name": "端侧个人基础模型",
+    "description": "在手机、笔记本、车辆或机器人本地运行、具备隐私保护适配的紧凑个性化基础模型。"
+  },
+  "on_orbit_servicing": {
+    "name": "在轨服务",
+    "description": "在轨道上检查、加注、维修、升级、拖曳或组装卫星与结构的航天作业。"
+  },
+  "open_hearth_furnace": {
+    "name": "平炉",
+    "description": "可大批量生产优质钢、且对成分控制更佳的炼钢工艺，最终取代贝塞麦法。"
+  },
+  "open_source_software": {
+    "name": "开源软件",
+    "description": "源码公开、采用宽松或著佐权许可、由分布式社区共同维护的协作软件开发。"
+  },
+  "opera_house_infrastructure": {
+    "name": "歌剧院基础设施",
+    "description": "融合舞台音乐、剧场机械、售票、赞助、座席、布景与声学设计的专门演出场所。"
+  },
+  "operating_systems_os_computer_management": {
+    "name": "操作系统（计算机管理）",
+    "description": "管理计算机软硬件资源、为程序提供公共服务的系统软件。"
+  },
+  "operations_research": {
+    "name": "运筹学",
+    "description": "面向物流、战争、工业、金融和公共规划的数学优化、仿真、排队与决策分析。"
+  },
+  "optical_workshops": {
+    "name": "光学作坊",
+    "description": "为学者与工匠磨制镜片并装配眼镜、放大镜和光学仪器的手工业作坊。"
+  },
+  "oracle_ai": {
+    "name": "神谕 AI（受限超智能）",
+    "description": "仅限于回答问题的 ASI，作为防止其直接作用于现实世界的安全设计。"
+  },
+  "oral_tradition_storytelling": {
+    "name": "口述传统与讲故事",
+    "description": "发展出复杂的语言，通过口头言语和叙事传递知识、文化与历史。"
+  },
+  "orbital_debris_recycling": {
+    "name": "轨道碎片回收",
+    "description": "把失效卫星、火箭残骸、碎片和轨道废料作为原料进行捕获、分选、处理与再利用。"
+  },
+  "orbital_greenhouses": {
+    "name": "轨道温室",
+    "description": "在轨道栖息地以闭环、LED、循环、自动化与受控大气进行的食物与作物生产。"
+  },
+  "orbital_habitat_cities": {
+    "name": "轨道栖息城市",
+    "description": "具备闭环生命保障、市政体系、制造、农业、文化与贸易的大型旋转或屏蔽定居点。"
+  },
+  "orbital_launch_vehicles": {
+    "name": "入轨运载火箭",
+    "description": "可把载荷加速至入轨速度并部署航天器的多级火箭。"
+  },
+  "orbital_manufacturing": {
+    "name": "在轨制造",
+    "description": "利用微重力或真空环境在太空制造工具、备件、大型结构及特种材料或电子器件。"
+  },
+  "orbital_propellant_depots": {
+    "name": "轨道推进剂库",
+    "description": "为可复用航天器和深空任务储存、转移和生产推进剂的太空基础设施。"
+  },
+  "orbital_rings": {
+    "name": "轨道环",
+    "description": "由以轨道速度运动的材料环构成、静止站点经天梯连接地面的低轨动态巨型结构。"
+  },
+  "orchard_grafting": {
+    "name": "古代植物嫁接",
+    "description": "将不同植物切开的组织接合使其长为一体，在果树等栽培植物中保存或组合有用性状。"
+  },
+  "organ_transplantation": {
+    "name": "器官移植",
+    "description": "以供体器官成功替换衰竭器官的临床实践，以1954年波士顿肾移植为锚点，后经外科技术、感染控制与免疫排斥控制而扩展。"
+  },
+  "organic_chemistry": {
+    "name": "有机化学",
+    "description": "碳化合物的研究与合成，使许多现代药物和染料的系统设计与生产成为可能。"
+  },
+  "organized_military_formations": {
+    "name": "希腊重装步兵方阵",
+    "description": "以密集纵深队形推进的希腊重装步兵，凭借重叠盾牌和突刺长矛作战，至迟于公元前七世纪中叶已有记载。"
+  },
+  "organized_warfare": {
+    "name": "苏美尔早王朝有组织战争",
+    "description": "以纪律严明的步兵、军用战车、持盾阵形和城邦胜利纪念碑为代表的苏美尔有组织战争形态。"
+  },
+  "ozone_water_treatment": {
+    "name": "臭氧水处理",
+    "description": "用臭氧气体对水消毒并氧化，灭活病原体并降解异味、臭味或微污染物。"
+  },
+  "p_n_junction_diode": {
+    "name": "P-N 结二极管",
+    "description": "由 p 型与 n 型区结合形成的半导体二极管，实现整流并衍生后来的光电器件。"
+  },
+  "pacemakers_implantable": {
+    "name": "植入式心脏起搏器",
+    "description": "通过植入导线、电池与临床程控监测并调节心律的电子装置。"
+  },
+  "pack_animal_transport": {
+    "name": "驮畜运输",
+    "description": "利用驴、马、骆驼或牛驮载货物，通行于车辆或船只难以施展的路径。"
+  },
+  "packet_switching": {
+    "name": "分组交换",
+    "description": "把数字消息拆成带地址的分组、在共享网络中独立路由——可扩展数据网络的基础。"
+  },
+  "pam_recognition_constraint": {
+    "name": "PAM 识别约束",
+    "description": "Cas9 靶 DNA 必须包含相容的前间隔序列邻近基序，Cas9 才能识别、解链并切割目标序列。"
+  },
+  "pam_specificity_engineering": {
+    "name": "工程化 PAM 特异性变体",
+    "description": "对 Cas 酶进行工程改造或定向进化，改变其前间隔序列邻近基序特异性，扩大可靶向基因组位点范围。"
+  },
+  "paper_making": {
+    "name": "造纸",
+    "description": "以亚麻碎布纸浆生产纸张——比羊皮纸更廉价多能的书写材料——并从伊斯兰世界传入欧洲。"
+  },
+  "paper_making_papyrus_parchment": {
+    "name": "莎草纸与羊皮纸",
+    "description": "源自植物（莎草纸）或兽皮（羊皮纸）的早期书写材料，比泥板更便于携带。"
+  },
+  "paper_mills": {
+    "name": "造纸作坊",
+    "description": "以水力作动、作坊规模运作的设施，打浆成纸并扩大廉价书写材料的供应。"
+  },
+  "paper_money": {
+    "name": "纸币",
+    "description": "国家背书的纸面货币与本票，减少了大宗商业网络中搬运笨重金属钱币的需要。"
+  },
+  "parliaments_estates_general": {
+    "name": "议会与三级会议",
+    "description": "中世纪欧洲代议会议的兴起：统治者在立法、征税和治理上征询教士、贵族及选举产生的城市或领地代表。"
+  },
+  "particle_accelerators": {
+    "name": "粒子加速器",
+    "description": "把亚原子粒子加速至高速以研究基础物理的装置。"
+  },
+  "pastoralism": {
+    "name": "Wadi Jilat 游牧",
+    "description": "约公元前7000年，约旦东部干草原 Wadi Jilat 一带的流动社群将驯化的山羊与绵羊畜群融入当地既有的生活方式。"
+  },
+  "patent_model_collections": {
+    "name": "专利模型收藏",
+    "description": "专利局保存的送审发明模型、图纸与记录，用于审查、修复、公开展示及后来的博物馆策展。"
+  },
+  "patent_specification_drawings": {
+    "name": "专利说明书附图",
+    "description": "随专利说明书提交的图纸、草稿和模型参照，使发明得以区分、重现、审查，并可日后从公开档案查验。"
+  },
+  "patent_systems": {
+    "name": "专利制度",
+    "description": "授予发明人临时独占权利的法律机制，鼓励围绕新技术的公开、投资与竞争。"
+  },
+  "pcr_diagnostics": {
+    "name": "PCR 诊断",
+    "description": "通过扩增核酸检测病原体、突变或遗传标志物的分子诊断检验。"
+  },
+  "pcr_polymerase_chain_reaction": {
+    "name": "聚合酶链式反应（PCR）",
+    "description": "快速复制特定 DNA 样本百万至数十亿份的革命性实验室技术，是现代基因分析的基础。"
+  },
+  "peer_review_correspondence": {
+    "name": "奥尔登堡的编辑通信",
+    "description": "1665年《哲学汇刊》创刊时，亨利·奥尔登堡对信件和报告进行挑选、改写、翻译和合并；这属于编辑主导的遴选，还不是后来的外部同行评议。"
+  },
+  "perceptrons": {
+    "name": "感知机",
+    "description": "以可调权重做二值模式分类的早期可训练人工神经网络。"
+  },
+  "persistence_hunting": {
+    "name": "耐力狩猎",
+    "description": "以协作的耐力奔跑追猎并使猎物力竭，是一种早期的有组织狩猎形式。"
+  },
+  "personal_ai_tutors": {
+    "name": "个人 AI 导师",
+    "description": "融合语言模型、学习者建模、课程生成、仿真与反馈、面向个性化教育的自适应导师。"
+  },
+  "personal_computers": {
+    "name": "个人计算机",
+    "description": "由微处理器驱动、面向个人使用的平价计算机。"
+  },
+  "personalized_education_lifelong_learning_platforms_ai": {
+    "name": "个性化教育与终身学习平台（AI）",
+    "description": "终身适配个人学习风格、节奏与需求的 AI 驱动教育系统。"
+  },
+  "personalized_medicine": {
+    "name": "个性化医疗",
+    "description": "广泛运用遗传、分子、电子健康档案、生活方式与环境数据，为个体患者定制预防、诊断、选药与剂量。"
+  },
+  "perspective_in_art": {
+    "name": "绘画透视",
+    "description": "在二维平面上营造可信三维纵深与空间错觉的绘画技法发展，是文艺复兴艺术的标志。"
+  },
+  "pesticide_herbicide_systems": {
+    "name": "农药与除草剂体系",
+    "description": "现代合成农药除草剂化学及防治昆虫、杂草、真菌等农业有害生物的施用实践。"
+  },
+  "petroleum_refining_fractional_distillation": {
+    "name": "石油炼制",
+    "description": "用分馏把原油分离为煤油、汽油和润滑油等商业有用的馏分。"
+  },
+  "pfas_treatment_water_systems": {
+    "name": "水体 PFAS 治理",
+    "description": "面向 PFAS 污染水流的活性炭、离子交换、高压膜及破坏性处理方案。"
+  },
+  "pharmaceuticals_drug_design": {
+    "name": "药物与药物设计",
+    "description": "系统性（常借助计算机）发现和开发新药物与疗法的方法。"
+  },
+  "pharmacogenomics": {
+    "name": "药物基因组学",
+    "description": "利用遗传变异预测药物反应、剂量、疗效或不良反应。"
+  },
+  "pharmacokinetics_pharmacodynamics": {
+    "name": "药代动力学与药效动力学",
+    "description": "定量研究药物浓度与吸收、分布、代谢、排泄及效应随时间的关系。"
+  },
+  "pharmacology_advanced": {
+    "name": "药理学（高等）",
+    "description": "借助分子生物学与 AI，对药物作用、药代与药效动力学的深入理解。"
+  },
+  "pharmacopoeia": {
+    "name": "药典",
+    "description": "系统罗列药物成分、来源、功效和制备方法的书面文本的编纂。"
+  },
+  "pharmacopoeia_compilation": {
+    "name": "老普林尼《博物志》医药卷",
+    "description": "老普林尼《博物志》的第 20 至 32 卷汇编了罗马的药用植物、动物和矿物疗法，全书共 37 卷，属百科全书式著作。"
+  },
+  "phase_i_iii_clinical_trials": {
+    "name": "Ⅰ-Ⅲ期临床试验",
+    "description": "在监管批准之前评估安全性、剂量、疗效与比较获益的序贯人体药物试验。"
+  },
+  "philosophy": {
+    "name": "哲学",
+    "description": "对存在、知识、价值、理性、心灵和语言等根本问题的系统研究。"
+  },
+  "phonograph": {
+    "name": "留声机",
+    "description": "以带调制纹道的旋转滚筒或圆片机械录音并放音的装置。"
+  },
+  "photographic_halftone_printing": {
+    "name": "照相网目版印刷",
+    "description": "加网照相复制技术，使图像得以实际用于报纸、目录册和杂志。"
+  },
+  "photography": {
+    "name": "摄影",
+    "description": "通过在感光材料上记录光线获取耐久影像、留下永久视觉记录的技艺与科学。"
+  },
+  "photolithography": {
+    "name": "光刻",
+    "description": "用光把光掩模上的几何图形转印到基片的光刻胶上的工艺，是集成电路制造的关键。"
+  },
+  "photoresist_chemistry": {
+    "name": "光刻胶化学",
+    "description": "在半导体光刻中界定精细电路图形的感光聚合物体系。"
+  },
+  "piezoelectric_effect": {
+    "name": "压电效应",
+    "description": "某些晶体中机械应力与电荷之间的相互转换，由雅克与皮埃尔·居里发现，后用于传感器、谐振器和超声换能器。"
+  },
+  "piezoelectric_ultrasonic_transducers": {
+    "name": "压电超声换能器",
+    "description": "把电信号转换为超声脉冲与回波的石英及后来的压电器件，用于声呐、无损检测和医用超声。"
+  },
+  "pigment_creation": {
+    "name": "颜料制作",
+    "description": "使用石器和容器对富含赭石的颜料化合物进行采集、研磨、混合和储存。"
+  },
+  "pike_and_shot_formations": {
+    "name": "十七世纪长矛火枪阵",
+    "description": "近战长矛兵掩护火枪手、枪械部队实施远程齐射的混编步兵阵形。"
+  },
+  "pilgrim_badge_casting": {
+    "name": "朝圣徽章铸造",
+    "description": "面向朝圣经济与身份认同的小型铸造虔敬徽章、信物和纪念品的大批量生产。"
+  },
+  "pilgrimage_route_services": {
+    "name": "朝圣路线服务",
+    "description": "支持长途朝圣者的医院与济贫院、桥梁、路标、圣龛与圣物停留点、食宿、徽章及地方服务。"
+  },
+  "plague_pesthouses": {
+    "name": "拉扎雷托韦基奥瘟疫医院",
+    "description": "威尼斯设立于岛上的永久性医院，隔离并照护瘟疫感染者，把治疗与后来的旅客货物检疫分开。"
+  },
+  "planetary_archive_vaults": {
+    "name": "行星档案库",
+    "description": "面向知识、基因组、语言、艺术、法律记录、软件与科学数据的长期分布式档案。"
+  },
+  "planetary_climate_control_systems": {
+    "name": "行星气候控制系统",
+    "description": "面向气候稳定的监测、碳移除、反照率干预、治理与风险控制一体化体系。"
+  },
+  "planetary_defense_networks": {
+    "name": "行星防御网络",
+    "description": "探测与缓解危险小行星的传感、预警、建模、发射、偏转、治理与应急系统。"
+  },
+  "planetary_motion_kepler": {
+    "name": "行星运动（开普勒定律）",
+    "description": "基于对第谷观测的细致分析，对行星绕太阳椭圆轨道运动的数学描述。这些定律挑战了地心模型和正圆轨道。"
+  },
+  "planetary_scale_sensor_webs": {
+    "name": "行星尺度传感网",
+    "description": "监测气候、城市、生态系统与灾害的卫星、地面传感、海洋系统、无人机与 AI 模型密集网络。"
+  },
+  "planetary_science_advanced": {
+    "name": "行星科学（高等）",
+    "description": "对行星形成、地质、大气及宜居潜力的深入理解，包括系外行星。"
+  },
+  "planetary_sensor_meshes": {
+    "name": "行星传感网格",
+    "description": "由卫星、海洋浮标、地面传感、无人机与边缘 AI 构成、实时监测地球的全球密集网络。"
+  },
+  "plant_breeding_hybridization": {
+    "name": "植物育种与杂交",
+    "description": "以遗传学为指导、运用受控杂交与遗传规律培育改良作物品种的育种计划。"
+  },
+  "plant_domestication": {
+    "name": "植物驯化",
+    "description": "对野生植物（如小麦、水稻、玉米）进行系统性栽培与选择性育种，用于食物、纤维及其他用途。"
+  },
+  "plantation_economy": {
+    "name": "种植园经济",
+    "description": "以大规模单一作物农业（如甘蔗或烟草）为基础、依靠被剥削劳动力（多为奴隶或契约仆役）生产出口经济作物的经济体系。"
+  },
+  "plasma_etching": {
+    "name": "等离子体刻蚀",
+    "description": "微细加工中以反应等离子体去除选定薄膜材料的干法刻蚀工艺。"
+  },
+  "plasma_physics": {
+    "name": "等离子体物理",
+    "description": "研究物质第四态（等离子体）的学科，对聚变研究和天体物理至关重要。"
+  },
+  "plastics": {
+    "name": "早期塑料",
+    "description": "早期塑料材料，始于半合成的帕克辛，后有电木等全合成聚合物。"
+  },
+  "plate_armor": {
+    "name": "板甲",
+    "description": "以先进金属加工和板材成形技术制成的整套装甲钢板，对多种武器防护卓越。"
+  },
+  "plow": {
+    "name": "犁",
+    "description": "由掘土棒和原始破土犁演变而来的翻土农具，后改由人力、牛或马牵引。"
+  },
+  "plumbing": {
+    "name": "给排水管道",
+    "description": "建筑物中利用管道和沟渠实现的供水与排污系统。"
+  },
+  "pneumatic_tire_mass_production": {
+    "name": "商用充气轮胎生产",
+    "description": "继约翰·博伊德·邓禄普的实用充气轮胎及其贝尔法斯特制造公司（后成邓禄普）之后的自行车充气橡胶轮胎商业化生产。"
+  },
+  "pneumatic_tools_compressed_air_power": {
+    "name": "压缩空气动力与气动工具",
+    "description": "面向工业机械与运输的压缩空气动力系统，锚定于蒙塞尼隧道的空压机、压力管道和气动凿岩机，后应用于制动、鱼雷、风镐和铆钉枪。"
+  },
+  "pocket_watch": {
+    "name": "怀表",
+    "description": "因发条发明与钟表小型化而实现的便携计时器，使计时从公共事业转向个人用品。"
+  },
+  "point_of_care_testing": {
+    "name": "床旁即时检测",
+    "description": "在集中实验室之外、于患者近旁开展的便携医学检测，支持快速临床决策。"
+  },
+  "political_philosophy_machiavelli": {
+    "name": "政治哲学（马基雅维利）",
+    "description": "政治思想向现实主义与实用主义的转变：分析权力实际如何运作而非应当如何。《君主论》把政治行动与传统道德分离。"
+  },
+  "political_science_advanced_governance_models": {
+    "name": "高等治理模型",
+    "description": "以数据为依据、治理复杂社会、平台、AI 系统、行星风险与后稀缺经济的制度设计。"
+  },
+  "polymer_chemistry": {
+    "name": "高分子化学",
+    "description": "聚焦聚合物与大分子的化学合成、结构及化学/物理性质的化学分支。"
+  },
+  "pooled_crispr_screens": {
+    "name": "混合 CRISPR 筛选",
+    "description": "把向导 RNA 与表型关联的文库级 CRISPR 扰动实验，用于基因功能发现。"
+  },
+  "port_crane_harbor_works": {
+    "name": "港口起重机与港务工程",
+    "description": "用于装卸船舶、支撑中世纪港口贸易的码头起重机、码头工程和起重闸门设施。"
+  },
+  "port_customs_ledgers": {
+    "name": "港口税账簿",
+    "description": "与港口相关的书面税收与货物账目记录，涵盖谷物运输、重量、费用、担保人、公共收入和商人义务。"
+  },
+  "portable_electrochemical_batteries": {
+    "name": "便携式电化学电池",
+    "description": "为仪器、通信设备、医疗器件和消费电子提供独立电源的便携电芯与电池组。"
+  },
+  "portable_scales": {
+    "name": "便携式天平",
+    "description": "用于市场、医药、金属贸易、征税和手工业生产的小型天平与标准砝码。"
+  },
+  "portland_cement": {
+    "name": "波特兰水泥",
+    "description": "约瑟夫·阿斯普丁1824年专利的水硬性水泥，由石灰石与黏土混合物煅烧研磨而成，用作砂浆和混凝土的黏结剂。"
+  },
+  "portolan_charts_maritime_navigation": {
+    "name": "波托兰海图与航海导航",
+    "description": "带罗盘方位线网格的高精度航海图，与罗盘配合实现精确海上导航，尤用于地中海。"
+  },
+  "positron_emission_tomography_pet": {
+    "name": "正电子发射断层扫描（PET）",
+    "description": "探测正电子示踪剂产生的符合伽马射线、绘制代谢与生理功能图的功能成像方法。"
+  },
+  "post_labor_economics_and_governance": {
+    "name": "后劳动经济与治理",
+    "description": "为自动化与 AGI 使多数人类劳动在经济上不再必要的世界设计的社会与政府结构。"
+  },
+  "post_quantum_security_migration": {
+    "name": "广域后量子安全迁移",
+    "description": "在身份、金融、云、设备和档案等全域替换并审计既有密码基础设施，以抵御量子攻击。"
+  },
+  "post_scarcity_economics": {
+    "name": "后稀缺经济学",
+    "description": "面向多数商品可被极少人类劳动大量生产的社会的经济理论与体系，使传统稀缺模型失效。"
+  },
+  "post_scarcity_resource_allocation": {
+    "name": "后稀缺资源分配",
+    "description": "分配充裕能源、自动化产出、合成食品、住房、算力与文化产品的经济与治理体系。"
+  },
+  "postal_money_orders": {
+    "name": "邮政汇票",
+    "description": "邮局出售的预付支付凭证，使远距离汇款和小额支付无需邮寄现金且更安全。"
+  },
+  "postal_relay_systems": {
+    "name": "邮驿传递系统",
+    "description": "为国家远距离通信而组织的信使路线、驿站和官方信使体系。"
+  },
+  "pottery": {
+    "name": "陶器",
+    "description": "用烧制的黏土制作器皿，用于储存、烹饪和仪式，是支撑定居生活的关键技术。"
+  },
+  "pottery_storage_amphorae": {
+    "name": "储藏双耳罐",
+    "description": "早期标准化的双耳陶罐，用于储存和运输油、酒、谷物、水、发酵食品及贸易货物。"
+  },
+  "pottery_wheel": {
+    "name": "陶轮",
+    "description": "一种旋转平台，比手工塑形更快、更稳定地制作对称的陶瓷器皿。"
+  },
+  "powder_metallurgy": {
+    "name": "粉末冶金",
+    "description": "通过制粉、压制或成形并在低于全熔温度下烧结来制造金属制品的工业粉末加工方法。"
+  },
+  "power_electronics": {
+    "name": "电力电子",
+    "description": "面向驱动器、电网、可再生能源和车辆的电能变换、开关与控制固态电路。"
+  },
+  "power_transformers": {
+    "name": "电力变压器",
+    "description": "为高效输电、配电和隔离而对交流电压升压或降压的电磁装置。"
+  },
+  "powered_flight_wright_flyer": {
+    "name": "有动力受控飞行",
+    "description": "第一架成功的重于空气飞行器的发明：以机翼产生升力、以有动力螺旋桨提供推力并具备操纵机构。"
+  },
+  "precision_agriculture": {
+    "name": "精准农业",
+    "description": "以传感、卫星、GPS、数据和自动化逐田块优化灌溉、施肥、播种与收获决策。"
+  },
+  "precision_machine_tools": {
+    "name": "精密机床",
+    "description": "车床、镗床、刨床、铣床、量规及相关工具，使精确可重复的工业零件制造成为现实。"
+  },
+  "precision_map_engraving": {
+    "name": "铜版地图雕刻",
+    "description": "把地图线划与注记凹雕于铜板以复印地图的工艺，包括1478年罗马托勒密地图的冲压注记。"
+  },
+  "precision_mechanics_miniaturization": {
+    "name": "精密机械与小型化",
+    "description": "对高精度小尺度机械部件与系统的工程设计。"
+  },
+  "precision_psychiatry": {
+    "name": "精准精神医学",
+    "description": "利用遗传数据、脑影像与预测性 AI，高效诊断并治疗精神疾病、定制心理健康照护。"
+  },
+  "predictive_justice_systems": {
+    "name": "预测性司法系统",
+    "description": "分析海量数据以预测再犯、辅助司法裁判或预判犯罪活动、伦理上复杂的 AI 系统。"
+  },
+  "prime_editing": {
+    "name": "先导编辑",
+    "description": "使用 Cas 切刻酶、逆转录酶和先导编辑向导 RNA 进行“查找-替换”式精确基因组编辑。"
+  },
+  "primitive_surgery_trepanation": {
+    "name": "原始外科手术（如穿颅术）",
+    "description": "使用专用石器的早期外科干预，常带有仪式性质，或用于缓解压力。"
+  },
+  "printed_financial_price_lists": {
+    "name": "印刷商品行情表",
+    "description": "定期印刷、汇总自经纪人并分发商人作为低价市场信息的当前商品价格表。"
+  },
+  "printed_map_atlases": {
+    "name": "印刷地图集",
+    "description": "装订成册的标准化地图、投影、索引、地名与注记汇编，服务航海、贸易、战争与学术。"
+  },
+  "printed_music_notation": {
+    "name": "印刷乐谱",
+    "description": "用于可复制总谱、分谱、教学与演出流通的活字与雕版乐谱。"
+  },
+  "printed_music_publishing": {
+    "name": "彼特鲁奇活字乐谱印刷",
+    "description": "奥塔维亚诺·彼特鲁奇1501年的《和歌百曲》以活字印成第一部复调音乐选集，确立了影响深远的音乐出版范式。"
+  },
+  "printed_patent_specifications": {
+    "name": "英国详细专利说明书",
+    "description": "随英国专利登记的详细书面披露，使发明的构造与操作在授权文本之外亦有记录。"
+  },
+  "printed_scientific_errata": {
+    "name": "科学期刊勘误",
+    "description": "对已刊科学期刊材料中的错误进行指认与更正的印刷更正启事。"
+  },
+  "printed_standardized_textbooks": {
+    "name": "印刷大学教科书",
+    "description": "为大学教学印制的版本，与讲授和手写笔记并行，给学生可重复的教材文本。"
+  },
+  "printed_theater_scripts": {
+    "name": "印刷英语戏剧四开本",
+    "description": "经商业书业流通单部英国舞台剧的小开印刷本。"
+  },
+  "printing_press": {
+    "name": "印刷机",
+    "description": "以活字金属字把油墨转印到纸上的机械装置，实现文字材料的量产，彻底改变了传播、宗教和科学。"
+  },
+  "printing_press_movable_type": {
+    "name": "印刷机（活字印刷）",
+    "description": "以活字金属字、螺旋压机和油性油墨大批量复制文本的机器，是标志中世纪终结的关键发明。"
+  },
+  "privacy_preserving_ai": {
+    "name": "隐私保护 AI",
+    "description": "以降低敏感数据、身份与专有信息暴露的技术训练并部署的 AI 系统。"
+  },
+  "privacy_preserving_ai_markets": {
+    "name": "隐私保护 AI 市场",
+    "description": "在不暴露敏感数据的前提下交易模型服务的联邦学习、安全飞地、差分隐私与审计。"
+  },
+  "probabilistic_graphical_models": {
+    "name": "概率图模型",
+    "description": "以图结构表示不确定关系的模型，如贝叶斯网络和马尔可夫随机场。"
+  },
+  "probability_statistics_inference": {
+    "name": "概率与统计推断",
+    "description": "关于不确定性与数据的数学推理，锚定于十七世纪概率论及后来的统计总体分析。"
+  },
+  "probability_theory": {
+    "name": "概率论",
+    "description": "对机会与不确定性的数学处理，1654年前后围绕赌博问题首次形式化，后应用于保险、年金和风险。"
+  },
+  "process_control_instrumentation": {
+    "name": "过程控制仪表",
+    "description": "用于稳定化工、电力和制造过程的仪表、阀门、控制器、记录仪和反馈实践。"
+  },
+  "programmable_matter_infrastructure": {
+    "name": "可编程物质基础设施",
+    "description": "运用可重构材料、嵌入式计算、分子装配与自适应结构系统的建成环境。"
+  },
+  "programmable_money_markets": {
+    "name": "可编程货币市场",
+    "description": "由可编程货币、智能合约、数字身份、自主清算、信贷、风控与实时审计构建的金融市场。"
+  },
+  "prompt_engineering_system_prompts": {
+    "name": "提示工程与系统提示",
+    "description": "设计自然语言指令、示例、约束和工具模式，在推理时引导基础模型行为。"
+  },
+  "property_concepts": {
+    "name": "早期财产规范",
+    "description": "在资源集中和日趋定居的遗址中形成的家庭或家户占有规范，后来扩展到耕地、牲畜和储存物资。"
+  },
+  "prospecting": {
+    "name": "找矿",
+    "description": "在采集、采石或开采之前，对赭石、赤铁矿、盐泉和天然金属等裸露矿源进行识别、定位和检验。"
+  },
+  "protein_engineering": {
+    "name": "蛋白质工程",
+    "description": "设计并改造蛋白，以改变结合、催化、稳定性、特异性或细胞功能。"
+  },
+  "protein_sequencing": {
+    "name": "蛋白质测序",
+    "description": "测定蛋白质氨基酸排列顺序的化学方法，首例于胰岛素完成，是序列化分子生物学的基础。"
+  },
+  "protein_structure_prediction_ai": {
+    "name": "AI 蛋白质结构预测",
+    "description": "从序列和生物学数据预测蛋白质结构与相互作用的机器学习系统。"
+  },
+  "proto_currency": {
+    "name": "原始货币",
+    "description": "使用贝壳、珠子或盐、黑曜石等贵重材料作为标准化交换媒介，以简化贸易。"
+  },
+  "proto_writing": {
+    "name": "原始文字",
+    "description": "行政用途的表意与抽象符号系统，尤其是原始楔形文字，在完全表音的文字出现之前用来记录商品与数量。"
+  },
+  "psychoanalysis_freudian_theory": {
+    "name": "精神分析（弗洛伊德理论）",
+    "description": "聚焦无意识、谈话治疗与早期发展经验的一系列心理学理论与治疗技术。"
+  },
+  "psychohistory_predictive_social_dynamics_asimovian": {
+    "name": "心理史学（预测社会动力学·阿西莫夫式）",
+    "description": "融合历史、社会学与数理统计、对超大群体未来行为做一般性预测的假想科学。"
+  },
+  "psychology": {
+    "name": "心理学",
+    "description": "对心理与行为的广泛科学研究，涵盖多个子领域，超越了纯哲学或生理学探究。"
+  },
+  "psychology_experimental": {
+    "name": "实验心理学",
+    "description": "以实验方法研究心理与行为，使心理学成为科学学科，以冯特等实验室为开创。"
+  },
+  "public_anatomy_theaters": {
+    "name": "公共解剖剧场",
+    "description": "专供解剖示教、医学演示、绘图教学和大学授课的专门教学空间。"
+  },
+  "public_archives": {
+    "name": "公共档案库",
+    "description": "保存法律、政令、契约、税册、地图、人口清册和官方往来文书的国家与城市库房。"
+  },
+  "public_art_academies": {
+    "name": "公共美术学院",
+    "description": "教授素描、解剖、透视、绘画、雕塑、理论与艺术家身份的正式机构。"
+  },
+  "public_art_museums": {
+    "name": "公共美术馆",
+    "description": "收藏、保护、分类并展出绘画、雕塑、装饰艺术、考古与文化遗产的公共机构。"
+  },
+  "public_bath_heating": {
+    "name": "公共浴场供暖",
+    "description": "为市政温水浴场综合体配置的熔炉、火坑供暖、管道、排水设施和运行人员。"
+  },
+  "public_baths_thermae": {
+    "name": "公共浴场（Thermae）",
+    "description": "供公众沐浴、社交和休闲的大型建筑群，拥有先进的供暖、给排水和建筑技术。"
+  },
+  "public_education_systems": {
+    "name": "公共教育体系",
+    "description": "由国家兴办、面向大众的义务正规学校教育，旨在培养识字劳动力并灌输国家价值观。"
+  },
+  "public_grain_distribution": {
+    "name": "公共谷物配给",
+    "description": "由国家主导的主粮征收、储存、运输和配给，用以稳定城市和军队。"
+  },
+  "public_granary_accounting": {
+    "name": "机构谷物核算泥板",
+    "description": "以泥板行政文书和核算流程记录公共或神庙粮仓的谷物产品交易、数量、总计与分配。"
+  },
+  "public_health_inspections": {
+    "name": "市政官城市卫生监察",
+    "description": "罗马由市政官（aedile）等城市官员对街道、排水、下水道、市场、浴场及相关城市秩序实施的监察管理。"
+  },
+  "public_health_laboratories": {
+    "name": "政府公共卫生实验室",
+    "description": "承担流行病诊断研究、消毒剂研究和水质微生物检测的公共细菌学实验室。"
+  },
+  "public_health_statistics": {
+    "name": "公共卫生统计",
+    "description": "收集与分析死亡、疾病、住房、卫生和职业数据，为卫生政策提供依据。"
+  },
+  "public_health_systems": {
+    "name": "公共卫生体系",
+    "description": "通过卫生设施、下水道和公共浴场的建设改善城市环境卫生。"
+  },
+  "public_hospitals_infirmaries": {
+    "name": "公共医院与疗养所",
+    "description": "为士兵、旅人、贫民或病患设立的照护机构，兼具收容、护理、饮食调养和医学观察。"
+  },
+  "public_key_infrastructure": {
+    "name": "公钥基础设施",
+    "description": "X.509 证书体系：由证书机构把身份绑定到公钥、签发与吊销证书，支持信任链与路径验证。"
+  },
+  "public_latrines": {
+    "name": "公共厕所",
+    "description": "罗马式共用卫生设施，多邻近浴场或市场，借排水沟和水流把污物送入下水道或处置系统。"
+  },
+  "public_libraries_scroll_collections": {
+    "name": "公共图书馆（卷轴收藏）",
+    "description": "面向学者或公众开放的图书馆，收藏卷轴与册子本，体现对知识的重视与投入。"
+  },
+  "public_library_reading_rooms": {
+    "name": "公共图书馆阅览室",
+    "description": "供民众查阅文本、教学、抄写与学术交流的专用城市公共空间。"
+  },
+  "public_lottery_finance": {
+    "name": "公共彩票财政",
+    "description": "用于为要塞、桥梁、慈善和公共工程筹资的国家与市政彩票。"
+  },
+  "public_museum_catalogs": {
+    "name": "印刷珍宝馆藏品目录",
+    "description": "面向读者与访客描述、图示和编排早期近代珍宝柜或博物馆标本、器物与展厅的出版目录与著述。"
+  },
+  "public_newspaper_advertising": {
+    "name": "公共报纸广告",
+    "description": "定期刊载于报纸的寻物、招领、房产、订阅、服务、商品、招聘、活动及商业要约付费启事。"
+  },
+  "public_notice_boards": {
+    "name": "公共告示牌",
+    "description": "在共享的公共场所张贴法律、政令、日程、市场规则、拍卖公告、法庭通知和市政告示。"
+  },
+  "public_sanitation_modern": {
+    "name": "现代公共卫生",
+    "description": "面向清洁饮水、排水、污水处理和废弃物控制的现代公共卫生制度与城市工程，后经细菌说得到强化。"
+  },
+  "public_science_lectures": {
+    "name": "公共科学讲座",
+    "description": "面向售票或市政公众的实验、仪器、解剖、天文、自然哲学和实用技艺演示。"
+  },
+  "public_theater_infrastructure": {
+    "name": "公共剧场基础设施",
+    "description": "为戏剧演出专门营建的舞台、座席、布景、声学设计、节庆排期与市政管理设施。"
+  },
+  "pulse_oximetry": {
+    "name": "脉搏血氧测量",
+    "description": "利用光电容积描记无创监测动脉血氧饱和度与脉搏。"
+  },
+  "pumped_hydro_storage": {
+    "name": "抽水蓄能",
+    "description": "把水抽至上水库储存电网电力、需电时经水轮机放水发电的储能方式。"
+  },
+  "pumps": {
+    "name": "机械泵",
+    "description": "以活塞、螺杆、转轮或往复机构从井、矿、田地和工程中提水输水的装置。"
+  },
+  "putting_out_textile_system": {
+    "name": "包买商纺织体系",
+    "description": "分散于家庭的纺纱、织造、整理，以及商人的协调、质检与支付记录。"
+  },
+  "qanat_water_supply": {
+    "name": "坎儿井供水",
+    "description": "由缓坡地下廊道与竖井组成的系统，汲取含水层地下水，靠重力自流输往聚落和农田。"
+  },
+  "quantum_biological_imaging": {
+    "name": "量子生物成像",
+    "description": "测量微弱生物场、分子相互作用与纳米尺度动态的量子增强传感器与显微镜。"
+  },
+  "quantum_cloud_computing": {
+    "name": "量子云计算",
+    "description": "与经典云工作流、模拟器、编译器、安全和混合算法集成的可网络访问量子处理器。"
+  },
+  "quantum_communications": {
+    "name": "量子通信",
+    "description": "基于量子纠缠及其他量子现象的安全通信方法。"
+  },
+  "quantum_computing": {
+    "name": "量子计算",
+    "description": "利用叠加、纠缠与干涉等量子效应运行量子算法的计算系统；其广泛实用与容错能力仍属预测。"
+  },
+  "quantum_encryption": {
+    "name": "量子加密",
+    "description": "以量子力学保证通信安全的密码学方法。"
+  },
+  "quantum_internet": {
+    "name": "量子互联网",
+    "description": "连接量子计算机、支持分布式量子计算与本质上安全通信的网络。"
+  },
+  "quantum_materials_foundries": {
+    "name": "量子材料铸造厂",
+    "description": "超导体、拓扑材料、自旋器件与低温量子部件的工业化制造。"
+  },
+  "quantum_physics": {
+    "name": "量子物理",
+    "description": "始于1900年普朗克量子化、并在1925-1927年矩阵力学与波动力学形式中发展为现代量子力学的广义物理理论。"
+  },
+  "quantum_resistant_blockchains": {
+    "name": "抗量子区块链",
+    "description": "迁移到后量子签名、密钥管理、审计、治理与长期档案安全的分布式账本。"
+  },
+  "quantum_secured_financial_networks": {
+    "name": "量子安全金融网络",
+    "description": "运用后量子密码、量子通信、身份、账本与自动化合规的金融网络。"
+  },
+  "quantum_sensor_navigation": {
+    "name": "量子传感导航",
+    "description": "使用量子钟、惯性传感器、重力测量与安全授时、不完全依赖卫星的导航系统。"
+  },
+  "quantum_sensors_high_precision_measurement": {
+    "name": "量子传感器（高精度测量）",
+    "description": "利用量子现象对物理量进行超灵敏测量的装置。"
+  },
+  "quarantine_lazarettos": {
+    "name": "拉扎雷托诺沃检疫站",
+    "description": "威尼斯的预防性海岛检疫站，对可能受染的航海旅客与货物先行扣留、查验、存放和消毒，再进入威尼斯。"
+  },
+  "quarantine_public_health_measures": {
+    "name": "检疫与公共卫生措施",
+    "description": "控制疾病传播的隔离实践与早期公共卫生干预，以瘟疫期间对船舶的40天隔离（quarantena）最为著名。"
+  },
+  "radar_radio_detection_and_ranging": {
+    "name": "雷达（无线电探测与测距）",
+    "description": "利用无线电波测定物体的距离、角度或速度。"
+  },
+  "radiation_shielding_materials": {
+    "name": "辐射屏蔽材料",
+    "description": "面向太空与核环境的先进材料、水墙、月壤结构、磁屏蔽与医学对抗措施。"
+  },
+  "radio": {
+    "name": "无线电",
+    "description": "以电磁波无线传输音频信号。"
+  },
+  "radio_broadcasting": {
+    "name": "无线电广播",
+    "description": "以无线电波向广大听众分发音频内容。"
+  },
+  "radio_telegraphy_wireless_communication": {
+    "name": "无线电报（无线通信）",
+    "description": "利用无线电波传送电报信号，无需实体线缆即可远距离无线通信。"
+  },
+  "radioactivity_discovery": {
+    "name": "放射性",
+    "description": "铀、镭等元素会自发以射线或粒子形式释放能量的发现，冲击了原子不可分的观念。"
+  },
+  "radiology_departments": {
+    "name": "放射科",
+    "description": "医院和诊所中专司X光成像、屏蔽、判读、记录与诊断流程的科室。"
+  },
+  "railroads": {
+    "name": "铁路",
+    "description": "采用导向轨道和列车的铁路运输系统，自19世纪20年代起公共蒸汽铁路使货运客运规模化。"
+  },
+  "railway_air_brakes": {
+    "name": "铁路空气制动",
+    "description": "提升列车安全性、速度、编组长度的压缩空气制动系统。"
+  },
+  "railway_dining_cars": {
+    "name": "专用铁路餐车",
+    "description": "专司旅途中餐食制备、桌边服务和用餐的客运车厢。"
+  },
+  "railway_refrigerator_cars": {
+    "name": "保温铁路冷藏车厢",
+    "description": "具有隔热双层车厢壁并可在更长行程中低温保存易腐货物、减少补冰频次的铁路车辆。"
+  },
+  "railway_signal_interlocking": {
+    "name": "铁路信号联锁",
+    "description": "防止繁忙铁路网上道岔与信号冲突的机械与电气系统。"
+  },
+  "rainwater_harvesting": {
+    "name": "雨水收集",
+    "description": "从屋顶、庭院、坡地或集水区收集并储存降雨，供家庭、农业和市政使用。"
+  },
+  "randomized_controlled_trials": {
+    "name": "随机对照试验",
+    "description": "把受试者随机分入治疗组或对照组以估计干预效果的试验设计。"
+  },
+  "rapid_sand_filtration": {
+    "name": "快滤池",
+    "description": "结合混凝、沉淀和反冲洗的高速颗粒过滤工艺，用于大型市政水厂。"
+  },
+  "real_time_universal_translation_devices": {
+    "name": "实时通用翻译设备",
+    "description": "在任意口语或书面语之间即时翻译的便携设备或植入物。"
+  },
+  "real_world_evidence_regulatory_science": {
+    "name": "真实世界证据监管科学",
+    "description": "在试验之后或并行，用常规收集的健康数据研究药物安全性、有效性、使用与监管问题。"
+  },
+  "recombinant_dna_genetic_engineering": {
+    "name": "重组 DNA 与基因工程",
+    "description": "把来自不同物种的 DNA 分子拼接并导入宿主生物、产生新遗传组合的技术。"
+  },
+  "recombinant_protein_drugs": {
+    "name": "重组蛋白药物",
+    "description": "由工程化细胞生产的治疗蛋白，包括重组激素、酶、细胞因子和凝血因子。"
+  },
+  "recommender_systems": {
+    "name": "推荐系统",
+    "description": "基于用户行为与物品数据对商品、媒体、搜索结果和社交信息流进行排序与个性化。"
+  },
+  "record_keeping": {
+    "name": "记录保存",
+    "description": "使用陶筹或黏土压印系统来管理剩余物资、牲畜和贸易交易。"
+  },
+  "recorded_music_industry": {
+    "name": "录灌音乐产业",
+    "description": "音乐与语音表演的商业录音、复制、目录、版权管理、发行和播放。"
+  },
+  "reed_boats": {
+    "name": "芦苇船",
+    "description": "用捆扎的芦苇和纤维制成的轻便小船，用于河流、沼泽、捕鱼、运输和仪式。"
+  },
+  "reed_mat_architecture": {
+    "name": "芦苇席建筑",
+    "description": "以捆扎芦苇、席片和编织板建造棚屋、围栏、小船、屏风、地面和轻型公共建筑。"
+  },
+  "refrigeration": {
+    "name": "机械制冷",
+    "description": "以蒸汽压缩循环为食品保存和工业过程提供人工制冷，使冷藏运输与储存成为可能。"
+  },
+  "regulatory_drug_approval": {
+    "name": "药品监管审批",
+    "description": "药物获准临床使用前，对质量、安全性和有效性证据的正式审评。"
+  },
+  "reinforced_concrete": {
+    "name": "钢筋混凝土",
+    "description": "以内嵌钢筋增强的混凝土，使复合材料同时承受压应力与拉应力。"
+  },
+  "reinforced_concrete_bridges": {
+    "name": "钢筋混凝土桥梁",
+    "description": "采用钢筋混凝土梁、板或拱的桥梁结构，把混凝土抗压能力与内嵌钢筋结合。"
+  },
+  "reinforced_concrete_structures": {
+    "name": "钢筋混凝土结构",
+    "description": "以整体化钢筋混凝土梁、板、柱和箍筋作为结构体系的建筑与土木结构。"
+  },
+  "reinforcement_learning": {
+    "name": "强化学习",
+    "description": "智能体通过奖励、动作与环境互动改进策略的学习框架。"
+  },
+  "relational_data_warehousing": {
+    "name": "关系型数据仓库",
+    "description": "整合运营企业数据、为最终用户提供一致报表、计划与分析的关系型存储。"
+  },
+  "relational_query_languages_sql": {
+    "name": "关系型查询语言（SQL）",
+    "description": "在企业规模上定义、查询和更新关系数据库的声明式语言。"
+  },
+  "relativity_special_general": {
+    "name": "相对论（狭义与广义）",
+    "description": "爱因斯坦相对论，涵盖狭义相对论（1905）与广义相对论（1915），重塑了空间、时间、引力的物理学及 GPS 等技术。"
+  },
+  "remote_patient_monitoring": {
+    "name": "远程患者监测",
+    "description": "面向院外患者监测的联网医疗传感、应用、告警、记录与临床流程。"
+  },
+  "renaissance_architecture_brunelleschi": {
+    "name": "文艺复兴建筑（布鲁内莱斯基）",
+    "description": "与菲利波·布鲁内莱斯基相关的早期佛罗伦萨文艺复兴建筑，尤以育婴堂和圣母百花大教堂穹顶著称，融古典建筑语汇、几何秩序与新的建造方案于一体。"
+  },
+  "renewable_energy_systems": {
+    "name": "可再生能源并网",
+    "description": "把水电、风电、太阳能和地热等非公用事业可再生能源发电接入电网的监管、技术与运营整合。"
+  },
+  "renewable_microgrids": {
+    "name": "可再生微电网",
+    "description": "结合光伏、风电、电池、控制、离网运行与需求管理、提供韧性电力的本地电网。"
+  },
+  "retrieval_augmented_generation": {
+    "name": "检索增强生成",
+    "description": "把生成模型与外部搜索或数据库结合、使回答基于检索信息落地的 AI 架构。"
+  },
+  "reusable_launch_vehicles": {
+    "name": "可复用运载火箭",
+    "description": "设计为可回收并重复使用主要级段或航天器的发射系统，以降低发射成本与节奏限制。"
+  },
+  "reverse_osmosis_desalination": {
+    "name": "反渗透海水淡化",
+    "description": "以膜工艺从海水或苦咸水中去除盐分与杂质，供应市政、工业和应急用水。"
+  },
+  "rfid_cold_chain_monitoring": {
+    "name": "RFID 冷链监测",
+    "description": "用 RFID 标签与传感器识别货运并监测冷链物流中温度敏感的食品、疫苗、生物制品和物料。"
+  },
+  "rfid_tracking": {
+    "name": "RFID 追踪",
+    "description": "面向非接触盘点、物流、门禁、支付和资产追踪的射频识别标签与读写器。"
+  },
+  "rhetoric": {
+    "name": "修辞学",
+    "description": "研究如何有效且有说服力地言说与写作的技艺，是古代教育、政治与诉讼的核心内容。"
+  },
+  "ride_hailing_platforms": {
+    "name": "网约车平台",
+    "description": "面向城市出行的手机叫车、路径规划、支付、司机匹配与信用评价体系。"
+  },
+  "rifling_firearms": {
+    "name": "机器制造线膛枪械",
+    "description": "以专门精密机械进行线膛枪械的工业生产，锚定于约翰·霍尔1819年美国合同与哈珀斯渡口步枪厂。"
+  },
+  "risc_microprocessors": {
+    "name": "RISC 微处理器",
+    "description": "精简指令集计算机架构的 VLSI 微处理器实现，锚定于伯克利 RISC-I 芯片及后来的商用 RISC 家族。"
+  },
+  "ritual_burial_practices": {
+    "name": "仪式性埋葬",
+    "description": "有意的丧葬埋葬并伴以象征性处理，如在死者身旁放置赭石或其他非实用随葬品。"
+  },
+  "riveting_technology": {
+    "name": "铆接技术",
+    "description": "用加热的金属紧固件（铆钉）连接金属板的方法，对锅炉、桥梁、摩天大楼和钢船建造至关重要。"
+  },
+  "rna_interference": {
+    "name": "RNA 干扰",
+    "description": "小 RNA 实现的序列特异基因沉默，确立了可编程降低基因表达的实用路径。"
+  },
+  "road_maintenance_crews": {
+    "name": "罗马道路养护管理",
+    "description": "罗马依靠行政长官、承包契约、市民义务和劳役制度来巡查维修道路、桥梁、排水、里程碑与驿站。"
+  },
+  "roads": {
+    "name": "道路",
+    "description": "修建的路径、石铺街道、木栈道及后来的道路系统，供人员、牲畜、车辆、货物和军队通行。"
+  },
+  "robotic_construction_swarms": {
+    "name": "机器人建造蜂群",
+    "description": "以有限人力完成建筑与基础设施测绘、制造、装配、检查与维修的协同机器人。"
+  },
+  "robotic_manipulators": {
+    "name": "机器人操作臂",
+    "description": "面向定位、抓取、焊接、装配与搬运任务的可编程机械臂和末端执行器。"
+  },
+  "robotics": {
+    "name": "机器人学",
+    "description": "面向工业等应用的自主或遥控机器的设计与使用。"
+  },
+  "rocketry": {
+    "name": "火箭技术",
+    "description": "继戈达德式实验火箭之后、以可控液体燃料推进实现高空飞行与航天发射的现代火箭技术。"
+  },
+  "roman_architecture_revival": {
+    "name": "罗马建筑复兴",
+    "description": "早期文艺复兴对古罗马与古代建筑语汇、比例、柱式、拱券、穹顶和市政建筑形制的恢复与改造。"
+  },
+  "roman_concrete_opus_caementicium": {
+    "name": "罗马混凝土（Opus Caementicium）",
+    "description": "以石灰砂浆与骨料拌制而成、常掺入火山灰以增强耐久性的罗马混凝土，适用于耐水建筑与拱顶工程。"
+  },
+  "roman_law": {
+    "name": "罗马法",
+    "description": "以判例、法学家解答（responsa）和系统法典化为基础的高度发达法律体系，深刻影响了西方法律传统。"
+  },
+  "rope_bridges": {
+    "name": "凯什瓦查卡草绳桥传统",
+    "description": "印加悬索桥传统：以手捻编织的草绳系于阿普里马克峡谷石砌桥台架设而成。"
+  },
+  "route_optimization_logistics": {
+    "name": "路径优化物流",
+    "description": "为货运与服务车队规划车辆路线、装载、送达窗口、成本与约束的算法与软件。"
+  },
+  "sail_rigging_knots": {
+    "name": "早期帆索具",
+    "description": "桅杆、绳索、支索、帆脚索、升降索等简单索具配置，用于支撑和操控早期船帆。"
+  },
+  "sailing": {
+    "name": "帆船航行",
+    "description": "借助桅杆支撑的船帆、索具和船体在船上利用风力，依据的是埃及前王朝晚期的带帆船只证据。"
+  },
+  "salt_harvesting": {
+    "name": "采盐",
+    "description": "通过天然盐卤、盐泉、岩盐矿床或蒸发海水等途径获取食盐。"
+  },
+  "salted_trade_provisions": {
+    "name": "罗马咸鱼制品",
+    "description": "以咸鱼和鱼酱为代表的腌制海产，在罗马地中海各地市场上进行生产、储存、分销和消费。"
+  },
+  "sanitary_building_codes": {
+    "name": "卫生建筑法规",
+    "description": "管理下水道、结构卫生、空间、通风、排水、厕所、污水坑、检查及不宜居住建筑的城市建筑细则。"
+  },
+  "sanitary_sewer_networks": {
+    "name": "污水管网",
+    "description": "把生活污水从建筑中输送至排放口或处理厂、与雨水分开的专用下水管道网络。"
+  },
+  "satellite_constellations": {
+    "name": "卫星星座",
+    "description": "超越单颗航天器覆盖范围的卫星协同组网，最早由1963年发射、分别监视地球互补半球的成对维拉卫星演示。"
+  },
+  "satellite_navigation_receivers": {
+    "name": "卫星导航接收机",
+    "description": "解码卫星授时信号以定位导航的消费级、车载、航空、航海和测量接收机。"
+  },
+  "satellite_remote_sensing": {
+    "name": "卫星遥感",
+    "description": "面向科学与业务、对陆地、海洋、大气、作物、城市和灾害的在轨成像与光谱测量。"
+  },
+  "satellite_technology": {
+    "name": "卫星技术",
+    "description": "把人造卫星用于通信、观测和导航。"
+  },
+  "satellite_weather_forecasting": {
+    "name": "卫星天气预报",
+    "description": "融合卫星数据、雷达、数值模式、通信与预警系统的业务化天气预报。"
+  },
+  "saw_mill": {
+    "name": "锯木厂",
+    "description": "以水力或畜力驱动的锯切设备，提高了标准板材、梁材和结构木材的供应。"
+  },
+  "sawmill_lumber_networks": {
+    "name": "锯木木材网络",
+    "description": "水力锯木厂、伐木权、原木运输、标准板材和建筑供应链。"
+  },
+  "scada_water_systems": {
+    "name": "水务 SCADA 控制",
+    "description": "用于监测泵站、水池、阀门、水厂与配水管网的数据采集与监控系统。"
+  },
+  "scholastic_indexing_systems": {
+    "name": "经院索引体系",
+    "description": "面向大型文本的字母与主题索引、经文汇编、页码体系和检索工具。"
+  },
+  "scholasticism": {
+    "name": "经院哲学",
+    "description": "主导中世纪大学教学的批判性思维方法，强调以辩证推理化解权威文本之间的矛盾。"
+  },
+  "scientific_correspondence_networks": {
+    "name": "科学通信网络",
+    "description": "学者与学会之间往来的书信、图示、标本、数据表和优先权主张。"
+  },
+  "scientific_illustration_printing": {
+    "name": "科学插图印刷",
+    "description": "面向解剖、植物、机械、地图、仪器与实验结果的印刷技术图像。"
+  },
+  "scientific_instrument_catalogs": {
+    "name": "科学仪器目录",
+    "description": "使仪器名称、价格、刻度和用途标准化的印刷目录与作坊名录。"
+  },
+  "scientific_instrument_making_guilds": {
+    "name": "数学仪器作坊与行会",
+    "description": "按委托以木或金属制作数学仪器（服务航海、测量、天文、计时和实用计算）的商业作坊与行会属匠人。"
+  },
+  "scientific_journals": {
+    "name": "科学期刊",
+    "description": "定期发表观察、实验、书信和争鸣，使科学主张更易流通与审视。"
+  },
+  "scientific_management": {
+    "name": "科学管理",
+    "description": "泰勒编纂的时间研究、标准化作业、流程分析和管理方法体系，用以提升工业生产率。"
+  },
+  "scientific_management_taylorism": {
+    "name": "科学管理（泰勒制）",
+    "description": "将工程原则应用于工厂作业，通过时间-动作研究和工序优化提升效率与劳动生产率。"
+  },
+  "scientific_management_time_studies": {
+    "name": "科学管理时间研究",
+    "description": "用秒表测量与流程分析重新设计工厂作业和劳动配置。"
+  },
+  "scientific_method": {
+    "name": "科学方法",
+    "description": "基于观察、测量、实验、数学推理以及对解释的检验与修正的系统探究路径。"
+  },
+  "scientific_peer_review_practices": {
+    "name": "皇家学会委员会评审",
+    "description": "1753年皇家学会接管《哲学汇刊》后，其论文委员会投票决定是否发表并可将论文交专家审查，创立了学会首个法定同行评议条款。"
+  },
+  "scientific_societies": {
+    "name": "科学学会",
+    "description": "致力于通过共享观察与实验探究自然的组织化团体，以波尔塔的“自然秘密学院”为锚点，后有林琴学会与皇家学会传统。"
+  },
+  "scribe_schools": {
+    "name": "书吏学校",
+    "description": "教授书写、算术、记录保存、法律程式、会计与行政职业的正式训练场所。"
+  },
+  "search_engines": {
+    "name": "搜索引擎",
+    "description": "为万维网资源构建可检索目录或索引的 Web 软件系统，从早期人工目录演进到爬虫、索引、排序与查询引擎。"
+  },
+  "secure_software_development_lifecycle": {
+    "name": "安全软件开发生命周期",
+    "description": "把威胁建模、代码评审、依赖管控、测试与发布安全融入软件开发的工程实践。"
+  },
+  "security_information_event_management": {
+    "name": "安全信息与事件管理",
+    "description": "面向网络防御的集中日志采集、关联分析、告警、审计与事件调查系统。"
+  },
+  "seed_selection": {
+    "name": "选种",
+    "description": "有意留取并补种优良种子，逐渐提升作物的产量、抗逆性、风味与储存品质。"
+  },
+  "selective_animal_breeding": {
+    "name": "选择性动物育种",
+    "description": "依据力量、性情、产奶、羊毛、肉用、速度或抗病性挑选动物进行繁殖。"
+  },
+  "selective_seed_saving": {
+    "name": "选择性留种",
+    "description": "有意保留高产种子，从而加速了作物驯化和地方农家品种的适应。"
+  },
+  "self_healing_civil_infrastructure": {
+    "name": "自愈公共基础设施",
+    "description": "内嵌传感、智能材料与机器人维护，可发现损伤并修复公共工程。"
+  },
+  "self_healing_infrastructure": {
+    "name": "自愈基础设施",
+    "description": "以智能材料和内嵌纳米机器人建造、可自主检测并修复损伤的建筑、道路与公用设施。"
+  },
+  "self_healing_microgrids": {
+    "name": "自愈微电网",
+    "description": "无需中央控制即可隔离故障、重新平衡储能、预测需求、协调可再生并恢复供电的自主本地电网。"
+  },
+  "self_healing_power_grids": {
+    "name": "自愈电网",
+    "description": "以传感与 AI 控制检测故障、隔离失效、重路由供电并优化分布式发电的电网。"
+  },
+  "self_improving_ai": {
+    "name": "自我改进 AI（递归）",
+    "description": "能递归改写自身源码以提升智能的 AI，可能引发智能爆炸或“奇点”。"
+  },
+  "self_organization_algorithms": {
+    "name": "自组织算法",
+    "description": "使系统无需中央控制、仅凭局部互动达成全局秩序或协调的计算方法。"
+  },
+  "self_replicating_space_industry": {
+    "name": "自复制太空工业",
+    "description": "以本地太空资源与机器人、在极少地球供给下复制工具、工厂、栖息设施与能源系统的工业体系。"
+  },
+  "self_replicating_systems": {
+    "name": "自复制系统",
+    "description": "能够自主复制自身的机器或合成生物体。"
+  },
+  "self_supervised_learning": {
+    "name": "自监督学习",
+    "description": "从原始数据中自建预测学习信号、无需人工标注目标的训练方式。"
+  },
+  "semiconductor_devices": {
+    "name": "半导体器件",
+    "description": "用于控制、放大、开关或转换电信号的工程化半导体结型与有源器件。"
+  },
+  "semiconductor_photomasks": {
+    "name": "半导体光掩模",
+    "description": "用于把电路版图投影到涂胶晶圆上的高精度图形掩模或 reticle。"
+  },
+  "semiconductor_process_nodes": {
+    "name": "半导体工艺节点",
+    "description": "由器件架构、密度、光刻、互连和工艺设计规则界定的各代半导体制造。"
+  },
+  "semiconductors": {
+    "name": "半导体",
+    "description": "电导可在导体与绝缘体之间调节的半导体矿物与制备材料，包括早期的整流特性。"
+  },
+  "sensor_fusion_advanced_multi_modal_perception": {
+    "name": "传感融合（高等多模态感知）",
+    "description": "融合多源异构传感器数据，获得优于单一传感器的更准确可靠的感知。"
+  },
+  "sentience_engineering_artificial_consciousness_creation": {
+    "name": "感知工程（人工意识创造）",
+    "description": "以理解并潜在创造人工意识或感知为目标的假想领域。"
+  },
+  "sentient_ai_rights_philosophy_legal_status": {
+    "name": "感知 AI 权利（哲学与法律地位）",
+    "description": "关于感知型人工智能的权利与地位的哲学与法律考量。"
+  },
+  "septic_tank_systems": {
+    "name": "化粪池系统",
+    "description": "就地沉淀固体并将澄清出水排入土壤吸附场的分散式污水处理系统。"
+  },
+  "sequence_to_sequence_attention": {
+    "name": "序列到序列注意力",
+    "description": "把输入序列映射为输出序列、同时学习对相关上下文加注意力的神经架构模式。"
+  },
+  "serfdom": {
+    "name": "农奴制",
+    "description": "中世纪欧洲不自由农民被束缚于领主庄园的法律经济地位，须缴纳地租或服劳役，离开须经许可。"
+  },
+  "serverless_cloud_functions": {
+    "name": "无服务器云函数",
+    "description": "具备计量、API、弹性伸缩、部署工具与托管运维的事件驱动云执行环境。"
+  },
+  "servo_control_systems": {
+    "name": "伺服控制系统",
+    "description": "利用反馈精确控制位置、速度、扭矩或力的闭环执行系统。"
+  },
+  "sewers_and_drainage": {
+    "name": "下水道与排水系统",
+    "description": "修建地下渠道和管道以排出污水与雨水，对密集城市的公共卫生至关重要。"
+  },
+  "sewing_machine": {
+    "name": "缝纫机",
+    "description": "用线缝合织物和其他材料的机器，大幅提升服装与纺织生产的速度和效率。"
+  },
+  "sewing_machine_factories": {
+    "name": "缝纫机工厂",
+    "description": "大规模生产的缝纫机及其零件网络，改变了服装、软装和制鞋业。"
+  },
+  "sfumato_chiaroscuro_techniques": {
+    "name": "列奥纳多晕涂法与明暗对照法",
+    "description": "列奥纳多时代的绘画技法：以烟雾般的明暗过渡和色调对比塑造立体形象。"
+  },
+  "shamanism_animism": {
+    "name": "萨满教与万物有灵论",
+    "description": "以沟通神灵或动物精灵关系的中介者为核心的仪式专家实践，用于治疗、死亡仪式、占卜及其他典礼。"
+  },
+  "shape_memory_alloys": {
+    "name": "形状记忆合金",
+    "description": "在温度或应力变化时恢复预设形状的合金，用于执行器、医疗器械、管接头和自适应系统。"
+  },
+  "shell_bead_drilling": {
+    "name": "贝珠钻孔",
+    "description": "针对贝壳珠饰的细小钻孔、磨蚀与抛光技术，此类珠饰用于装饰、贸易、身份标识和仪式。"
+  },
+  "ship_compass_binnacles": {
+    "name": "罗经柜",
+    "description": "受保护的船载罗盘罩座，提高了恶劣天气下导航的可靠性。"
+  },
+  "ship_rudders_sternpost": {
+    "name": "尾柱舵",
+    "description": "安装于中线的船舵，改善较大型帆船在河流、海岸和开阔水域的操纵控制。"
+  },
+  "shipyard_drydocks": {
+    "name": "船厂干船坞",
+    "description": "由坞池、坡道、起重设备、工场和维修规程组成、供船只出水修理的设施。"
+  },
+  "sickle_harvesting_tools": {
+    "name": "镰刀收割工具",
+    "description": "石质、骨质或金属刃的弧形工具，用于收获时快速割断谷物茎秆。"
+  },
+  "siege_engineering": {
+    "name": "攻城工程",
+    "description": "为攻打破设防阵地设计的器械与野战工事，包括坡道、坑道作业、攻城槌、攻城塔及后来的投射炮械。"
+  },
+  "siege_towers_battering_rams": {
+    "name": "攻城塔与攻城槌",
+    "description": "攻城塔是逼近并冲击要塞墙体的大型移动结构，攻城槌则是撞破城墙的重型器械。"
+  },
+  "signal_processing_advanced_real_time": {
+    "name": "信号处理（高等实时）",
+    "description": "面向 AI、通信与脑机接口、实时分析、修改与合成信号的复杂技术。"
+  },
+  "silicon_photonics_interconnects": {
+    "name": "硅光互连",
+    "description": "与硅工艺集成的光通信器件，在芯片、封装和数据中心系统之间传输数据。"
+  },
+  "silicon_planar_process": {
+    "name": "硅平面工艺",
+    "description": "以二氧化硅掩蔽与表面钝化制造可靠、可量产硅器件的制造方法。"
+  },
+  "silver_nitrate_chemistry": {
+    "name": "银盐光化学",
+    "description": "对感光硝酸银和卤化银盐在物影成像及后来银盐摄影工艺中的实验运用与化学理解。"
+  },
+  "simple_windbreak_shelters": {
+    "name": "Garvald Burn 简易挡风墙",
+    "description": "灶旁由柱洞与桩孔围成的半圆，被解读为中石器时代晚期一处小型打石场地的轻便挡风屏障。"
+  },
+  "single_cell_sequencing": {
+    "name": "单细胞测序",
+    "description": "测量单个细胞遗传或转录组信息、揭示隐藏生物学变异的测序方法。"
+  },
+  "single_guide_rna_design": {
+    "name": "单链向导 RNA 设计",
+    "description": "设计合成 Cas9 兼容的单链向导 RNA，融合靶向与支架功能，引导 Cas9 到达目标基因组位点。"
+  },
+  "skyscrapers": {
+    "name": "摩天大楼",
+    "description": "依托钢构架、钢筋混凝土和电梯实现的高层建筑。"
+  },
+  "skyscrapers_steel_frame": {
+    "name": "钢构架摩天大楼",
+    "description": "以内部铁钢骨架取代承重外墙的高层建筑建造方式，以芝加哥家庭保险大楼为代表。"
+  },
+  "slam_robotics": {
+    "name": "SLAM 机器人",
+    "description": "同步定位与建图方法：机器人在估计自身位置的同时构建环境地图。"
+  },
+  "slavery_chattel": {
+    "name": "动产奴隶制",
+    "description": "一种将被奴役者视为财产或动产的法律与经济制度，其买卖、所有权、逃奴追回和身份规则由法律强制执行。"
+  },
+  "slide_rule": {
+    "name": "计算尺",
+    "description": "利用对数刻度的模拟计算工具，可快速进行乘除、乘方和工程估算。"
+  },
+  "sling": {
+    "name": "投石索",
+    "description": "一种人力抛射武器，用绳索和中央兜囊把石块或其他弹药甩出，用于狩猎、警戒和战斗。"
+  },
+  "sling_projectiles": {
+    "name": "投石索弹丸",
+    "description": "标准化的石质、陶质或铸造金属投石索弹药，用于狩猎、警戒和有组织战争。"
+  },
+  "slow_sand_filtration": {
+    "name": "慢滤池",
+    "description": "具有生物活性的砂床过滤方法，可去除市政饮用水的浊度与病原体。"
+  },
+  "smallsat_cubesats": {
+    "name": "小卫星与立方星",
+    "description": "降低卫星研制成本、支撑快速教育、商业与科学任务的标准化小型航天器。"
+  },
+  "smart_grid_controls": {
+    "name": "智能电网控制",
+    "description": "用于平衡分布式电源、储能与需求的数字控制、传感、预测、通信与自动化。"
+  },
+  "smart_grids": {
+    "name": "智能电网",
+    "description": "配备传感、通信、自动化与分析、用于监测、控制、可靠性与分布式资源的电网。"
+  },
+  "smart_materials_self_healing": {
+    "name": "智能与自修复材料",
+    "description": "能响应环境刺激或自主修复的材料。"
+  },
+  "smart_water_networks": {
+    "name": "智慧水务网络",
+    "description": "管理公用管网漏损、压力、水质与需求的联网传感、计量、分析与控制系统。"
+  },
+  "smartphone_app_stores": {
+    "name": "智能手机应用商店",
+    "description": "整合移动应用分发、开发者发布、支付处理、审核、更新、身份与平台治理的大众智能手机软件市场。"
+  },
+  "smartphone_gps_navigation": {
+    "name": "智能手机 GPS 导航",
+    "description": "利用卫星接收、传感器、地图、网络和交通数据的移动地图与逐向导航。"
+  },
+  "smartphones": {
+    "name": "智能手机",
+    "description": "具备计算机多种功能的移动电话，通常带触摸屏界面、互联网接入和可运行下载应用的操作系统。"
+  },
+  "smelting_basic": {
+    "name": "基础冶炼",
+    "description": "利用化学还原剂和鼓风助燃的高温火，从矿石中提取铜等基础金属。"
+  },
+  "smoked_food_preservation": {
+    "name": "加图的盐腌烟熏火腿",
+    "description": "记载于加图的罗马腌腊工艺：火腿盐腌十二天，风干后涂油，熏制两天，最后以油和醋处理完成。"
+  },
+  "smokeless_powder": {
+    "name": "无烟火药",
+    "description": "击发时几乎不产生烟的枪械发射药，大幅改善战场能见度和枪械性能。"
+  },
+  "soap_making_basic": {
+    "name": "美索不达米亚肥皂制作",
+    "description": "美索不达米亚的书面配方，记载了用油脂和碱性材料有意制作类肥皂清洁剂的过程。"
+  },
+  "social_media": {
+    "name": "社交媒体",
+    "description": "让人们在网络社区中创建个人资料、分享媒体并使社交连接可见的基于 Web 的社交网络与社区发布服务。"
+  },
+  "social_media_content_moderation": {
+    "name": "平台内容审核体系",
+    "description": "管理社交媒体规模言论的平台规则、用户举报、处置队列、审核流程、通知与申诉。"
+  },
+  "social_stratification": {
+    "name": "早期社会分化",
+    "description": "新石器时代狩猎采集者与农人之间偶发且常为短暂的财富或地位差异，出现在持久的阶层等级普及之前。"
+  },
+  "socialism_early_theories": {
+    "name": "社会主义（早期理论）",
+    "description": "作为对工业资本主义的回应而发展的政治经济理论，主张生产资料的社会所有与民主控制。"
+  },
+  "sociology_classical_theories_durkheim_weber": {
+    "name": "古典社会学",
+    "description": "作为正式学科的社会学的奠基，形成关于社会事实、社会行动与理性化的主要理论框架（如涂尔干、韦伯）。"
+  },
+  "sociology_early": {
+    "name": "社会学（早期）",
+    "description": "以系统研究社会与社会模式为名的学科，受十九世纪早期工业化、城市增长和实证主义方法塑造。"
+  },
+  "software_defined_networking": {
+    "name": "软件定义网络",
+    "description": "分离控制面与转发面、以软件控制器编程分组转发行为的网络架构。"
+  },
+  "software_engineering": {
+    "name": "软件工程",
+    "description": "把工程原则系统地应用于软件设计、开发与维护。"
+  },
+  "software_supply_chain_security": {
+    "name": "软件供应链安全",
+    "description": "保障依赖、构建系统、来源、代码签名、包仓库和部署管线的实践。"
+  },
+  "solar_photovoltaics": {
+    "name": "太阳能光伏",
+    "description": "直接把阳光转为电力的半导体器件，用于计算器、卫星、屋顶和公用事业级发电。"
+  },
+  "solar_power": {
+    "name": "太阳能发电",
+    "description": "利用光伏电池把阳光能量转化为电力。"
+  },
+  "solid_state_drives_ssd_flash_memory": {
+    "name": "固态硬盘（SSD 闪存）",
+    "description": "以集成电路存储单元持久保存数据的数据存储设备，通常采用闪存。"
+  },
+  "sovereignty_theory_bodin": {
+    "name": "主权理论（博丹）",
+    "description": "让·博丹阐发的政治概念：国家在其领土内拥有绝对且永久的力量。该理论为现代中央集权民族国家提供了哲学基础。"
+  },
+  "space_based_solar_power": {
+    "name": "天基太阳能",
+    "description": "面向持续清洁能源的在轨太阳能阵列、无线输电、整流天线、机器人装配、并网与太空物流。"
+  },
+  "space_based_solar_power_orbital_arrays": {
+    "name": "天基太阳能（轨道阵列）",
+    "description": "以大型卫星阵列在太空收集太阳能并传输回地球。"
+  },
+  "space_colonization": {
+    "name": "太空殖民",
+    "description": "向月球、火星或其他目的地的长期离地人类定居与基础设施演进，逐步走向自持运行。"
+  },
+  "space_elevators": {
+    "name": "太空电梯",
+    "description": "连接行星表面与轨道、降低进入太空成本的假想巨型结构。"
+  },
+  "space_flight": {
+    "name": "太空飞行",
+    "description": "飞越地球大气层之外。"
+  },
+  "space_resource_refineries": {
+    "name": "太空资源精炼厂",
+    "description": "把月球、小行星或火星材料转化为燃料、金属、水和建造原料的机器人加工厂。"
+  },
+  "space_shuttle_reusable_spacecraft": {
+    "name": "航天飞机（可复用航天器）",
+    "description": "部分可重复使用的近地轨道航天器系统的发展：垂直发射、滑翔着陆。"
+  },
+  "space_stations": {
+    "name": "空间站",
+    "description": "可供乘员驻留、运营与研究的在轨结构，始于苏联礼炮一号。"
+  },
+  "space_telescopes": {
+    "name": "空间望远镜",
+    "description": "把望远镜置于大气畸变与吸收之上的在轨天文台。"
+  },
+  "spacecraft_guidance_navigation_control": {
+    "name": "航天器制导、导航与控制",
+    "description": "确定并控制航天器位置、姿态与轨迹的传感器、执行机构、计算机与算法。"
+  },
+  "spectacles_eyeglasses": {
+    "name": "眼镜",
+    "description": "装于镜架中的凸透镜，矫正老花（远视），显著延长了学者、抄工和匠人的工作年限。"
+  },
+  "speech_recognition_deep_learning": {
+    "name": "深度学习语音识别",
+    "description": "用于听写、助手、字幕、呼叫中心和无障碍工具的神经转写与语音理解系统。"
+  },
+  "spinning_wheel": {
+    "name": "纺车",
+    "description": "使纺纱成线/纱过程机械化的装置，较纺坠大幅提高纺织生产率。"
+  },
+  "sram_cache_memory": {
+    "name": "SRAM 缓存内存",
+    "description": "用作高速缓存及后来处理器缓存的静态随机存取集成电路存储。"
+  },
+  "stained_glass_window_artistry": {
+    "name": "彩绘玻璃窗工艺",
+    "description": "以彩色玻璃制作装饰窗（尤其用于大教堂和教堂）的技艺，用以呈现宗教叙事。"
+  },
+  "stainless_steel": {
+    "name": "不锈钢",
+    "description": "耐腐蚀铬钢合金，锚定于哈里·布雷利1913年在谢菲尔德的不锈钢及此后铬钝化膜防腐的各牌号。"
+  },
+  "standard_legal_forms": {
+    "name": "标准法律文书",
+    "description": "可复用的法律文书格式与条款套式，涵盖租赁、买卖、借贷、遗嘱、诉状及相关契约。"
+  },
+  "standard_time_zones": {
+    "name": "标准铁路时区",
+    "description": "北美铁路与社区采纳的区域标准时间，取代数十种互不兼容的地方时和铁路时刻。"
+  },
+  "standard_weights_market_inspection": {
+    "name": "雅典市场度量衡检查",
+    "description": "雅典市场设置官定标准量器与加盖印记的复制件，并以公开执法规则要求商贩使用准确的度量衡。"
+  },
+  "standardized_coinage": {
+    "name": "标准化铸币",
+    "description": "由国家或城邦发行、重量和面值规范并带有标记的金属货币，用于税收、薪饷、贸易与储蓄。"
+  },
+  "standardized_road_milestones": {
+    "name": "标准化道路里程碑",
+    "description": "罗马用于标示里程、记载筑路者与修缮情况、并作为路网行政参照点的里程碑及铭文。"
+  },
+  "standardized_screw_threads": {
+    "name": "标准化螺纹",
+    "description": "统一的螺钉螺栓螺纹体系，使机械互换、维修、量规和大规模生产成为可能。"
+  },
+  "standardized_typefounding": {
+    "name": "标准化铸字",
+    "description": "可复用字模、刻字冲标准与铸造作坊规范，保障印刷产出的稳定性。"
+  },
+  "standardized_weights_and_measures": {
+    "name": "标准化度量衡",
+    "description": "共享的度量单位（如美索不达米亚以谢克尔为基准的砝码），支撑称量、贸易、行政和配给。"
+  },
+  "star_fort_trace_italienne": {
+    "name": "棱堡（意大利式要塞）",
+    "description": "火炮使高大砖石墙体变得脆弱之后发展出的低矮棱堡炮台要塞，以斜角棱线减少死角并支持侧射火力。"
+  },
+  "starlifting": {
+    "name": "采星工程",
+    "description": "从恒星提取物质、分选为组成元素并用于工业目的的巨型结构过程。"
+  },
+  "state_armories": {
+    "name": "国家武库",
+    "description": "由国家控制的作坊与军械库，为正规军队制造、标记、储存、运输和发放标准化武器。"
+  },
+  "state_grain_price_controls": {
+    "name": "国家粮价管制",
+    "description": "国家通过行政定价、粮食储备和分配规则等手段来稳定城市食品供应的管制制度。"
+  },
+  "state_grain_reserves": {
+    "name": "国家粮食储备",
+    "description": "用于赈灾、军需、城市供应和平抑粮价的公共储粮及其管理体系。"
+  },
+  "state_medical_supply_stores": {
+    "name": "罗马军医物资库",
+    "description": "为罗马军医院和行军营地统一筹供手术器械、草药、药膏、处方卷轴、床位及野战医疗所医疗物资的体系。"
+  },
+  "statistical_life_tables": {
+    "name": "统计生命表",
+    "description": "以表格呈现的死亡与存活规律，用于年金、保险、公共卫生和人口分析。"
+  },
+  "statistics_advanced_data_analysis": {
+    "name": "统计学（高级数据分析）",
+    "description": "用于分析与解读大型数据集的统计方法的发展，包括概率论、回归和相关。"
+  },
+  "steam_engine": {
+    "name": "蒸汽机",
+    "description": "以蒸汽为工质做机械功的热机，始于实用的大气压抽水机，后经旋转式蒸汽机改进。"
+  },
+  "steam_fire_engines": {
+    "name": "蒸汽消防车",
+    "description": "以蒸汽驱动的消防泵装置，经水带供水扑救建筑火灾。"
+  },
+  "steam_shovel_excavators": {
+    "name": "蒸汽挖掘机",
+    "description": "面向运河、矿山、铁路、地基、采石场和大型公共工程的蒸汽动力土方机械。"
+  },
+  "steam_turbine_power_generation": {
+    "name": "汽轮机发电",
+    "description": "以蒸汽高效产生旋转运动的涡轮机，主要用于电厂电力生产。"
+  },
+  "steamship_refrigerated_cargo": {
+    "name": "蒸汽船冷藏货运",
+    "description": "为肉类、水果、乳品和鱼类全球运输配备的保温货舱与机械冷却。"
+  },
+  "steel_production": {
+    "name": "钢生产",
+    "description": "受控的铁碳钢生产，锚定于亨茨曼1740年代在谢菲尔德的坩埚/铸钢工艺；后来贝塞麦法与平炉法代表各自的大规模炼钢步骤。"
+  },
+  "steel_ships": {
+    "name": "钢船",
+    "description": "以钢质船体建造船舶，造就更大、更强、更耐久并可由高效蒸汽机驱动的船只。"
+  },
+  "stem_cell_research": {
+    "name": "干细胞研究",
+    "description": "研究可分化为多种细胞类型的未分化或部分分化细胞，面向再生医学应用。"
+  },
+  "sterile_injectable_drugs": {
+    "name": "无菌注射剂",
+    "description": "需要灭菌、专用容器和受控临床给药的无菌制备密封注射药物。"
+  },
+  "stirrups": {
+    "name": "马镫",
+    "description": "固定骑手双脚的装置，为持枪剑的骑乘作战提供更稳固的战斗平台。"
+  },
+  "stock_exchange_early": {
+    "name": "早期证券交易所",
+    "description": "可转让公司股份的有组织证券市场，以1602年起阿姆斯特丹对荷兰东印度公司股票的交易为锚点。"
+  },
+  "stock_exchange_modern": {
+    "name": "现代证券交易所",
+    "description": "依托电报通信、大规模交易公司股票债券的有组织受监管金融市场。"
+  },
+  "stock_ticker_systems": {
+    "name": "股票行情电报机",
+    "description": "通过电报联机、近实时分发证券价格的机器，加速了现代金融市场。"
+  },
+  "stoicism": {
+    "name": "斯多葛学派",
+    "description": "主张德性以知识为基础、人应顺应神圣理性（逻各斯，Logos）而生活的哲学流派。"
+  },
+  "stone_grinding_slabs": {
+    "name": "石磨盘",
+    "description": "用于研磨野生谷物、种子、颜料、药物和矿物粉末的扁平石器。"
+  },
+  "stone_paved_courtyards": {
+    "name": "哥贝克力石阵巨石围栏",
+    "description": "前陶新石器时代带有雕刻T形石柱的纪念性石灰岩围栏，建于哥贝克力石阵，用于公共仪式活动。"
+  },
+  "stone_tool_making": {
+    "name": "石器制作",
+    "description": "通过打击剥片用石头制作基础工具（如手斧、砍砸器、刮削器）。"
+  },
+  "stormwater_drainage_systems": {
+    "name": "雨水排放系统",
+    "description": "为收集径流、减少街道内涝设计的城市雨水沟、涵洞、滞洪池和渠道。"
+  },
+  "streaming_music_platforms": {
+    "name": "流媒体音乐平台",
+    "description": "依托曲库、推荐、版权、支付与内容分发的订阅制和广告支持音乐服务。"
+  },
+  "structure_based_drug_design": {
+    "name": "基于结构的药物设计",
+    "description": "以三维分子结构指导结合、优化与选择性的药物设计路径。"
+  },
+  "submarine_fiber_optic_cables": {
+    "name": "海底光缆",
+    "description": "配备中继器、登陆站和管理系统、构成洲际互联网骨干的海底光缆系统。"
+  },
+  "submarine_technology_advanced": {
+    "name": "潜艇技术（高等）",
+    "description": "面向探索、资源开采或长期驻留（可能为聚变动力）的高度先进潜水器。"
+  },
+  "submarines_early_military_naval": {
+    "name": "军用潜艇",
+    "description": "面向海战的潜航器发展，水面以柴油机或汽油机推进、水下以电动机航行。"
+  },
+  "superalloys": {
+    "name": "镍基高温合金",
+    "description": "为高温强度、抗蠕变、耐腐蚀和涡轮性能而设计的合金。"
+  },
+  "supercomputing": {
+    "name": "超级计算",
+    "description": "不计成本追求最高性能的科学计算机：从早期定制机到后来的向量与大规模并行系统，用于解决计算密集型科学与工程问题。"
+  },
+  "superconductors_early": {
+    "name": "早期超导体",
+    "description": "卡末林·昂内斯1911年的实验发现：纯汞在液氦温度下电阻几乎归零，确立首个被观察到的超导态。"
+  },
+  "superconductors_high_temp": {
+    "name": "高温超导体",
+    "description": "临界温度高于早期金属超导体的陶瓷等非常规超导材料，始于贝德诺尔茨与米勒1986年的钡镧铜氧发现。"
+  },
+  "supersonic_transport": {
+    "name": "超音速客机",
+    "description": "为超过音速飞行而设计的民用飞机，如协和式。"
+  },
+  "supervised_learning_pipelines": {
+    "name": "监督学习管线",
+    "description": "涵盖数据标注、特征提取、模型训练、性能验证与预测器部署的工作流。"
+  },
+  "supply_chain_management_software": {
+    "name": "早期供应链计划软件",
+    "description": "在后来的 ERP 套件之前协调运营流程的计算机化物料需求、库存、路径与物流计划系统。"
+  },
+  "support_vector_machines": {
+    "name": "支持向量机",
+    "description": "寻找最大间隔决策边界、常借核函数实现非线性分类的监督学习模型。"
+  },
+  "surgical_advances_pare": {
+    "name": "外科进步（帕雷）",
+    "description": "安布卢瓦兹·帕雷的外科创新：以结扎血管取代粗暴的烧灼止血、改进伤口治疗并设计先进义肢。"
+  },
+  "surgical_instrument_sets": {
+    "name": "手术器械套件",
+    "description": "医生和军医使用的手术刀、镊、探针、钩、针、烧灼器械及其配套收纳箱。"
+  },
+  "surgical_robotics": {
+    "name": "手术机器人",
+    "description": "通过精准器械定位、遥操作、成像与运动缩放辅助手术的机器人系统。"
+  },
+  "surveyed_cadastral_maps": {
+    "name": "地籍图",
+    "description": "经测绘绘制的地块、边界与权属地图，用于征税、继承、灌溉和法律纠纷。"
+  },
+  "surveyed_land_parcels": {
+    "name": "测量地块",
+    "description": "经测量并登记的地块，用于征税、继承、灌溉用水权和法律纠纷。"
+  },
+  "surveyed_road_maps": {
+    "name": "实测道路与行政地图",
+    "description": "记录实测道路、土地划分、城镇、公共财产和登记册的测绘行政地图，供罗马国家管理使用。"
+  },
+  "surveying": {
+    "name": "测量学",
+    "description": "确定点位的平面或三维位置及其间距离与角度的技术，对工程建造和土地权属至关重要。"
+  },
+  "surveying_cadastral_states": {
+    "name": "国家地籍测量",
+    "description": "把实测地块、土地权属、税收和行政改革联系起来的国家地籍测绘计划。"
+  },
+  "surveying_theodolite_early_precision": {
+    "name": "经纬仪（早期精密）",
+    "description": "早期近代精密经纬仪：结合瞄准望远镜、整平安平经纬座、刻度盘和游标读数，测量水平与竖直角度。"
+  },
+  "suspension_bridges": {
+    "name": "钢缆悬索桥",
+    "description": "以纺制钢缆、桥塔和锚碇建造大跨桥梁，使宽阔江河与海湾的跨越成为可能。"
+  },
+  "swarm_robotics_advanced": {
+    "name": "高等集群机器人",
+    "description": "受社会性昆虫启发、以大量相对简单的机器人协同完成复杂任务。"
+  },
+  "symbolic_ai_expert_systems": {
+    "name": "符号 AI 与专家系统",
+    "description": "把人类专业知识编码为符号、推理规则和知识库的规则式 AI 系统。"
+  },
+  "synthetic_ammonia_research": {
+    "name": "合成氨研究",
+    "description": "确立由氮和氢合成氨并为其工业化放大做好准备的高压化学与工程研究。"
+  },
+  "synthetic_biology": {
+    "name": "合成生物学",
+    "description": "融合生物构建方法、DNA 合成、建模与标准化，对生物部件、回路、途径、细胞和生物体进行工程化。"
+  },
+  "synthetic_culture_generation": {
+    "name": "合成文化生成",
+    "description": "AI 辅助的音乐、故事、游戏、仪式、媒介与文化记忆的创作、保存、混编、本地化与仿真。"
+  },
+  "synthetic_data_factories": {
+    "name": "合成数据工厂",
+    "description": "面向训练、仿真、隐私与测试、自动生成、评估、过滤并刷新任务数据的系统。"
+  },
+  "synthetic_dyes": {
+    "name": "合成染料",
+    "description": "以化学来源制造人工色素，革新了纺织工业并开启有机化学工业。"
+  },
+  "synthetic_ecosystem_restoration": {
+    "name": "合成生态修复",
+    "description": "借助工程生物、碳移除、土壤重建、水管理与生物多样性监测的 AI 引导生态修复。"
+  },
+  "synthetic_food_bioreactors": {
+    "name": "合成食品生物反应器",
+    "description": "以精准发酵与细胞培养大规模生产蛋白、脂肪、风味物和主食。"
+  },
+  "synthetic_lifeforms_designer_organisms": {
+    "name": "合成生命体（定制生物）",
+    "description": "由非生命组件创造全新人工生命体，承担废物处理、资源合成或地球化等专门任务。"
+  },
+  "synthetic_materials_advanced": {
+    "name": "先进合成材料",
+    "description": "通过高分子化学发展出尼龙、特氟龙、凯夫拉等高性能合成材料。"
+  },
+  "synthetic_meat_distribution": {
+    "name": "合成肉配送",
+    "description": "面向培养肉与精准发酵食品的供应链、安全体系、零售形态、冷链与标签。"
+  },
+  "synthetic_organs_bio_printing": {
+    "name": "人工器官与生物打印",
+    "description": "制造人工器官，或以生物材料进行三维打印以产出组织与器官。"
+  },
+  "synthetic_rubber_polymer_chemistry": {
+    "name": "合成橡胶",
+    "description": "通过单体聚合制造人工弹性体以替代或补充天然橡胶，始于早期合成橡胶及后来的工业橡胶家族。"
+  },
+  "system_on_chip_soc": {
+    "name": "片上系统",
+    "description": "在单一裸片上整合处理器核心、内存控制器、接口、加速器和外设的集成电路。"
+  },
+  "systems_biology": {
+    "name": "系统生物学",
+    "description": "把生物网络、通路和表型作为相互作用系统进行计算与数学建模。"
+  },
+  "systems_engineering": {
+    "name": "系统工程",
+    "description": "面向复杂技术系统全生命周期设计、集成、测试与管理的跨学科方法。"
+  },
+  "tablet_pressing": {
+    "name": "压片工艺",
+    "description": "把粉末机械压制成标准化口服剂型，实现可重复给药与大规模分发。"
+  },
+  "talens": {
+    "name": "TALEN 技术",
+    "description": "把转录激活子样效应子 DNA 结合结构域与 FokI 核酸酶结构域融合、实现靶向基因组切割的工程蛋白。"
+  },
+  "tally_marks": {
+    "name": "刻痕记数",
+    "description": "在骨头和木棍上刻划的切口，用作正式文字出现之前耐久的计数、记事或可能的记数辅助。"
+  },
+  "tax_accounting": {
+    "name": "税收核算",
+    "description": "早期国家用于追踪税收、贡赋、劳役义务、交付、欠缴和豁免的行政记录与计算。"
+  },
+  "tax_seal_impressions": {
+    "name": "税收封泥印记",
+    "description": "用黏土、蜡或铅压制的封印，用于核验税据、货物和官方命令的真伪。"
+  },
+  "taxation_and_tribute": {
+    "name": "税收与贡赋",
+    "description": "国家、神庙和地方当局对货物、劳力、岁入、通行费或关税的强制征收，最早由公元前四千纪末至三千纪初尼罗河谷的王室定期征敛记录所证实。"
+  },
+  "technical_drawing_standards": {
+    "name": "技术制图规范",
+    "description": "面向机械装置与建筑的早期近代技术图示规范：雕版图版、剖视图、多视点、部件标注和文字说明。"
+  },
+  "technical_patent_examination": {
+    "name": "专业化专利审查",
+    "description": "授权前由专业审查员对专利申请的审查，评估新颖性、实用性、说明书、附图、模型、在先出版物和抵触申请。"
+  },
+  "techno_gaianism": {
+    "name": "技术盖亚主义",
+    "description": "由专用 AGI 运行、以稳定性、生物多样性和长期健康优化地球生态的全球管理系统。"
+  },
+  "telecommunications": {
+    "name": "电信",
+    "description": "以电子手段（广播、电视、电话网络）远距离传输信息。"
+  },
+  "telegraph": {
+    "name": "电报",
+    "description": "以通断电信号序列远距离传送文字信息，使用摩尔斯电码等编码脉冲。"
+  },
+  "telegraph_cables_transoceanic": {
+    "name": "越洋电报电缆",
+    "description": "铺设跨洋海底通信电缆，以古塔胶等材料绝缘，实现洲际电报通信。"
+  },
+  "telegraph_news_tickers": {
+    "name": "电报新闻编辑室",
+    "description": "通过电报网络接收并转发新闻、股市行情和天气信息的订阅制新闻编辑室。"
+  },
+  "telemedicine_platforms": {
+    "name": "远程医疗平台",
+    "description": "运用视频、消息、记录、诊断、排班、远程监测与受监管健康流程的临床照护系统。"
+  },
+  "telemedicine_video_consults": {
+    "name": "交互式视频远程诊疗",
+    "description": "经双向电视与电信链路进行的实时远程检查、诊断、心理治疗与临床会诊。"
+  },
+  "telephone": {
+    "name": "电话",
+    "description": "使用户相距过远、无法直接听到对方声音时仍能通话的电信设备。"
+  },
+  "telephone_directory_services": {
+    "name": "电话查号服务",
+    "description": "面向电话网络的号码簿、话务员协助、商户名录、更新与印刷参考体系。"
+  },
+  "telephone_exchange": {
+    "name": "电话交换局",
+    "description": "互连电话用户线路、使任意用户可呼叫任意他方的系统，超越简单的点对点连接。"
+  },
+  "telephone_switchboards": {
+    "name": "电话交换台",
+    "description": "把电话用户接入可扩展语音网络的手动与机电交换中心。"
+  },
+  "telescope": {
+    "name": "望远镜",
+    "description": "以镜筒组合透镜使远处物体看起来更近的折射光学仪器，1608年记录于荷兰共和国，1609-1610年迅速被改造用于天文观测。"
+  },
+  "television": {
+    "name": "电视",
+    "description": "传输图像与声音并在屏幕上重现的系统，是强大的大众媒介。"
+  },
+  "terra_sigillata_pottery": {
+    "name": "印纹红陶（Terra Sigillata）",
+    "description": "量产的罗马优质餐具，表面覆有特征性的光亮红色陶衣，常用模具装饰，是罗马贸易的重要标志物。"
+  },
+  "terraced_hillside_farming": {
+    "name": "梯田耕作",
+    "description": "通过修建挡土墙和阶梯状梯田，在坡地上控制水土侵蚀与水流。"
+  },
+  "terraforming": {
+    "name": "地球化工程",
+    "description": "把行星的大气、温度与生态改造为类地环境的假想过程。"
+  },
+  "textile_dye_guilds": {
+    "name": "纺织染色行会",
+    "description": "受行规管制的专业化行会，统一管理媒染剂、染缸、染料、色彩标准、织物整理与贸易稽查等事务。"
+  },
+  "textiles_weaving": {
+    "name": "加泰土丘韧皮纤维纺织",
+    "description": "新石器时代加泰土丘居民用捻接的本地树木韧皮纤维织造布。"
+  },
+  "the_reformation": {
+    "name": "宗教改革",
+    "description": "使西方基督教分裂的重大宗教运动，由马丁·路德和约翰·加尔文等人发起，因神学争端而起、借印刷术传播，挑战了教皇与天主教会的权威。"
+  },
+  "theater": {
+    "name": "剧场",
+    "description": "戏剧演出、舞台技艺及专门演出建筑的发展，服务于公共娱乐与文化表达。"
+  },
+  "theater_stage_machinery": {
+    "name": "剧场舞台机械",
+    "description": "古希腊舞台设施与装置，包括木质景屋（skene）、高起舞台、轮式平台（ekkyklema）和吊升起重机（mechane）。"
+  },
+  "theater_ticket_sales": {
+    "name": "剧场售票",
+    "description": "代币门票、座位分配、节庆入场、赞助人机制和公共管理，支撑大型演出场馆的运营。"
+  },
+  "theater_ticketing_systems": {
+    "name": "商业剧场售票",
+    "description": "伊丽莎白与詹姆斯时代伦敦用于管理大型商业公共剧场观众的分级付费入场与座席分区。"
+  },
+  "theory_of_contagion_fracastoro": {
+    "name": "传染学说（弗拉卡斯托罗）",
+    "description": "吉罗拉莫·弗拉卡斯托罗的论断：疾病可由微小的、不可见的粒子（“传染种子”）经直接接触、间接接触或远距离传播。细菌理论的先声。"
+  },
+  "theory_of_evolution_darwin": {
+    "name": "进化论（达尔文）",
+    "description": "以自然选择作用于可遗传变异并历经地质时间来解释生物多样性的科学理论。"
+  },
+  "thermodynamics": {
+    "name": "热力学",
+    "description": "物理学分支，研究热、功、温度及其与能量、辐射和物质物理性质的关系。"
+  },
+  "thought_control_interfaces_direct_neural_command": {
+    "name": "意念控制接口（直接神经指令）",
+    "description": "允许以意念直接控制复杂外部系统与设备的高级脑机接口。"
+  },
+  "threshing_and_winnowing": {
+    "name": "新石器时代希腊打谷橇",
+    "description": "由牲畜牵引、镶嵌打制石刃的打谷橇，依据希腊早期新石器时代工具上典型的谷物与土壤磨痕推断而来。"
+  },
+  "through_silicon_vias": {
+    "name": "硅通孔",
+    "description": "蚀刻贯穿硅裸片或中介层的垂直电气连接，支撑密集的3D与2.5D芯片集成。"
+  },
+  "tidal_mills": {
+    "name": "潮汐磨坊",
+    "description": "在沿海与河口聚落，利用潮水涨落来研磨谷物或驱动机械的磨坊。"
+  },
+  "timber_framing": {
+    "name": "木构架结构",
+    "description": "以榫卯接合构成的木质结构框架，广泛用于住宅、谷仓、矿井、磨坊、桥梁及临时工程。"
+  },
+  "time_division_multiplexing": {
+    "name": "时分复用",
+    "description": "把多路数字信道交错插入共享传输链路重复时隙的技术。"
+  },
+  "tin_working": {
+    "name": "锡加工",
+    "description": "锡的提炼与加工；锡虽稀有，却是制造青铜的必需成分，常需长距离贸易获得。"
+  },
+  "tissue_targeted_editor_delivery": {
+    "name": "组织靶向编辑器递送",
+    "description": "以可控剂量与时长把 CRISPR 编辑器送达特定器官、细胞类型或病变组织的递送系统。"
+  },
+  "tls_ssl_secure_transport": {
+    "name": "TLS/SSL 安全传输",
+    "description": "为 Web、邮件、API 及其他互联网服务认证端点并加密传输数据的协议。"
+  },
+  "toll_roads_and_bridges": {
+    "name": "道路通行费与养护经费",
+    "description": "罗马以税收、通行费、市民义务、契约以及公共或皇帝资助来筹措道路养护经费的体制。"
+  },
+  "tool_using_language_models": {
+    "name": "工具使用型语言模型",
+    "description": "连接 API、代码执行、搜索、检索、计算器或外部软件工具的语言模型。"
+  },
+  "torpedoes_self_propelled_naval_weapon": {
+    "name": "自航鱼雷",
+    "description": "攻击舰船的水下自航爆炸装置，最初由压缩空气推进，后用热机。"
+  },
+  "torsion_springs": {
+    "name": "扭力弹簧",
+    "description": "以紧密绞合的筋腱或发束制成的成对扭簧，为希腊化时代发射弩箭和石弹的扭力炮械提供动力。"
+  },
+  "touchscreen_interfaces": {
+    "name": "触摸屏界面",
+    "description": "把电子传感与视觉显示结合、直接以手指操作的触控显示输入设备。"
+  },
+  "town_clock_curfew_bells": {
+    "name": "城镇时钟与宵禁钟声",
+    "description": "面向全城的公共报时信号，用于规范城门启闭、市场开闭、作息时间、防火、法庭、礼拜及宵禁制度。"
+  },
+  "town_market_squares": {
+    "name": "早期城市市场",
+    "description": "反复出现的城市交易场所与交换枢纽，货物在此称量交换，依托街道、开阔空地、街区等本地化场所，而非统一的市民广场形制。"
+  },
+  "town_wall_maintenance_taxes": {
+    "name": "城墙维护税",
+    "description": "专门用于城防工事养护的地方税收、劳役摊派、巡查检视与物料储备。"
+  },
+  "town_watch_and_policing": {
+    "name": "城镇守望与治安",
+    "description": "在不断扩大的城镇中，以有组织的夜间守望、城门守卫、巡逻和市政执法维护公共安全。"
+  },
+  "trade_fairs": {
+    "name": "贸易集市",
+    "description": "在一年中特定时间举办的大型有组织集市，吸引各地商人批量交易货物并结算账款。"
+  },
+  "trade_guilds_collegia": {
+    "name": "行会（Collegia）",
+    "description": "工匠或商人的正式结社，监管本行业在当地的活动，常兼具社交与宗教职能。"
+  },
+  "trade_leagues": {
+    "name": "商业同盟",
+    "description": "由商人行会与市镇结成的正式联盟（如汉萨同盟），旨在保护共同贸易利益、垄断商路并行使政治权力。"
+  },
+  "trade_routes": {
+    "name": "贸易路线",
+    "description": "建立区域性的陆路与海路网络，以物物交换和长距离交换剩余货物与稀有材料。"
+  },
+  "traffic_signal_systems": {
+    "name": "交通信号系统",
+    "description": "面向道路交叉口的早期市政电动停行信号，运用灯具、电路、警力控制和应急联动。"
+  },
+  "transformer_architectures": {
+    "name": "Transformer 架构",
+    "description": "基于注意力、可高效扩展到文本、代码、图像、音频与多模态数据的神经网络架构。"
+  },
+  "transhumanist_philosophy": {
+    "name": "超人类主义",
+    "description": "主张通过先进技术的开发与运用增强人类境况的哲学思想运动。"
+  },
+  "transistors": {
+    "name": "晶体管",
+    "description": "用于放大或开关电子信号与电功率、取代真空管的半导体器件。"
+  },
+  "transoceanic_news_agencies": {
+    "name": "跨洋通讯社",
+    "description": "面向报纸、海底电缆、金融和政府收集、标准化并出售快讯的通讯社组织。"
+  },
+  "trapping": {
+    "name": "陷阱捕猎",
+    "description": "使用坑陷、套索、落板陷阱和围猎围栏等人工装置捕获动物，减少直接追逐。"
+  },
+  "trebuchet_counterweight_siege_engine": {
+    "name": "配重投石机（Trebuchet）",
+    "description": "中世纪威力最强的攻城器械，借助巨大配重将重型弹丸抛掷到远处，用以摧毁防御工事。"
+  },
+  "triangular_trade": {
+    "name": "三角贸易",
+    "description": "连接欧洲、非洲和美洲的复杂跨大西洋贸易网络：把制成品运往非洲、把被奴役者运往美洲（中央航路）、把种植园作物运回欧洲。"
+  },
+  "triangulation_surveying": {
+    "name": "三角测量",
+    "description": "以锚定于已知基线的三角形网络测量远距离并绘制领土地图。"
+  },
+  "tribalism": {
+    "name": "亲缘游群组织",
+    "description": "小型采集狩猎社群通过灵活的亲缘关系、分享、共识和非正式的情境性领导加以组织，而非设立正式职位。"
+  },
+  "trigonometry": {
+    "name": "三角学",
+    "description": "研究三角形边长与角度关系的数学分支，是天文学、测量和航海的基础工具。"
+  },
+  "tungsten_filament_production": {
+    "name": "钨丝生产",
+    "description": "库利奇式延性拉制钨丝生产，用于白炽灯丝及相关真空器件。"
+  },
+  "typewriter": {
+    "name": "打字机",
+    "description": "使清晰文本、商业信函、办公事务、表单和文件生产标准化的机械书写机器。"
+  },
+  "typewritten_office_workflows": {
+    "name": "打字办公流程",
+    "description": "围绕商用打字机形成的标准打印信函、复写副本、表单、归档流程、文员劳动、办公布局与办公管理。"
+  },
+  "ultrasound_medical_imaging": {
+    "name": "超声医学成像",
+    "description": "运用高频声换能器、信号处理、显示与临床判读的诊断成像。"
+  },
+  "ultraviolet_water_disinfection": {
+    "name": "紫外线水消毒",
+    "description": "用紫外光反应器灭活微生物、不添加化学残留的消毒工艺。"
+  },
+  "universal_basic_income_ubi_research": {
+    "name": "全民基本收入研究",
+    "description": "面向自动化冲击劳动力市场、围绕无条件收入体系的大规模经济、行为与政策研究。"
+  },
+  "universities": {
+    "name": "大学",
+    "description": "由座堂学校和修道院学术中心发展而来的高等教育机构，推动神学、法学与医学等高深学问研究。"
+  },
+  "universities_research_curricula": {
+    "name": "大学课程体系",
+    "description": "涵盖法学、医学、神学、文科、数学与自然哲学的系统化高等教育，通过讲授、文本研读与辩论进行。"
+  },
+  "university_degrees": {
+    "name": "中世纪大学学位",
+    "description": "中世纪大学在完成规定学业并通过考核后授予的正式学术资格，最早可追溯至博洛尼亚的法学博士。"
+  },
+  "university_examination_systems": {
+    "name": "大学考试制度",
+    "description": "以正式口试与笔试、公开辩论、学位授予、执业许可及教师会核准来认定职业资格的制度。"
+  },
+  "university_libraries": {
+    "name": "大学图书馆",
+    "description": "大学设立的制度化藏书，包括锁链固书、编目、借阅规则、抄书复制及供学者使用的查阅空间。"
+  },
+  "university_medical_faculties": {
+    "name": "大学医学院",
+    "description": "正规的医学教学机构，将古典医籍、医院实习、解剖学、药学与持证医师培养融为一体。"
+  },
+  "university_medical_studies": {
+    "name": "大学医学教育",
+    "description": "沿袭中世纪大学与萨莱诺医学院传统的正规医学教育，以专业课程、医学经典、考试和经院式文本辩论为核心。"
+  },
+  "unsupervised_learning_clustering": {
+    "name": "无监督学习与聚类",
+    "description": "在无标注数据中发现潜在结构、簇、嵌入或密度模式的算法。"
+  },
+  "urban_electric_subways": {
+    "name": "电动地铁系统",
+    "description": "结合隧道、信号、车站和牵引供电的电气化地下快速交通。"
+  },
+  "urban_fire_codes": {
+    "name": "城市防火法规",
+    "description": "降低城市灾难性火灾风险的建筑与街道市政规则，此处限定于伦敦大火后的重建立法。"
+  },
+  "urban_firefighting_ordinances": {
+    "name": "城市消防条例",
+    "description": "为遏制破坏性城市火灾而制定的市政规章，涵盖守望职责、取水、水桶、火钩、云梯及建筑管制。"
+  },
+  "urban_food_market_regulation": {
+    "name": "城市食品市场监管",
+    "description": "对食品市场实行度量衡管理、巡查、选址规则、新鲜度检查、摊位费和价格管制。"
+  },
+  "urban_mass_transit_networks": {
+    "name": "城市公共交通网络",
+    "description": "协同运营的有轨电车、轻轨、铁路、时刻表、票价、停车场与车站体系，服务大城市人口出行。"
+  },
+  "urban_night_watch": {
+    "name": "城市夜间守望",
+    "description": "城镇以守夜人、城门关闭、鸣哨呼喊追捕、宵禁执行与街区巡逻来防范夜间犯罪和火灾风险。"
+  },
+  "urban_planning_grid_system": {
+    "name": "方格网城市规划",
+    "description": "以正交街道网格、街区、公共空间和中心市政区来组织交通、居住与行政并为日后扩张预留空间的城市布局方式。"
+  },
+  "urban_planning_modern": {
+    "name": "现代城市规划",
+    "description": "关于土地利用与建成环境（含空气、水和基础设施）发展与设计的技术与政治过程。"
+  },
+  "urban_sanitary_surveys": {
+    "name": "城市卫生调查",
+    "description": "以结构化检查和疾病数据调查记录住房、排水、下水道、垃圾、拥挤等城市状况，为公共卫生行动提供依据。"
+  },
+  "urban_sewer_inspection": {
+    "name": "城市下水道巡查",
+    "description": "对城市下水道、排水沟、支管和涵洞进行有记录的检查与维护，使市政排水系统保持运转。"
+  },
+  "urban_waste_collection": {
+    "name": "城市垃圾收运",
+    "description": "将住户、市场、牲畜和作坊产生的垃圾清运出人口稠密聚居区的市政系统。"
+  },
+  "urban_water_chlorination": {
+    "name": "城市水加氯消毒",
+    "description": "对市政用水的化学消毒，降低密集城市的水源性疾病。"
+  },
+  "urbanization": {
+    "name": "城市化",
+    "description": "拥有复杂社会结构与纪念性建筑的大型密集人口中心（城市）的成长。"
+  },
+  "utility_fog_programmable_matter": {
+    "name": "效用雾 / 可编程物质",
+    "description": "能复制物理结构或改变形状的微型机器人（纳米机器人）假想集合。"
+  },
+  "utility_scale_solar_pv": {
+    "name": "公用事业级光伏电站",
+    "description": "配备逆变器、跟踪支架、控制和并网系统的大规模光伏电站，用于批量发电。"
+  },
+  "vaccination": {
+    "name": "疫苗接种",
+    "description": "基于减毒或灭活病原体制备并施用疫苗，激发特异性免疫应答以预防传染病。"
+  },
+  "vaccination_campaigns": {
+    "name": "疫苗接种运动",
+    "description": "运用记录、公共卫生人员、冷藏和国家或民间协同的有组织大众接种计划。"
+  },
+  "vaccine_development_modern": {
+    "name": "现代疫苗研发",
+    "description": "运用先进分子生物学与基因工程快速开发高效疫苗（如 mRNA、病毒载体）。"
+  },
+  "vacuum_pump_experiments": {
+    "name": "真空泵实验",
+    "description": "抽排空气并研究压力、呼吸、燃烧、声音和大气现象的实验装置。"
+  },
+  "vacuum_technology_early": {
+    "name": "真空技术（早期）",
+    "description": "改进真空泵并形成创建与维持真空的技术，对灯泡及后来的电子器件至关重要。"
+  },
+  "vacuum_tubes_electron_control": {
+    "name": "真空管（电子控制）",
+    "description": "在真空中控制电流的电子元件，是无线电、计算机等早期电子学的基础。"
+  },
+  "vector_databases": {
+    "name": "向量数据库",
+    "description": "针对嵌入存储与语义相似检索（文本、图像、音频、代码等高维数据）优化的数据系统。"
+  },
+  "verifiable_ai_reasoning_systems": {
+    "name": "可验证 AI 推理系统",
+    "description": "在行动前把生成的推理或计划与外部核查、证明、测试、仿真或审计配对的 AI 系统。"
+  },
+  "verified_safe_robot_learning": {
+    "name": "经验证的机器人安全学习",
+    "description": "以形式化检查、仿真、运行时监视器和安全案例约束、先验证再作用于物理世界的机器人学习系统。"
+  },
+  "vernacular_literature_prose_poetry": {
+    "name": "文艺复兴俗语文学",
+    "description": "文艺复兴时期俗语散文与诗歌升格为重要文学语言，以但丁的意大利语《神曲》为锚点，经彼特拉克、薄伽丘及后来的欧洲俗语作家延展。"
+  },
+  "vernacular_literature_troubadours": {
+    "name": "方言文学与游吟诗人",
+    "description": "以俗语而非拉丁语写作的文学兴起，包括史诗、骑士传奇和吟咏宫廷爱情的抒情诗，由游历四方的游吟诗人（troubadours）传唱。"
+  },
+  "version_control_systems": {
+    "name": "版本控制系统",
+    "description": "跟踪源文件修订、历史、检出、分支、合并与发布、服务开发全过程的软件工具与仓库。"
+  },
+  "vertical_farming_megafarms": {
+    "name": "垂直农场巨型化",
+    "description": "面向食品、作物、制种、水循环、机器人与韧性城市农业的大型受控环境农场体系。"
+  },
+  "village_settlements": {
+    "name": "村落定居",
+    "description": "发达的觅食者社群利用当地的植物、动物、庇护所和生态资源，建立永久或半永久定居点。"
+  },
+  "viral_vectors": {
+    "name": "病毒载体",
+    "description": "经工程化改造、把遗传载荷送入细胞、服务研究、基因治疗与基因组编辑的病毒。"
+  },
+  "virtual_afterlife_simulations_digital_legacies": {
+    "name": "虚拟来世仿真与数字遗产",
+    "description": "基于上传意识或全面数据、为逝者创建仿真环境或交互式数字呈现。"
+  },
+  "virtual_reality": {
+    "name": "虚拟现实",
+    "description": "可模拟人在真实或想象世界中临场感的沉浸式计算机仿真环境。"
+  },
+  "virtualization_early_vm_tech": {
+    "name": "虚拟化（早期虚拟机技术）",
+    "description": "在单一物理机上创建计算机硬件平台、操作系统或存储设备的虚拟版本。"
+  },
+  "vlsi_design": {
+    "name": "超大规模集成电路设计",
+    "description": "设计含数千至数十亿晶体管的超大规模集成电路的方法学。"
+  },
+  "voice_over_ip": {
+    "name": "IP 语音（VoIP）",
+    "description": "经互联网协议网络编码语音与信令的分组语音系统。"
+  },
+  "volcanic_ash_utilization": {
+    "name": "火山灰利用",
+    "description": "识别并将火山灰（如波佐兰，pozzolana）用作建筑材料关键成分的做法。"
+  },
+  "von_neumann_probes": {
+    "name": "冯·诺依曼探测器",
+    "description": "以自我复制方式探索星系、沿途以原材料制造自身副本的航天器。"
+  },
+  "vulcanized_rubber": {
+    "name": "硫化橡胶",
+    "description": "将天然橡胶与硫一同加热，转化为更耐久、有弹性且耐候材料的化学工艺。"
+  },
+  "vulnerability_scanners": {
+    "name": "漏洞扫描器",
+    "description": "在攻击者利用之前自动识别已知软件、配置、网络和 Web 应用弱点的工具。"
+  },
+  "warehouse_autonomous_mobile_robots": {
+    "name": "仓库自主移动机器人",
+    "description": "借助导航、车队控制和物流软件集成、在仓库中搬运库存、料车或货架的移动机器人。"
+  },
+  "warehouse_barcode_automation": {
+    "name": "仓库条码自动化",
+    "description": "服务仓库的条码扫描器、标签、拣选系统、库存数据库、手持终端和分拨流程。"
+  },
+  "warehouse_management_systems": {
+    "name": "仓库管理系统",
+    "description": "跟踪库存、人员、订单、储位、拣货、包装与发货执行的软件与扫描流程。"
+  },
+  "warehouse_management_systems_early": {
+    "name": "早期仓储管理",
+    "description": "以仓单、磅码单、客户账目、每日库存记录、等级标准和铁路联运粮仓在工业规模上管理存储商品的手工库存控制。"
+  },
+  "water_carrying_techniques": {
+    "name": "便携式储水容器",
+    "description": "用有意穿孔的鸵鸟蛋壳瓶便携地储存和运送水，证据见于约6万年前的 Diepkloof 岩厦遗址。"
+  },
+  "water_clock_timekeeping": {
+    "name": "水钟计时",
+    "description": "以简易漏壶和刻度容器测量时段或标记时间，用于法庭、宗教活动、天文观测和限定工时。"
+  },
+  "water_clocks_advanced_clepsydra": {
+    "name": "克特西比乌斯式调节水钟",
+    "description": "希腊化时代的改进漏壶，以受控水流、浮子和刻度显示，把简单的时段计时器发展为更连续的时钟。"
+  },
+  "water_distribution_pipes": {
+    "name": "输水管道",
+    "description": "利用管道网络、阀门、水池和坡度，把水从水渠和水库输送至浴场、喷泉、住宅和作坊。"
+  },
+  "water_filtration_sand_charcoal": {
+    "name": "沙炭过滤净水",
+    "description": "让水通过沙、木炭等多孔介质，滤除可见杂质的实用水处理方法。"
+  },
+  "water_management_guilds": {
+    "name": "水利管理行会",
+    "description": "维护磨坊、运河、排水道与水井并管理水权的专业组织，服务城镇、农田和作坊。"
+  },
+  "water_powered_blast_furnaces": {
+    "name": "水力鼓风高炉",
+    "description": "利用水力驱动风箱向炉内鼓风，使冶炼炉达到更高炉温，从而提高铁的产量。"
+  },
+  "water_powered_oil_presses": {
+    "name": "水力榨油机",
+    "description": "以水力驱动的磨坊与压榨设备，用于从橄榄、油籽、坚果及经济作物中提取油脂。"
+  },
+  "water_powered_paper_pulping": {
+    "name": "水力造纸制浆",
+    "description": "利用水轮、捣浆锤、浆池和压榨机使纤维制浆机械化，从而扩大纸张生产。"
+  },
+  "water_powered_pumps": {
+    "name": "水力泵",
+    "description": "由水轮驱动的泵，用于矿山排水、排涝、灌溉、喷泉供水及城市给排水等事务。"
+  },
+  "water_powered_trip_hammers_forges": {
+    "name": "水力锻锤与锻炉",
+    "description": "通过凸轮与凸轮轴将水力转化为重锤的起落，用于金属锻造、漂洗布匹及其他工业作业。"
+  },
+  "water_quality_ordinances": {
+    "name": "水质保护条例",
+    "description": "保护水井、运河、溪流和喷泉免受垃圾、制革、屠宰及工业污染的市政法规。"
+  },
+  "water_quality_testing": {
+    "name": "水质检测",
+    "description": "测量水的微生物、化学与物理指标的实验室与现场方法，为处理和监管提供依据。"
+  },
+  "water_reuse_reclamation": {
+    "name": "水回用与再生",
+    "description": "把市政或工业废水处理为灌溉、工业、地下水补给或饮用回用水的处理链与配水控制。"
+  },
+  "water_screw_archimedes": {
+    "name": "水螺旋（阿基米德螺旋泵）",
+    "description": "一种把水从低洼水体提升送入灌溉沟渠的提水装置，靠螺旋叶片旋转使水沿管槽上行。"
+  },
+  "water_towers_pressure_distribution": {
+    "name": "水塔与压力配水",
+    "description": "稳定市政供水和消防供水的高位储水箱与压力管理干管。"
+  },
+  "watermark_paper_authentication": {
+    "name": "水印纸张鉴别",
+    "description": "抄纸帘模上的金属丝图案在手工纸中形成水印，可用于识别造纸坊、批次、产地、品质及文书真伪。"
+  },
+  "watermill_sawmills": {
+    "name": "水力锯木厂",
+    "description": "采用水力往复锯和配套木材堆场，提高供建筑与造船所需的木材产量。"
+  },
+  "watermills": {
+    "name": "水磨坊",
+    "description": "利用水力研磨谷物（磨面坊）、锯木及驱动其他工业工序，成为中世纪经济的重要动力来源。"
+  },
+  "waterwheel_grain_milling_networks": {
+    "name": "水轮磨面网络",
+    "description": "由磨坊、磨坊权益、通行税、维修与运输组成的区域网络，保障城镇和乡村的粮食加工供应。"
+  },
+  "wattle_and_daub": {
+    "name": "编笆抹泥",
+    "description": "一种复合建筑材料，用木条编织成格网（编笆），再涂抹黏土或泥土等黏性材料。"
+  },
+  "wax_tablets": {
+    "name": "蜡板",
+    "description": "以木板涂覆一层蜂蜡制成的可重复使用的书写面，书写后可抹平再用，常见于记事、记账和教学。"
+  },
+  "weather_control_regional": {
+    "name": "区域天气控制",
+    "description": "在区域尺度影响或控制天气模式的技术。"
+  },
+  "weather_satellites": {
+    "name": "气象卫星",
+    "description": "观测云系、风暴、海面温度、大气水汽和气候变量的在轨平台。"
+  },
+  "weather_weaponization": {
+    "name": "天气武器化",
+    "description": "为战略优势恶意利用区域天气控制技术制造干旱、风暴等环境灾害。"
+  },
+  "web_browsers": {
+    "name": "网页浏览器",
+    "description": "检索、渲染、导航并脚本化网页文档与应用的客户端软件。"
+  },
+  "wells_and_cisterns": {
+    "name": "水井与蓄水池",
+    "description": "人工建造的水源与储水池，使定居点更能抵御旱季和地表水污染。"
+  },
+  "wheel_and_axle": {
+    "name": "轮轴",
+    "description": "轮与轴的发明，最初用于制陶，后来被改造用于轮式车辆和运输。"
+  },
+  "wheeled_vehicles": {
+    "name": "轮式车辆",
+    "description": "二轮车与四轮货车的建造，彻底改变了货物与人员的运输。"
+  },
+  "whole_earth_supply_chain_simulation": {
+    "name": "全球供应链仿真",
+    "description": "覆盖全球生产系统的材料、能源、物流、金融、风险与政策实时模型。"
+  },
+  "wicked_oil_lamps": {
+    "name": "底比斯亚麻布芯灯",
+    "description": "一件保存着亚麻布灯芯的陶灯，灯芯曾浸满易燃油料并在古底比斯点燃。"
+  },
+  "wifi_wireless_networking": {
+    "name": "Wi-Fi 无线网络",
+    "description": "使设备无需线缆即可接入本地网络与互联网的短距离无线技术。"
+  },
+  "wind_driven_drainage": {
+    "name": "风力排水",
+    "description": "以风车驱动水泵，配合排水渠、水闸和堤坝，用于围垦湿地并管理低洼农田。"
+  },
+  "wind_power_modern": {
+    "name": "风电（现代）",
+    "description": "以1941年 Smith-Putnam 风机及后来并网风电场为锚点的公用事业级现代风力发电。"
+  },
+  "wind_turbine_farms": {
+    "name": "风电场",
+    "description": "面向大规模风电的气动风机阵列、电力电子、控制与并网系统。"
+  },
+  "wind_turbine_power_electronics": {
+    "name": "风机电力电子",
+    "description": "把风机波动输出整定为可靠并网的变流器与控制。"
+  },
+  "windmills": {
+    "name": "风车",
+    "description": "通常采用柱式或塔式结构来利用风能，用于磨谷和抽水，尤其适合缺乏强大河流的地区。"
+  },
+  "wireless_power_transmission_long_range": {
+    "name": "无线输电（远程）",
+    "description": "不依赖线缆、经微波或激光等在显著距离上高效传输电能。"
+  },
+  "wooden_dugout_canoe_refinement": {
+    "name": "改良独木舟",
+    "description": "经改进的掏空原木船，拥有修整成形的木质船体，用于常规的内河运输。"
+  },
+  "woodworking_basic": {
+    "name": "基础木工",
+    "description": "用石器及其他早期工具，把木材刻意加工成工具、杆件、把手、庇护所和燃料。"
+  },
+  "wool_staple_markets": {
+    "name": "羊毛集散市场",
+    "description": "经指定设立的羊毛贸易中心，负责羊毛的分级、征税、仓储与出口。"
+  },
+  "word_embeddings": {
+    "name": "词向量",
+    "description": "从大规模语料的分布模式中学习得到的词语向量表示。"
+  },
+  "world_wide_web": {
+    "name": "万维网",
+    "description": "文档及其他 Web 资源以 URL 标识、经超链接互连、可通过互联网访问的信息系统。"
+  },
+  "writing": {
+    "name": "文字",
+    "description": "发展出标准化的符号系统（如楔形文字、象形文字），完整表示口语与复杂信息。"
+  },
+  "x_ray_crystallography": {
+    "name": "X射线晶体学",
+    "description": "通过分析X射线衍射图样测定晶体原子与分子结构的技术。"
+  },
+  "x_ray_imaging": {
+    "name": "X射线成像",
+    "description": "利用X射线观察不透明物体内部结构，彻底改变了医学诊断。"
+  },
+  "x_rays_discovery": {
+    "name": "X射线",
+    "description": "发现可穿透许多不透光材料的高能电磁辐射，随即应用于医学。"
+  },
+  "yokes_and_harnesses": {
+    "name": "轭具与挽具",
+    "description": "让牛及后来的役畜把拉力传递给负载、犁、车辆和雪橇的套挽装置。"
+  },
+  "zero_point_energy_research_vacuum_energy": {
+    "name": "零点能研究（真空能量）",
+    "description": "探索从量子真空提取可用能量——高度推测但可能具有变革性的领域。"
+  },
+  "zero_trust_security": {
+    "name": "零信任安全",
+    "description": "持续验证身份、设备状态、策略与情境，而非信任网络边界的安全架构。"
+  },
+  "zinc_finger_nucleases": {
+    "name": "锌指核酸酶",
+    "description": "把工程化 DNA 结合锌指蛋白与核酸酶融合、在 CRISPR 主导之前实现可编程基因组切割。"
+  }
+}

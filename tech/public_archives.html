@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,6 +15,11 @@
     <link rel="canonical" href="https://pushme.site/techtree/tech/public_archives.html" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","@id":"https://pushme.site/techtree/tech/public_archives.html","name":"Public Archives","description":"State and civic repositories for laws, decrees, contracts, tax records, maps, census rolls, and official correspondence.","identifier":"public_archives","inDefinedTermSet":"https://pushme.site/techtree/","url":"https://pushme.site/techtree/tech/public_archives.html","dateCreated":"-2100","sameAs":"https://pushme.site/techtree/tech/public_archives.html"}</script>
     <style>
+      html[data-lang="zh"] .i18n-en { display: none; }
+      html[data-lang="en"] .i18n-zh { display: none; }
+      .lang-toggle { margin-left: 0.75rem; padding: 0.15rem 0.6rem; cursor: pointer; }
+    </style>
+    <style>
       body { font-family: Arial, sans-serif; margin: 1.5rem; line-height: 1.5; color: #1f2937; }
       h1, h2 { margin: 1rem 0 0.5rem; }
       table { border-collapse: collapse; width: 100%; max-width: 100%; }
@@ -26,84 +31,86 @@
   </head>
   <body>
     <main>
-      <h1>Public Archives</h1>
-      <p>State and civic repositories for laws, decrees, contracts, tax records, maps, census rolls, and official correspondence.</p>
+      <h1><span class="i18n-en">Public Archives</span><span class="i18n-zh">公共档案库</span></h1>
+      <p><span class="i18n-en">State and civic repositories for laws, decrees, contracts, tax records, maps, census rolls, and official correspondence.</span><span class="i18n-zh">保存法律、政令、契约、税册、地图、人口清册和官方往来文书的国家与城市库房。</span></p>
       <nav>
-        <a href="https://pushme.site/techtree/?target=public_archives">Graph</a>
-        <a href="https://pushme.site/techtree/sorted.html?target=public_archives">Sorted View</a>
-        <a href="https://pushme.site/techtree/demo.html?target=public_archives">Demo</a>
+        <a href="https://pushme.site/techtree/?target=public_archives"><span class="i18n-en">Graph</span><span class="i18n-zh">图谱</span></a>
+        <a href="https://pushme.site/techtree/sorted.html?target=public_archives"><span class="i18n-en">Sorted View</span><span class="i18n-zh">图谱视图</span></a>
+        <a href="https://pushme.site/techtree/demo.html?target=public_archives"><span class="i18n-en">Demo</span><span class="i18n-zh">演示</span></a>
+        <button type="button" id="lang-toggle" class="lang-toggle"></button>
       </nav>
 
-      <h2>Core metadata</h2>
-      <ul><li><strong>ID:</strong> public_archives</li><li><strong>Era:</strong> Classical</li><li><strong>First known date:</strong> -2100 (century)</li><li><strong>Region:</strong> Mediterranean, South Asia, East Asia, and other classical societies</li><li><strong>Review status:</strong> source_checked</li><li><strong>Maturity:</strong> N/A</li></ul>
+      <h2><span class="i18n-en">Core metadata</span><span class="i18n-zh">核心元数据</span></h2>
+      <ul><li><strong>ID:</strong> public_archives</li><li><strong><span class="i18n-en">Era</span><span class="i18n-zh">时代</span>:</strong> <span class="i18n-en">Classical</span><span class="i18n-zh">古典</span></li><li><strong><span class="i18n-en">First known date</span><span class="i18n-zh">最早出现</span>:</strong> -2100 (<span class="i18n-en">century</span><span class="i18n-zh">世纪级</span>)</li><li><strong><span class="i18n-en">Region</span><span class="i18n-zh">地区</span>:</strong> Mediterranean, South Asia, East Asia, and other classical societies</li><li><strong><span class="i18n-en">Review status</span><span class="i18n-zh">审核状态</span>:</strong> <span class="i18n-en">source_checked</span><span class="i18n-zh">已核来源</span></li><li><strong><span class="i18n-en">Maturity</span><span class="i18n-zh">成熟度</span>:</strong> N/A</li></ul>
 
-      <h2>Prerequisites</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/codified_law.html">Ancient Written Law Codes (codified_law)</a></li><li><a href="https://pushme.site/techtree/tech/libraries_and_archives.html">Early Libraries and Archives (libraries_and_archives)</a></li><li><a href="https://pushme.site/techtree/tech/record_keeping.html">Record Keeping (record_keeping)</a></li></ul>
+      <h2><span class="i18n-en">Prerequisites</span><span class="i18n-zh">前置技术</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/codified_law.html"><span class="i18n-en">Ancient Written Law Codes</span><span class="i18n-zh">古代成文法典</span> (codified_law)</a></li><li><a href="https://pushme.site/techtree/tech/libraries_and_archives.html"><span class="i18n-en">Early Libraries and Archives</span><span class="i18n-zh">早期图书馆与档案</span> (libraries_and_archives)</a></li><li><a href="https://pushme.site/techtree/tech/record_keeping.html"><span class="i18n-en">Record Keeping</span><span class="i18n-zh">记录保存</span> (record_keeping)</a></li></ul>
 
-      <h2>Dependents</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/civic_contract_registries.html">Civic Contract Registries (civic_contract_registries)</a></li><li><a href="https://pushme.site/techtree/tech/civic_water_meters.html">Civic Water Allotment Gauges (civic_water_meters)</a></li><li><a href="https://pushme.site/techtree/tech/legal_deposit_archives.html">Legal Deposit Archives (legal_deposit_archives)</a></li><li><a href="https://pushme.site/techtree/tech/library_catalogs.html">Library Catalogs (library_catalogs)</a></li><li><a href="https://pushme.site/techtree/tech/maritime_law_codes.html">Maritime Law Codes (maritime_law_codes)</a></li><li><a href="https://pushme.site/techtree/tech/military_map_rooms.html">Depot de la Guerre Military Map Archive (military_map_rooms)</a></li><li><a href="https://pushme.site/techtree/tech/municipal_building_codes.html">Municipal Building Codes (municipal_building_codes)</a></li><li><a href="https://pushme.site/techtree/tech/patent_model_collections.html">Patent Model Collections (patent_model_collections)</a></li><li><a href="https://pushme.site/techtree/tech/port_customs_ledgers.html">Port Tax Accounts (port_customs_ledgers)</a></li><li><a href="https://pushme.site/techtree/tech/public_library_reading_rooms.html">Public Library Reading Rooms (public_library_reading_rooms)</a></li><li><a href="https://pushme.site/techtree/tech/public_notice_boards.html">Public Notice Boards (public_notice_boards)</a></li><li><a href="https://pushme.site/techtree/tech/standard_legal_forms.html">Standard Legal Forms (standard_legal_forms)</a></li><li><a href="https://pushme.site/techtree/tech/standardized_road_milestones.html">Standardized Road Milestones (standardized_road_milestones)</a></li><li><a href="https://pushme.site/techtree/tech/technical_patent_examination.html">Professional Patent Examination (technical_patent_examination)</a></li></ul>
+      <h2><span class="i18n-en">Dependents</span><span class="i18n-zh">依赖方</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/civic_contract_registries.html"><span class="i18n-en">Civic Contract Registries</span><span class="i18n-zh">城市契约登记制度</span> (civic_contract_registries)</a></li><li><a href="https://pushme.site/techtree/tech/civic_water_meters.html"><span class="i18n-en">Civic Water Allotment Gauges</span><span class="i18n-zh">城市公共配水计量器</span> (civic_water_meters)</a></li><li><a href="https://pushme.site/techtree/tech/legal_deposit_archives.html"><span class="i18n-en">Legal Deposit Archives</span><span class="i18n-zh">法定呈缴存档</span> (legal_deposit_archives)</a></li><li><a href="https://pushme.site/techtree/tech/library_catalogs.html"><span class="i18n-en">Library Catalogs</span><span class="i18n-zh">图书馆目录</span> (library_catalogs)</a></li><li><a href="https://pushme.site/techtree/tech/maritime_law_codes.html"><span class="i18n-en">Maritime Law Codes</span><span class="i18n-zh">海事法典</span> (maritime_law_codes)</a></li><li><a href="https://pushme.site/techtree/tech/military_map_rooms.html"><span class="i18n-en">Depot de la Guerre Military Map Archive</span><span class="i18n-zh">陆军部军事地图档案室</span> (military_map_rooms)</a></li><li><a href="https://pushme.site/techtree/tech/municipal_building_codes.html"><span class="i18n-en">Municipal Building Codes</span><span class="i18n-zh">城市建筑法规</span> (municipal_building_codes)</a></li><li><a href="https://pushme.site/techtree/tech/patent_model_collections.html"><span class="i18n-en">Patent Model Collections</span><span class="i18n-zh">专利模型收藏</span> (patent_model_collections)</a></li><li><a href="https://pushme.site/techtree/tech/port_customs_ledgers.html"><span class="i18n-en">Port Tax Accounts</span><span class="i18n-zh">港口税账簿</span> (port_customs_ledgers)</a></li><li><a href="https://pushme.site/techtree/tech/public_library_reading_rooms.html"><span class="i18n-en">Public Library Reading Rooms</span><span class="i18n-zh">公共图书馆阅览室</span> (public_library_reading_rooms)</a></li><li><a href="https://pushme.site/techtree/tech/public_notice_boards.html"><span class="i18n-en">Public Notice Boards</span><span class="i18n-zh">公共告示牌</span> (public_notice_boards)</a></li><li><a href="https://pushme.site/techtree/tech/standard_legal_forms.html"><span class="i18n-en">Standard Legal Forms</span><span class="i18n-zh">标准法律文书</span> (standard_legal_forms)</a></li><li><a href="https://pushme.site/techtree/tech/standardized_road_milestones.html"><span class="i18n-en">Standardized Road Milestones</span><span class="i18n-zh">标准化道路里程碑</span> (standardized_road_milestones)</a></li><li><a href="https://pushme.site/techtree/tech/technical_patent_examination.html"><span class="i18n-en">Professional Patent Examination</span><span class="i18n-zh">专业化专利审查</span> (technical_patent_examination)</a></li></ul>
 
-      <h2>Fields</h2>
-      <ul><li>None.</li></ul>
+      <h2><span class="i18n-en">Fields</span><span class="i18n-zh">领域</span></h2>
+      <ul><li><span class="i18n-en">None.</span><span class="i18n-zh">无。</span></li></ul>
 
       
 
-      <h2>Node sources</h2>
-      <ul><li><a href="https://www.britannica.com/topic/library/The-history-of-libraries" target="_blank" rel="noopener noreferrer">The history of libraries</a> (Encyclopaedia Britannica, 2026, textbook) • Supports: node</li><li><a href="https://www.britannica.com/topic/archives" target="_blank" rel="noopener noreferrer">Archives</a> (Encyclopaedia Britannica, 2026, textbook) • Supports: node</li></ul>
+      <h2><span class="i18n-en">Node sources</span><span class="i18n-zh">节点来源</span></h2>
+      <ul><li><a href="https://www.britannica.com/topic/library/The-history-of-libraries" target="_blank" rel="noopener noreferrer">The history of libraries</a> (Encyclopaedia Britannica, 2026, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node</li><li><a href="https://www.britannica.com/topic/archives" target="_blank" rel="noopener noreferrer">Archives</a> (Encyclopaedia Britannica, 2026, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node</li></ul>
 
-      <h2>Prerequisite edge evidence</h2>
+      <h2><span class="i18n-en">Prerequisite edge evidence</span><span class="i18n-zh">前置边证据</span></h2>
       
-    <p><strong>Edge/source evidence summary:</strong></p>
+    <p><strong><span class="i18n-en">Edge/source evidence summary:</span><span class="i18n-zh">边/来源证据汇总：</span></strong></p>
     <ul>
-      <li>Prerequisite edges: 3</li>
-      <li>Average edge confidence: 70%</li>
-      <li>Prerequisite sources: 3</li>
-      <li>expert_inference: 3</li>
+      <li><span class="i18n-en">Prerequisite edges:</span><span class="i18n-zh">前置边：</span> 3</li>
+      <li><span class="i18n-en">Average edge confidence:</span><span class="i18n-zh">平均边置信度：</span> 70%</li>
+      <li><span class="i18n-en">Prerequisite sources:</span><span class="i18n-zh">前置来源数：</span> 3</li>
+      <li><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span>: 3</li>
     </ul>
 
       <table>
         <thead>
           <tr>
-            <th>Prerequisite</th>
-            <th>Type</th>
-            <th>Confidence</th>
-            <th>Evidence level</th>
-            <th>Note</th>
-            <th>Sources</th>
+            <th><span class="i18n-en">Prerequisite</span><span class="i18n-zh">前置技术</span></th>
+            <th><span class="i18n-en">Type</span><span class="i18n-zh">类型</span></th>
+            <th><span class="i18n-en">Confidence</span><span class="i18n-zh">置信度</span></th>
+            <th><span class="i18n-en">Evidence level</span><span class="i18n-zh">证据等级</span></th>
+            <th><span class="i18n-en">Note</span><span class="i18n-zh">说明</span></th>
+            <th><span class="i18n-en">Sources</span><span class="i18n-zh">来源</span></th>
           </tr>
         </thead>
         <tbody>
           
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/libraries_and_archives.html">Early Libraries and Archives</a> (libraries_and_archives)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/libraries_and_archives.html"><span class="i18n-en">Early Libraries and Archives</span><span class="i18n-zh">早期图书馆与档案</span></a> (libraries_and_archives)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>68%</td>
-              <td>expert_inference</td>
+              <td><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span></td>
               <td>Libraries and Archives provides a capability that enables this technology without being the only possible path.</td>
-              <td><ul><li><a href="https://www.britannica.com/topic/archives" target="_blank" rel="noopener noreferrer">Archives</a> (Encyclopaedia Britannica, 2026, textbook) • Supports: edge</li></ul></td>
+              <td><ul><li><a href="https://www.britannica.com/topic/archives" target="_blank" rel="noopener noreferrer">Archives</a> (Encyclopaedia Britannica, 2026, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge</li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/record_keeping.html">Record Keeping</a> (record_keeping)</td>
-              <td>historical_predecessor</td>
+              <td><a href="https://pushme.site/techtree/tech/record_keeping.html"><span class="i18n-en">Record Keeping</span><span class="i18n-zh">记录保存</span></a> (record_keeping)</td>
+              <td><span class="i18n-en">historical_predecessor</span><span class="i18n-zh">历史前身</span></td>
               <td>75%</td>
-              <td>expert_inference</td>
+              <td><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span></td>
               <td>Record Keeping is an earlier historical predecessor or foundation, not a one-to-one engineering dependency.</td>
-              <td><ul><li><a href="https://www.britishmuseum.org/blog/how-write-cuneiform" target="_blank" rel="noopener noreferrer">How to write cuneiform</a> (British Museum, 2020, museum) • Supports: edge</li></ul></td>
+              <td><ul><li><a href="https://www.britishmuseum.org/blog/how-write-cuneiform" target="_blank" rel="noopener noreferrer">How to write cuneiform</a> (British Museum, 2020, <span class="i18n-en">museum</span><span class="i18n-zh">博物馆</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge</li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/codified_law.html">Ancient Written Law Codes</a> (codified_law)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/codified_law.html"><span class="i18n-en">Ancient Written Law Codes</span><span class="i18n-zh">古代成文法典</span></a> (codified_law)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>68%</td>
-              <td>expert_inference</td>
+              <td><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span></td>
               <td>Codified Law provides a capability that enables this technology without being the only possible path.</td>
-              <td><ul><li><a href="https://www.schoyencollection.com/law/sumerian/ur-nammu-ms-2064" target="_blank" rel="noopener noreferrer">The Ur-Nammu Law Code</a> (The Schoyen Collection, 2011, museum) • Supports: edge</li></ul></td>
+              <td><ul><li><a href="https://www.schoyencollection.com/law/sumerian/ur-nammu-ms-2064" target="_blank" rel="noopener noreferrer">The Ur-Nammu Law Code</a> (The Schoyen Collection, 2011, <span class="i18n-en">museum</span><span class="i18n-zh">博物馆</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge</li></ul></td>
             </tr>
         </tbody>
       </table>
 
-      <p><small>This page is generated from canonical era JSON and is indexable by URL.</small></p>
+      <p><small><span class="i18n-en">This page is generated from canonical era JSON and is indexable by URL.</span><span class="i18n-zh">本页由正典时代 JSON 生成，可按 URL 索引。</span></small></p>
     </main>
+    <script src="../i18n-static.js"></script>
   </body>
 </html>

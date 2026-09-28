@@ -1,0 +1,126 @@
+3d_printing_additive_manufacturing	3D 打印（增材制造）	从 CAD 模型或数字三维模型出发逐层构建三维实体。
+acoustic_leak_detection	声学泄漏检测	通过分析管道噪声和压力瞬变来定位自来水主管泄漏的传感器与相关分析方法。
+activated_sludge_process	活性污泥法	利用曝气微生物絮团降解有机污染的生物污水处理工艺。
+additive_manufacturing_metal	金属增材制造	面向复杂金属零件、工装和医疗植入物的激光与电子束粉末床系统。
+advanced_ceramics	先进陶瓷	具备高硬度、耐热、绝缘、生物相容性或电子性能的工程陶瓷材料。
+advanced_materials_science	高等材料科学	战后跨学科材料科学与工程：对成分、加工、结构、性能和使用行为的统一研究，用于设计并应用金属、陶瓷、聚合物、复合材料、半导体等先进材料。
+advanced_optics_space_based	星载光学仪器	安装于航天器上的光学相机、望远镜、光谱仪和辐射计，用于在大气层外对地球、天气系统和天文目标成像。
+advanced_oxidation_water_treatment	高级氧化水处理	产生羟基自由基等高活性氧化剂、以降解水中痕量有机污染物的工艺。
+advanced_recycling_sortation	机器人近红外塑料分选	运用机器人操作、近红外光谱、模式识别及机械或气动分流来分离塑料流路的计算机控制回收系统。
+advanced_semiconductor_packaging_2_5d_3d	先进半导体封装（2.5D/3D）	借助中介层、扇出、晶圆键合或垂直堆叠集成多颗裸片，以提升带宽、密度与良率。
+adverse_event_reporting_systems	不良事件报告系统	收集、分析并处置疑似药物副作用与安全信号报告的上市后体系。
+aerodynamics_supersonic	空气动力学（超音速）	研究超过音速的气流，对高性能飞行器和火箭至关重要。
+agribusiness	农业综合企业	涵盖农业及其相关商业活动的产业部门，涉及大规模生产、加工与流通。
+agricultural_drones	农业无人机	用于作物巡查、喷施、测绘、畜牧监测和田间分析的无人航空系统。
+ai_accelerators	AI 加速器	针对机器学习工作负载中矩阵运算、张量计算和内存搬运优化的专用处理器。
+ai_safety_alignment_methods	AI 安全与对齐方法	减少有害行为、提升可控性、评估滥用风险并使模型与人类意图一致的技术。
+ai_training_clusters	AI 训练集群	配备高速网络、存储、调度与冷却的大规模 GPU 与加速器集群，用于训练深度学习模型。
+air_quality_monitoring	空气质量监测	测量颗粒物、臭氧、氮氧化物、二氧化硫和挥发性有机物等污染物的仪器网络。
+air_traffic_control	空中交通管制	机场塔台、无线电通信、程序与航路管制中心，负责航空器间隔并协调受控空域内的安全运行。
+algorithms_computation_theory	算法与计算理论	对算法、可计算性与复杂性的形式化研究，构成计算机科学的理论基础。
+ambulatory_physiological_monitoring	动态生理监测	患者在连续床旁监护之外进行日常活动时，对心电等生理信号的便携式临床监测。
+antibiotic_susceptibility_testing	抗生素敏感性检测	测量病原体是否被特定抗生素抑制的实验室方法，用于指导治疗和耐药监测。
+antibiotics	抗生素	杀灭或抑制细菌生长的药物，彻底改变了医学与公共卫生。
+api_economy	API 经济	围绕支付、地图、身份、物流、AI 和数据服务的程序化接口构建的商业与软件生态。
+artificial_intelligence_early	人工智能（早期）	能够完成需要基础类人智能任务的机器系统（如专家系统、符号推理、搜索算法）。
+artificial_neurons	人工神经元	受生物神经元启发的数学单元，对加权输入与非线性激活进行计算。
+atomic_clocks	原子钟	基于原子共振的极高精度计时装置。
+atomic_layer_deposition	原子层沉积	逐层构建材料的自限性薄膜沉积技术。
+automated_teller_machines	自动柜员机	机电式出钞机及后来的联网终端，在有人网点之外提供自动取款与账户服务。
+autonomous_vehicle_stack	自动驾驶系统栈	面向自动驾驶车辆的一体化感知、定位、环境理解、规划、控制、地图、仿真与安全体系。
+backpropagation_training	鲁梅尔哈特-辛顿-威廉姆斯反向传播	1986年提出的学习方法：把输出误差经隐藏单元反向传播以调整连接权重，使多层神经网络表示可被训练。
+backside_power_delivery	背面供电	从晶圆背面走线供电的芯片制造方案，减少正面互连拥塞与电压跌落。
+ballistic_missiles_icbm	弹道导弹（洲际导弹）	沿弹道轨迹把一个或多个弹头送至预定目标、具备洲际射程的导弹。
+barcodes	条形码	用于追踪产品、库存、货运、票据、单证和制造流程的机器可读光学码。
+barcodes_inventory_systems	条码库存系统	服务零售收银、仓储、物流与制造管控的机器可读商品码和扫描器。
+base_editing	碱基编辑	源自 CRISPR 的编辑器，无需双链断裂即可化学转换单个 DNA 碱基。
+big_data_analytics_computational_statistics	大数据分析与计算统计学	以先进计算方法分析超大数据集，发掘模式、相关性与洞见。
+biochemistry	生物化学	研究生命体内及与生命相关的化学过程。
+bioinformatics	生物信息学	把计算机科学与统计应用于生物数据，尤其是基因组数据。
+biopharmaceutical_manufacturing	生物制药生产	以活细胞或生物系统为来源的生物药品的受控生产、纯化、检测与放行。
+biosimilars	生物类似药	由分析、生产、临床与监管可比性证据支持的高度相似的后续生物药。
+blockchain_cryptocurrency	区块链与加密货币	以公钥签名、密码学哈希链、工作量证明和网络共识为交易定序、无需中央铸币的对等数字现金与账本设计。
+bluetooth_short_range	蓝牙	设备间短距离无线数据交换标准，常用于外设与配件。
+border_gateway_protocol	边界网关协议	让自治系统在全球互联网上交换可达性信息的域间路由协议。
+brain_mapping	脑图谱	借助神经影像、神经科学与计算数据整合，绘制脑解剖、活动、连接、化学与功能地图。
+build_automation_tools	构建自动化工具	以可重复命令与依赖规则从源码定义编译、链接、打包、测试并再生软件产物的工具与脚本。
+cable_modems_docsis	线缆调制解调器（DOCSIS）	经由光纤同轴混合有线电视网传输分组数据的宽带接入系统。
+carbon_accounting_software	碳核算软件	跨组织与供应链测量、归属、审计和报告温室气体排放的数字工具与软件平台。
+carbon_capture_and_storage	碳捕集与封存	把二氧化碳从工业或电厂排放流中分离并封存于地下或耐久产品中的系统。
+cas12_cas13_editing_platforms	Cas12 与 Cas13 编辑平台	Cas9 之外的 CRISPR 系统，扩展了 DNA 靶向、RNA 靶向、诊断和转录组工程能力。
+cas9_programmable_nuclease	可编程 Cas9 核酸酶	配置为 RNA 引导核酸酶的 Cas9，可被编程切割匹配的 DNA 序列。
+casgevy_exa_cel	Casgevy / Exa-cel	首个获 FDA 批准的 CRISPR/Cas9 疗法：编辑自体造血干细胞，治疗镰状细胞病和β地中海贫血。
+catalysis	催化	研究和应用催化剂以提升化学反应速率，是工业化学的基础。
+catalytic_converters_vehicle_emissions	催化转化器	利用催化剂降低一氧化碳、碳氢化合物和氮氧化物的车辆尾气处理装置。
+cathode_ray_tube_crt_displays	阴极射线管（CRT）显示器	把电子束指向荧光屏以生成图像的真空管。
+cell_culture	细胞培养	在受控培养基中于生物体外培养细胞，支撑病毒学、疫苗、单克隆抗体、毒理学和再生医学。
+cellular_networks	蜂窝网络	把服务区分成蜂窝小区并在基站间切换移动用户的无线接入网络。
+central_bank_digital_currency_pilots	央行数字货币试点	测试主权数字货币、支付通道、身份、结算规则、隐私控制与可编程金融基础设施的央行数字货币部署与试点。
+certificate_transparency_logs	证书透明度日志	公开证书签发、强化 Web 信任并帮助发现被入侵机构的公开追加式日志与审计系统。
+chemical_mechanical_planarization	化学机械抛光	结合浆料化学与机械研磨把多层集成电路平坦化的晶圆抛光工艺。
+chemical_vapor_deposition	化学气相沉积	从反应气体形成固体材料的一系列化学气相沉积工艺，包括半导体薄膜与外延沉积。
+chiplet_architecture	芯粒架构	把多颗更小裸片组合进单一封装的处理器设计思路，以改善良率、扩展性与产品复用。
+civic_open_data_portals	政务开放数据门户	发布预算、交通、卫生、环境、许可、地图和公共记录以支持透明度与 civic 软件的政府数据门户。
+clean_rooms	洁净室	以层流方式让高度过滤的空气持续流经受控工作空间的洁净室与洁净台，服务对污染敏感的制造与研究。
+climate_models_general_circulation	气候模式与大气环流模式	模拟大气、海洋、陆地、冰冻圈和能量流动以预测气候行为的计算机模型。
+clinical_laboratory_automation	临床实验室自动化	面向高通量临床化学、血液学、微生物学和免疫分析的自动化仪器与工作流程。
+closed_loop_life_support_early_forms	BIOS-3 生物再生生命保障	利用藻类与高等植物进行气体交换、食物生产和生物再生闭环实验的密闭人类居住设施。
+cloud_computing_distributed_systems	云计算与分布式系统	通过互联网交付计算服务（含服务器、存储、数据库、网络和软件）。
+cloud_data_warehouses	云数据仓库	提供弹性、按用付费数据仓库的托管云分析数据库服务，用于整合、存储、查询与治理大型组织数据集。
+cmos_logic	CMOS 逻辑	用 n 沟道与 p 沟道 MOSFET 配对实现低功耗数字逻辑的互补 MOS 电路。
+cold_chain_logistics	冷链物流	面向食品、药品、疫苗和生物制品的温控运输、储存、监测与操作系统。
+collaborative_robots_cobots	协作机器人	以力限制、传感、安全控制和易编程设计、可在人群附近作业的机器人。
+combinatorial_chemistry	组合化学	平行合成大型化合物库，用于类药化合物的筛选与优化。
+combined_cycle_gas_turbines	联合循环燃气轮机	把燃气轮机与蒸汽循环结合以提升燃油效率和运行灵活性的电厂。
+commercial_aviation_systems	商业航空体系	支撑定期客运与货运航空服务的航司、飞机、机场、维修、票务、安全与监管体系。
+communications_satellites	通信卫星	跨大区域中继广播、电视、电话、互联网与数据信号的人造卫星。
+compiler_toolchains	编译器工具链	服务软件生产的语言编译器、链接器、调试器、构建系统、包工具和运行环境。
+composite_materials_carbon_fiber	复合材料（碳纤维）	高性能碳纤维及其增强聚合物复合材料：以碳纤维增强结合聚合物基体，实现高强度重量比的结构应用。
+computational_genomics_platforms	计算基因组学平台	用于提交、归档、检索、比对与分析 DNA 序列记录的公共序列数据库基础设施。
+computed_tomography_ct	计算机断层扫描（CT）	由大量X射线测量经计算机处理重建身体横断面图像的医学成像。
+computer_aided_design_cad_software	计算机辅助设计（CAD 软件）	利用计算机系统辅助设计的创建、修改、分析或优化。
+computer_aided_drug_design	计算机辅助药物设计	用于候选药物优先级排序与优化的计算建模、分子对接、模拟与信息学。
+computer_aided_manufacturing_cam_systems	计算机辅助制造（CAM 系统）	以软件控制机床及相关机械进行工件制造。
+computer_graphics_3d	三维计算机图形	在二维空间（如屏幕）中生成并显示三维图像，对现代游戏、仿真和设计至关重要。
+computer_networking	计算机网络	把两台以上计算设备连接起来共享数据，构成局域网与广域网的实践。
+computer_vision	计算机视觉	从图像或视频提取结构、物体、运动与场景信息的计算方法。
+computer_vision_deep_learning	深度学习计算机视觉	借助大型数据集和加速训练，对视觉内容进行分类、检测、分割与生成的神经网络系统。
+computers_early	计算机（早期/大型机）	以真空管或晶体管存储和处理数据的电子装置。
+confidential_computing	机密计算	以隔离、远程证明和加密内存保护使用中数据的硬件信任执行环境。
+consumerism	消费主义	由大规模生产和广告驱动、鼓励人们不断购置更多商品与服务的经济社会秩序。
+container_orchestration	容器编排	跨集群自动管理容器化工作负载与服务，包括部署、调度、扩缩、故障转移、发布和恢复控制。
+container_ports	集装箱港口	针对标准化集装箱优化的码头：配备起重机、堆场、软件、海关流程和运输衔接。
+containerization_shipping	集装箱化	以1956年 Ideal X 首航及后来标准化集装箱网络为锚点的现代多式联运集装箱海运体系。
+containerized_microservices	容器化微服务	经由容器与编排系统打包部署的小型网络化应用服务。
+content_delivery_networks	内容分发网络	把 Web 内容缓存在更靠近用户之处的分布式缓存与路由系统，降低时延并提升韧性。
+continuous_glucose_monitors	连续血糖监测仪	追踪血糖并指导糖尿病治疗的可穿戴传感器与软件。
+continuous_integration	持续集成	频繁集成软件变更、及早发现回归的自动化构建、测试与检查。
+continuous_pharmaceutical_manufacturing	连续制药生产	通过连续受控加工而非离散批次生产原料药或制剂的一体化生产系统。
+controlled_environment_agriculture	受控环境农业	主动调控光照、温度、湿度、养分、气体与卫生条件的室内或封闭作物生产系统。
+controlled_release_formulations	缓控释制剂	利用包衣、骨架、聚合物或渗透系统随时间释放活性成分的剂型技术。
+convolutional_neural_networks	卷积神经网络	具有局部特征检测器和池化/下采样层级的神经网络，用于视觉与空间模式识别，后来借反向传播与 GPU 大规模训练。
+crispr_adaptive_immunity	CRISPR 适应性免疫	细菌与古菌的免疫系统：储存间隔序列并利用 CRISPR 相关蛋白识别入侵核酸。
+crispr_delivery_aav_lnp_rnp	CRISPR 递送：AAV、LNP 与 RNP	用于把基因组编辑器送入靶细胞的病毒载体、脂质纳米颗粒和核糖核蛋白递送形式。
+crispr_gene_editing	CRISPR-Cas9 基因编辑	以 Cas9 和向导 RNA 实现可编程基因组编辑，进行定点切割、敲除、修复与序列改造。
+crispr_off_target_profiling	CRISPR 脱靶分析	检测 CRISPR 核酸酶非预期活性、提升编辑安全性的全基因组实验与计算方法。
+crispri_crispra	CRISPRi 与 CRISPRa	把催化失活的 Cas 系统与调控结构域融合，在不切割 DNA 的前提下抑制或激活基因。
+cryptographic_hash_functions	密码学哈希函数	把数据映射为定长摘要的单向函数，用于完整性校验、口令存储、签名和分布式系统。
+crystal_growth_techniques	晶体生长技术	制备高纯度单晶的方法，是半导体等先进材料的关键。
+customer_relationship_management	客户关系管理	追踪客户、销售、服务工单、营销活动、订阅和账户历史的企业软件。
+cyber_threat_intelligence	网络威胁情报	对攻击者基础设施、恶意软件、指标、战术、漏洞和风险报告的收集与分析。
+cybernetics	控制论	研究动物与机器中控制与通信的学科，影响了人工智能与机器人学。
+cybersecurity_operations_centers	安全运营中心	监测、调查和响应网络威胁的团队、工具、遥测、日志、告警与处置手册。
+data_centers_early	数据中心（早期）	安置计算机系统及通信、存储等配套设施的设施。
+data_compression	数据压缩	以比原始表示更少的比特编码信息的过程，对存储与传输至关重要。
+data_labeling_platforms	数据标注平台	面向机器学习的标注数据集采集、注释、审计与版本管理工具和工作流。
+database_management_systems	数据库管理系统	独立于应用程序组织、存储、检索、更新和管理持久化结构化数据的软件系统。
+databases_relational_dbms	数据库（关系型 DBMS）	以关系模型组织、存储和检索大量结构化数据的系统。
+decision_tree_ensemble_methods	决策树集成方法	以随机森林、梯度提升为代表，组合众多决策树实现稳健分类与回归的预测方法。
+deep_drilling_technology	深钻技术	面向深层地热与油气资源的高压钻井系统、井下传感器、泥浆工程和定向钻井技术。
+deep_learning_neural_networks	深度学习神经网络	训练多层神经网络学习内部表示，完成视觉、语音、语言与预测任务，后以大数据和加速硬件扩展规模。
+demography	人口学	以人口规模、结构和发展为主要对象的科学研究。
+dense_wavelength_division_multiplexing	密集波分复用	在一根光纤上复用众多密集波长通道以扩展骨干容量的商用光传输系统。
+desalination_energy_recovery	海水淡化能量回收	在反渗透海水淡化厂回收能量的压力交换器、透轮和工艺设计。
+dialysis_machines	透析机	以膜、泵、传感器和无菌流程为肾衰竭患者过滤血液或腹腔液的医疗设备。
+diffusion_models_generative_ai	扩散模型与生成式 AI	通过逆转逐步加噪过程学习合成图像、音频、视频、分子等数据的生成模型。
+digital_advertising_exchanges	数字广告交易平台	实时竞价、定向、测量与结算在线广告曝光的自动化市场。

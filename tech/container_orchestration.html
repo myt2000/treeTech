@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -15,6 +15,11 @@
     <link rel="canonical" href="https://pushme.site/techtree/tech/container_orchestration.html" />
     <script type="application/ld+json">{"@context":"https://schema.org","@type":"DefinedTerm","@id":"https://pushme.site/techtree/tech/container_orchestration.html","name":"Container Orchestration","description":"Automated management of containerized workloads and services across clusters, including deployment, scheduling, scaling, failover, rollout, and recovery controls.","identifier":"container_orchestration","inDefinedTermSet":"https://pushme.site/techtree/","url":"https://pushme.site/techtree/tech/container_orchestration.html","dateCreated":"2014","sameAs":"https://pushme.site/techtree/tech/container_orchestration.html"}</script>
     <style>
+      html[data-lang="zh"] .i18n-en { display: none; }
+      html[data-lang="en"] .i18n-zh { display: none; }
+      .lang-toggle { margin-left: 0.75rem; padding: 0.15rem 0.6rem; cursor: pointer; }
+    </style>
+    <style>
       body { font-family: Arial, sans-serif; margin: 1.5rem; line-height: 1.5; color: #1f2937; }
       h1, h2 { margin: 1rem 0 0.5rem; }
       table { border-collapse: collapse; width: 100%; max-width: 100%; }
@@ -26,84 +31,86 @@
   </head>
   <body>
     <main>
-      <h1>Container Orchestration</h1>
-      <p>Automated management of containerized workloads and services across clusters, including deployment, scheduling, scaling, failover, rollout, and recovery controls.</p>
+      <h1><span class="i18n-en">Container Orchestration</span><span class="i18n-zh">容器编排</span></h1>
+      <p><span class="i18n-en">Automated management of containerized workloads and services across clusters, including deployment, scheduling, scaling, failover, rollout, and recovery controls.</span><span class="i18n-zh">跨集群自动管理容器化工作负载与服务，包括部署、调度、扩缩、故障转移、发布和恢复控制。</span></p>
       <nav>
-        <a href="https://pushme.site/techtree/?target=container_orchestration">Graph</a>
-        <a href="https://pushme.site/techtree/sorted.html?target=container_orchestration">Sorted View</a>
-        <a href="https://pushme.site/techtree/demo.html?target=container_orchestration">Demo</a>
+        <a href="https://pushme.site/techtree/?target=container_orchestration"><span class="i18n-en">Graph</span><span class="i18n-zh">图谱</span></a>
+        <a href="https://pushme.site/techtree/sorted.html?target=container_orchestration"><span class="i18n-en">Sorted View</span><span class="i18n-zh">图谱视图</span></a>
+        <a href="https://pushme.site/techtree/demo.html?target=container_orchestration"><span class="i18n-en">Demo</span><span class="i18n-zh">演示</span></a>
+        <button type="button" id="lang-toggle" class="lang-toggle"></button>
       </nav>
 
-      <h2>Core metadata</h2>
-      <ul><li><strong>ID:</strong> container_orchestration</li><li><strong>Era:</strong> Modern</li><li><strong>First known date:</strong> 2014 (year)</li><li><strong>Region:</strong> Google / Kubernetes open-source project and global cloud-native infrastructure</li><li><strong>Review status:</strong> source_checked</li><li><strong>Maturity:</strong> N/A</li></ul>
+      <h2><span class="i18n-en">Core metadata</span><span class="i18n-zh">核心元数据</span></h2>
+      <ul><li><strong>ID:</strong> container_orchestration</li><li><strong><span class="i18n-en">Era</span><span class="i18n-zh">时代</span>:</strong> <span class="i18n-en">Modern</span><span class="i18n-zh">现代</span></li><li><strong><span class="i18n-en">First known date</span><span class="i18n-zh">最早出现</span>:</strong> 2014 (<span class="i18n-en">year</span><span class="i18n-zh">年份</span>)</li><li><strong><span class="i18n-en">Region</span><span class="i18n-zh">地区</span>:</strong> Google / Kubernetes open-source project and global cloud-native infrastructure</li><li><strong><span class="i18n-en">Review status</span><span class="i18n-zh">审核状态</span>:</strong> <span class="i18n-en">source_checked</span><span class="i18n-zh">已核来源</span></li><li><strong><span class="i18n-en">Maturity</span><span class="i18n-zh">成熟度</span>:</strong> N/A</li></ul>
 
-      <h2>Prerequisites</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/cloud_computing_distributed_systems.html">Cloud Computing &amp; Distributed Systems (cloud_computing_distributed_systems)</a></li><li><a href="https://pushme.site/techtree/tech/software_engineering.html">Software Engineering (software_engineering)</a></li><li><a href="https://pushme.site/techtree/tech/virtualization_early_vm_tech.html">Virtualization (Early VM Tech) (virtualization_early_vm_tech)</a></li></ul>
+      <h2><span class="i18n-en">Prerequisites</span><span class="i18n-zh">前置技术</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/cloud_computing_distributed_systems.html"><span class="i18n-en">Cloud Computing &amp; Distributed Systems</span><span class="i18n-zh">云计算与分布式系统</span> (cloud_computing_distributed_systems)</a></li><li><a href="https://pushme.site/techtree/tech/software_engineering.html"><span class="i18n-en">Software Engineering</span><span class="i18n-zh">软件工程</span> (software_engineering)</a></li><li><a href="https://pushme.site/techtree/tech/virtualization_early_vm_tech.html"><span class="i18n-en">Virtualization (Early VM Tech)</span><span class="i18n-zh">虚拟化（早期虚拟机技术）</span> (virtualization_early_vm_tech)</a></li></ul>
 
-      <h2>Dependents</h2>
-      <ul><li><a href="https://pushme.site/techtree/tech/autonomous_labor_platforms.html">Autonomous Labor Platforms (autonomous_labor_platforms)</a></li><li><a href="https://pushme.site/techtree/tech/containerized_microservices.html">Containerized Microservices (containerized_microservices)</a></li><li><a href="https://pushme.site/techtree/tech/mlops_model_serving.html">MLOps &amp; Model Serving (mlops_model_serving)</a></li><li><a href="https://pushme.site/techtree/tech/serverless_cloud_functions.html">Serverless Cloud Functions (serverless_cloud_functions)</a></li></ul>
+      <h2><span class="i18n-en">Dependents</span><span class="i18n-zh">依赖方</span></h2>
+      <ul><li><a href="https://pushme.site/techtree/tech/autonomous_labor_platforms.html"><span class="i18n-en">Autonomous Labor Platforms</span><span class="i18n-zh">自主劳动平台</span> (autonomous_labor_platforms)</a></li><li><a href="https://pushme.site/techtree/tech/containerized_microservices.html"><span class="i18n-en">Containerized Microservices</span><span class="i18n-zh">容器化微服务</span> (containerized_microservices)</a></li><li><a href="https://pushme.site/techtree/tech/mlops_model_serving.html"><span class="i18n-en">MLOps &amp; Model Serving</span><span class="i18n-zh">MLOps 与模型服务</span> (mlops_model_serving)</a></li><li><a href="https://pushme.site/techtree/tech/serverless_cloud_functions.html"><span class="i18n-en">Serverless Cloud Functions</span><span class="i18n-zh">无服务器云函数</span> (serverless_cloud_functions)</a></li></ul>
 
-      <h2>Fields</h2>
-      <ul><li>None.</li></ul>
+      <h2><span class="i18n-en">Fields</span><span class="i18n-zh">领域</span></h2>
+      <ul><li><span class="i18n-en">None.</span><span class="i18n-zh">无。</span></li></ul>
 
       
 
-      <h2>Node sources</h2>
-      <ul><li><a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener noreferrer">Overview</a> (Kubernetes / Linux Foundation, 2026, official_agency) • Supports: node, edge<br/><small>Locator: Overview and capability sections: Kubernetes is an open-source platform for managing containerized workloads and services; Google open sourced the project in 2014; it handles distributed systems, scaling, failover, rollouts and rollbacks, automatic bin packing, self-healing, and horizontal scaling.</small></li><li><a href="https://github.com/kubernetes/kubernetes/releases/tag/v0.2" target="_blank" rel="noopener noreferrer">Release v0.2</a> (Kubernetes project / GitHub, 2014, official_agency) • Supports: node<br/><small>Locator: GitHub release page for kubernetes/kubernetes shows v0.2 tagged on September 9, 2014 with the release label &#39;Release Kubernetes v0.2&#39;.</small></li></ul>
+      <h2><span class="i18n-en">Node sources</span><span class="i18n-zh">节点来源</span></h2>
+      <ul><li><a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener noreferrer">Overview</a> (Kubernetes / Linux Foundation, 2026, <span class="i18n-en">official_agency</span><span class="i18n-zh">官方机构</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node, edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Overview and capability sections: Kubernetes is an open-source platform for managing containerized workloads and services; Google open sourced the project in 2014; it handles distributed systems, scaling, failover, rollouts and rollbacks, automatic bin packing, self-healing, and horizontal scaling.</small></li><li><a href="https://github.com/kubernetes/kubernetes/releases/tag/v0.2" target="_blank" rel="noopener noreferrer">Release v0.2</a> (Kubernetes project / GitHub, 2014, <span class="i18n-en">official_agency</span><span class="i18n-zh">官方机构</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> node<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> GitHub release page for kubernetes/kubernetes shows v0.2 tagged on September 9, 2014 with the release label &#39;Release Kubernetes v0.2&#39;.</small></li></ul>
 
-      <h2>Prerequisite edge evidence</h2>
+      <h2><span class="i18n-en">Prerequisite edge evidence</span><span class="i18n-zh">前置边证据</span></h2>
       
-    <p><strong>Edge/source evidence summary:</strong></p>
+    <p><strong><span class="i18n-en">Edge/source evidence summary:</span><span class="i18n-zh">边/来源证据汇总：</span></strong></p>
     <ul>
-      <li>Prerequisite edges: 3</li>
-      <li>Average edge confidence: 74%</li>
-      <li>Prerequisite sources: 4</li>
-      <li>expert_inference: 1</li><li>textbook: 2</li>
+      <li><span class="i18n-en">Prerequisite edges:</span><span class="i18n-zh">前置边：</span> 3</li>
+      <li><span class="i18n-en">Average edge confidence:</span><span class="i18n-zh">平均边置信度：</span> 74%</li>
+      <li><span class="i18n-en">Prerequisite sources:</span><span class="i18n-zh">前置来源数：</span> 4</li>
+      <li><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span>: 1</li><li><span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>: 2</li>
     </ul>
 
       <table>
         <thead>
           <tr>
-            <th>Prerequisite</th>
-            <th>Type</th>
-            <th>Confidence</th>
-            <th>Evidence level</th>
-            <th>Note</th>
-            <th>Sources</th>
+            <th><span class="i18n-en">Prerequisite</span><span class="i18n-zh">前置技术</span></th>
+            <th><span class="i18n-en">Type</span><span class="i18n-zh">类型</span></th>
+            <th><span class="i18n-en">Confidence</span><span class="i18n-zh">置信度</span></th>
+            <th><span class="i18n-en">Evidence level</span><span class="i18n-zh">证据等级</span></th>
+            <th><span class="i18n-en">Note</span><span class="i18n-zh">说明</span></th>
+            <th><span class="i18n-en">Sources</span><span class="i18n-zh">来源</span></th>
           </tr>
         </thead>
         <tbody>
           
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/virtualization_early_vm_tech.html">Virtualization (Early VM Tech)</a> (virtualization_early_vm_tech)</td>
-              <td>historical_predecessor</td>
+              <td><a href="https://pushme.site/techtree/tech/virtualization_early_vm_tech.html"><span class="i18n-en">Virtualization (Early VM Tech)</span><span class="i18n-zh">虚拟化（早期虚拟机技术）</span></a> (virtualization_early_vm_tech)</td>
+              <td><span class="i18n-en">historical_predecessor</span><span class="i18n-zh">历史前身</span></td>
               <td>76%</td>
-              <td>textbook</td>
+              <td><span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span></td>
               <td>Virtual-machine deployment is a historical predecessor to container deployment: Kubernetes documentation places virtualization before containers as a way to isolate applications and present physical resources as disposable VM clusters, while containers later provided lighter OS-shared isolation.</td>
-              <td><ul><li><a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener noreferrer">Overview</a> (Kubernetes / Linux Foundation, 2026, official_agency) • Supports: edge<br/><small>Locator: Historical context section: Kubernetes documentation describes the virtualized deployment era as running multiple VMs on one physical server, then contrasts containers as VM-like but lighter units sharing the host OS.</small></li></ul></td>
+              <td><ul><li><a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener noreferrer">Overview</a> (Kubernetes / Linux Foundation, 2026, <span class="i18n-en">official_agency</span><span class="i18n-zh">官方机构</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Historical context section: Kubernetes documentation describes the virtualized deployment era as running multiple VMs on one physical server, then contrasts containers as VM-like but lighter units sharing the host OS.</small></li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/cloud_computing_distributed_systems.html">Cloud Computing &amp; Distributed Systems</a> (cloud_computing_distributed_systems)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/cloud_computing_distributed_systems.html"><span class="i18n-en">Cloud Computing &amp; Distributed Systems</span><span class="i18n-zh">云计算与分布式系统</span></a> (cloud_computing_distributed_systems)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>78%</td>
-              <td>textbook</td>
+              <td><span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span></td>
               <td>Container orchestration manages distributed systems of containerized workloads across clusters and commonly spans public cloud, on-premises, and other infrastructure.</td>
-              <td><ul><li><a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf" target="_blank" rel="noopener noreferrer">The NIST Definition of Cloud Computing</a> (NIST, 2011, official_agency) • Supports: edge</li><li><a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener noreferrer">Overview</a> (Kubernetes / Linux Foundation, 2026, official_agency) • Supports: edge<br/><small>Locator: Overview and historical context sections: Kubernetes is described as managing containerized workloads and services, running distributed systems resiliently, using clusters of nodes, and supporting portability across clouds and OS distributions.</small></li></ul></td>
+              <td><ul><li><a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-145.pdf" target="_blank" rel="noopener noreferrer">The NIST Definition of Cloud Computing</a> (NIST, 2011, <span class="i18n-en">official_agency</span><span class="i18n-zh">官方机构</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge</li><li><a href="https://kubernetes.io/docs/concepts/overview/" target="_blank" rel="noopener noreferrer">Overview</a> (Kubernetes / Linux Foundation, 2026, <span class="i18n-en">official_agency</span><span class="i18n-zh">官方机构</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge<br/><small><span class="i18n-en">Locator:</span><span class="i18n-zh">定位符：</span> Overview and historical context sections: Kubernetes is described as managing containerized workloads and services, running distributed systems resiliently, using clusters of nodes, and supporting portability across clouds and OS distributions.</small></li></ul></td>
             </tr>
 
             <tr>
-              <td><a href="https://pushme.site/techtree/tech/software_engineering.html">Software Engineering</a> (software_engineering)</td>
-              <td>enabling</td>
+              <td><a href="https://pushme.site/techtree/tech/software_engineering.html"><span class="i18n-en">Software Engineering</span><span class="i18n-zh">软件工程</span></a> (software_engineering)</td>
+              <td><span class="i18n-en">enabling</span><span class="i18n-zh">赋能</span></td>
               <td>68%</td>
-              <td>expert_inference</td>
+              <td><span class="i18n-en">expert_inference</span><span class="i18n-zh">专家推断</span></td>
               <td>Software Engineering provides a capability that enables this technology without being the only possible path.</td>
-              <td><ul><li><a href="https://www.computer.org/education/bodies-of-knowledge/software-engineering" target="_blank" rel="noopener noreferrer">Software Engineering Body of Knowledge (SWEBOK)</a> (IEEE Computer Society, 2025, textbook) • Supports: edge</li></ul></td>
+              <td><ul><li><a href="https://www.computer.org/education/bodies-of-knowledge/software-engineering" target="_blank" rel="noopener noreferrer">Software Engineering Body of Knowledge (SWEBOK)</a> (IEEE Computer Society, 2025, <span class="i18n-en">textbook</span><span class="i18n-zh">教科书</span>)<span class="i18n-en"> • Supports:</span><span class="i18n-zh"> • 支撑：</span> edge</li></ul></td>
             </tr>
         </tbody>
       </table>
 
-      <p><small>This page is generated from canonical era JSON and is indexable by URL.</small></p>
+      <p><small><span class="i18n-en">This page is generated from canonical era JSON and is indexable by URL.</span><span class="i18n-zh">本页由正典时代 JSON 生成，可按 URL 索引。</span></small></p>
     </main>
+    <script src="../i18n-static.js"></script>
   </body>
 </html>

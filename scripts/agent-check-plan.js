@@ -216,12 +216,25 @@ function printPlan(files, commands) {
     console.log('Use `npm run agent:check -- --run` to run this plan once.');
 }
 
+// npm/npx are .cmd shims on Windows, and Node refuses to spawn .cmd/.bat files
+// without a shell (EINVAL since the CVE-2024-27980 fix). Route those through the
+// shell on win32; every command this script runs uses space-free arguments.
+function spawnSpec(cmd) {
+    const needsShell = process.platform === 'win32' && ['npm', 'npx'].includes(cmd[0]);
+    if (!needsShell) {
+        return { file: cmd[0], args: cmd.slice(1), options: { shell: false } };
+    }
+    const shim = `${cmd[0]}.cmd`;
+    return { file: shim, args: cmd.slice(1), options: { shell: true } };
+}
+
 function runPlan(commands) {
     for (const command of commands) {
         console.log(`\n$ ${command.cmd.join(' ')}`);
-        const result = spawnSync(command.cmd[0], command.cmd.slice(1), {
+        const spec = spawnSpec(command.cmd);
+        const result = spawnSync(spec.file, spec.args, {
             stdio: 'inherit',
-            shell: false
+            ...spec.options
         });
         if (result.status !== 0) process.exit(result.status || 1);
     }
@@ -230,11 +243,12 @@ function runPlan(commands) {
 
 function runCommandAsync(command) {
     return new Promise(resolve => {
-        const child = spawn(command.cmd[0], command.cmd.slice(1), {
+        const spec = spawnSpec(command.cmd);
+        const child = spawn(spec.file, spec.args, {
             cwd: process.cwd(),
             env: process.env,
-            shell: false,
-            stdio: ['ignore', 'pipe', 'pipe']
+            stdio: ['ignore', 'pipe', 'pipe'],
+            ...spec.options
         });
         const stdout = [];
         const stderr = [];
