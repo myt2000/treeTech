@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-28T09:42:18.895Z",
+  "generatedAt": "2026-09-28T10:34:49.560Z",
   "description": "Launch-quality trust snapshot for non-Future nodes, not proof of global accuracy.",
   "futureExclusionNote": "Future-era technologies are forecast/roadmap nodes. They are structurally validated, but they are excluded from launch-quality source-check, placeholder-date, edge-source, source-fit, and source-URL gates.",
   "metrics": [
